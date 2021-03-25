@@ -3,78 +3,92 @@ package main
 import (
 	"fmt"
 	"flag"
-	"bytes"
 	"regexp"
-	"os"
 	"winse.com/spider/http"
 )
 
 var (
-	targetUrl = *flag.String("targetUrl", "https://www.zhihu.com/question/383670825", "spider target url")
+	targetUrl = *flag.String("targetUrl", "https://zhuanlan.zhihu.com/p/341554869", "spider target url")
 	deep 			= *flag.Int("deep", 1, "spider deep")
+	basePath  = *flag.String("basePath", "tmp/341554869", "file base path")
+	thread 	  = *flag.Int("thread", 4, "download thread count")
 )
-
-func downloadImage(url string) {
-	fmt.Println("downloadImage url -> ", url)
-
-	re := regexp.MustCompile(`[\.\w\-\:\/]+\/([\w\-\.]+\.(\w+))`)
-	data := re.FindAllStringSubmatch(url, -1)
-	fileFullName := data[0][1]
-
-	filePath := bytes.NewBuffer(nil)
-	filePath.WriteString("tmp/")
-	filePath.WriteString(fileFullName)
-
-	os.MkdirAll("tmp", os.ModePerm)
-	file, err := os.Create(filePath.String())
-	if err != nil {
-		fmt.Printf("Create File Failed -> %+v\n", err)
-		return
-	}
-
-	defer file.Close()
-
-	http.Download(url, file)
-
-	file.Sync()
-
-	fmt.Printf("Success -> %s\n", filePath.String())
-}
 
 func main() {
 	flag.Parse()
 
 	fmt.Printf("Spider Start! target:%s, deep: %d\n", targetUrl, deep)
 
-	ch := make(chan string, 100)
+	imageCh := make(chan *http.Image, 100)
+	mainCh := make(chan int, thread)
 
-	for i := 0; i < 4; i ++ {
+	threadArr := make([]int, thread)
+	for i := 0; i < thread; i ++ {
+		threadArr[i] = i
+		no := threadArr[i]
 		go func() {
-			no := &i
 			fmt.Printf("D%d Start!\n", no)
+
 			for {
-				url, ok := <- ch
+				image, ok := <- imageCh
 				if !ok {
 					break
 				}
 
-				fmt.Printf("D%d recv -> %s\n", no, url)
+				fmt.Printf("D%d  Download -> %s\n", no, image.FullName)
 
-				downloadImage(url)
+				func () {
+					defer func () {
+						if err := recover(); err != nil {
+							fmt.Printf("Download failed %+v\n", err)
+						}
+					}()
+
+					image.Download(basePath)
+				}()
 			}
-			fmt.Printf("D%d end!\n", i)
+
+			mainCh <- 0
+
+			fmt.Printf("D%d end!\n", no)
 		}()
 	}
 
+	pool := http.NewImagePool()
 
 	res := http.Get(targetUrl)
 
-	re := regexp.MustCompile(`https?:\/\/[\w\.\-\/]+\.(?:jpg|jpeg|png|gif)`)
+	re := regexp.MustCompile(`https?:\/\/[\w\.\-\/]+\/[\w\-]+\.(?:jpg|jpeg|png|gif)`)
 	urls := re.FindAllStringSubmatch(res, -1)
 	fmt.Println("Image Urls Count -> ", len(urls))
 
 	for i := 0; i < len(urls); i ++ {
-		ch <- urls[i][0]
+		image, err := http.NewImage(urls[i][0])
+		if err != nil {
+			fmt.Printf("%s\n", err)
+			continue
+		}
+
+		quality := pool.Exist(image.Uid)
+		if quality >= image.GetQuality() {
+			fmt.Printf("Exist higher quality image, skip %s %d - %d\n", image.FullName, quality, image.GetQuality())
+			continue
+		}
+
+		pool.Push(image.Uid, image.GetQuality())
+		imageCh <- image
+	}
+
+	close(imageCh)
+
+	stopCount := 0
+	for {
+		<- mainCh
+		stopCount ++
+
+		if stopCount >= thread {
+			break
+		}
 	}
 
 	fmt.Println("Spider Exit ~ ")
