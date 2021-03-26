@@ -31,9 +31,9 @@ func (image Image) GetQuality() int {
 		case "b":
 			return 10
 		case "l":
-			return 1
+			return 5
 		default:
-			return 0
+			return 1
 	}
 }
 
