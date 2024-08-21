@@ -1,0 +1,138 @@
+﻿area_code,area_name
+BH-CN-0,"Zayed Town"
+BH-CN-1,Tubli
+BH-CN-2,Sitra
+BH-CN-3,Sanad
+BH-CN-4,Salmabad
+BH-CN-5,Nasfah
+BH-CN-6,Jordab
+BH-CN-7,"Isa Town"
+BH-CN-8,Aali
+BH-CP-0,"Um Alhassam"
+BH-CP-1,Seef
+BH-CP-10,Adliya
+BH-CP-2,Salmaniya
+BH-CP-3,"Ras Ruman"
+BH-CP-4,Qudaibiya
+BH-CP-5,Qofool
+BH-CP-6,"Mina Salman"
+BH-CP-7,Manama
+BH-CP-8,Juffair
+BH-CP-9,Ghurayfah
+BH-MU-0,"Tala Island"
+BH-MU-1,Samaheej
+BH-MU-2,Qalali
+BH-MU-3,Muharraq
+BH-MU-4,Hidd
+BH-MU-5,Dair
+BH-MU-6,Busaiteen
+BH-MU-7,Arad
+BH-MU-8,Amwaj
+BH-NT-0,Zallaq
+BH-NT-1,"Umm Alsabban (Mohammadiya)"
+BH-NT-10,Qella
+BH-NT-11,Qadam
+BH-NT-12,"North Sehla"
+BH-NT-13,Musalla
+BH-NT-14,Muqaba
+BH-NT-15,Meqsha
+BH-NT-16,Markh
+BH-NT-17,Malikiya
+BH-NT-18,Khamis
+BH-NT-19,Karzakan
+BH-NT-2,Tashan
+BH-NT-20,Karrana
+BH-NT-21,Jidhafs
+BH-NT-22,"Jid Alhaj"
+BH-NT-23,"Jiblat Habshi"
+BH-NT-24,Jasra
+BH-NT-25,Jannusan
+BH-NT-26,Janabiya
+BH-NT-27,"Hillat Abdulsaleh"
+BH-NT-28,Hamala
+BH-NT-29,"Hamad Town"
+BH-NT-3,"South Sehla"
+BH-NT-30,Hajar
+BH-NT-31,Dumistan
+BH-NT-32,Diraz
+BH-NT-33,"Dar Kulaib"
+BH-NT-34,Buri
+BH-NT-35,Buquwa
+BH-NT-36,Budaiya
+BH-NT-37,Barbar
+BH-NT-38,"Bani Jamra"
+BH-NT-39,"Abu Saiba"
+BH-NT-4,Shakhura
+BH-NT-40,"Abu Beham"
+BH-NT-5,Shahrakan
+BH-NT-6,Sakheir
+BH-NT-7,Sadad
+BH-NT-8,Saar
+BH-NT-9,Qurayya
+BH-SN-0,"West Riffa"
+BH-SN-1,"East Riffa"
+JO-AJ-0,Ajlun
+JO-AM-0,Amman
+JO-AQ-0,Al-Aqabah
+JO-BA-0,As-Salt
+JO-IR-0,Irbid
+JO-JA-0,Jarash
+JO-KA-0,Al-Karak
+JO-MA-0,Al-Mafraq
+JO-MD-0,Madaba
+JO-MN-0,Maan
+JO-TA-0,At-Tafilah
+JO-ZA-0,Az-Zarqa
+OM-BA-0,"Ar-Rustāq {Ar-Rustaq}"
+OM-BA-1,"Ṣuḥār [Sohar] {Suhar}"
+OM-BA-10,As-Suwayq
+OM-BA-11,"Aṣ-Ṣuwamḥān (Barka')"
+OM-BA-12,"As-Suwādī as-Sāḥil (Barka')"
+OM-BA-13,"Ar-Rumays (Barka')"
+OM-BA-14,"Al-Maṣna'ah {Al-Masnaah}"
+OM-BA-15,"Al-Khābūrah {Al-Khaburah}"
+OM-BA-16,"Al-Ḥuwayl (Ṣaḥam) {Al-Huwayl }"
+OM-BA-17,"Al-Budāyah (As-Suwayq)"
+OM-BA-2,"Shināṣ {Shinas}"
+OM-BA-3,"Ṣaḥam {Saham}"
+OM-BA-4,Nakhal
+OM-BA-5,"Liwā {Liwa}"
+OM-BA-6,"Khaḑrā' ās-Sa'd (As-Suwayq)"
+OM-BA-7,"Ḍiyān al-Bū Sa'īd (As-Suwayq)"
+OM-BA-8,"Dīl al-'Abd as-Salām (Ṣaḥam)"
+OM-BA-9,"Barka' {Barka}"
+OM-DA-0,"Samā'il {Samail}"
+OM-DA-1,"Nizwā {Nizwa}"
+OM-DA-2,"Izkī {Izki}"
+OM-DA-3,"Fanjā (Bidbid) {Fanja }"
+OM-DA-4,"Birkat al-Mawz (Nizwā)"
+OM-DA-5,"Bahlā' {Bahla}"
+OM-DA-6,"Al-Ḥamrā' {Al-Hamra}"
+OM-DA-7,"Ādam {Adam}"
+OM-MA-0,"Qurayyāt {Qurayyat}"
+OM-MA-1,"Maṭraḥ {Matrah}"
+OM-MA-2,Muscat
+OM-MA-3,Bawshar
+OM-MA-4,"As-Sīb {As-Sib}"
+OM-MA-5,"Al-'Āmarāt {Al-Amarat}"
+OM-MU-0,"Khaṣab {Khasab}"
+OM-MU-1,"Dibā al-Bay'ah {Diba al-Bayah}"
+OM-SH-0,"Ṣūr {Sur}"
+OM-SH-1,"Sanāw (Al-Muḍaybī) {Sanaw}"
+OM-SH-2,"Ja'alan Banī Bū Ḥassan"
+OM-SH-3,"Ja'alan Banī Bū 'Alī"
+OM-SH-4,Ibra
+OM-SH-5,"Ḥī as-Shrūq (Ṣūr)"
+OM-SH-6,"Al-Muḍaybī {Al-Mudaybi}"
+OM-SH-7,"Al-Mintirib (Badiyah)"
+OM-SH-8,"Al-Kāmil wal-Wāfī"
+OM-SH-9,Al-Āshkharah
+OM-WU-0,Mahout
+OM-WU-1,"Haymā {Hayma}"
+OM-ZA-0,Buraimi
+OM-ZA-1,Yanqul
+OM-ZA-2,"Ḍank {Dank}"
+OM-ZA-3,"Al-'Arāqī (Ibrī) {Al-Araqi}"
+OM-ZA-4,"Ad-Darīz (Ibrī) {Ad-Dariz}"
+OM-ZA-5,"'Ibrī {Ibri}"
+OM-ZU-0,"Ṣalālah {Salalah}"

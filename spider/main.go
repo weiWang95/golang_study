@@ -1,18 +1,19 @@
 package main
 
 import (
-	"fmt"
-	"flag"
 	"errors"
+	"flag"
+	"fmt"
 	"regexp"
+
 	"winse.com/spider/http"
 )
 
 var (
 	targetUrl = flag.String("target", "https://zhuanlan.zhihu.com/p/118104970", "spider target url")
 	basePath  = flag.String("path", "", "file base path")
-	thread 	  = flag.Int("thread", 4, "download thread count")
-	uniq 	  	= flag.Bool("uniq", false, "ignore same image")
+	thread    = flag.Int("thread", 4, "download thread count")
+	uniq      = flag.Bool("uniq", false, "ignore same image")
 )
 
 func flagHandler() error {
@@ -26,7 +27,7 @@ func flagHandler() error {
 			return errors.New("analysis target url failed")
 		}
 
-		*basePath = fmt.Sprintf("tmp/%s", data[0][len(data[0]) - 1])
+		*basePath = fmt.Sprintf("tmp/%s", data[0][len(data[0])-1])
 	}
 
 	fmt.Printf("Spider Start! \ntarget:%s \nbasePath:%s \nthread:%d \nuniq: %v\n\n", *targetUrl, *basePath, *thread, *uniq)
@@ -47,14 +48,14 @@ func main() {
 
 	threadArr := make([]int, *thread)
 
-	for i := 0; i < *thread; i ++ {
+	for i := 0; i < *thread; i++ {
 		threadArr[i] = i
 		no := threadArr[i]
 		go func() {
 			fmt.Printf("[D%d] Start!\n", no)
 
 			for {
-				imageUrl, ok := <- ch
+				imageUrl, ok := <-ch
 				if !ok {
 					break
 				}
@@ -75,8 +76,8 @@ func main() {
 
 				fmt.Printf("[D%d]  Download -> %s\n", no, image.FullName)
 
-				func () {
-					defer func () {
+				func() {
+					defer func() {
 						if err := recover(); err != nil {
 							fmt.Printf("[D%d] Download failed %+v\n", no, err)
 						}
@@ -98,7 +99,7 @@ func main() {
 	urls := re.FindAllStringSubmatch(res, -1)
 	fmt.Println("Image Urls Count -> ", len(urls))
 
-	for i := 0; i < len(urls); i ++ {
+	for i := 0; i < len(urls); i++ {
 		ch <- urls[i][0]
 	}
 
@@ -106,8 +107,8 @@ func main() {
 
 	stopCount := 0
 	for {
-		<- mainCh
-		stopCount ++
+		<-mainCh
+		stopCount++
 
 		if stopCount >= *thread {
 			break

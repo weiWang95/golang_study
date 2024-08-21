@@ -1,0 +1,25 @@
+﻿code,name,cn_name
+update i18n_provinces set province_name="Al Daayen" where locale = "en" and country_code2 = "QA" and province_code = "QA-DA";
+update i18n_provinces set province_name="Al Daayen" where locale = "ar" and country_code2 = "QA" and province_code = "QA-DA";
+update i18n_provinces set province_name="达延" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-DA";
+update i18n_provinces set province_name="Al Khor and Al Thakhira" where locale = "en" and country_code2 = "QA" and province_code = "QA-KT";
+update i18n_provinces set province_name="Al Khor and Al Thakhira" where locale = "ar" and country_code2 = "QA" and province_code = "QA-KT";
+update i18n_provinces set province_name="豪尔" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-KT";
+update i18n_provinces set province_name="Al Wakra" where locale = "en" and country_code2 = "QA" and province_code = "QA-WA";
+update i18n_provinces set province_name="Al Wakra" where locale = "ar" and country_code2 = "QA" and province_code = "QA-WA";
+update i18n_provinces set province_name="沃克拉" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-WA";
+update i18n_provinces set province_name="Al Rayyan" where locale = "en" and country_code2 = "QA" and province_code = "QA-RA";
+update i18n_provinces set province_name="Al Rayyan" where locale = "ar" and country_code2 = "QA" and province_code = "QA-RA";
+update i18n_provinces set province_name="赖扬" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-RA";
+update i18n_provinces set province_name="Al Shamal" where locale = "en" and country_code2 = "QA" and province_code = "QA-SM";
+update i18n_provinces set province_name="Al Shamal" where locale = "ar" and country_code2 = "QA" and province_code = "QA-SM";
+update i18n_provinces set province_name="沙马尔" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-SM";
+update i18n_provinces set province_name="Doha" where locale = "en" and country_code2 = "QA" and province_code = "QA-DH";
+update i18n_provinces set province_name="Doha" where locale = "ar" and country_code2 = "QA" and province_code = "QA-DH";
+update i18n_provinces set province_name="多哈" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-DH";
+update i18n_provinces set province_name="Umm Salal" where locale = "en" and country_code2 = "QA" and province_code = "QA-US";
+update i18n_provinces set province_name="Umm Salal" where locale = "ar" and country_code2 = "QA" and province_code = "QA-US";
+update i18n_provinces set province_name="乌姆锡拉勒" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-US";
+update i18n_provinces set province_name="Al Sheehaniya" where locale = "en" and country_code2 = "QA" and province_code = "QA-SH";
+update i18n_provinces set province_name="Al Sheehaniya" where locale = "ar" and country_code2 = "QA" and province_code = "QA-SH";
+update i18n_provinces set province_name="沙哈尼亚" where locale = "zh-CN" and country_code2 = "QA" and province_code = "QA-SH";

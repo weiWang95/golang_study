@@ -1,0 +1,46 @@
+package main
+
+import (
+	"fmt"
+	"net"
+	"time"
+
+	"github.com/miekg/dns"
+	"github.com/pkg/errors"
+)
+
+func main() {
+	if err := queryCAA("instantfashion.shop"); err != nil {
+		panic(err)
+	}
+}
+
+func queryCAA(domain string) error {
+	c := new(dns.Client)
+	c.Dialer = &net.Dialer{
+		Timeout: 5 * time.Second,
+	}
+	m := new(dns.Msg)
+	m.SetQuestion(dns.Fqdn(domain), dns.TypeCAA)
+	resp, _, err := c.Exchange(m, "google-public-dns-a.google.com:53")
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	if resp.Rcode == dns.RcodeSuccess {
+		if len(resp.Answer) == 0 {
+			return nil
+		}
+
+		for _, item := range resp.Answer {
+			switch r := item.(type) {
+			case *dns.CAA:
+				fmt.Printf("%v %v\n", r.Tag, r.Value)
+			}
+		}
+	}
+
+	fmt.Printf("%v\n", resp)
+
+	return nil
+}

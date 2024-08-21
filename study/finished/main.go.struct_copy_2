@@ -1,0 +1,26 @@
+package main
+
+import (
+	"fmt"
+)
+
+type A struct {
+	a string
+	b B
+}
+type B struct {
+	b string
+	c *C
+}
+type C struct {
+	c string
+}
+
+func main() {
+	a := A{a: "a1", b: B{b: "b1", c: &C{c: "c1"}}}
+	b := a
+	a.a = "a2"
+	a.b.b = "b2"
+	a.b.c.c = "c2"
+	fmt.Printf("%+v %+v %v %v\n", a, b, a.b.c.c, b.b.c.c)
+}

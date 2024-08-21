@@ -1,0 +1,29 @@
+package main
+
+import (
+	"encoding/csv"
+	"os"
+	"time"
+)
+
+func main() {
+	data := [][]string{
+		{"store_id", "store_id_related", "created_at", "card"},
+		{"1", "2", "", "xx-001"},
+		{"1", "2", "2021-06-10", ""},
+	}
+
+	file := "data.csv"
+	writeCsv(data, file)
+	defer os.Remove(file)
+	time.Sleep(5 * time.Second)
+}
+
+func writeCsv(data [][]string, filename string) {
+	f, _ := os.Create(filename)
+	defer f.Close()
+	f.WriteString("\xEF\xBB\xBF")
+	w := csv.NewWriter(f)
+	w.WriteAll(data)
+	w.Flush()
+}

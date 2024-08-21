@@ -1,0 +1,44 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"os"
+)
+
+type UUID string
+
+type User struct {
+	Key  UUID   `json:"key"`
+	Name string `json:"name"`
+}
+
+func main() {
+	data, err := ReadJSON("/Users/shoplazza/dev/winse/golang_study/study/tmp/data.json")
+	if err != nil {
+		panic("Unmarshal json data failed")
+	}
+
+	var jd = &struct {
+		Data []User `json:"data"`
+	}{}
+	err = json.Unmarshal(data.([]byte), &jd)
+	if err != nil {
+		panic("Unmarshal json data failed")
+	}
+
+	fmt.Printf("%+v\n", jd)
+	fmt.Printf("%s\n", jd.Data[0].Key)
+}
+
+func ReadJSON(path string) (interface{}, error) {
+	f, err := os.Open(path)
+	defer f.Close()
+
+	if err != nil {
+		return nil, fmt.Errorf("open file failed -> %v", err)
+	}
+
+	return ioutil.ReadAll(f)
+}

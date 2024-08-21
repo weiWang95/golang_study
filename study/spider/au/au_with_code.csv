@@ -1,0 +1,994 @@
+﻿province,province_code,city,city_code,area,area_code
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Albury,AU-ACT-0-0
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Balranald,AU-ACT-0-1
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Belconnen,AU-ACT-0-2
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Berrigan,AU-ACT-0-3
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Bland,AU-ACT-0-4
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Bombala,AU-ACT-0-5
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Boorowa,AU-ACT-0-6
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Canberra Central,AU-ACT-0-7
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Carrathool,AU-ACT-0-8
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Cobar,AU-ACT-0-9
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Conargo,AU-ACT-0-10
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Coolamon,AU-ACT-0-11
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Cooma-Monaro,AU-ACT-0-12
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Cootamundra,AU-ACT-0-13
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Corowa Shire,AU-ACT-0-14
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Deniliquin,AU-ACT-0-15
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Goulburn Mulwaree,AU-ACT-0-16
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Greater Hume Shire,AU-ACT-0-17
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Griffith,AU-ACT-0-18
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Gundagai,AU-ACT-0-19
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Gungahlin,AU-ACT-0-20
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Harden,AU-ACT-0-21
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Hay,AU-ACT-0-22
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Jerilderie,AU-ACT-0-23
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Junee,AU-ACT-0-24
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Lachlan,AU-ACT-0-25
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Leeton,AU-ACT-0-26
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Lockhart,AU-ACT-0-27
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Murray,AU-ACT-0-28
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Murrumbidgee,AU-ACT-0-29
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Narrandera,AU-ACT-0-30
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Palerang,AU-ACT-0-31
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Queanbeyan,AU-ACT-0-32
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Snowy River,AU-ACT-0-33
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Temora,AU-ACT-0-34
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Tuggeranong,AU-ACT-0-35
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Tumbarumba,AU-ACT-0-36
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Tumut Shire,AU-ACT-0-37
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Upper Lachlan Shire,AU-ACT-0-38
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Urana,AU-ACT-0-39
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Wagga Wagga,AU-ACT-0-40
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Wakool,AU-ACT-0-41
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Weddin,AU-ACT-0-42
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Weston Creek,AU-ACT-0-43
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Woden Valley,AU-ACT-0-44
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Yass Valley,AU-ACT-0-45
+Australian Capital Territory,AU-ACT,Canberra,AU-ACT-0,Young,AU-ACT-0-46
+New South Wales,AU-NSW,Alexandria,AU-NSW-0,Botany Bay,AU-NSW-0-0
+New South Wales,AU-NSW,Alexandria,AU-NSW-0,Leichhardt,AU-NSW-0-1
+New South Wales,AU-NSW,Alexandria,AU-NSW-0,Marrickville,AU-NSW-0-2
+New South Wales,AU-NSW,Alexandria,AU-NSW-0,Randwick,AU-NSW-0-3
+New South Wales,AU-NSW,Alexandria,AU-NSW-0,Sydney,AU-NSW-0-4
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Bankstown,AU-NSW-1-0
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Canterbury,AU-NSW-1-1
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Hurstville,AU-NSW-1-2
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Kogarah,AU-NSW-1-3
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Rockdale,AU-NSW-1-4
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Strathfield,AU-NSW-1-5
+New South Wales,AU-NSW,Burwood,AU-NSW-1,Unincorporated,AU-NSW-1-6
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Albury,AU-NSW-2-0
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Balranald,AU-NSW-2-1
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Belconnen,AU-NSW-2-2
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Berrigan,AU-NSW-2-3
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Bland,AU-NSW-2-4
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Bombala,AU-NSW-2-5
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Boorowa,AU-NSW-2-6
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Canberra Central,AU-NSW-2-7
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Carrathool,AU-NSW-2-8
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Cobar,AU-NSW-2-9
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Conargo,AU-NSW-2-10
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Coolamon,AU-NSW-2-11
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Cooma-Monaro,AU-NSW-2-12
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Cootamundra,AU-NSW-2-13
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Corowa Shire,AU-NSW-2-14
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Deniliquin,AU-NSW-2-15
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Goulburn Mulwaree,AU-NSW-2-16
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Greater Hume Shire,AU-NSW-2-17
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Griffith,AU-NSW-2-18
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Gundagai,AU-NSW-2-19
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Gungahlin,AU-NSW-2-20
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Harden,AU-NSW-2-21
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Hay,AU-NSW-2-22
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Jerilderie,AU-NSW-2-23
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Junee,AU-NSW-2-24
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Lachlan,AU-NSW-2-25
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Leeton,AU-NSW-2-26
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Lockhart,AU-NSW-2-27
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Murray,AU-NSW-2-28
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Murrumbidgee,AU-NSW-2-29
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Narrandera,AU-NSW-2-30
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Palerang,AU-NSW-2-31
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Queanbeyan,AU-NSW-2-32
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Snowy River,AU-NSW-2-33
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Temora,AU-NSW-2-34
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Tuggeranong,AU-NSW-2-35
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Tumbarumba,AU-NSW-2-36
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Tumut Shire,AU-NSW-2-37
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Upper Lachlan Shire,AU-NSW-2-38
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Urana,AU-NSW-2-39
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Wagga Wagga,AU-NSW-2-40
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Wakool,AU-NSW-2-41
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Weddin,AU-NSW-2-42
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Weston Creek,AU-NSW-2-43
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Woden Valley,AU-NSW-2-44
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Yass Valley,AU-NSW-2-45
+New South Wales,AU-NSW,Canberra,AU-NSW-2,Young,AU-NSW-2-46
+New South Wales,AU-NSW,Country West,AU-NSW-3,Bathurst Regional,AU-NSW-3-0
+New South Wales,AU-NSW,Country West,AU-NSW-3,Bega Valley,AU-NSW-3-1
+New South Wales,AU-NSW,Country West,AU-NSW-3,Blayney,AU-NSW-3-2
+New South Wales,AU-NSW,Country West,AU-NSW-3,Bogan,AU-NSW-3-3
+New South Wales,AU-NSW,Country West,AU-NSW-3,Boorowa,AU-NSW-3-4
+New South Wales,AU-NSW,Country West,AU-NSW-3,Bourke,AU-NSW-3-5
+New South Wales,AU-NSW,Country West,AU-NSW-3,Brewarrina,AU-NSW-3-6
+New South Wales,AU-NSW,Country West,AU-NSW-3,Broken Hill,AU-NSW-3-7
+New South Wales,AU-NSW,Country West,AU-NSW-3,Cabonne,AU-NSW-3-8
+New South Wales,AU-NSW,Country West,AU-NSW-3,Central Darling,AU-NSW-3-9
+New South Wales,AU-NSW,Country West,AU-NSW-3,Cobar,AU-NSW-3-10
+New South Wales,AU-NSW,Country West,AU-NSW-3,Coonamble,AU-NSW-3-11
+New South Wales,AU-NSW,Country West,AU-NSW-3,Cowra,AU-NSW-3-12
+New South Wales,AU-NSW,Country West,AU-NSW-3,Dubbo,AU-NSW-3-13
+New South Wales,AU-NSW,Country West,AU-NSW-3,Eurobodalla,AU-NSW-3-14
+New South Wales,AU-NSW,Country West,AU-NSW-3,Forbes,AU-NSW-3-15
+New South Wales,AU-NSW,Country West,AU-NSW-3,Gilgandra,AU-NSW-3-16
+New South Wales,AU-NSW,Country West,AU-NSW-3,Kiama,AU-NSW-3-17
+New South Wales,AU-NSW,Country West,AU-NSW-3,Lachlan,AU-NSW-3-18
+New South Wales,AU-NSW,Country West,AU-NSW-3,Lithgow,AU-NSW-3-19
+New South Wales,AU-NSW,Country West,AU-NSW-3,Mid-Western Regional,AU-NSW-3-20
+New South Wales,AU-NSW,Country West,AU-NSW-3,Narromine,AU-NSW-3-21
+New South Wales,AU-NSW,Country West,AU-NSW-3,Oberon,AU-NSW-3-22
+New South Wales,AU-NSW,Country West,AU-NSW-3,Orange,AU-NSW-3-23
+New South Wales,AU-NSW,Country West,AU-NSW-3,Parkes,AU-NSW-3-24
+New South Wales,AU-NSW,Country West,AU-NSW-3,Shoalhaven,AU-NSW-3-25
+New South Wales,AU-NSW,Country West,AU-NSW-3,Unincorporated,AU-NSW-3-26
+New South Wales,AU-NSW,Country West,AU-NSW-3,Walgett,AU-NSW-3-27
+New South Wales,AU-NSW,Country West,AU-NSW-3,Warren,AU-NSW-3-28
+New South Wales,AU-NSW,Country West,AU-NSW-3,Warrumbungle Shire,AU-NSW-3-29
+New South Wales,AU-NSW,Country West,AU-NSW-3,Weddin,AU-NSW-3-30
+New South Wales,AU-NSW,Country West,AU-NSW-3,Wellington,AU-NSW-3-31
+New South Wales,AU-NSW,Country West,AU-NSW-3,Young,AU-NSW-3-32
+New South Wales,AU-NSW,Far country,AU-NSW-4,Alpine,AU-NSW-4-0
+New South Wales,AU-NSW,Far country,AU-NSW-4,Ararat,AU-NSW-4-1
+New South Wales,AU-NSW,Far country,AU-NSW-4,Ballarat,AU-NSW-4-2
+New South Wales,AU-NSW,Far country,AU-NSW-4,Balranald,AU-NSW-4-3
+New South Wales,AU-NSW,Far country,AU-NSW-4,Bass Coast,AU-NSW-4-4
+New South Wales,AU-NSW,Far country,AU-NSW-4,Baw Baw,AU-NSW-4-5
+New South Wales,AU-NSW,Far country,AU-NSW-4,Benalla,AU-NSW-4-6
+New South Wales,AU-NSW,Far country,AU-NSW-4,Berri and Barmera,AU-NSW-4-7
+New South Wales,AU-NSW,Far country,AU-NSW-4,Berrigan,AU-NSW-4-8
+New South Wales,AU-NSW,Far country,AU-NSW-4,Buloke,AU-NSW-4-9
+New South Wales,AU-NSW,Far country,AU-NSW-4,Campaspe,AU-NSW-4-10
+New South Wales,AU-NSW,Far country,AU-NSW-4,Cardinia,AU-NSW-4-11
+New South Wales,AU-NSW,Far country,AU-NSW-4,Casey,AU-NSW-4-12
+New South Wales,AU-NSW,Far country,AU-NSW-4,Ceduna,AU-NSW-4-13
+New South Wales,AU-NSW,Far country,AU-NSW-4,Central Goldfields,AU-NSW-4-14
+New South Wales,AU-NSW,Far country,AU-NSW-4,Clare and Gilbert Valleys,AU-NSW-4-15
+New South Wales,AU-NSW,Far country,AU-NSW-4,Cleve,AU-NSW-4-16
+New South Wales,AU-NSW,Far country,AU-NSW-4,Colac-Otway,AU-NSW-4-17
+New South Wales,AU-NSW,Far country,AU-NSW-4,Coober Pedy,AU-NSW-4-18
+New South Wales,AU-NSW,Far country,AU-NSW-4,Corangamite,AU-NSW-4-19
+New South Wales,AU-NSW,Far country,AU-NSW-4,East Gippsland,AU-NSW-4-20
+New South Wales,AU-NSW,Far country,AU-NSW-4,Elliston,AU-NSW-4-21
+New South Wales,AU-NSW,Far country,AU-NSW-4,Flinders Ranges,AU-NSW-4-22
+New South Wales,AU-NSW,Far country,AU-NSW-4,Franklin Harbour,AU-NSW-4-23
+New South Wales,AU-NSW,Far country,AU-NSW-4,Gannawarra,AU-NSW-4-24
+New South Wales,AU-NSW,Far country,AU-NSW-4,Glenelg,AU-NSW-4-25
+New South Wales,AU-NSW,Far country,AU-NSW-4,Golden Plains,AU-NSW-4-26
+New South Wales,AU-NSW,Far country,AU-NSW-4,Goyder,AU-NSW-4-27
+New South Wales,AU-NSW,Far country,AU-NSW-4,Grant,AU-NSW-4-28
+New South Wales,AU-NSW,Far country,AU-NSW-4,Greater Bendigo,AU-NSW-4-29
+New South Wales,AU-NSW,Far country,AU-NSW-4,Greater Geelong,AU-NSW-4-30
+New South Wales,AU-NSW,Far country,AU-NSW-4,Greater Shepparton,AU-NSW-4-31
+New South Wales,AU-NSW,Far country,AU-NSW-4,Hepburn,AU-NSW-4-32
+New South Wales,AU-NSW,Far country,AU-NSW-4,Hindmarsh,AU-NSW-4-33
+New South Wales,AU-NSW,Far country,AU-NSW-4,Horsham,AU-NSW-4-34
+New South Wales,AU-NSW,Far country,AU-NSW-4,Indigo,AU-NSW-4-35
+New South Wales,AU-NSW,Far country,AU-NSW-4,Kimba,AU-NSW-4-36
+New South Wales,AU-NSW,Far country,AU-NSW-4,Kingston,AU-NSW-4-37
+New South Wales,AU-NSW,Far country,AU-NSW-4,Latrobe,AU-NSW-4-38
+New South Wales,AU-NSW,Far country,AU-NSW-4,Loddon,AU-NSW-4-39
+New South Wales,AU-NSW,Far country,AU-NSW-4,Lower Eyre Peninsula,AU-NSW-4-40
+New South Wales,AU-NSW,Far country,AU-NSW-4,Loxton Waikerie,AU-NSW-4-41
+New South Wales,AU-NSW,Far country,AU-NSW-4,Macedon Ranges,AU-NSW-4-42
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mansfield,AU-NSW-4-43
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mid Murray,AU-NSW-4-44
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mildura,AU-NSW-4-45
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mitchell,AU-NSW-4-46
+New South Wales,AU-NSW,Far country,AU-NSW-4,Moira,AU-NSW-4-47
+New South Wales,AU-NSW,Far country,AU-NSW-4,Moorabool,AU-NSW-4-48
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mount Alexander,AU-NSW-4-49
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mount Gambier,AU-NSW-4-50
+New South Wales,AU-NSW,Far country,AU-NSW-4,Mount Remarkable,AU-NSW-4-51
+New South Wales,AU-NSW,Far country,AU-NSW-4,Moyne,AU-NSW-4-52
+New South Wales,AU-NSW,Far country,AU-NSW-4,Murray,AU-NSW-4-53
+New South Wales,AU-NSW,Far country,AU-NSW-4,Murrindindi,AU-NSW-4-54
+New South Wales,AU-NSW,Far country,AU-NSW-4,Naracoorte and Lucindale,AU-NSW-4-55
+New South Wales,AU-NSW,Far country,AU-NSW-4,Northern Areas,AU-NSW-4-56
+New South Wales,AU-NSW,Far country,AU-NSW-4,Northern Grampians,AU-NSW-4-57
+New South Wales,AU-NSW,Far country,AU-NSW-4,Orroroo/Carrieton,AU-NSW-4-58
+New South Wales,AU-NSW,Far country,AU-NSW-4,Peterborough,AU-NSW-4-59
+New South Wales,AU-NSW,Far country,AU-NSW-4,Port Augusta,AU-NSW-4-60
+New South Wales,AU-NSW,Far country,AU-NSW-4,Port Lincoln,AU-NSW-4-61
+New South Wales,AU-NSW,Far country,AU-NSW-4,Port Pirie City and Dists,AU-NSW-4-62
+New South Wales,AU-NSW,Far country,AU-NSW-4,Pyrenees,AU-NSW-4-63
+New South Wales,AU-NSW,Far country,AU-NSW-4,Queenscliffe,AU-NSW-4-64
+New South Wales,AU-NSW,Far country,AU-NSW-4,Renmark Paringa,AU-NSW-4-65
+New South Wales,AU-NSW,Far country,AU-NSW-4,Robe,AU-NSW-4-66
+New South Wales,AU-NSW,Far country,AU-NSW-4,Roxby Downs,AU-NSW-4-67
+New South Wales,AU-NSW,Far country,AU-NSW-4,South Gippsland,AU-NSW-4-68
+New South Wales,AU-NSW,Far country,AU-NSW-4,Southern Grampians,AU-NSW-4-69
+New South Wales,AU-NSW,Far country,AU-NSW-4,Strathbogie,AU-NSW-4-70
+New South Wales,AU-NSW,Far country,AU-NSW-4,Streaky Bay,AU-NSW-4-71
+New South Wales,AU-NSW,Far country,AU-NSW-4,Surf Coast,AU-NSW-4-72
+New South Wales,AU-NSW,Far country,AU-NSW-4,Swan Hill,AU-NSW-4-73
+New South Wales,AU-NSW,Far country,AU-NSW-4,Tatiara,AU-NSW-4-74
+New South Wales,AU-NSW,Far country,AU-NSW-4,The Coorong,AU-NSW-4-75
+New South Wales,AU-NSW,Far country,AU-NSW-4,Towong,AU-NSW-4-76
+New South Wales,AU-NSW,Far country,AU-NSW-4,Tumby Bay,AU-NSW-4-77
+New South Wales,AU-NSW,Far country,AU-NSW-4,Unincorporated,AU-NSW-4-78
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wakool,AU-NSW-4-79
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wangaratta,AU-NSW-4-80
+New South Wales,AU-NSW,Far country,AU-NSW-4,Warrnambool,AU-NSW-4-81
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wattle Range,AU-NSW-4-82
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wellington,AU-NSW-4-83
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wentworth Shire,AU-NSW-4-84
+New South Wales,AU-NSW,Far country,AU-NSW-4,West Wimmera,AU-NSW-4-85
+New South Wales,AU-NSW,Far country,AU-NSW-4,Whyalla,AU-NSW-4-86
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wodonga,AU-NSW-4-87
+New South Wales,AU-NSW,Far country,AU-NSW-4,Wudinna,AU-NSW-4-88
+New South Wales,AU-NSW,Far country,AU-NSW-4,Yarriambiack,AU-NSW-4-89
+New South Wales,AU-NSW,Frenchs Forest,AU-NSW-5,Manly,AU-NSW-5-0
+New South Wales,AU-NSW,Frenchs Forest,AU-NSW-5,Pittwater,AU-NSW-5-1
+New South Wales,AU-NSW,Frenchs Forest,AU-NSW-5,Warringah,AU-NSW-5-2
+New South Wales,AU-NSW,Gold Coast,AU-NSW-6,Gold Coast,AU-NSW-6-0
+New South Wales,AU-NSW,Gold Coast,AU-NSW-6,Scenic Rim,AU-NSW-6-1
+New South Wales,AU-NSW,Gold Coast,AU-NSW-6,Tweed,AU-NSW-6-2
+New South Wales,AU-NSW,Gosford,AU-NSW-7,Gosford,AU-NSW-7-0
+New South Wales,AU-NSW,Gosford,AU-NSW-7,Lake Macquarie,AU-NSW-7-1
+New South Wales,AU-NSW,Gosford,AU-NSW-7,Wyong,AU-NSW-7-2
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Cessnock,AU-NSW-8-0
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Dungog,AU-NSW-8-1
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Gloucester,AU-NSW-8-2
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Great Lakes,AU-NSW-8-3
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Greater Taree,AU-NSW-8-4
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Hornsby,AU-NSW-8-5
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Lake Macquarie,AU-NSW-8-6
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Maitland,AU-NSW-8-7
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Muswellbrook,AU-NSW-8-8
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Newcastle,AU-NSW-8-9
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Port Macquarie-Hastings,AU-NSW-8-10
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Port Stephens,AU-NSW-8-11
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Singleton,AU-NSW-8-12
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Upper Hunter Shire,AU-NSW-8-13
+New South Wales,AU-NSW,Hunter,AU-NSW-8,Warrumbungle Shire,AU-NSW-8-14
+New South Wales,AU-NSW,Illawarra,AU-NSW-9,Shellharbour,AU-NSW-9-0
+New South Wales,AU-NSW,Illawarra,AU-NSW-9,Sutherland Shire,AU-NSW-9-1
+New South Wales,AU-NSW,Illawarra,AU-NSW-9,Wollongong,AU-NSW-9-2
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Camden,AU-NSW-10-0
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Campbelltown,AU-NSW-10-1
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Fairfield,AU-NSW-10-2
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Goulburn Mulwaree,AU-NSW-10-3
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Liverpool,AU-NSW-10-4
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Penrith,AU-NSW-10-5
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Shoalhaven,AU-NSW-10-6
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Sutherland Shire,AU-NSW-10-7
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Wingecarribee,AU-NSW-10-8
+New South Wales,AU-NSW,Ingleburn,AU-NSW-10,Wollondilly,AU-NSW-10-9
+New South Wales,AU-NSW,Leightonfield,AU-NSW-11,Auburn,AU-NSW-11-0
+New South Wales,AU-NSW,Leightonfield,AU-NSW-11,Bankstown,AU-NSW-11-1
+New South Wales,AU-NSW,Leightonfield,AU-NSW-11,Fairfield,AU-NSW-11-2
+New South Wales,AU-NSW,Leightonfield,AU-NSW-11,Holroyd,AU-NSW-11-3
+New South Wales,AU-NSW,Leightonfield,AU-NSW-11,Parramatta,AU-NSW-11-4
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Blacktown,AU-NSW-12-0
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Blue Mountains,AU-NSW-12-1
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Hawkesbury,AU-NSW-12-2
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Liverpool,AU-NSW-12-3
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Penrith,AU-NSW-12-4
+New South Wales,AU-NSW,Nepean,AU-NSW-12,The Hills Shire,AU-NSW-12-5
+New South Wales,AU-NSW,Nepean,AU-NSW-12,Wollondilly,AU-NSW-12-6
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Armidale Dumaresq,AU-NSW-13-0
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Ballina,AU-NSW-13-1
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Bellingen,AU-NSW-13-2
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Byron,AU-NSW-13-3
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Clarence Valley,AU-NSW-13-4
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Coffs Harbour,AU-NSW-13-5
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Glen Innes Severn,AU-NSW-13-6
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Greater Taree,AU-NSW-13-7
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Gunnedah,AU-NSW-13-8
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Guyra,AU-NSW-13-9
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Gwydir,AU-NSW-13-10
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Inverell,AU-NSW-13-11
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Kempsey,AU-NSW-13-12
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Kyogle,AU-NSW-13-13
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Lismore,AU-NSW-13-14
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Liverpool Plains,AU-NSW-13-15
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Moree Plains,AU-NSW-13-16
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Nambucca,AU-NSW-13-17
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Narrabri,AU-NSW-13-18
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Port Macquarie-Hastings,AU-NSW-13-19
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Richmond Valley,AU-NSW-13-20
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Tamworth Regional,AU-NSW-13-21
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Tenterfield,AU-NSW-13-22
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Tweed,AU-NSW-13-23
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Uralla,AU-NSW-13-24
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Walcha,AU-NSW-13-25
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Walgett,AU-NSW-13-26
+New South Wales,AU-NSW,North Coast,AU-NSW-13,Warrumbungle Shire,AU-NSW-13-27
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Ashfield,AU-NSW-14-0
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Auburn,AU-NSW-14-1
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Burwood,AU-NSW-14-2
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Canada Bay,AU-NSW-14-3
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Parramatta,AU-NSW-14-4
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,Strathfield,AU-NSW-14-5
+New South Wales,AU-NSW,Parramatta,AU-NSW-14,The Hills Shire,AU-NSW-14-6
+New South Wales,AU-NSW,Pymble,AU-NSW-15,Gosford,AU-NSW-15-0
+New South Wales,AU-NSW,Pymble,AU-NSW-15,Hornsby,AU-NSW-15-1
+New South Wales,AU-NSW,Pymble,AU-NSW-15,Ku-ring-gai,AU-NSW-15-2
+New South Wales,AU-NSW,Pymble,AU-NSW-15,Parramatta,AU-NSW-15-3
+New South Wales,AU-NSW,Pymble,AU-NSW-15,Ryde,AU-NSW-15-4
+New South Wales,AU-NSW,Pymble,AU-NSW-15,The Hills Shire,AU-NSW-15-5
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Blacktown,AU-NSW-16-0
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Gosford,AU-NSW-16-1
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Hawkesbury,AU-NSW-16-2
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Holroyd,AU-NSW-16-3
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Hornsby,AU-NSW-16-4
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,Parramatta,AU-NSW-16-5
+New South Wales,AU-NSW,Seven Hills,AU-NSW-16,The Hills Shire,AU-NSW-16-6
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Hunter's Hill,AU-NSW-17-0
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Ku-ring-gai,AU-NSW-17-1
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Lane Cove,AU-NSW-17-2
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Mosman,AU-NSW-17-3
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,North Sydney,AU-NSW-17-4
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Ryde,AU-NSW-17-5
+New South Wales,AU-NSW,St Leonards,AU-NSW-17,Willoughby,AU-NSW-17-6
+New South Wales,AU-NSW,Sydney,AU-NSW-18,Sydney,AU-NSW-18-0
+New South Wales,AU-NSW,Waterloo,AU-NSW-19,Randwick,AU-NSW-19-0
+New South Wales,AU-NSW,Waterloo,AU-NSW-19,Sydney,AU-NSW-19-1
+New South Wales,AU-NSW,Waterloo,AU-NSW-19,Waverley,AU-NSW-19-2
+New South Wales,AU-NSW,Waterloo,AU-NSW-19,Woollahra,AU-NSW-19-3
+Northern Territory,AU-NT,City subs,AU-NT-0,Adelaide,AU-NT-0-0
+Northern Territory,AU-NT,City subs,AU-NT-0,Alexandrina,AU-NT-0-1
+Northern Territory,AU-NT,City subs,AU-NT-0,Alice Springs,AU-NT-0-2
+Northern Territory,AU-NT,City subs,AU-NT-0,Anangu Pitjantjatjara,AU-NT-0-3
+Northern Territory,AU-NT,City subs,AU-NT-0,Charles Sturt,AU-NT-0-4
+Northern Territory,AU-NT,City subs,AU-NT-0,Marion,AU-NT-0-5
+Northern Territory,AU-NT,City subs,AU-NT-0,Ngaanyatjarraku,AU-NT-0-6
+Northern Territory,AU-NT,City subs,AU-NT-0,Onkaparinga,AU-NT-0-7
+Northern Territory,AU-NT,City subs,AU-NT-0,Port Adelaide Enfield,AU-NT-0-8
+Northern Territory,AU-NT,City subs,AU-NT-0,Unincorporated,AU-NT-0-9
+Northern Territory,AU-NT,City subs,AU-NT-0,Unley,AU-NT-0-10
+Northern Territory,AU-NT,City subs,AU-NT-0,West Torrens,AU-NT-0-11
+Northern Territory,AU-NT,City subs,AU-NT-0,Yankalilla,AU-NT-0-12
+Northern Territory,AU-NT,Darwin,AU-NT-1,Coomalie,AU-NT-1-0
+Northern Territory,AU-NT,Darwin,AU-NT-1,Darwin,AU-NT-1-1
+Northern Territory,AU-NT,Darwin,AU-NT-1,Katherine,AU-NT-1-2
+Northern Territory,AU-NT,Darwin,AU-NT-1,Litchfield,AU-NT-1-3
+Northern Territory,AU-NT,Darwin,AU-NT-1,Palmerston,AU-NT-1-4
+Northern Territory,AU-NT,Darwin,AU-NT-1,Roper Gulf,AU-NT-1-5
+Northern Territory,AU-NT,Darwin,AU-NT-1,Unincorporated,AU-NT-1-6
+Northern Territory,AU-NT,Darwin,AU-NT-1,Victoria-Daly,AU-NT-1-7
+Northern Territory,AU-NT,Darwin,AU-NT-1,West Arnhem,AU-NT-1-8
+Queensland,AU-QLD,Brisbane Central,AU-QLD-0,Brisbane,AU-QLD-0-0
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Banana,AU-QLD-1-0
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Barcaldine,AU-QLD-1-1
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Barcoo,AU-QLD-1-2
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Central Highlands,AU-QLD-1-3
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Diamantina,AU-QLD-1-4
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Gladstone,AU-QLD-1-5
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Isaac,AU-QLD-1-6
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Longreach,AU-QLD-1-7
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Mackay,AU-QLD-1-8
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Rockhampton,AU-QLD-1-9
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Whitsunday,AU-QLD-1-10
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Winton,AU-QLD-1-11
+Queensland,AU-QLD,Central Queensland,AU-QLD-1,Woorabinda,AU-QLD-1-12
+Queensland,AU-QLD,Gold Coast,AU-QLD-2,Gold Coast,AU-QLD-2-0
+Queensland,AU-QLD,Gold Coast,AU-QLD-2,Scenic Rim,AU-QLD-2-1
+Queensland,AU-QLD,Gold Coast,AU-QLD-2,Tweed,AU-QLD-2-2
+Queensland,AU-QLD,Heathwood,AU-QLD-3,Brisbane,AU-QLD-3-0
+Queensland,AU-QLD,Heathwood,AU-QLD-3,Gold Coast,AU-QLD-3-1
+Queensland,AU-QLD,Heathwood,AU-QLD-3,Logan,AU-QLD-3-2
+Queensland,AU-QLD,Heathwood,AU-QLD-3,Scenic Rim,AU-QLD-3-3
+Queensland,AU-QLD,Moreton,AU-QLD-4,Brisbane,AU-QLD-4-0
+Queensland,AU-QLD,Moreton,AU-QLD-4,Moreton Bay,AU-QLD-4-1
+Queensland,AU-QLD,Moreton,AU-QLD-4,Somerset,AU-QLD-4-2
+Queensland,AU-QLD,Moreton,AU-QLD-4,Sunshine Coast,AU-QLD-4-3
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Aurukun,AU-QLD-5-0
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Boulia,AU-QLD-5-1
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Burdekin,AU-QLD-5-2
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Burke,AU-QLD-5-3
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Cairns,AU-QLD-5-4
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Carpentaria,AU-QLD-5-5
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Cassowary Coast,AU-QLD-5-6
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Charters Towers,AU-QLD-5-7
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Cloncurry,AU-QLD-5-8
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Cook,AU-QLD-5-9
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Croydon,AU-QLD-5-10
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Diamantina,AU-QLD-5-11
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Doomadgee,AU-QLD-5-12
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Etheridge,AU-QLD-5-13
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Flinders,AU-QLD-5-14
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Hinchinbrook,AU-QLD-5-15
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Hope Vale,AU-QLD-5-16
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Kowanyama,AU-QLD-5-17
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Lockhart River,AU-QLD-5-18
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Mapoon,AU-QLD-5-19
+Queensland,AU-QLD,North Queensland,AU-QLD-5,McKinlay,AU-QLD-5-20
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Mornington,AU-QLD-5-21
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Mount Isa,AU-QLD-5-22
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Napranum,AU-QLD-5-23
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Northern Peninsula Area,AU-QLD-5-24
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Palm Island,AU-QLD-5-25
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Pormpuraaw,AU-QLD-5-26
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Richmond,AU-QLD-5-27
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Tablelands,AU-QLD-5-28
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Torres Strait Island,AU-QLD-5-29
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Townsville,AU-QLD-5-30
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Weipa,AU-QLD-5-31
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Whitsunday,AU-QLD-5-32
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Wujal Wujal,AU-QLD-5-33
+Queensland,AU-QLD,North Queensland,AU-QLD-5,Yarrabah,AU-QLD-5-34
+Queensland,AU-QLD,Northgate,AU-QLD-6,Brisbane,AU-QLD-6-0
+Queensland,AU-QLD,Northgate,AU-QLD-6,Moreton Bay,AU-QLD-6-1
+Queensland,AU-QLD,South subs,AU-QLD-7,Brisbane,AU-QLD-7-0
+Queensland,AU-QLD,South subs,AU-QLD-7,Gold Coast,AU-QLD-7-1
+Queensland,AU-QLD,South subs,AU-QLD-7,Logan,AU-QLD-7-2
+Queensland,AU-QLD,South subs,AU-QLD-7,Redland,AU-QLD-7-3
+Queensland,AU-QLD,South subs,AU-QLD-7,Scenic Rim,AU-QLD-7-4
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,Bundaberg,AU-QLD-8-0
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,Fraser Coast,AU-QLD-8-1
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,Gladstone,AU-QLD-8-2
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,Gympie,AU-QLD-8-3
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,North Burnett,AU-QLD-8-4
+Queensland,AU-QLD,Sunshine Coast,AU-QLD-8,Sunshine Coast,AU-QLD-8-5
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Balonne,AU-QLD-9-0
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Banana,AU-QLD-9-1
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Barcoo,AU-QLD-9-2
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Blackall Tambo,AU-QLD-9-3
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Bulloo,AU-QLD-9-4
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Cherbourg,AU-QLD-9-5
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Diamantina,AU-QLD-9-6
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Goondiwindi,AU-QLD-9-7
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Lockyer Valley,AU-QLD-9-8
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Maranoa,AU-QLD-9-9
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Murweh,AU-QLD-9-10
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Paroo,AU-QLD-9-11
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Quilpie,AU-QLD-9-12
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,South Burnett,AU-QLD-9-13
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Southern Downs,AU-QLD-9-14
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Toowoomba,AU-QLD-9-15
+Queensland,AU-QLD,Toowoomba region,AU-QLD-9,Western Downs,AU-QLD-9-16
+Queensland,AU-QLD,West subs,AU-QLD-10,Brisbane,AU-QLD-10-0
+Queensland,AU-QLD,West subs,AU-QLD-10,Ipswich,AU-QLD-10-1
+Queensland,AU-QLD,West subs,AU-QLD-10,Lockyer Valley,AU-QLD-10-2
+Queensland,AU-QLD,West subs,AU-QLD-10,Scenic Rim,AU-QLD-10-3
+Queensland,AU-QLD,West subs,AU-QLD-10,Somerset,AU-QLD-10-4
+Queensland,AU-QLD,West subs,AU-QLD-10,South Burnett,AU-QLD-10-5
+South Australia,AU-SA,City subs,AU-SA-0,Adelaide,AU-SA-0-0
+South Australia,AU-SA,City subs,AU-SA-0,Alexandrina,AU-SA-0-1
+South Australia,AU-SA,City subs,AU-SA-0,Alice Springs,AU-SA-0-2
+South Australia,AU-SA,City subs,AU-SA-0,Anangu Pitjantjatjara,AU-SA-0-3
+South Australia,AU-SA,City subs,AU-SA-0,Charles Sturt,AU-SA-0-4
+South Australia,AU-SA,City subs,AU-SA-0,Marion,AU-SA-0-5
+South Australia,AU-SA,City subs,AU-SA-0,Ngaanyatjarraku,AU-SA-0-6
+South Australia,AU-SA,City subs,AU-SA-0,Onkaparinga,AU-SA-0-7
+South Australia,AU-SA,City subs,AU-SA-0,Port Adelaide Enfield,AU-SA-0-8
+South Australia,AU-SA,City subs,AU-SA-0,Unincorporated,AU-SA-0-9
+South Australia,AU-SA,City subs,AU-SA-0,Unley,AU-SA-0-10
+South Australia,AU-SA,City subs,AU-SA-0,West Torrens,AU-SA-0-11
+South Australia,AU-SA,City subs,AU-SA-0,Yankalilla,AU-SA-0-12
+South Australia,AU-SA,Far country,AU-SA-1,Alpine,AU-SA-1-0
+South Australia,AU-SA,Far country,AU-SA-1,Ararat,AU-SA-1-1
+South Australia,AU-SA,Far country,AU-SA-1,Ballarat,AU-SA-1-2
+South Australia,AU-SA,Far country,AU-SA-1,Balranald,AU-SA-1-3
+South Australia,AU-SA,Far country,AU-SA-1,Bass Coast,AU-SA-1-4
+South Australia,AU-SA,Far country,AU-SA-1,Baw Baw,AU-SA-1-5
+South Australia,AU-SA,Far country,AU-SA-1,Benalla,AU-SA-1-6
+South Australia,AU-SA,Far country,AU-SA-1,Berri and Barmera,AU-SA-1-7
+South Australia,AU-SA,Far country,AU-SA-1,Berrigan,AU-SA-1-8
+South Australia,AU-SA,Far country,AU-SA-1,Buloke,AU-SA-1-9
+South Australia,AU-SA,Far country,AU-SA-1,Campaspe,AU-SA-1-10
+South Australia,AU-SA,Far country,AU-SA-1,Cardinia,AU-SA-1-11
+South Australia,AU-SA,Far country,AU-SA-1,Casey,AU-SA-1-12
+South Australia,AU-SA,Far country,AU-SA-1,Ceduna,AU-SA-1-13
+South Australia,AU-SA,Far country,AU-SA-1,Central Goldfields,AU-SA-1-14
+South Australia,AU-SA,Far country,AU-SA-1,Clare and Gilbert Valleys,AU-SA-1-15
+South Australia,AU-SA,Far country,AU-SA-1,Cleve,AU-SA-1-16
+South Australia,AU-SA,Far country,AU-SA-1,Colac-Otway,AU-SA-1-17
+South Australia,AU-SA,Far country,AU-SA-1,Coober Pedy,AU-SA-1-18
+South Australia,AU-SA,Far country,AU-SA-1,Corangamite,AU-SA-1-19
+South Australia,AU-SA,Far country,AU-SA-1,East Gippsland,AU-SA-1-20
+South Australia,AU-SA,Far country,AU-SA-1,Elliston,AU-SA-1-21
+South Australia,AU-SA,Far country,AU-SA-1,Flinders Ranges,AU-SA-1-22
+South Australia,AU-SA,Far country,AU-SA-1,Franklin Harbour,AU-SA-1-23
+South Australia,AU-SA,Far country,AU-SA-1,Gannawarra,AU-SA-1-24
+South Australia,AU-SA,Far country,AU-SA-1,Glenelg,AU-SA-1-25
+South Australia,AU-SA,Far country,AU-SA-1,Golden Plains,AU-SA-1-26
+South Australia,AU-SA,Far country,AU-SA-1,Goyder,AU-SA-1-27
+South Australia,AU-SA,Far country,AU-SA-1,Grant,AU-SA-1-28
+South Australia,AU-SA,Far country,AU-SA-1,Greater Bendigo,AU-SA-1-29
+South Australia,AU-SA,Far country,AU-SA-1,Greater Geelong,AU-SA-1-30
+South Australia,AU-SA,Far country,AU-SA-1,Greater Shepparton,AU-SA-1-31
+South Australia,AU-SA,Far country,AU-SA-1,Hepburn,AU-SA-1-32
+South Australia,AU-SA,Far country,AU-SA-1,Hindmarsh,AU-SA-1-33
+South Australia,AU-SA,Far country,AU-SA-1,Horsham,AU-SA-1-34
+South Australia,AU-SA,Far country,AU-SA-1,Indigo,AU-SA-1-35
+South Australia,AU-SA,Far country,AU-SA-1,Kimba,AU-SA-1-36
+South Australia,AU-SA,Far country,AU-SA-1,Kingston,AU-SA-1-37
+South Australia,AU-SA,Far country,AU-SA-1,Latrobe,AU-SA-1-38
+South Australia,AU-SA,Far country,AU-SA-1,Loddon,AU-SA-1-39
+South Australia,AU-SA,Far country,AU-SA-1,Lower Eyre Peninsula,AU-SA-1-40
+South Australia,AU-SA,Far country,AU-SA-1,Loxton Waikerie,AU-SA-1-41
+South Australia,AU-SA,Far country,AU-SA-1,Macedon Ranges,AU-SA-1-42
+South Australia,AU-SA,Far country,AU-SA-1,Mansfield,AU-SA-1-43
+South Australia,AU-SA,Far country,AU-SA-1,Mid Murray,AU-SA-1-44
+South Australia,AU-SA,Far country,AU-SA-1,Mildura,AU-SA-1-45
+South Australia,AU-SA,Far country,AU-SA-1,Mitchell,AU-SA-1-46
+South Australia,AU-SA,Far country,AU-SA-1,Moira,AU-SA-1-47
+South Australia,AU-SA,Far country,AU-SA-1,Moorabool,AU-SA-1-48
+South Australia,AU-SA,Far country,AU-SA-1,Mount Alexander,AU-SA-1-49
+South Australia,AU-SA,Far country,AU-SA-1,Mount Gambier,AU-SA-1-50
+South Australia,AU-SA,Far country,AU-SA-1,Mount Remarkable,AU-SA-1-51
+South Australia,AU-SA,Far country,AU-SA-1,Moyne,AU-SA-1-52
+South Australia,AU-SA,Far country,AU-SA-1,Murray,AU-SA-1-53
+South Australia,AU-SA,Far country,AU-SA-1,Murrindindi,AU-SA-1-54
+South Australia,AU-SA,Far country,AU-SA-1,Naracoorte and Lucindale,AU-SA-1-55
+South Australia,AU-SA,Far country,AU-SA-1,Northern Areas,AU-SA-1-56
+South Australia,AU-SA,Far country,AU-SA-1,Northern Grampians,AU-SA-1-57
+South Australia,AU-SA,Far country,AU-SA-1,Orroroo/Carrieton,AU-SA-1-58
+South Australia,AU-SA,Far country,AU-SA-1,Peterborough,AU-SA-1-59
+South Australia,AU-SA,Far country,AU-SA-1,Port Augusta,AU-SA-1-60
+South Australia,AU-SA,Far country,AU-SA-1,Port Lincoln,AU-SA-1-61
+South Australia,AU-SA,Far country,AU-SA-1,Port Pirie City and Dists,AU-SA-1-62
+South Australia,AU-SA,Far country,AU-SA-1,Pyrenees,AU-SA-1-63
+South Australia,AU-SA,Far country,AU-SA-1,Queenscliffe,AU-SA-1-64
+South Australia,AU-SA,Far country,AU-SA-1,Renmark Paringa,AU-SA-1-65
+South Australia,AU-SA,Far country,AU-SA-1,Robe,AU-SA-1-66
+South Australia,AU-SA,Far country,AU-SA-1,Roxby Downs,AU-SA-1-67
+South Australia,AU-SA,Far country,AU-SA-1,South Gippsland,AU-SA-1-68
+South Australia,AU-SA,Far country,AU-SA-1,Southern Grampians,AU-SA-1-69
+South Australia,AU-SA,Far country,AU-SA-1,Strathbogie,AU-SA-1-70
+South Australia,AU-SA,Far country,AU-SA-1,Streaky Bay,AU-SA-1-71
+South Australia,AU-SA,Far country,AU-SA-1,Surf Coast,AU-SA-1-72
+South Australia,AU-SA,Far country,AU-SA-1,Swan Hill,AU-SA-1-73
+South Australia,AU-SA,Far country,AU-SA-1,Tatiara,AU-SA-1-74
+South Australia,AU-SA,Far country,AU-SA-1,The Coorong,AU-SA-1-75
+South Australia,AU-SA,Far country,AU-SA-1,Towong,AU-SA-1-76
+South Australia,AU-SA,Far country,AU-SA-1,Tumby Bay,AU-SA-1-77
+South Australia,AU-SA,Far country,AU-SA-1,Unincorporated,AU-SA-1-78
+South Australia,AU-SA,Far country,AU-SA-1,Wakool,AU-SA-1-79
+South Australia,AU-SA,Far country,AU-SA-1,Wangaratta,AU-SA-1-80
+South Australia,AU-SA,Far country,AU-SA-1,Warrnambool,AU-SA-1-81
+South Australia,AU-SA,Far country,AU-SA-1,Wattle Range,AU-SA-1-82
+South Australia,AU-SA,Far country,AU-SA-1,Wellington,AU-SA-1-83
+South Australia,AU-SA,Far country,AU-SA-1,Wentworth Shire,AU-SA-1-84
+South Australia,AU-SA,Far country,AU-SA-1,West Wimmera,AU-SA-1-85
+South Australia,AU-SA,Far country,AU-SA-1,Whyalla,AU-SA-1-86
+South Australia,AU-SA,Far country,AU-SA-1,Wodonga,AU-SA-1-87
+South Australia,AU-SA,Far country,AU-SA-1,Wudinna,AU-SA-1-88
+South Australia,AU-SA,Far country,AU-SA-1,Yarriambiack,AU-SA-1-89
+South Australia,AU-SA,Subs near,AU-SA-2,Adelaide Hills,AU-SA-2-0
+South Australia,AU-SA,Subs near,AU-SA-2,Alexandrina,AU-SA-2-1
+South Australia,AU-SA,Subs near,AU-SA-2,Barossa,AU-SA-2-2
+South Australia,AU-SA,Subs near,AU-SA-2,Barunga West,AU-SA-2-3
+South Australia,AU-SA,Subs near,AU-SA-2,Burnside,AU-SA-2-4
+South Australia,AU-SA,Subs near,AU-SA-2,Campbelltown,AU-SA-2-5
+South Australia,AU-SA,Subs near,AU-SA-2,Charles Sturt,AU-SA-2-6
+South Australia,AU-SA,Subs near,AU-SA-2,Clare and Gilbert Valleys,AU-SA-2-7
+South Australia,AU-SA,Subs near,AU-SA-2,Copper Coast,AU-SA-2-8
+South Australia,AU-SA,Subs near,AU-SA-2,Gawler,AU-SA-2-9
+South Australia,AU-SA,Subs near,AU-SA-2,Goyder,AU-SA-2-10
+South Australia,AU-SA,Subs near,AU-SA-2,Holdfast Bay,AU-SA-2-11
+South Australia,AU-SA,Subs near,AU-SA-2,Kangaroo Island,AU-SA-2-12
+South Australia,AU-SA,Subs near,AU-SA-2,Karoonda East Murray,AU-SA-2-13
+South Australia,AU-SA,Subs near,AU-SA-2,Light,AU-SA-2-14
+South Australia,AU-SA,Subs near,AU-SA-2,Loxton Waikerie,AU-SA-2-15
+South Australia,AU-SA,Subs near,AU-SA-2,Mallala,AU-SA-2-16
+South Australia,AU-SA,Subs near,AU-SA-2,Marion,AU-SA-2-17
+South Australia,AU-SA,Subs near,AU-SA-2,Mid Murray,AU-SA-2-18
+South Australia,AU-SA,Subs near,AU-SA-2,Mitcham,AU-SA-2-19
+South Australia,AU-SA,Subs near,AU-SA-2,Mount Barker,AU-SA-2-20
+South Australia,AU-SA,Subs near,AU-SA-2,Murray Bridge,AU-SA-2-21
+South Australia,AU-SA,Subs near,AU-SA-2,Northern Areas,AU-SA-2-22
+South Australia,AU-SA,Subs near,AU-SA-2,Norwood Payneham St Peters,AU-SA-2-23
+South Australia,AU-SA,Subs near,AU-SA-2,Onkaparinga,AU-SA-2-24
+South Australia,AU-SA,Subs near,AU-SA-2,Playford,AU-SA-2-25
+South Australia,AU-SA,Subs near,AU-SA-2,Port Adelaide Enfield,AU-SA-2-26
+South Australia,AU-SA,Subs near,AU-SA-2,Port Pirie City and Dists,AU-SA-2-27
+South Australia,AU-SA,Subs near,AU-SA-2,Prospect,AU-SA-2-28
+South Australia,AU-SA,Subs near,AU-SA-2,Salisbury,AU-SA-2-29
+South Australia,AU-SA,Subs near,AU-SA-2,Southern Mallee,AU-SA-2-30
+South Australia,AU-SA,Subs near,AU-SA-2,Tea Tree Gully,AU-SA-2-31
+South Australia,AU-SA,Subs near,AU-SA-2,The Coorong,AU-SA-2-32
+South Australia,AU-SA,Subs near,AU-SA-2,Unley,AU-SA-2-33
+South Australia,AU-SA,Subs near,AU-SA-2,Victor Harbor,AU-SA-2-34
+South Australia,AU-SA,Subs near,AU-SA-2,Wakefield,AU-SA-2-35
+South Australia,AU-SA,Subs near,AU-SA-2,Walkerville,AU-SA-2-36
+South Australia,AU-SA,Subs near,AU-SA-2,West Torrens,AU-SA-2-37
+South Australia,AU-SA,Subs near,AU-SA-2,Yankalilla,AU-SA-2-38
+South Australia,AU-SA,Subs near,AU-SA-2,Yorke Peninsula,AU-SA-2-39
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Break O'Day,AU-TAS-0-0
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Brighton,AU-TAS-0-1
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Burnie,AU-TAS-0-2
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Central Coast,AU-TAS-0-3
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Central Highlands,AU-TAS-0-4
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Circular Head,AU-TAS-0-5
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Clarence,AU-TAS-0-6
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Derwent Valley,AU-TAS-0-7
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Devonport,AU-TAS-0-8
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Dorset,AU-TAS-0-9
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Flinders,AU-TAS-0-10
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,George Town,AU-TAS-0-11
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Glamorgan/Spring Bay,AU-TAS-0-12
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Glenorchy,AU-TAS-0-13
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Hobart,AU-TAS-0-14
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Huon Valley,AU-TAS-0-15
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Kentish,AU-TAS-0-16
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,King Island,AU-TAS-0-17
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Kingborough,AU-TAS-0-18
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Latrobe,AU-TAS-0-19
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Launceston,AU-TAS-0-20
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Meander Valley,AU-TAS-0-21
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Northern Midlands,AU-TAS-0-22
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Sorell,AU-TAS-0-23
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Southern Midlands,AU-TAS-0-24
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Tasman,AU-TAS-0-25
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,Waratah/Wynyard,AU-TAS-0-26
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,West Coast,AU-TAS-0-27
+Tasmania,AU-TAS,Tasmania,AU-TAS-0,West Tamar,AU-TAS-0-28
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Bayside,AU-VIC-0-0
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Cardinia,AU-VIC-0-1
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Casey,AU-VIC-0-2
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Glen Eira,AU-VIC-0-3
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Greater Dandenong,AU-VIC-0-4
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Kingston,AU-VIC-0-5
+Victoria,AU-VIC,Dandenong,AU-VIC-0,Yarra Ranges,AU-VIC-0-6
+Victoria,AU-VIC,Far country,AU-VIC-1,Alpine,AU-VIC-1-0
+Victoria,AU-VIC,Far country,AU-VIC-1,Ararat,AU-VIC-1-1
+Victoria,AU-VIC,Far country,AU-VIC-1,Ballarat,AU-VIC-1-2
+Victoria,AU-VIC,Far country,AU-VIC-1,Balranald,AU-VIC-1-3
+Victoria,AU-VIC,Far country,AU-VIC-1,Bass Coast,AU-VIC-1-4
+Victoria,AU-VIC,Far country,AU-VIC-1,Baw Baw,AU-VIC-1-5
+Victoria,AU-VIC,Far country,AU-VIC-1,Benalla,AU-VIC-1-6
+Victoria,AU-VIC,Far country,AU-VIC-1,Berri and Barmera,AU-VIC-1-7
+Victoria,AU-VIC,Far country,AU-VIC-1,Berrigan,AU-VIC-1-8
+Victoria,AU-VIC,Far country,AU-VIC-1,Buloke,AU-VIC-1-9
+Victoria,AU-VIC,Far country,AU-VIC-1,Campaspe,AU-VIC-1-10
+Victoria,AU-VIC,Far country,AU-VIC-1,Cardinia,AU-VIC-1-11
+Victoria,AU-VIC,Far country,AU-VIC-1,Casey,AU-VIC-1-12
+Victoria,AU-VIC,Far country,AU-VIC-1,Ceduna,AU-VIC-1-13
+Victoria,AU-VIC,Far country,AU-VIC-1,Central Goldfields,AU-VIC-1-14
+Victoria,AU-VIC,Far country,AU-VIC-1,Clare and Gilbert Valleys,AU-VIC-1-15
+Victoria,AU-VIC,Far country,AU-VIC-1,Cleve,AU-VIC-1-16
+Victoria,AU-VIC,Far country,AU-VIC-1,Colac-Otway,AU-VIC-1-17
+Victoria,AU-VIC,Far country,AU-VIC-1,Coober Pedy,AU-VIC-1-18
+Victoria,AU-VIC,Far country,AU-VIC-1,Corangamite,AU-VIC-1-19
+Victoria,AU-VIC,Far country,AU-VIC-1,East Gippsland,AU-VIC-1-20
+Victoria,AU-VIC,Far country,AU-VIC-1,Elliston,AU-VIC-1-21
+Victoria,AU-VIC,Far country,AU-VIC-1,Flinders Ranges,AU-VIC-1-22
+Victoria,AU-VIC,Far country,AU-VIC-1,Franklin Harbour,AU-VIC-1-23
+Victoria,AU-VIC,Far country,AU-VIC-1,Gannawarra,AU-VIC-1-24
+Victoria,AU-VIC,Far country,AU-VIC-1,Glenelg,AU-VIC-1-25
+Victoria,AU-VIC,Far country,AU-VIC-1,Golden Plains,AU-VIC-1-26
+Victoria,AU-VIC,Far country,AU-VIC-1,Goyder,AU-VIC-1-27
+Victoria,AU-VIC,Far country,AU-VIC-1,Grant,AU-VIC-1-28
+Victoria,AU-VIC,Far country,AU-VIC-1,Greater Bendigo,AU-VIC-1-29
+Victoria,AU-VIC,Far country,AU-VIC-1,Greater Geelong,AU-VIC-1-30
+Victoria,AU-VIC,Far country,AU-VIC-1,Greater Shepparton,AU-VIC-1-31
+Victoria,AU-VIC,Far country,AU-VIC-1,Hepburn,AU-VIC-1-32
+Victoria,AU-VIC,Far country,AU-VIC-1,Hindmarsh,AU-VIC-1-33
+Victoria,AU-VIC,Far country,AU-VIC-1,Horsham,AU-VIC-1-34
+Victoria,AU-VIC,Far country,AU-VIC-1,Indigo,AU-VIC-1-35
+Victoria,AU-VIC,Far country,AU-VIC-1,Kimba,AU-VIC-1-36
+Victoria,AU-VIC,Far country,AU-VIC-1,Kingston,AU-VIC-1-37
+Victoria,AU-VIC,Far country,AU-VIC-1,Latrobe,AU-VIC-1-38
+Victoria,AU-VIC,Far country,AU-VIC-1,Loddon,AU-VIC-1-39
+Victoria,AU-VIC,Far country,AU-VIC-1,Lower Eyre Peninsula,AU-VIC-1-40
+Victoria,AU-VIC,Far country,AU-VIC-1,Loxton Waikerie,AU-VIC-1-41
+Victoria,AU-VIC,Far country,AU-VIC-1,Macedon Ranges,AU-VIC-1-42
+Victoria,AU-VIC,Far country,AU-VIC-1,Mansfield,AU-VIC-1-43
+Victoria,AU-VIC,Far country,AU-VIC-1,Mid Murray,AU-VIC-1-44
+Victoria,AU-VIC,Far country,AU-VIC-1,Mildura,AU-VIC-1-45
+Victoria,AU-VIC,Far country,AU-VIC-1,Mitchell,AU-VIC-1-46
+Victoria,AU-VIC,Far country,AU-VIC-1,Moira,AU-VIC-1-47
+Victoria,AU-VIC,Far country,AU-VIC-1,Moorabool,AU-VIC-1-48
+Victoria,AU-VIC,Far country,AU-VIC-1,Mount Alexander,AU-VIC-1-49
+Victoria,AU-VIC,Far country,AU-VIC-1,Mount Gambier,AU-VIC-1-50
+Victoria,AU-VIC,Far country,AU-VIC-1,Mount Remarkable,AU-VIC-1-51
+Victoria,AU-VIC,Far country,AU-VIC-1,Moyne,AU-VIC-1-52
+Victoria,AU-VIC,Far country,AU-VIC-1,Murray,AU-VIC-1-53
+Victoria,AU-VIC,Far country,AU-VIC-1,Murrindindi,AU-VIC-1-54
+Victoria,AU-VIC,Far country,AU-VIC-1,Naracoorte and Lucindale,AU-VIC-1-55
+Victoria,AU-VIC,Far country,AU-VIC-1,Northern Areas,AU-VIC-1-56
+Victoria,AU-VIC,Far country,AU-VIC-1,Northern Grampians,AU-VIC-1-57
+Victoria,AU-VIC,Far country,AU-VIC-1,Orroroo/Carrieton,AU-VIC-1-58
+Victoria,AU-VIC,Far country,AU-VIC-1,Peterborough,AU-VIC-1-59
+Victoria,AU-VIC,Far country,AU-VIC-1,Port Augusta,AU-VIC-1-60
+Victoria,AU-VIC,Far country,AU-VIC-1,Port Lincoln,AU-VIC-1-61
+Victoria,AU-VIC,Far country,AU-VIC-1,Port Pirie City and Dists,AU-VIC-1-62
+Victoria,AU-VIC,Far country,AU-VIC-1,Pyrenees,AU-VIC-1-63
+Victoria,AU-VIC,Far country,AU-VIC-1,Queenscliffe,AU-VIC-1-64
+Victoria,AU-VIC,Far country,AU-VIC-1,Renmark Paringa,AU-VIC-1-65
+Victoria,AU-VIC,Far country,AU-VIC-1,Robe,AU-VIC-1-66
+Victoria,AU-VIC,Far country,AU-VIC-1,Roxby Downs,AU-VIC-1-67
+Victoria,AU-VIC,Far country,AU-VIC-1,South Gippsland,AU-VIC-1-68
+Victoria,AU-VIC,Far country,AU-VIC-1,Southern Grampians,AU-VIC-1-69
+Victoria,AU-VIC,Far country,AU-VIC-1,Strathbogie,AU-VIC-1-70
+Victoria,AU-VIC,Far country,AU-VIC-1,Streaky Bay,AU-VIC-1-71
+Victoria,AU-VIC,Far country,AU-VIC-1,Surf Coast,AU-VIC-1-72
+Victoria,AU-VIC,Far country,AU-VIC-1,Swan Hill,AU-VIC-1-73
+Victoria,AU-VIC,Far country,AU-VIC-1,Tatiara,AU-VIC-1-74
+Victoria,AU-VIC,Far country,AU-VIC-1,The Coorong,AU-VIC-1-75
+Victoria,AU-VIC,Far country,AU-VIC-1,Towong,AU-VIC-1-76
+Victoria,AU-VIC,Far country,AU-VIC-1,Tumby Bay,AU-VIC-1-77
+Victoria,AU-VIC,Far country,AU-VIC-1,Unincorporated,AU-VIC-1-78
+Victoria,AU-VIC,Far country,AU-VIC-1,Wakool,AU-VIC-1-79
+Victoria,AU-VIC,Far country,AU-VIC-1,Wangaratta,AU-VIC-1-80
+Victoria,AU-VIC,Far country,AU-VIC-1,Warrnambool,AU-VIC-1-81
+Victoria,AU-VIC,Far country,AU-VIC-1,Wattle Range,AU-VIC-1-82
+Victoria,AU-VIC,Far country,AU-VIC-1,Wellington,AU-VIC-1-83
+Victoria,AU-VIC,Far country,AU-VIC-1,Wentworth Shire,AU-VIC-1-84
+Victoria,AU-VIC,Far country,AU-VIC-1,West Wimmera,AU-VIC-1-85
+Victoria,AU-VIC,Far country,AU-VIC-1,Whyalla,AU-VIC-1-86
+Victoria,AU-VIC,Far country,AU-VIC-1,Wodonga,AU-VIC-1-87
+Victoria,AU-VIC,Far country,AU-VIC-1,Wudinna,AU-VIC-1-88
+Victoria,AU-VIC,Far country,AU-VIC-1,Yarriambiack,AU-VIC-1-89
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Cardinia,AU-VIC-2-0
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Casey,AU-VIC-2-1
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Knox,AU-VIC-2-2
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Maroondah,AU-VIC-2-3
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Whitehorse,AU-VIC-2-4
+Victoria,AU-VIC,Ferntree Gully,AU-VIC-2,Yarra Ranges,AU-VIC-2-5
+Victoria,AU-VIC,Footscray,AU-VIC-3,Brimbank,AU-VIC-3-0
+Victoria,AU-VIC,Footscray,AU-VIC-3,Hobsons Bay,AU-VIC-3-1
+Victoria,AU-VIC,Footscray,AU-VIC-3,Hume,AU-VIC-3-2
+Victoria,AU-VIC,Footscray,AU-VIC-3,Maribyrnong,AU-VIC-3-3
+Victoria,AU-VIC,Footscray,AU-VIC-3,Melton,AU-VIC-3-4
+Victoria,AU-VIC,Footscray,AU-VIC-3,Moonee Valley,AU-VIC-3-5
+Victoria,AU-VIC,Footscray,AU-VIC-3,Moreland,AU-VIC-3-6
+Victoria,AU-VIC,Frankston,AU-VIC-4,Cardinia,AU-VIC-4-0
+Victoria,AU-VIC,Frankston,AU-VIC-4,Casey,AU-VIC-4-1
+Victoria,AU-VIC,Frankston,AU-VIC-4,Frankston,AU-VIC-4-2
+Victoria,AU-VIC,Frankston,AU-VIC-4,Kingston,AU-VIC-4-3
+Victoria,AU-VIC,Frankston,AU-VIC-4,Mornington Peninsula,AU-VIC-4-4
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Banyule,AU-VIC-5-0
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Boroondara,AU-VIC-5-1
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Brimbank,AU-VIC-5-2
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Darebin,AU-VIC-5-3
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Melton,AU-VIC-5-4
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Monash,AU-VIC-5-5
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Stonnington,AU-VIC-5-6
+Victoria,AU-VIC,Hawthorn,AU-VIC-5,Whitehorse,AU-VIC-5-7
+Victoria,AU-VIC,Melbourne City,AU-VIC-6,Melbourne,AU-VIC-6-0
+Victoria,AU-VIC,Melbourne City,AU-VIC-6,Moonee Valley,AU-VIC-6-1
+Victoria,AU-VIC,Melbourne City,AU-VIC-6,Port Phillip,AU-VIC-6-2
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Brimbank,AU-VIC-7-0
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Greater Geelong,AU-VIC-7-1
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Hobsons Bay,AU-VIC-7-2
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Hume,AU-VIC-7-3
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Macedon Ranges,AU-VIC-7-4
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Melton,AU-VIC-7-5
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Mitchell,AU-VIC-7-6
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Moorabool,AU-VIC-7-7
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Murrindindi,AU-VIC-7-8
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Nillumbik,AU-VIC-7-9
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Unincorporated,AU-VIC-7-10
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Whittlesea,AU-VIC-7-11
+Victoria,AU-VIC,Melbourne North West,AU-VIC-7,Wyndham,AU-VIC-7-12
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Bayside,AU-VIC-8-0
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Glen Eira,AU-VIC-8-1
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Melbourne,AU-VIC-8-2
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Port Phillip,AU-VIC-8-3
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Stonnington,AU-VIC-8-4
+Victoria,AU-VIC,Moorabbin,AU-VIC-8,Yarra,AU-VIC-8-5
+Victoria,AU-VIC,Mulgrave,AU-VIC-9,Glen Eira,AU-VIC-9-0
+Victoria,AU-VIC,Mulgrave,AU-VIC-9,Greater Dandenong,AU-VIC-9-1
+Victoria,AU-VIC,Mulgrave,AU-VIC-9,Kingston,AU-VIC-9-2
+Victoria,AU-VIC,Mulgrave,AU-VIC-9,Monash,AU-VIC-9-3
+Victoria,AU-VIC,Mulgrave,AU-VIC-9,Stonnington,AU-VIC-9-4
+Victoria,AU-VIC,Preston,AU-VIC-10,Banyule,AU-VIC-10-0
+Victoria,AU-VIC,Preston,AU-VIC-10,Darebin,AU-VIC-10-1
+Victoria,AU-VIC,Preston,AU-VIC-10,Melbourne,AU-VIC-10-2
+Victoria,AU-VIC,Preston,AU-VIC-10,Moreland,AU-VIC-10-3
+Victoria,AU-VIC,Preston,AU-VIC-10,Nillumbik,AU-VIC-10-4
+Victoria,AU-VIC,Preston,AU-VIC-10,Whittlesea,AU-VIC-10-5
+Victoria,AU-VIC,Preston,AU-VIC-10,Yarra,AU-VIC-10-6
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Manningham,AU-VIC-11-0
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Maroondah,AU-VIC-11-1
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Murrindindi,AU-VIC-11-2
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Nillumbik,AU-VIC-11-3
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Unincorporated,AU-VIC-11-4
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Whittlesea,AU-VIC-11-5
+Victoria,AU-VIC,Ringwood,AU-VIC-11,Yarra Ranges,AU-VIC-11-6
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Ararat,AU-VIC-12-0
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Ballarat,AU-VIC-12-1
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Baw Baw,AU-VIC-12-2
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Campaspe,AU-VIC-12-3
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Golden Plains,AU-VIC-12-4
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Greater Bendigo,AU-VIC-12-5
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Greater Geelong,AU-VIC-12-6
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Greater Shepparton,AU-VIC-12-7
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Latrobe,AU-VIC-12-8
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Loddon,AU-VIC-12-9
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Moorabool,AU-VIC-12-10
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Pyrenees,AU-VIC-12-11
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Surf Coast,AU-VIC-12-12
+Victoria,AU-VIC,Victoria country,AU-VIC-12,Wyndham,AU-VIC-12-13
+Western Australia,AU-WA,City subs,AU-WA-0,Adelaide,AU-WA-0-0
+Western Australia,AU-WA,City subs,AU-WA-0,Alexandrina,AU-WA-0-1
+Western Australia,AU-WA,City subs,AU-WA-0,Alice Springs,AU-WA-0-2
+Western Australia,AU-WA,City subs,AU-WA-0,Anangu Pitjantjatjara,AU-WA-0-3
+Western Australia,AU-WA,City subs,AU-WA-0,Charles Sturt,AU-WA-0-4
+Western Australia,AU-WA,City subs,AU-WA-0,Marion,AU-WA-0-5
+Western Australia,AU-WA,City subs,AU-WA-0,Ngaanyatjarraku,AU-WA-0-6
+Western Australia,AU-WA,City subs,AU-WA-0,Onkaparinga,AU-WA-0-7
+Western Australia,AU-WA,City subs,AU-WA-0,Port Adelaide Enfield,AU-WA-0-8
+Western Australia,AU-WA,City subs,AU-WA-0,Unincorporated,AU-WA-0-9
+Western Australia,AU-WA,City subs,AU-WA-0,Unley,AU-WA-0-10
+Western Australia,AU-WA,City subs,AU-WA-0,West Torrens,AU-WA-0-11
+Western Australia,AU-WA,City subs,AU-WA-0,Yankalilla,AU-WA-0-12
+Western Australia,AU-WA,Coast,AU-WA-1,Belmont,AU-WA-1-0
+Western Australia,AU-WA,Coast,AU-WA-1,Canning,AU-WA-1-1
+Western Australia,AU-WA,Coast,AU-WA-1,Carnamah,AU-WA-1-2
+Western Australia,AU-WA,Coast,AU-WA-1,Chapman Valley,AU-WA-1-3
+Western Australia,AU-WA,Coast,AU-WA-1,Chittering,AU-WA-1-4
+Western Australia,AU-WA,Coast,AU-WA-1,Coorow,AU-WA-1-5
+Western Australia,AU-WA,Coast,AU-WA-1,Dalwallinu,AU-WA-1-6
+Western Australia,AU-WA,Coast,AU-WA-1,Dandaragan,AU-WA-1-7
+Western Australia,AU-WA,Coast,AU-WA-1,Geraldton-Greenough,AU-WA-1-8
+Western Australia,AU-WA,Coast,AU-WA-1,Gingin,AU-WA-1-9
+Western Australia,AU-WA,Coast,AU-WA-1,Goomalling,AU-WA-1-10
+Western Australia,AU-WA,Coast,AU-WA-1,Gosnells,AU-WA-1-11
+Western Australia,AU-WA,Coast,AU-WA-1,Irwin,AU-WA-1-12
+Western Australia,AU-WA,Coast,AU-WA-1,Kalamunda,AU-WA-1-13
+Western Australia,AU-WA,Coast,AU-WA-1,Melville,AU-WA-1-14
+Western Australia,AU-WA,Coast,AU-WA-1,Mingenew,AU-WA-1-15
+Western Australia,AU-WA,Coast,AU-WA-1,Moora,AU-WA-1-16
+Western Australia,AU-WA,Coast,AU-WA-1,Morawa,AU-WA-1-17
+Western Australia,AU-WA,Coast,AU-WA-1,Mullewa,AU-WA-1-18
+Western Australia,AU-WA,Coast,AU-WA-1,Mundaring,AU-WA-1-19
+Western Australia,AU-WA,Coast,AU-WA-1,Murchison,AU-WA-1-20
+Western Australia,AU-WA,Coast,AU-WA-1,Northam,AU-WA-1-21
+Western Australia,AU-WA,Coast,AU-WA-1,Northampton,AU-WA-1-22
+Western Australia,AU-WA,Coast,AU-WA-1,Perenjori,AU-WA-1-23
+Western Australia,AU-WA,Coast,AU-WA-1,Shark Bay,AU-WA-1-24
+Western Australia,AU-WA,Coast,AU-WA-1,South Perth,AU-WA-1-25
+Western Australia,AU-WA,Coast,AU-WA-1,Stirling,AU-WA-1-26
+Western Australia,AU-WA,Coast,AU-WA-1,Swan,AU-WA-1-27
+Western Australia,AU-WA,Coast,AU-WA-1,Three Springs,AU-WA-1-28
+Western Australia,AU-WA,Coast,AU-WA-1,Toodyay,AU-WA-1-29
+Western Australia,AU-WA,Coast,AU-WA-1,Victoria Park,AU-WA-1-30
+Western Australia,AU-WA,Coast,AU-WA-1,Victoria Plains,AU-WA-1-31
+Western Australia,AU-WA,Coast,AU-WA-1,Wanneroo,AU-WA-1-32
+Western Australia,AU-WA,Coast,AU-WA-1,Wongan-Ballidu,AU-WA-1-33
+Western Australia,AU-WA,Coast,AU-WA-1,Yalgoo,AU-WA-1-34
+Western Australia,AU-WA,Great Fields,AU-WA-2,Bruce Rock,AU-WA-2-0
+Western Australia,AU-WA,Great Fields,AU-WA-2,Cambridge,AU-WA-2-1
+Western Australia,AU-WA,Great Fields,AU-WA-2,Coolgardie,AU-WA-2-2
+Western Australia,AU-WA,Great Fields,AU-WA-2,Cunderdin,AU-WA-2-3
+Western Australia,AU-WA,Great Fields,AU-WA-2,Dalwallinu,AU-WA-2-4
+Western Australia,AU-WA,Great Fields,AU-WA-2,Dowerin,AU-WA-2-5
+Western Australia,AU-WA,Great Fields,AU-WA-2,Dundas,AU-WA-2-6
+Western Australia,AU-WA,Great Fields,AU-WA-2,Esperance,AU-WA-2-7
+Western Australia,AU-WA,Great Fields,AU-WA-2,Gingin,AU-WA-2-8
+Western Australia,AU-WA,Great Fields,AU-WA-2,Goomalling,AU-WA-2-9
+Western Australia,AU-WA,Great Fields,AU-WA-2,Joondalup,AU-WA-2-10
+Western Australia,AU-WA,Great Fields,AU-WA-2,Kalgoorlie/Boulder,AU-WA-2-11
+Western Australia,AU-WA,Great Fields,AU-WA-2,Kellerberrin,AU-WA-2-12
+Western Australia,AU-WA,Great Fields,AU-WA-2,Koorda,AU-WA-2-13
+Western Australia,AU-WA,Great Fields,AU-WA-2,Laverton,AU-WA-2-14
+Western Australia,AU-WA,Great Fields,AU-WA-2,Leonora,AU-WA-2-15
+Western Australia,AU-WA,Great Fields,AU-WA-2,Menzies,AU-WA-2-16
+Western Australia,AU-WA,Great Fields,AU-WA-2,Merredin,AU-WA-2-17
+Western Australia,AU-WA,Great Fields,AU-WA-2,Mount Marshall,AU-WA-2-18
+Western Australia,AU-WA,Great Fields,AU-WA-2,Mukinbudin,AU-WA-2-19
+Western Australia,AU-WA,Great Fields,AU-WA-2,Nedlands,AU-WA-2-20
+Western Australia,AU-WA,Great Fields,AU-WA-2,Northam,AU-WA-2-21
+Western Australia,AU-WA,Great Fields,AU-WA-2,Nungarin,AU-WA-2-22
+Western Australia,AU-WA,Great Fields,AU-WA-2,Perth,AU-WA-2-23
+Western Australia,AU-WA,Great Fields,AU-WA-2,Ravensthorpe,AU-WA-2-24
+Western Australia,AU-WA,Great Fields,AU-WA-2,Subiaco,AU-WA-2-25
+Western Australia,AU-WA,Great Fields,AU-WA-2,Tammin,AU-WA-2-26
+Western Australia,AU-WA,Great Fields,AU-WA-2,Trayning,AU-WA-2-27
+Western Australia,AU-WA,Great Fields,AU-WA-2,Vincent,AU-WA-2-28
+Western Australia,AU-WA,Great Fields,AU-WA-2,Wanneroo,AU-WA-2-29
+Western Australia,AU-WA,Great Fields,AU-WA-2,Westonia,AU-WA-2-30
+Western Australia,AU-WA,Great Fields,AU-WA-2,Wongan-Ballidu,AU-WA-2-31
+Western Australia,AU-WA,Great Fields,AU-WA-2,Wyalkatchem,AU-WA-2-32
+Western Australia,AU-WA,Great Fields,AU-WA-2,Yilgarn,AU-WA-2-33
+Western Australia,AU-WA,Great Southern,AU-WA-3,Albany,AU-WA-3-0
+Western Australia,AU-WA,Great Southern,AU-WA-3,Bassendean,AU-WA-3-1
+Western Australia,AU-WA,Great Southern,AU-WA-3,Bayswater,AU-WA-3-2
+Western Australia,AU-WA,Great Southern,AU-WA-3,Beverley,AU-WA-3-3
+Western Australia,AU-WA,Great Southern,AU-WA-3,Boddington,AU-WA-3-4
+Western Australia,AU-WA,Great Southern,AU-WA-3,Brookton,AU-WA-3-5
+Western Australia,AU-WA,Great Southern,AU-WA-3,Broomehill-Tambellup,AU-WA-3-6
+Western Australia,AU-WA,Great Southern,AU-WA-3,Bruce Rock,AU-WA-3-7
+Western Australia,AU-WA,Great Southern,AU-WA-3,Bunbury,AU-WA-3-8
+Western Australia,AU-WA,Great Southern,AU-WA-3,Cambridge,AU-WA-3-9
+Western Australia,AU-WA,Great Southern,AU-WA-3,Capel,AU-WA-3-10
+Western Australia,AU-WA,Great Southern,AU-WA-3,Corrigin,AU-WA-3-11
+Western Australia,AU-WA,Great Southern,AU-WA-3,Cranbrook,AU-WA-3-12
+Western Australia,AU-WA,Great Southern,AU-WA-3,Cuballing,AU-WA-3-13
+Western Australia,AU-WA,Great Southern,AU-WA-3,Dardanup,AU-WA-3-14
+Western Australia,AU-WA,Great Southern,AU-WA-3,Denmark,AU-WA-3-15
+Western Australia,AU-WA,Great Southern,AU-WA-3,Dumbleyung,AU-WA-3-16
+Western Australia,AU-WA,Great Southern,AU-WA-3,Gnowangerup,AU-WA-3-17
+Western Australia,AU-WA,Great Southern,AU-WA-3,Harvey,AU-WA-3-18
+Western Australia,AU-WA,Great Southern,AU-WA-3,Jerramungup,AU-WA-3-19
+Western Australia,AU-WA,Great Southern,AU-WA-3,Joondalup,AU-WA-3-20
+Western Australia,AU-WA,Great Southern,AU-WA-3,Katanning,AU-WA-3-21
+Western Australia,AU-WA,Great Southern,AU-WA-3,Kent,AU-WA-3-22
+Western Australia,AU-WA,Great Southern,AU-WA-3,Kojonup,AU-WA-3-23
+Western Australia,AU-WA,Great Southern,AU-WA-3,Kondinin,AU-WA-3-24
+Western Australia,AU-WA,Great Southern,AU-WA-3,Kulin,AU-WA-3-25
+Western Australia,AU-WA,Great Southern,AU-WA-3,Lake Grace,AU-WA-3-26
+Western Australia,AU-WA,Great Southern,AU-WA-3,Manjimup,AU-WA-3-27
+Western Australia,AU-WA,Great Southern,AU-WA-3,Narembeen,AU-WA-3-28
+Western Australia,AU-WA,Great Southern,AU-WA-3,Narrogin (S),AU-WA-3-29
+Western Australia,AU-WA,Great Southern,AU-WA-3,Narrogin (T),AU-WA-3-30
+Western Australia,AU-WA,Great Southern,AU-WA-3,Nedlands,AU-WA-3-31
+Western Australia,AU-WA,Great Southern,AU-WA-3,Pingelly,AU-WA-3-32
+Western Australia,AU-WA,Great Southern,AU-WA-3,Plantagenet,AU-WA-3-33
+Western Australia,AU-WA,Great Southern,AU-WA-3,Quairading,AU-WA-3-34
+Western Australia,AU-WA,Great Southern,AU-WA-3,Ravensthorpe,AU-WA-3-35
+Western Australia,AU-WA,Great Southern,AU-WA-3,Stirling,AU-WA-3-36
+Western Australia,AU-WA,Great Southern,AU-WA-3,Subiaco,AU-WA-3-37
+Western Australia,AU-WA,Great Southern,AU-WA-3,Swan,AU-WA-3-38
+Western Australia,AU-WA,Great Southern,AU-WA-3,Vincent,AU-WA-3-39
+Western Australia,AU-WA,Great Southern,AU-WA-3,Wagin,AU-WA-3-40
+Western Australia,AU-WA,Great Southern,AU-WA-3,Wandering,AU-WA-3-41
+Western Australia,AU-WA,Great Southern,AU-WA-3,West Arthur,AU-WA-3-42
+Western Australia,AU-WA,Great Southern,AU-WA-3,Wickepin,AU-WA-3-43
+Western Australia,AU-WA,Great Southern,AU-WA-3,Williams,AU-WA-3-44
+Western Australia,AU-WA,Great Southern,AU-WA-3,Woodanilling,AU-WA-3-45
+Western Australia,AU-WA,Great Southern,AU-WA-3,York,AU-WA-3-46
+Western Australia,AU-WA,North West,AU-WA-4,Armadale,AU-WA-4-0
+Western Australia,AU-WA,North West,AU-WA-4,Ashburton,AU-WA-4-1
+Western Australia,AU-WA,North West,AU-WA-4,Broome,AU-WA-4-2
+Western Australia,AU-WA,North West,AU-WA-4,Cambridge,AU-WA-4-3
+Western Australia,AU-WA,North West,AU-WA-4,Carnarvon,AU-WA-4-4
+Western Australia,AU-WA,North West,AU-WA-4,Claremont,AU-WA-4-5
+Western Australia,AU-WA,North West,AU-WA-4,Cottesloe,AU-WA-4-6
+Western Australia,AU-WA,North West,AU-WA-4,Cue,AU-WA-4-7
+Western Australia,AU-WA,North West,AU-WA-4,Derby-West Kimberley,AU-WA-4-8
+Western Australia,AU-WA,North West,AU-WA-4,East Pilbara,AU-WA-4-9
+Western Australia,AU-WA,North West,AU-WA-4,Exmouth,AU-WA-4-10
+Western Australia,AU-WA,North West,AU-WA-4,Gosnells,AU-WA-4-11
+Western Australia,AU-WA,North West,AU-WA-4,Halls Creek,AU-WA-4-12
+Western Australia,AU-WA,North West,AU-WA-4,Joondalup,AU-WA-4-13
+Western Australia,AU-WA,North West,AU-WA-4,Kalamunda,AU-WA-4-14
+Western Australia,AU-WA,North West,AU-WA-4,Meekatharra,AU-WA-4-15
+Western Australia,AU-WA,North West,AU-WA-4,Mosman Park,AU-WA-4-16
+Western Australia,AU-WA,North West,AU-WA-4,Mount Magnet,AU-WA-4-17
+Western Australia,AU-WA,North West,AU-WA-4,Mundaring,AU-WA-4-18
+Western Australia,AU-WA,North West,AU-WA-4,Murchison,AU-WA-4-19
+Western Australia,AU-WA,North West,AU-WA-4,Nedlands,AU-WA-4-20
+Western Australia,AU-WA,North West,AU-WA-4,Peppermint Grove,AU-WA-4-21
+Western Australia,AU-WA,North West,AU-WA-4,Port Hedland,AU-WA-4-22
+Western Australia,AU-WA,North West,AU-WA-4,Roebourne,AU-WA-4-23
+Western Australia,AU-WA,North West,AU-WA-4,Sandstone,AU-WA-4-24
+Western Australia,AU-WA,North West,AU-WA-4,Serpentine-Jarrahdale,AU-WA-4-25
+Western Australia,AU-WA,North West,AU-WA-4,Stirling,AU-WA-4-26
+Western Australia,AU-WA,North West,AU-WA-4,Subiaco,AU-WA-4-27
+Western Australia,AU-WA,North West,AU-WA-4,Swan,AU-WA-4-28
+Western Australia,AU-WA,North West,AU-WA-4,Toodyay,AU-WA-4-29
+Western Australia,AU-WA,North West,AU-WA-4,Unincorporated,AU-WA-4-30
+Western Australia,AU-WA,North West,AU-WA-4,Upper Gascoyne,AU-WA-4-31
+Western Australia,AU-WA,North West,AU-WA-4,Wanneroo,AU-WA-4-32
+Western Australia,AU-WA,North West,AU-WA-4,Wiluna,AU-WA-4-33
+Western Australia,AU-WA,North West,AU-WA-4,Wyndham-East Kimberley,AU-WA-4-34
+Western Australia,AU-WA,South Road,AU-WA-5,Augusta-Margaret River,AU-WA-5-0
+Western Australia,AU-WA,South Road,AU-WA-5,Boyup Brook,AU-WA-5-1
+Western Australia,AU-WA,South Road,AU-WA-5,Bridgetown-Greenbushes,AU-WA-5-2
+Western Australia,AU-WA,South Road,AU-WA-5,Bunbury,AU-WA-5-3
+Western Australia,AU-WA,South Road,AU-WA-5,Busselton,AU-WA-5-4
+Western Australia,AU-WA,South Road,AU-WA-5,Capel,AU-WA-5-5
+Western Australia,AU-WA,South Road,AU-WA-5,Chittering,AU-WA-5-6
+Western Australia,AU-WA,South Road,AU-WA-5,Cockburn,AU-WA-5-7
+Western Australia,AU-WA,South Road,AU-WA-5,Collie,AU-WA-5-8
+Western Australia,AU-WA,South Road,AU-WA-5,Dardanup,AU-WA-5-9
+Western Australia,AU-WA,South Road,AU-WA-5,Donnybrook-Balingup,AU-WA-5-10
+Western Australia,AU-WA,South Road,AU-WA-5,East Fremantle,AU-WA-5-11
+Western Australia,AU-WA,South Road,AU-WA-5,Fremantle,AU-WA-5-12
+Western Australia,AU-WA,South Road,AU-WA-5,Harvey,AU-WA-5-13
+Western Australia,AU-WA,South Road,AU-WA-5,Kwinana,AU-WA-5-14
+Western Australia,AU-WA,South Road,AU-WA-5,Mandurah,AU-WA-5-15
+Western Australia,AU-WA,South Road,AU-WA-5,Manjimup,AU-WA-5-16
+Western Australia,AU-WA,South Road,AU-WA-5,Melville,AU-WA-5-17
+Western Australia,AU-WA,South Road,AU-WA-5,Murray,AU-WA-5-18
+Western Australia,AU-WA,South Road,AU-WA-5,Nannup,AU-WA-5-19
+Western Australia,AU-WA,South Road,AU-WA-5,Rockingham,AU-WA-5-20
+Western Australia,AU-WA,South Road,AU-WA-5,Swan,AU-WA-5-21
+Western Australia,AU-WA,South Road,AU-WA-5,Waroona,AU-WA-5-22

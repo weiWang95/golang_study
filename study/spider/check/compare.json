@@ -1,0 +1,1551 @@
+{
+  "CL": {
+    "C": [
+      {
+        "code": "CL-AI",
+        "name": "Aisén del General Carlos Ibañez del Campo"
+      },
+      {
+        "code": "CL-AN",
+        "name": "Antofagasta"
+      },
+      {
+        "code": "CL-AP",
+        "name": "Arica y Parinacota"
+      },
+      {
+        "code": "CL-AR",
+        "name": "La Araucanía"
+      },
+      {
+        "code": "CL-AT",
+        "name": "Atacama"
+      },
+      {
+        "code": "CL-BI",
+        "name": "Biobío"
+      },
+      {
+        "code": "CL-CO",
+        "name": "Coquimbo"
+      },
+      {
+        "code": "CL-LI",
+        "name": "Libertador General Bernardo O'Higgins"
+      },
+      {
+        "code": "CL-LL",
+        "name": "Los Lagos"
+      },
+      {
+        "code": "CL-LR",
+        "name": "Los Ríos"
+      },
+      {
+        "code": "CL-MA",
+        "name": "Magallanes"
+      },
+      {
+        "code": "CL-ML",
+        "name": "Maule"
+      },
+      {
+        "code": "CL-RM",
+        "name": "Región Metropolitana de Santiago"
+      },
+      {
+        "code": "CL-TA",
+        "name": "Tarapacá"
+      },
+      {
+        "code": "CL-VS",
+        "name": "Valparaíso"
+      }
+    ],
+    "B": [
+      {
+        "code": "CL-AI",
+        "name": "Aisén del General Carlos Ibañez del Campo"
+      },
+      {
+        "code": "CL-AN",
+        "name": "Antofagasta"
+      },
+      {
+        "code": "CL-AP",
+        "name": "Arica y Parinacota"
+      },
+      {
+        "code": "CL-AR",
+        "name": "La Araucanía"
+      },
+      {
+        "code": "CL-AT",
+        "name": "Atacama"
+      },
+      {
+        "code": "CL-BI",
+        "name": "Biobío"
+      },
+      {
+        "code": "CL-CO",
+        "name": "Coquimbo"
+      },
+      {
+        "code": "CL-LI",
+        "name": "Libertador General Bernardo O'Higgins"
+      },
+      {
+        "code": "CL-LL",
+        "name": "Los Lagos"
+      },
+      {
+        "code": "CL-LR",
+        "name": "Los Ríos"
+      },
+      {
+        "code": "CL-MA",
+        "name": "Magallanes"
+      },
+      {
+        "code": "CL-ML",
+        "name": "Maule"
+      },
+      {
+        "code": "CL-RM",
+        "name": "Región Metropolitana de Santiago"
+      },
+      {
+        "code": "CL-TA",
+        "name": "Tarapacá"
+      },
+      {
+        "code": "CL-VS",
+        "name": "Valparaíso"
+      },
+      {
+        "code": "CL-NB",
+        "name": "Ñuble"
+      }
+    ]
+  },
+  "CN": {
+    "C": [
+      {
+        "code": "CN-AH",
+        "name": "安徽省"
+      },
+      {
+        "code": "CN-BJ",
+        "name": "北京市"
+      },
+      {
+        "code": "CN-CQ",
+        "name": "重庆市"
+      },
+      {
+        "code": "CN-FJ",
+        "name": "福建省"
+      },
+      {
+        "code": "CN-GD",
+        "name": "广东省"
+      },
+      {
+        "code": "CN-GS",
+        "name": "甘肃省"
+      },
+      {
+        "code": "CN-GX",
+        "name": "广西壮族自治区"
+      },
+      {
+        "code": "CN-GZ",
+        "name": "贵州省"
+      },
+      {
+        "code": "CN-HA",
+        "name": "河南省"
+      },
+      {
+        "code": "CN-HB",
+        "name": "湖北省"
+      },
+      {
+        "code": "CN-HE",
+        "name": "河北省"
+      },
+      {
+        "code": "CN-HI",
+        "name": "海南省"
+      },
+      {
+        "code": "CN-HK",
+        "name": "香港"
+      },
+      {
+        "code": "CN-HL",
+        "name": "黑龙江省"
+      },
+      {
+        "code": "CN-HN",
+        "name": "湖南省"
+      },
+      {
+        "code": "CN-JL",
+        "name": "吉林省"
+      },
+      {
+        "code": "CN-JS",
+        "name": "江苏省"
+      },
+      {
+        "code": "CN-JX",
+        "name": "江西省"
+      },
+      {
+        "code": "CN-LN",
+        "name": "辽宁省"
+      },
+      {
+        "code": "CN-MO",
+        "name": "澳门"
+      },
+      {
+        "code": "CN-NM",
+        "name": "内蒙古自治区"
+      },
+      {
+        "code": "CN-NX",
+        "name": "宁夏回族自治区"
+      },
+      {
+        "code": "CN-QH",
+        "name": "青海省"
+      },
+      {
+        "code": "CN-SC",
+        "name": "四川省"
+      },
+      {
+        "code": "CN-SD",
+        "name": "山东省"
+      },
+      {
+        "code": "CN-SH",
+        "name": "上海市"
+      },
+      {
+        "code": "CN-SN",
+        "name": "陕西省"
+      },
+      {
+        "code": "CN-SX",
+        "name": "山西省"
+      },
+      {
+        "code": "CN-TJ",
+        "name": "天津市"
+      },
+      {
+        "code": "CN-TW",
+        "name": "台湾省"
+      },
+      {
+        "code": "CN-XJ",
+        "name": "新疆维吾尔自治区"
+      },
+      {
+        "code": "CN-XZ",
+        "name": "西藏自治区"
+      },
+      {
+        "code": "CN-YN",
+        "name": "云南省"
+      },
+      {
+        "code": "CN-ZJ",
+        "name": "浙江省"
+      }
+    ],
+    "B": [
+      {
+        "code": "CN-AH",
+        "name": "Anhui"
+      },
+      {
+        "code": "CN-BJ",
+        "name": "Beijing"
+      },
+      {
+        "code": "CN-CQ",
+        "name": "Chongqing"
+      },
+      {
+        "code": "CN-FJ",
+        "name": "Fujian"
+      },
+      {
+        "code": "CN-GD",
+        "name": "Guangdong"
+      },
+      {
+        "code": "CN-GS",
+        "name": "Gansu"
+      },
+      {
+        "code": "CN-GX",
+        "name": "Guangxi"
+      },
+      {
+        "code": "CN-GZ",
+        "name": "Guizhou"
+      },
+      {
+        "code": "CN-HA",
+        "name": "Henan"
+      },
+      {
+        "code": "CN-HB",
+        "name": "Hubei"
+      },
+      {
+        "code": "CN-HE",
+        "name": "Hebei"
+      },
+      {
+        "code": "CN-HI",
+        "name": "Hainan"
+      },
+      {
+        "code": "CN-HK",
+        "name": "Hong Kong SAR "
+      },
+      {
+        "code": "CN-HL",
+        "name": "Heilongjiang"
+      },
+      {
+        "code": "CN-HN",
+        "name": "Hunan"
+      },
+      {
+        "code": "CN-JL",
+        "name": "Jilin"
+      },
+      {
+        "code": "CN-JS",
+        "name": "Jiangsu"
+      },
+      {
+        "code": "CN-JX",
+        "name": "Jiangxi"
+      },
+      {
+        "code": "CN-LN",
+        "name": "Liaoning"
+      },
+      {
+        "code": "CN-MO",
+        "name": "Macao SAR"
+      },
+      {
+        "code": "CN-NM",
+        "name": "Nei Mongol"
+      },
+      {
+        "code": "CN-NX",
+        "name": "Ningxia"
+      },
+      {
+        "code": "CN-QH",
+        "name": "Qinghai"
+      },
+      {
+        "code": "CN-SC",
+        "name": "Sichuan"
+      },
+      {
+        "code": "CN-SD",
+        "name": "Shandong"
+      },
+      {
+        "code": "CN-SH",
+        "name": "Shanghai"
+      },
+      {
+        "code": "CN-SN",
+        "name": "Shaanxi"
+      },
+      {
+        "code": "CN-SX",
+        "name": "Shanxi"
+      },
+      {
+        "code": "CN-TJ",
+        "name": "Tianjin"
+      },
+      {
+        "code": "CN-TW",
+        "name": "Taiwan"
+      },
+      {
+        "code": "CN-XJ",
+        "name": "Xinjiang"
+      },
+      {
+        "code": "CN-XZ",
+        "name": "Xizang"
+      },
+      {
+        "code": "CN-YN",
+        "name": "Yunnan"
+      },
+      {
+        "code": "CN-ZJ",
+        "name": "Zhejiang"
+      }
+    ]
+  },
+  "JP": {
+    "C": [
+      {
+        "code": "JP-01",
+        "name": "北海道"
+      },
+      {
+        "code": "JP-02",
+        "name": "青森県"
+      },
+      {
+        "code": "JP-03",
+        "name": "岩手県"
+      },
+      {
+        "code": "JP-04",
+        "name": "宮城県"
+      },
+      {
+        "code": "JP-05",
+        "name": "秋田県"
+      },
+      {
+        "code": "JP-06",
+        "name": "山形県"
+      },
+      {
+        "code": "JP-07",
+        "name": "福島県"
+      },
+      {
+        "code": "JP-08",
+        "name": "茨城県"
+      },
+      {
+        "code": "JP-09",
+        "name": "栃木県"
+      },
+      {
+        "code": "JP-10",
+        "name": "群馬県"
+      },
+      {
+        "code": "JP-11",
+        "name": "埼玉県"
+      },
+      {
+        "code": "JP-12",
+        "name": "千葉県"
+      },
+      {
+        "code": "JP-13",
+        "name": "東京都"
+      },
+      {
+        "code": "JP-14",
+        "name": "神奈川県"
+      },
+      {
+        "code": "JP-15",
+        "name": "新潟県"
+      },
+      {
+        "code": "JP-16",
+        "name": "富山県"
+      },
+      {
+        "code": "JP-17",
+        "name": "石川県"
+      },
+      {
+        "code": "JP-18",
+        "name": "福井県"
+      },
+      {
+        "code": "JP-19",
+        "name": "山梨県"
+      },
+      {
+        "code": "JP-20",
+        "name": "長野県"
+      },
+      {
+        "code": "JP-21",
+        "name": "岐阜县"
+      },
+      {
+        "code": "JP-22",
+        "name": "静岡県"
+      },
+      {
+        "code": "JP-23",
+        "name": "愛知県"
+      },
+      {
+        "code": "JP-24",
+        "name": "三重県"
+      },
+      {
+        "code": "JP-25",
+        "name": "滋賀県"
+      },
+      {
+        "code": "JP-26",
+        "name": "京都府"
+      },
+      {
+        "code": "JP-27",
+        "name": "大阪府"
+      },
+      {
+        "code": "JP-28",
+        "name": "兵庫県"
+      },
+      {
+        "code": "JP-29",
+        "name": "奈良県"
+      },
+      {
+        "code": "JP-30",
+        "name": "和歌山県"
+      },
+      {
+        "code": "JP-31",
+        "name": "鳥取県"
+      },
+      {
+        "code": "JP-32",
+        "name": "島根県"
+      },
+      {
+        "code": "JP-33",
+        "name": "岡山県"
+      },
+      {
+        "code": "JP-34",
+        "name": "広島県"
+      },
+      {
+        "code": "JP-35",
+        "name": "山口県"
+      },
+      {
+        "code": "JP-36",
+        "name": "徳島県"
+      },
+      {
+        "code": "JP-37",
+        "name": "香川県"
+      },
+      {
+        "code": "JP-38",
+        "name": "愛媛県"
+      },
+      {
+        "code": "JP-39",
+        "name": "高知県"
+      },
+      {
+        "code": "JP-40",
+        "name": "福岡県"
+      },
+      {
+        "code": "JP-41",
+        "name": "佐賀県"
+      },
+      {
+        "code": "JP-42",
+        "name": "長崎県"
+      },
+      {
+        "code": "JP-43",
+        "name": "熊本県"
+      },
+      {
+        "code": "JP-44",
+        "name": "大分県"
+      },
+      {
+        "code": "JP-45",
+        "name": "宮崎県"
+      },
+      {
+        "code": "JP-46",
+        "name": "鹿児島県"
+      },
+      {
+        "code": "JP-47",
+        "name": "沖縄県"
+      }
+    ],
+    "B": [
+      {
+        "code": "JP-01",
+        "name": "Hokkaido"
+      },
+      {
+        "code": "JP-02",
+        "name": "Aomori"
+      },
+      {
+        "code": "JP-03",
+        "name": "Iwate"
+      },
+      {
+        "code": "JP-04",
+        "name": "Miyagi"
+      },
+      {
+        "code": "JP-05",
+        "name": "Akita"
+      },
+      {
+        "code": "JP-06",
+        "name": "Yamagata"
+      },
+      {
+        "code": "JP-07",
+        "name": "Fukushima"
+      },
+      {
+        "code": "JP-08",
+        "name": "Ibaraki"
+      },
+      {
+        "code": "JP-09",
+        "name": "Tochigi"
+      },
+      {
+        "code": "JP-10",
+        "name": "Gunma"
+      },
+      {
+        "code": "JP-11",
+        "name": "Saitama"
+      },
+      {
+        "code": "JP-12",
+        "name": "Chiba"
+      },
+      {
+        "code": "JP-13",
+        "name": "Tokyo"
+      },
+      {
+        "code": "JP-14",
+        "name": "Kanagawa"
+      },
+      {
+        "code": "JP-15",
+        "name": "Niigata"
+      },
+      {
+        "code": "JP-16",
+        "name": "Toyama"
+      },
+      {
+        "code": "JP-17",
+        "name": "Ishikawa"
+      },
+      {
+        "code": "JP-18",
+        "name": "Fukui"
+      },
+      {
+        "code": "JP-19",
+        "name": "Yamanashi"
+      },
+      {
+        "code": "JP-20",
+        "name": "Nagano"
+      },
+      {
+        "code": "JP-21",
+        "name": "Gifu"
+      },
+      {
+        "code": "JP-22",
+        "name": "Shizuoka"
+      },
+      {
+        "code": "JP-23",
+        "name": "Aichi"
+      },
+      {
+        "code": "JP-24",
+        "name": "Mie"
+      },
+      {
+        "code": "JP-25",
+        "name": "Shiga"
+      },
+      {
+        "code": "JP-26",
+        "name": "Kyoto"
+      },
+      {
+        "code": "JP-27",
+        "name": "Osaka"
+      },
+      {
+        "code": "JP-28",
+        "name": "Hyogo"
+      },
+      {
+        "code": "JP-29",
+        "name": "Nara"
+      },
+      {
+        "code": "JP-30",
+        "name": "Wakayama"
+      },
+      {
+        "code": "JP-31",
+        "name": "Tottori"
+      },
+      {
+        "code": "JP-32",
+        "name": "Shimane"
+      },
+      {
+        "code": "JP-33",
+        "name": "Okayama"
+      },
+      {
+        "code": "JP-34",
+        "name": "Hiroshima"
+      },
+      {
+        "code": "JP-35",
+        "name": "Yamaguchi"
+      },
+      {
+        "code": "JP-36",
+        "name": "Tokushima"
+      },
+      {
+        "code": "JP-37",
+        "name": "Kagawa"
+      },
+      {
+        "code": "JP-38",
+        "name": "Ehime"
+      },
+      {
+        "code": "JP-39",
+        "name": "Kochi"
+      },
+      {
+        "code": "JP-40",
+        "name": "Fukuoka"
+      },
+      {
+        "code": "JP-41",
+        "name": "Saga"
+      },
+      {
+        "code": "JP-42",
+        "name": "Nagasaki"
+      },
+      {
+        "code": "JP-43",
+        "name": "Kumamoto"
+      },
+      {
+        "code": "JP-44",
+        "name": "Oita"
+      },
+      {
+        "code": "JP-45",
+        "name": "Miyazaki"
+      },
+      {
+        "code": "JP-46",
+        "name": "Kagoshima"
+      },
+      {
+        "code": "JP-47",
+        "name": "Okinawa"
+      }
+    ]
+  },
+  "RU": {
+    "C": [
+      {
+        "code": "RU-AD",
+        "name": "Adygeya, Respublika"
+      },
+      {
+        "code": "RU-AL",
+        "name": "Altay, Respublika"
+      },
+      {
+        "code": "RU-ALT",
+        "name": "Altayskiy kray"
+      },
+      {
+        "code": "RU-AMU",
+        "name": "Amurskaya oblast'"
+      },
+      {
+        "code": "RU-ARK",
+        "name": "Arkhangel'skaya oblast'"
+      },
+      {
+        "code": "RU-AST",
+        "name": "Astrakhanskaya oblast'"
+      },
+      {
+        "code": "RU-BA",
+        "name": "Bashkortostan, Respublika"
+      },
+      {
+        "code": "RU-BEL",
+        "name": "Belgorodskaya oblast'"
+      },
+      {
+        "code": "RU-BRY",
+        "name": "Bryanskaya oblast'"
+      },
+      {
+        "code": "RU-BU",
+        "name": "Buryatiya, Respublika"
+      },
+      {
+        "code": "RU-CE",
+        "name": "Chechenskaya Respublika"
+      },
+      {
+        "code": "RU-CHE",
+        "name": "Chelyabinskaya oblast'"
+      },
+      {
+        "code": "RU-CHU",
+        "name": "Chukotskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-CU",
+        "name": "Chuvashskaya Respublika"
+      },
+      {
+        "code": "RU-DA",
+        "name": "Dagestan, Respublika"
+      },
+      {
+        "code": "RU-IN",
+        "name": "Ingushetiya, Respublika"
+      },
+      {
+        "code": "RU-IRK",
+        "name": "Irkutskaya oblast'"
+      },
+      {
+        "code": "RU-IVA",
+        "name": "Ivanovskaya oblast'"
+      },
+      {
+        "code": "RU-KAM",
+        "name": "Kamchatskiy kray"
+      },
+      {
+        "code": "RU-KB",
+        "name": "Kabardino-Balkarskaya Respublika"
+      },
+      {
+        "code": "RU-KC",
+        "name": "Karachayevo-Cherkesskaya Respublika"
+      },
+      {
+        "code": "RU-KDA",
+        "name": "Krasnodarskiy kray"
+      },
+      {
+        "code": "RU-KEM",
+        "name": "Kemerovskaya oblast'"
+      },
+      {
+        "code": "RU-KGD",
+        "name": "Kaliningradskaya oblast'"
+      },
+      {
+        "code": "RU-KGN",
+        "name": "Kurganskaya oblast'"
+      },
+      {
+        "code": "RU-KHA",
+        "name": "Khabarovskiy kray"
+      },
+      {
+        "code": "RU-KHM",
+        "name": "Khanty-Mansiyskiy avtonomnyy okrug-Yugra"
+      },
+      {
+        "code": "RU-KIR",
+        "name": "Kirovskaya oblast'"
+      },
+      {
+        "code": "RU-KK",
+        "name": "Khakasiya, Respublika"
+      },
+      {
+        "code": "RU-KL",
+        "name": "Kalmykiya, Respublika"
+      },
+      {
+        "code": "RU-KLU",
+        "name": "Kaluzhskaya oblast'"
+      },
+      {
+        "code": "RU-KO",
+        "name": "Komi, Respublika"
+      },
+      {
+        "code": "RU-KOS",
+        "name": "Kostromskaya oblast'"
+      },
+      {
+        "code": "RU-KR",
+        "name": "Kareliya, Respublika"
+      },
+      {
+        "code": "RU-KRS",
+        "name": "Kurskaya oblast'"
+      },
+      {
+        "code": "RU-KYA",
+        "name": "Krasnoyarskiy kray"
+      },
+      {
+        "code": "RU-LEN",
+        "name": "Leningradskaya oblast'"
+      },
+      {
+        "code": "RU-LIP",
+        "name": "Lipetskaya oblast'"
+      },
+      {
+        "code": "RU-MAG",
+        "name": "Magadanskaya oblast'"
+      },
+      {
+        "code": "RU-ME",
+        "name": "Mariy El, Respublika"
+      },
+      {
+        "code": "RU-MO",
+        "name": "Mordoviya, Respublika"
+      },
+      {
+        "code": "RU-MOS",
+        "name": "Moskovskaya oblast'"
+      },
+      {
+        "code": "RU-MOW",
+        "name": "Moskva"
+      },
+      {
+        "code": "RU-MUR",
+        "name": "Murmanskaya oblast'"
+      },
+      {
+        "code": "RU-NEN",
+        "name": "Nenetskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-NGR",
+        "name": "Novgorodskaya oblast'"
+      },
+      {
+        "code": "RU-NIZ",
+        "name": "Nizhegorodskaya oblast'"
+      },
+      {
+        "code": "RU-NVS",
+        "name": "Novosibirskaya oblast'"
+      },
+      {
+        "code": "RU-OMS",
+        "name": "Omskaya oblast"
+      },
+      {
+        "code": "RU-ORE",
+        "name": "Orenburgskaya oblast'"
+      },
+      {
+        "code": "RU-ORL",
+        "name": "Orlovskaya oblast'"
+      },
+      {
+        "code": "RU-PER",
+        "name": "Permskiy kray"
+      },
+      {
+        "code": "RU-PNZ",
+        "name": "Penzenskaya oblast'"
+      },
+      {
+        "code": "RU-PRI",
+        "name": "Primorskiy kray"
+      },
+      {
+        "code": "RU-PSK",
+        "name": "Pskovskaya oblast'"
+      },
+      {
+        "code": "RU-ROS",
+        "name": "Rostovskaya oblast'"
+      },
+      {
+        "code": "RU-RYA",
+        "name": "Ryazanskaya oblast'"
+      },
+      {
+        "code": "RU-SA",
+        "name": "Sakha, Respublika [Yakutiya]"
+      },
+      {
+        "code": "RU-SAK",
+        "name": "Sakhalinskaya oblast'"
+      },
+      {
+        "code": "RU-SAM",
+        "name": "Samarskaya oblast'"
+      },
+      {
+        "code": "RU-SAR",
+        "name": "Saratovskaya oblast'"
+      },
+      {
+        "code": "RU-SE",
+        "name": "Severnaya Osetiya-Alaniya, Respublika"
+      },
+      {
+        "code": "RU-SMO",
+        "name": "Smolenskaya oblast'"
+      },
+      {
+        "code": "RU-SPE",
+        "name": "Sankt-Peterburg"
+      },
+      {
+        "code": "RU-STA",
+        "name": "Stavropol'skiy kray"
+      },
+      {
+        "code": "RU-SVE",
+        "name": "Sverdlovskaya oblast'"
+      },
+      {
+        "code": "RU-TA",
+        "name": "Tatarstan, Respublika"
+      },
+      {
+        "code": "RU-TAM",
+        "name": "Tambovskaya oblast'"
+      },
+      {
+        "code": "RU-TOM",
+        "name": "Tomskaya oblast'"
+      },
+      {
+        "code": "RU-TUL",
+        "name": "Tul'skaya oblast'"
+      },
+      {
+        "code": "RU-TVE",
+        "name": "Tverskaya oblast'"
+      },
+      {
+        "code": "RU-TY",
+        "name": "Tyva, Respublika [Tuva]"
+      },
+      {
+        "code": "RU-TYU",
+        "name": "Tyumenskaya oblast'"
+      },
+      {
+        "code": "RU-UD",
+        "name": "Udmurtskaya Respublika"
+      },
+      {
+        "code": "RU-ULY",
+        "name": "Ul'yanovskaya oblast'"
+      },
+      {
+        "code": "RU-VGG",
+        "name": "Volgogradskaya oblast'"
+      },
+      {
+        "code": "RU-VLA",
+        "name": "Vladimirskaya oblast'"
+      },
+      {
+        "code": "RU-VLG",
+        "name": "Vologodskaya oblast'"
+      },
+      {
+        "code": "RU-VOR",
+        "name": "Voronezhskaya oblast"
+      },
+      {
+        "code": "RU-YAN",
+        "name": "Yamalo-Nenetskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-YAR",
+        "name": "Yaroslavskaya oblast'"
+      },
+      {
+        "code": "RU-YEV",
+        "name": "Yevreyskaya avtonomnaya oblast'"
+      },
+      {
+        "code": "RU-ZAB",
+        "name": "Zabaykal'skiy kray"
+      }
+    ],
+    "B": [
+      {
+        "code": "RU-AD",
+        "name": "Adygeya, Respublika"
+      },
+      {
+        "code": "RU-AL",
+        "name": "Altay, Respublika"
+      },
+      {
+        "code": "RU-ALT",
+        "name": "Altayskiy kray"
+      },
+      {
+        "code": "RU-AMU",
+        "name": "Amurskaya oblast'"
+      },
+      {
+        "code": "RU-ARK",
+        "name": "Arkhangel'skaya oblast'"
+      },
+      {
+        "code": "RU-AST",
+        "name": "Astrakhanskaya oblast'"
+      },
+      {
+        "code": "RU-BA",
+        "name": "Bashkortostan, Respublika"
+      },
+      {
+        "code": "RU-BEL",
+        "name": "Belgorodskaya oblast'"
+      },
+      {
+        "code": "RU-BRY",
+        "name": "Bryanskaya oblast'"
+      },
+      {
+        "code": "RU-BU",
+        "name": "Buryatiya, Respublika"
+      },
+      {
+        "code": "RU-CE",
+        "name": "Chechenskaya Respublika"
+      },
+      {
+        "code": "RU-CHE",
+        "name": "Chelyabinskaya oblast'"
+      },
+      {
+        "code": "RU-CHU",
+        "name": "Chukotskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-CU",
+        "name": "Chuvashskaya Respublika"
+      },
+      {
+        "code": "RU-DA",
+        "name": "Dagestan, Respublika"
+      },
+      {
+        "code": "RU-IN",
+        "name": "Ingushetiya, Respublika"
+      },
+      {
+        "code": "RU-IRK",
+        "name": "Irkutskaya oblast'"
+      },
+      {
+        "code": "RU-IVA",
+        "name": "Ivanovskaya oblast'"
+      },
+      {
+        "code": "RU-KAM",
+        "name": "Kamchatskiy kray"
+      },
+      {
+        "code": "RU-KB",
+        "name": "Kabardino-Balkarskaya Respublika"
+      },
+      {
+        "code": "RU-KC",
+        "name": "Karachayevo-Cherkesskaya Respublika"
+      },
+      {
+        "code": "RU-KDA",
+        "name": "Krasnodarskiy kray"
+      },
+      {
+        "code": "RU-KEM",
+        "name": "Kemerovskaya oblast'"
+      },
+      {
+        "code": "RU-KGD",
+        "name": "Kaliningradskaya oblast'"
+      },
+      {
+        "code": "RU-KGN",
+        "name": "Kurganskaya oblast'"
+      },
+      {
+        "code": "RU-KHA",
+        "name": "Khabarovskiy kray"
+      },
+      {
+        "code": "RU-KHM",
+        "name": "Khanty-Mansiyskiy avtonomnyy okrug-Yugra"
+      },
+      {
+        "code": "RU-KIR",
+        "name": "Kirovskaya oblast'"
+      },
+      {
+        "code": "RU-KK",
+        "name": "Khakasiya, Respublika"
+      },
+      {
+        "code": "RU-KL",
+        "name": "Kalmykiya, Respublika"
+      },
+      {
+        "code": "RU-KLU",
+        "name": "Kaluzhskaya oblast'"
+      },
+      {
+        "code": "RU-KO",
+        "name": "Komi, Respublika"
+      },
+      {
+        "code": "RU-KOS",
+        "name": "Kostromskaya oblast'"
+      },
+      {
+        "code": "RU-KR",
+        "name": "Kareliya, Respublika"
+      },
+      {
+        "code": "RU-KRS",
+        "name": "Kurskaya oblast'"
+      },
+      {
+        "code": "RU-KYA",
+        "name": "Krasnoyarskiy kray"
+      },
+      {
+        "code": "RU-LEN",
+        "name": "Leningradskaya oblast'"
+      },
+      {
+        "code": "RU-LIP",
+        "name": "Lipetskaya oblast'"
+      },
+      {
+        "code": "RU-MAG",
+        "name": "Magadanskaya oblast'"
+      },
+      {
+        "code": "RU-ME",
+        "name": "Mariy El, Respublika"
+      },
+      {
+        "code": "RU-MO",
+        "name": "Mordoviya, Respublika"
+      },
+      {
+        "code": "RU-MOS",
+        "name": "Moskovskaya oblast'"
+      },
+      {
+        "code": "RU-MOW",
+        "name": "Moskva"
+      },
+      {
+        "code": "RU-MUR",
+        "name": "Murmanskaya oblast'"
+      },
+      {
+        "code": "RU-NEN",
+        "name": "Nenetskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-NGR",
+        "name": "Novgorodskaya oblast'"
+      },
+      {
+        "code": "RU-NIZ",
+        "name": "Nizhegorodskaya oblast'"
+      },
+      {
+        "code": "RU-NVS",
+        "name": "Novosibirskaya oblast'"
+      },
+      {
+        "code": "RU-OMS",
+        "name": "Omskaya oblast'"
+      },
+      {
+        "code": "RU-ORE",
+        "name": "Orenburgskaya oblast'"
+      },
+      {
+        "code": "RU-ORL",
+        "name": "Orlovskaya oblast'"
+      },
+      {
+        "code": "RU-PER",
+        "name": "Permskiy kray"
+      },
+      {
+        "code": "RU-PNZ",
+        "name": "Penzenskaya oblast'"
+      },
+      {
+        "code": "RU-PRI",
+        "name": "Primorskiy kray"
+      },
+      {
+        "code": "RU-PSK",
+        "name": "Pskovskaya oblast'"
+      },
+      {
+        "code": "RU-ROS",
+        "name": "Rostovskaya oblast'"
+      },
+      {
+        "code": "RU-RYA",
+        "name": "Ryazanskaya oblast'"
+      },
+      {
+        "code": "RU-SA",
+        "name": "Sakha, Respublika [Yakutiya]"
+      },
+      {
+        "code": "RU-SAK",
+        "name": "Sakhalinskaya oblast'"
+      },
+      {
+        "code": "RU-SAM",
+        "name": "Samarskaya oblast'"
+      },
+      {
+        "code": "RU-SAR",
+        "name": "Saratovskaya oblast'"
+      },
+      {
+        "code": "RU-SE",
+        "name": "Severnaya Osetiya-Alaniya, Respublika"
+      },
+      {
+        "code": "RU-SMO",
+        "name": "Smolenskaya oblast'"
+      },
+      {
+        "code": "RU-SPE",
+        "name": "Sankt-Peterburg"
+      },
+      {
+        "code": "RU-STA",
+        "name": "Stavropol'skiy kray"
+      },
+      {
+        "code": "RU-SVE",
+        "name": "Sverdlovskaya oblast'"
+      },
+      {
+        "code": "RU-TA",
+        "name": "Tatarstan, Respublika"
+      },
+      {
+        "code": "RU-TAM",
+        "name": "Tambovskaya oblast'"
+      },
+      {
+        "code": "RU-TOM",
+        "name": "Tomskaya oblast'"
+      },
+      {
+        "code": "RU-TUL",
+        "name": "Tul'skaya oblast'"
+      },
+      {
+        "code": "RU-TVE",
+        "name": "Tverskaya oblast'"
+      },
+      {
+        "code": "RU-TY",
+        "name": "Tyva, Respublika [Tuva]"
+      },
+      {
+        "code": "RU-TYU",
+        "name": "Tyumenskaya oblast'"
+      },
+      {
+        "code": "RU-UD",
+        "name": "Udmurtskaya Respublika"
+      },
+      {
+        "code": "RU-ULY",
+        "name": "Ul'yanovskaya oblast'"
+      },
+      {
+        "code": "RU-VGG",
+        "name": "Volgogradskaya oblast'"
+      },
+      {
+        "code": "RU-VLA",
+        "name": "Vladimirskaya oblast'"
+      },
+      {
+        "code": "RU-VLG",
+        "name": "Vologodskaya oblast'"
+      },
+      {
+        "code": "RU-VOR",
+        "name": "Voronezhskaya oblast'"
+      },
+      {
+        "code": "RU-YAN",
+        "name": "Yamalo-Nenetskiy avtonomnyy okrug"
+      },
+      {
+        "code": "RU-YAR",
+        "name": "Yaroslavskaya oblast'"
+      },
+      {
+        "code": "RU-YEV",
+        "name": "Yevreyskaya avtonomnaya oblast'"
+      },
+      {
+        "code": "RU-ZAB",
+        "name": "Zabaykal'skiy kray"
+      }
+    ]
+  },
+  "SE": {
+    "C": [
+      {
+        "code": "SE-K",
+        "name": "Blekinge"
+      },
+      {
+        "code": "SE-W",
+        "name": "Dalarnas"
+      },
+      {
+        "code": "SE-I",
+        "name": "Gotlands"
+      },
+      {
+        "code": "SE-X",
+        "name": "Gävleborgs"
+      },
+      {
+        "code": "SE-N",
+        "name": "Hallands"
+      },
+      {
+        "code": "SE-Z",
+        "name": "Jämtlands"
+      },
+      {
+        "code": "SE-F",
+        "name": "Jönköpings"
+      },
+      {
+        "code": "SE-H",
+        "name": "Kalmar"
+      },
+      {
+        "code": "SE-G",
+        "name": "Kronobergs"
+      },
+      {
+        "code": "SE-BD",
+        "name": "Norrbottens"
+      },
+      {
+        "code": "SE-M",
+        "name": "Skåne"
+      },
+      {
+        "code": "SE-AB",
+        "name": "Stockholms"
+      },
+      {
+        "code": "SE-D",
+        "name": "Södermanlands"
+      },
+      {
+        "code": "SE-C",
+        "name": "Uppsala"
+      },
+      {
+        "code": "SE-S",
+        "name": "Värmlands"
+      },
+      {
+        "code": "SE-AC",
+        "name": "Västerbottens"
+      },
+      {
+        "code": "SE-Y",
+        "name": "Västernorrlands"
+      },
+      {
+        "code": "SE-U",
+        "name": "Västmanlands"
+      },
+      {
+        "code": "SE-O",
+        "name": "Västra Götalands"
+      },
+      {
+        "code": "SE-T",
+        "name": "Örebro"
+      },
+      {
+        "code": "SE-E",
+        "name": "Östergötlands"
+      }
+    ],
+    "B": []
+  }
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package user;
+option go_package = "winse/user";
+
+service UserCli {
+  rpc GetUser(UserParam) returns (UserResp) {}
+}
+
+message UserParam {
+  uint64 id = 1;
+}
+
+message UserResp {
+  uint64 id = 1;
+  string name = 2;
+}

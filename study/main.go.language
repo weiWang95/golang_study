@@ -1,0 +1,924 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+)
+
+var s1 = `[{"key":"zh-CN","title":"Simplified Chinese","official":true},{"key":"zh-TW","title":"Traditional Chinese","official":true},{"key":"en","title":"English","official":true},{"key":"th","title":"Thai","official":true},{"key":"fr","title":"French","official":true},{"key":"ko","title":"Korean","official":true},{"key":"ja","title":"Japanese","official":true},{"key":"es","title":"Spanish","official":true},{"key":"pt-PT","title":"Portuguese","official":true},{"key":"ru","title":"Russian","official":true},{"key":"it","title":"Italian","official":true},{"key":"ar","title":"Arabic(Saudi Arabia)","official":false},{"key":"id","title":"Indonesian","official":true},{"key":"de","title":"German","official":true},{"key":"nl","title":"Dutch","official":true},{"key":"pl","title":"Polish","official":true},{"key":"af","title":"Afrikaans","official":false},{"key":"sq","title":"Albanian","official":false},{"key":"am","title":"Amharic","official":false},{"key":"hy","title":"Armenian","official":false},{"key":"az","title":"Azerbaijani","official":false},{"key":"eu","title":"Basque","official":false},{"key":"be","title":"Belarusian","official":false},{"key":"bn","title":"Bengali","official":false},{"key":"bs","title":"Bosnian","official":false},{"key":"bg","title":"Bulgarian","official":false},{"key":"ca","title":"Catalan","official":false},{"key":"ceb","title":"Cebuano","official":false},{"key":"co","title":"Corsican","official":false},{"key":"hr","title":"Croatian","official":false},{"key":"cs","title":"Czech","official":false},{"key":"da","title":"Danish","official":false},{"key":"eo","title":"Esperanto","official":false},{"key":"et","title":"Estonian","official":false},{"key":"fi","title":"Finnish","official":false},{"key":"fy","title":"Frisian","official":false},{"key":"gl","title":"Galician","official":false},{"key":"ka","title":"Georgian","official":false},{"key":"el","title":"Greek","official":false},{"key":"gu","title":"Gujarati","official":false},{"key":"ht","title":"Haitian Creole","official":false},{"key":"ha","title":"Hausa","official":false},{"key":"haw","title":"Hawaiian","official":false},{"key":"he","title":"Hebrew","official":false},{"key":"hi","title":"Hindi","official":false},{"key":"hmn","title":"Hmong","official":false},{"key":"hu","title":"Hungarian","official":false},{"key":"is","title":"Icelandic","official":false},{"key":"ig","title":"Igbo","official":false},{"key":"ga","title":"Irish","official":false},{"key":"jv","title":"Javanese","official":false},{"key":"kn","title":"Kannada","official":false},{"key":"kk","title":"Kazakh","official":false},{"key":"km","title":"Khmer","official":false},{"key":"rw","title":"Kinyarwanda","official":false},{"key":"ku","title":"Kurdish","official":false},{"key":"ky","title":"Kyrgyz","official":false},{"key":"lo","title":"Lao","official":false},{"key":"la","title":"Latin","official":false},{"key":"lv","title":"Latvian","official":false},{"key":"lt","title":"Lithuanian","official":false},{"key":"lb","title":"Luxembourgish","official":false},{"key":"mk","title":"Macedonian","official":false},{"key":"mg","title":"Malagasy","official":false},{"key":"ms","title":"Malay","official":false},{"key":"ml","title":"Malayalam","official":false},{"key":"mt","title":"Maltese","official":false},{"key":"mi","title":"Maori","official":false},{"key":"mr","title":"Marathi","official":false},{"key":"mn","title":"Mongolian","official":false},{"key":"my","title":"Myanmar (Burmese)","official":false},{"key":"ne","title":"Nepali","official":false},{"key":"no","title":"Norwegian","official":false},{"key":"ny","title":"Nyanja (Chichewa)","official":false},{"key":"or","title":"Odia (Oriya)","official":false},{"key":"ps","title":"Pashto","official":false},{"key":"fa","title":"Persian","official":false},{"key":"pa","title":"Punjabi","official":false},{"key":"ro","title":"Romanian","official":false},{"key":"sm","title":"Samoan","official":false},{"key":"gd","title":"Scots Gaelic","official":false},{"key":"sr","title":"Serbian","official":false},{"key":"st","title":"Sesotho","official":false},{"key":"sn","title":"Shona","official":false},{"key":"sd","title":"Sindhi","official":false},{"key":"si","title":"Sinhala (Sinhalese)","official":false},{"key":"sk","title":"Slovak","official":false},{"key":"sl","title":"Slovenian","official":false},{"key":"so","title":"Somali","official":false},{"key":"su","title":"Sundanese","official":false},{"key":"sw","title":"Swahili","official":false},{"key":"sv","title":"Swedish","official":false},{"key":"tl","title":"Tagalog (Filipino)","official":false},{"key":"tg","title":"Tajik","official":false},{"key":"ta","title":"Tamil","official":false},{"key":"tt","title":"Tatar","official":false},{"key":"te","title":"Telugu","official":false},{"key":"tr","title":"Turkish","official":false},{"key":"tk","title":"Turkmen","official":false},{"key":"uk","title":"Ukrainian","official":false},{"key":"ur","title":"Urdu","official":false},{"key":"ug","title":"Uyghur","official":false},{"key":"uz","title":"Uzbek","official":false},{"key":"vi","title":"Vietnamese","official":false},{"key":"cy","title":"Welsh","official":false},{"key":"xh","title":"Xhosa","official":false},{"key":"yi","title":"Yiddish","official":false},{"key":"yo","title":"Yoruba","official":false},{"key":"zu","title":"Zulu","official":false}]`
+var s2 = `[{"key":"zh-CN","title":"简体中文","official":true},{"key":"zh-TW","title":"繁体中文","official":true},{"key":"en","title":"英语","official":true},{"key":"th","title":"泰语","official":true},{"key":"fr","title":"法语","official":true},{"key":"ko","title":"韩语","official":true},{"key":"ja","title":"日语","official":true},{"key":"es","title":"西班牙语","official":true},{"key":"pt-PT","title":"葡萄牙语","official":true},{"key":"ru","title":"俄语","official":true},{"key":"it","title":"意大利语","official":true},{"key":"ar","title":"阿拉伯语(沙特阿拉伯)","official":true},{"key":"id","title":"印度尼西亚语","official":true},{"key":"de","title":"德语","official":true},{"key":"nl","title":"荷兰语","official":true},{"key":"pl","title":"波兰语","official":true},{"key":"af","title":"南非荷兰语","official":false},{"key":"sq","title":"阿尔巴尼亚语","official":false},{"key":"am","title":"阿姆哈拉语","official":false},{"key":"hy","title":"亚美尼亚语","official":false},{"key":"az","title":"阿塞拜疆语","official":false},{"key":"eu","title":"巴斯克语","official":false},{"key":"be","title":"白俄罗斯语","official":false},{"key":"bn","title":"孟加拉语","official":false},{"key":"bs","title":"波斯尼亚语","official":false},{"key":"bg","title":"保加利亚语","official":false},{"key":"ca","title":"加泰罗尼亚语","official":false},{"key":"ceb","title":"宿务语","official":false},{"key":"co","title":"科西嘉语","official":false},{"key":"hr","title":"克罗地亚语","official":false},{"key":"cs","title":"捷克语","official":false},{"key":"da","title":"丹麦语","official":false},{"key":"eo","title":"世界语","official":false},{"key":"et","title":"爱沙尼亚语","official":false},{"key":"fi","title":"芬兰语","official":false},{"key":"fy","title":"弗里斯兰语","official":false},{"key":"gl","title":"加利西亚语","official":false},{"key":"ka","title":"格鲁吉亚语","official":false},{"key":"el","title":"希腊语","official":false},{"key":"gu","title":"古吉拉特语","official":false},{"key":"ht","title":"海地克里奥尔语","official":false},{"key":"ha","title":"豪萨语","official":false},{"key":"haw","title":"夏威夷语","official":false},{"key":"he","title":"希伯来语","official":false},{"key":"hi","title":"印地语","official":false},{"key":"hmn","title":"苗语","official":false},{"key":"hu","title":"匈牙利语","official":false},{"key":"is","title":"冰岛语","official":false},{"key":"ig","title":"伊博语","official":false},{"key":"ga","title":"爱尔兰语","official":false},{"key":"jv","title":"爪哇语","official":false},{"key":"kn","title":"卡纳达语","official":false},{"key":"kk","title":"哈萨克语","official":false},{"key":"km","title":"高棉语","official":false},{"key":"rw","title":"卢旺达语","official":false},{"key":"ku","title":"库尔德语","official":false},{"key":"ky","title":"吉尔吉斯语","official":false},{"key":"lo","title":"老挝语","official":false},{"key":"la","title":"拉丁语","official":false},{"key":"lv","title":"拉脱维亚语","official":false},{"key":"lt","title":"立陶宛语","official":false},{"key":"lb","title":"卢森堡语","official":false},{"key":"mk","title":"马其顿语","official":false},{"key":"mg","title":"马尔加什语","official":false},{"key":"ms","title":"马来语","official":false},{"key":"ml","title":"马拉雅拉姆文","official":false},{"key":"mt","title":"马耳他语","official":false},{"key":"mi","title":"毛利语","official":false},{"key":"mr","title":"马拉地语","official":false},{"key":"mn","title":"蒙古语","official":false},{"key":"my","title":"缅甸语","official":false},{"key":"ne","title":"尼泊尔语","official":false},{"key":"no","title":"挪威语","official":false},{"key":"ny","title":"齐切瓦语","official":false},{"key":"or","title":"奥里亚语","official":false},{"key":"ps","title":"普什图语","official":false},{"key":"fa","title":"波斯语","official":false},{"key":"pa","title":"旁遮普语","official":false},{"key":"ro","title":" 罗马尼亚语","official":false},{"key":"sm","title":"萨摩亚语","official":false},{"key":"gd","title":"苏格兰盖尔语","official":false},{"key":"sr","title":"塞尔维亚语","official":false},{"key":"st","title":"塞索托语","official":false},{"key":"sn","title":"修纳语","official":false},{"key":"sd","title":"信德语","official":false},{"key":"si","title":"僧伽罗语","official":false},{"key":"sk","title":"斯洛伐克语","official":false},{"key":"sl","title":"斯洛文尼亚语","official":false},{"key":"so","title":"索马里语","official":false},{"key":"su","title":"巽他语","official":false},{"key":"sw","title":"斯瓦希里语","official":false},{"key":"sv","title":"瑞典语","official":false},{"key":"tl","title":"菲律宾语","official":false},{"key":"tg","title":"塔吉克语","official":false},{"key":"ta","title":"泰米尔语","official":false},{"key":"tt","title":"鞑靼语","official":false},{"key":"te","title":"泰卢固语","official":false},{"key":"tr","title":"土耳其语","official":false},{"key":"tk","title":"土库曼语","official":false},{"key":"uk","title":"乌克兰语","official":false},{"key":"ur","title":"乌尔都语","official":false},{"key":"ug","title":"维吾尔语","official":false},{"key":"uz","title":"乌兹别克语","official":false},{"key":"vi","title":"越南语","official":false},{"key":"cy","title":"威尔士语","official":false},{"key":"xh","title":"班图语","official":false},{"key":"yi","title":"意第绪语","official":false},{"key":"yo","title":"约鲁巴语","official":false},{"key":"zu","title":"祖鲁语","official":false}]`
+var s3 = `
+
+{
+  "ab": {"name": "Abkhaz", "nativeName": "аҧсуа"},
+  "aa": {"name": "Afar", "nativeName": "Afaraf"},
+  "af": {"name": "Afrikaans", "nativeName": "Afrikaans"},
+  "ak": {"name": "Akan", "nativeName": "Akan"},
+  "sq": {"name": "Albanian", "nativeName": "Shqip"},
+  "am": {"name": "Amharic", "nativeName": "አማርኛ"},
+  "ar": {"name": "Arabic", "nativeName": "العربية"},
+  "an": {"name": "Aragonese", "nativeName": "Aragonés"},
+  "hy": {"name": "Armenian", "nativeName": "Հայերեն"},
+  "as": {"name": "Assamese", "nativeName": "অসমীয়া"},
+  "av": {"name": "Avaric", "nativeName": "авар мацӀ, магӀарул мацӀ"},
+  "ae": {"name": "Avestan", "nativeName": "avesta"},
+  "ay": {"name": "Aymara", "nativeName": "aymar aru"},
+  "az": {"name": "Azerbaijani", "nativeName": "azərbaycan dili"},
+  "bm": {"name": "Bambara", "nativeName": "bamanankan"},
+  "ba": {"name": "Bashkir", "nativeName": "башҡорт теле"},
+  "eu": {"name": "Basque", "nativeName": "euskara, euskera"},
+  "be": {"name": "Belarusian", "nativeName": "Беларуская"},
+  "bn": {"name": "Bengali", "nativeName": "বাংলা"},
+  "bh": {"name": "Bihari", "nativeName": "भोजपुरी"},
+  "bi": {"name": "Bislama", "nativeName": "Bislama"},
+  "bs": {"name": "Bosnian", "nativeName": "bosanski jezik"},
+  "br": {"name": "Breton", "nativeName": "brezhoneg"},
+  "bg": {"name": "Bulgarian", "nativeName": "български език"},
+  "my": {"name": "Burmese", "nativeName": "ဗမာစာ"},
+  "ca": {"name": "Catalan; Valencian", "nativeName": "Català"},
+  "ch": {"name": "Chamorro", "nativeName": "Chamoru"},
+  "ce": {"name": "Chechen", "nativeName": "нохчийн мотт"},
+  "ny": {"name": "Chichewa; Chewa; Nyanja", "nativeName": "chiCheŵa, chinyanja"},
+  "zh": {"name": "Chinese", "nativeName": "中文 (Zhōngwén), 汉语, 漢語"},
+  "cv": {"name": "Chuvash", "nativeName": "чӑваш чӗлхи"},
+  "kw": {"name": "Cornish", "nativeName": "Kernewek"},
+  "co": {"name": "Corsican", "nativeName": "corsu, lingua corsa"},
+  "cr": {"name": "Cree", "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ"},
+  "hr": {"name": "Croatian", "nativeName": "hrvatski"},
+  "cs": {"name": "Czech", "nativeName": "česky, čeština"},
+  "da": {"name": "Danish", "nativeName": "dansk"},
+  "dv": {"name": "Divehi; Dhivehi; Maldivian;", "nativeName": "ދިވެހި"},
+  "nl": {"name": "Dutch", "nativeName": "Nederlands, Vlaams"},
+  "en": {"name": "English", "nativeName": "English"},
+  "eo": {"name": "Esperanto", "nativeName": "Esperanto"},
+  "et": {"name": "Estonian", "nativeName": "eesti, eesti keel"},
+  "ee": {"name": "Ewe", "nativeName": "Eʋegbe"},
+  "fo": {"name": "Faroese", "nativeName": "føroyskt"},
+  "fj": {"name": "Fijian", "nativeName": "vosa Vakaviti"},
+  "fi": {"name": "Finnish", "nativeName": "suomi, suomen kieli"},
+  "fr": {"name": "French", "nativeName": "français, langue française"},
+  "ff": {"name": "Fula; Fulah; Pulaar; Pular", "nativeName": "Fulfulde, Pulaar, Pular"},
+  "gl": {"name": "Galician", "nativeName": "Galego"},
+  "ka": {"name": "Georgian", "nativeName": "ქართული"},
+  "de": {"name": "German", "nativeName": "Deutsch"},
+  "el": {"name": "Greek, Modern", "nativeName": "Ελληνικά"},
+  "gn": {"name": "Guaraní", "nativeName": "Avañeẽ"},
+  "gu": {"name": "Gujarati", "nativeName": "ગુજરાતી"},
+  "ht": {"name": "Haitian; Haitian Creole", "nativeName": "Kreyòl ayisyen"},
+  "ha": {"name": "Hausa", "nativeName": "Hausa, هَوُسَ"},
+  "he": {"name": "Hebrew (modern)", "nativeName": "עברית"},
+  "hz": {"name": "Herero", "nativeName": "Otjiherero"},
+  "hi": {"name": "Hindi", "nativeName": "हिन्दी, हिंदी"},
+  "ho": {"name": "Hiri Motu", "nativeName": "Hiri Motu"},
+  "hu": {"name": "Hungarian", "nativeName": "Magyar"},
+  "ia": {"name": "Interlingua", "nativeName": "Interlingua"},
+  "id": {"name": "Indonesian", "nativeName": "Bahasa Indonesia"},
+  "ie": {"name": "Interlingue", "nativeName": "Originally called Occidental; then Interlingue after WWII"},
+  "ga": {"name": "Irish", "nativeName": "Gaeilge"},
+  "ig": {"name": "Igbo", "nativeName": "Asụsụ Igbo"},
+  "ik": {"name": "Inupiaq", "nativeName": "Iñupiaq, Iñupiatun"},
+  "io": {"name": "Ido", "nativeName": "Ido"},
+  "is": {"name": "Icelandic", "nativeName": "Íslenska"},
+  "it": {"name": "Italian", "nativeName": "Italiano"},
+  "iu": {"name": "Inuktitut", "nativeName": "ᐃᓄᒃᑎᑐᑦ"},
+  "ja": {"name": "Japanese", "nativeName": "日本語 (にほんご／にっぽんご)"},
+  "jv": {"name": "Javanese", "nativeName": "basa Jawa"},
+  "kl": {"name": "Kalaallisut, Greenlandic", "nativeName": "kalaallisut, kalaallit oqaasii"},
+  "kn": {"name": "Kannada", "nativeName": "ಕನ್ನಡ"},
+  "kr": {"name": "Kanuri", "nativeName": "Kanuri"},
+  "ks": {"name": "Kashmiri", "nativeName": "कश्मीरी, كشميري‎"},
+  "kk": {"name": "Kazakh", "nativeName": "Қазақ тілі"},
+  "km": {"name": "Khmer", "nativeName": "ភាសាខ្មែរ"},
+  "ki": {"name": "Kikuyu, Gikuyu", "nativeName": "Gĩkũyũ"},
+  "rw": {"name": "Kinyarwanda", "nativeName": "Ikinyarwanda"},
+  "ky": {"name": "Kirghiz, Kyrgyz", "nativeName": "кыргыз тили"},
+  "kv": {"name": "Komi", "nativeName": "коми кыв"},
+  "kg": {"name": "Kongo", "nativeName": "KiKongo"},
+  "ko": {"name": "Korean", "nativeName": "한국어 (韓國語), 조선말 (朝鮮語)"},
+  "ku": {"name": "Kurdish", "nativeName": "Kurdî, كوردی‎"},
+  "kj": {"name": "Kwanyama, Kuanyama", "nativeName": "Kuanyama"},
+  "la": {"name": "Latin", "nativeName": "latine, lingua latina"},
+  "lb": {"name": "Luxembourgish, Letzeburgesch", "nativeName": "Lëtzebuergesch"},
+  "lg": {"name": "Luganda", "nativeName": "Luganda"},
+  "li": {"name": "Limburgish, Limburgan, Limburger", "nativeName": "Limburgs"},
+  "ln": {"name": "Lingala", "nativeName": "Lingála"},
+  "lo": {"name": "Lao", "nativeName": "ພາສາລາວ"},
+  "lt": {"name": "Lithuanian", "nativeName": "lietuvių kalba"},
+  "lu": {"name": "Luba-Katanga", "nativeName": ""},
+  "lv": {"name": "Latvian", "nativeName": "latviešu valoda"},
+  "gv": {"name": "Manx", "nativeName": "Gaelg, Gailck"},
+  "mk": {"name": "Macedonian", "nativeName": "македонски јазик"},
+  "mg": {"name": "Malagasy", "nativeName": "Malagasy fiteny"},
+  "ms": {"name": "Malay", "nativeName": "bahasa Melayu, بهاس ملايو‎"},
+  "ml": {"name": "Malayalam", "nativeName": "മലയാളം"},
+  "mt": {"name": "Maltese", "nativeName": "Malti"},
+  "mi": {"name": "Māori", "nativeName": "te reo Māori"},
+  "mr": {"name": "Marathi (Marāṭhī)", "nativeName": "मराठी"},
+  "mh": {"name": "Marshallese", "nativeName": "Kajin M̧ajeļ"},
+  "mn": {"name": "Mongolian", "nativeName": "монгол"},
+  "na": {"name": "Nauru", "nativeName": "Ekakairũ Naoero"},
+  "nv": {"name": "Navajo, Navaho", "nativeName": "Diné bizaad, Dinékʼehǰí"},
+  "nb": {"name": "Norwegian Bokmål", "nativeName": "Norsk bokmål"},
+  "nd": {"name": "North Ndebele", "nativeName": "isiNdebele"},
+  "ne": {"name": "Nepali", "nativeName": "नेपाली"},
+  "ng": {"name": "Ndonga", "nativeName": "Owambo"},
+  "nn": {"name": "Norwegian Nynorsk", "nativeName": "Norsk nynorsk"},
+  "no": {"name": "Norwegian", "nativeName": "Norsk"},
+  "ii": {"name": "Nuosu", "nativeName": "ꆈꌠ꒿ Nuosuhxop"},
+  "nr": {"name": "South Ndebele", "nativeName": "isiNdebele"},
+  "oc": {"name": "Occitan", "nativeName": "Occitan"},
+  "oj": {"name": "Ojibwe, Ojibwa", "nativeName": "ᐊᓂᔑᓈᐯᒧᐎᓐ"},
+  "cu": {"name": "Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old Slavonic", "nativeName": "ѩзыкъ словѣньскъ"},
+  "om": {"name": "Oromo", "nativeName": "Afaan Oromoo"},
+  "or": {"name": "Oriya", "nativeName": "ଓଡ଼ିଆ"},
+  "os": {"name": "Ossetian, Ossetic", "nativeName": "ирон æвзаг"},
+  "pa": {"name": "Panjabi, Punjabi", "nativeName": "ਪੰਜਾਬੀ, پنجابی‎"},
+  "pi": {"name": "Pāli", "nativeName": "पाऴि"},
+  "fa": {"name": "Persian", "nativeName": "فارسی"},
+  "pl": {"name": "Polish", "nativeName": "polski"},
+  "ps": {"name": "Pashto, Pushto", "nativeName": "پښتو"},
+  "pt": {"name": "Portuguese", "nativeName": "Português"},
+  "qu": {"name": "Quechua", "nativeName": "Runa Simi, Kichwa"},
+  "rm": {"name": "Romansh", "nativeName": "rumantsch grischun"},
+  "rn": {"name": "Kirundi", "nativeName": "kiRundi"},
+  "ro": {"name": "Romanian, Moldavian, Moldovan", "nativeName": "română"},
+  "ru": {"name": "Russian", "nativeName": "русский язык"},
+  "sa": {"name": "Sanskrit (Saṁskṛta)", "nativeName": "संस्कृतम्"},
+  "sc": {"name": "Sardinian", "nativeName": "sardu"},
+  "sd": {"name": "Sindhi", "nativeName": "सिन्धी, سنڌي، سندھی‎"},
+  "se": {"name": "Northern Sami", "nativeName": "Davvisámegiella"},
+  "sm": {"name": "Samoan", "nativeName": "gagana faa Samoa"},
+  "sg": {"name": "Sango", "nativeName": "yângâ tî sängö"},
+  "sr": {"name": "Serbian", "nativeName": "српски језик"},
+  "gd": {"name": "Scottish Gaelic; Gaelic", "nativeName": "Gàidhlig"},
+  "sn": {"name": "Shona", "nativeName": "chiShona"},
+  "si": {"name": "Sinhala, Sinhalese", "nativeName": "සිංහල"},
+  "sk": {"name": "Slovak", "nativeName": "slovenčina"},
+  "sl": {"name": "Slovene", "nativeName": "slovenščina"},
+  "so": {"name": "Somali", "nativeName": "Soomaaliga, af Soomaali"},
+  "st": {"name": "Southern Sotho", "nativeName": "Sesotho"},
+  "es": {"name": "Spanish; Castilian", "nativeName": "español, castellano"},
+  "su": {"name": "Sundanese", "nativeName": "Basa Sunda"},
+  "sw": {"name": "Swahili", "nativeName": "Kiswahili"},
+  "ss": {"name": "Swati", "nativeName": "SiSwati"},
+  "sv": {"name": "Swedish", "nativeName": "svenska"},
+  "ta": {"name": "Tamil", "nativeName": "தமிழ்"},
+  "te": {"name": "Telugu", "nativeName": "తెలుగు"},
+  "tg": {"name": "Tajik", "nativeName": "тоҷикӣ, toğikī, تاجیکی‎"},
+  "th": {"name": "Thai", "nativeName": "ไทย"},
+  "ti": {"name": "Tigrinya", "nativeName": "ትግርኛ"},
+  "bo": {"name": "Tibetan Standard, Tibetan, Central", "nativeName": "བོད་ཡིག"},
+  "tk": {"name": "Turkmen", "nativeName": "Türkmen, Түркмен"},
+  "tl": {"name": "Tagalog", "nativeName": "Wikang Tagalog, ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"},
+  "tn": {"name": "Tswana", "nativeName": "Setswana"},
+  "to": {"name": "Tonga (Tonga Islands)", "nativeName": "faka Tonga"},
+  "tr": {"name": "Turkish", "nativeName": "Türkçe"},
+  "ts": {"name": "Tsonga", "nativeName": "Xitsonga"},
+  "tt": {"name": "Tatar", "nativeName": "татарча, tatarça, تاتارچا‎"},
+  "tw": {"name": "Twi", "nativeName": "Twi"},
+  "ty": {"name": "Tahitian", "nativeName": "Reo Tahiti"},
+  "ug": {"name": "Uighur, Uyghur", "nativeName": "Uyƣurqə, ئۇيغۇرچە‎"},
+  "uk": {"name": "Ukrainian", "nativeName": "українська"},
+  "ur": {"name": "Urdu", "nativeName": "اردو"},
+  "uz": {"name": "Uzbek", "nativeName": "zbek, Ўзбек, أۇزبېك‎"},
+  "ve": {"name": "Venda", "nativeName": "Tshivenḓa"},
+  "vi": {"name": "Vietnamese", "nativeName": "Tiếng Việt"},
+  "vo": {"name": "Volapük", "nativeName": "Volapük"},
+  "wa": {"name": "Walloon", "nativeName": "Walon"},
+  "cy": {"name": "Welsh", "nativeName": "Cymraeg"},
+  "wo": {"name": "Wolof", "nativeName": "Wollof"},
+  "fy": {"name": "Western Frisian", "nativeName": "Frysk"},
+  "xh": {"name": "Xhosa", "nativeName": "isiXhosa"},
+  "yi": {"name": "Yiddish", "nativeName": "ייִדיש"},
+  "yo": {"name": "Yoruba", "nativeName": "Yorùbá"},
+  "za": {"name": "Zhuang, Chuang", "nativeName": "Saɯ cueŋƅ, Saw cuengh"}
+}
+`
+
+type Lang struct {
+	Key   string `json:"key"`
+	Title string `json:"title"`
+}
+
+type Lang2 struct {
+	Code   string `json:"code"`
+	Name   string `json:"name"`
+	ZhName string `json:"zh_name"`
+	EnName string `json:"en_name"`
+}
+
+type Lang3 struct {
+	Name       string `json:"name"`
+	NativeName string `json:"nativeName"`
+}
+
+func main() {
+	var d1 []Lang
+	json.Unmarshal([]byte(s1), &d1)
+	// enNameMap := make(map[string]string, len(d1))
+	// for _, item := range d1 {
+	// 	enNameMap[item.Key] = item.Title
+	// }
+
+	// var d2 []Lang
+	// json.Unmarshal([]byte(s2), &d2)
+	// zhNameMap := make(map[string]string, len(d2))
+	// for _, item := range d2 {
+	// 	zhNameMap[item.Key] = item.Title
+	// }
+
+	// var d3 map[string]Lang3
+	// json.Unmarshal([]byte(s3), &d3)
+	// nameMap := make(map[string]string, len(d3))
+	// for k, item := range d3 {
+	// 	nameMap[k] = item.NativeName
+	// }
+
+	// out := make([]Lang2, 0, len(d1))
+	// for k, v := range enNameMap {
+	// 	name := nameMap[k]
+	// 	if name == "" {
+	// 		name = nameMap[k[0:2]]
+	// 	}
+
+	// 	out = append(out, Lang2{
+	// 		Code:   k,
+	// 		Name:   name,
+	// 		ZhName: zhNameMap[k],
+	// 		EnName: v,
+	// 	})
+	// }
+
+	var d4 []Lang2
+	json.Unmarshal([]byte(s4), &d4)
+	langMap := make(map[string]Lang2, len(d4))
+	for _, item := range d4 {
+		langMap[item.Code] = item
+	}
+
+	out := make([]Lang2, 0, len(d1))
+	for _, item := range d1 {
+		out = append(out, langMap[item.Key])
+	}
+
+	bs, _ := json.Marshal(out)
+	fmt.Println(string(bs))
+
+}
+
+var s4 = `[
+  {
+    "code": "gu",
+    "name": "ગુજરાતી",
+    "zh_name": "古吉拉特语",
+    "en_name": "Gujarati"
+  },
+  {
+    "code": "hi",
+    "name": "हिन्दी",
+    "zh_name": "印地语",
+    "en_name": "Hindi"
+  },
+  {
+    "code": "su",
+    "name": "Basa Sunda",
+    "zh_name": "巽他语",
+    "en_name": "Sundanese"
+  },
+  {
+    "code": "pa",
+    "name": "ਪੰਜਾਬੀ",
+    "zh_name": "旁遮普语",
+    "en_name": "Punjabi"
+  },
+  {
+    "code": "ur",
+    "name": "اردو",
+    "zh_name": "乌尔都语",
+    "en_name": "Urdu"
+  },
+  {
+    "code": "am",
+    "name": "አማርኛ",
+    "zh_name": "阿姆哈拉语",
+    "en_name": "Amharic"
+  },
+  {
+    "code": "eu",
+    "name": "euskara",
+    "zh_name": "巴斯克语",
+    "en_name": "Basque"
+  },
+  {
+    "code": "ca",
+    "name": "Català",
+    "zh_name": "加泰罗尼亚语",
+    "en_name": "Catalan"
+  },
+  {
+    "code": "haw",
+    "name": "Hausa",
+    "zh_name": "夏威夷语",
+    "en_name": "Hawaiian"
+  },
+  {
+    "code": "tl",
+    "name": "Wikang Tagalog",
+    "zh_name": "菲律宾语",
+    "en_name": "Tagalog (Filipino)"
+  },
+  {
+    "code": "ar",
+    "name": "العربية",
+    "zh_name": "阿拉伯语",
+    "en_name": "Arabic(Saudi Arabia)"
+  },
+  {
+    "code": "fi",
+    "name": "suomi",
+    "zh_name": "芬兰语",
+    "en_name": "Finnish"
+  },
+  {
+    "code": "ka",
+    "name": "ქართული",
+    "zh_name": "格鲁吉亚语",
+    "en_name": "Georgian"
+  },
+  {
+    "code": "ku",
+    "name": "Kurdî",
+    "zh_name": "库尔德语",
+    "en_name": "Kurdish"
+  },
+  {
+    "code": "uz",
+    "name": "zbek",
+    "zh_name": "乌兹别克语",
+    "en_name": "Uzbek"
+  },
+  {
+    "code": "zh-CN",
+    "name": "简体中文",
+    "zh_name": "简体中文",
+    "en_name": "Simplified Chinese"
+  },
+  {
+    "code": "lo",
+    "name": "ພາສາລາວ",
+    "zh_name": "老挝语",
+    "en_name": "Lao"
+  },
+  {
+    "code": "la",
+    "name": "lingua latina",
+    "zh_name": "拉丁语",
+    "en_name": "Latin"
+  },
+  {
+    "code": "ml",
+    "name": "മലയാളം",
+    "zh_name": "马拉雅拉姆文",
+    "en_name": "Malayalam"
+  },
+  {
+    "code": "sk",
+    "name": "slovenčina",
+    "zh_name": "斯洛伐克语",
+    "en_name": "Slovak"
+  },
+  {
+    "code": "gl",
+    "name": "Galego",
+    "zh_name": "加利西亚语",
+    "en_name": "Galician"
+  },
+  {
+    "code": "ig",
+    "name": "Asụsụ Igbo",
+    "zh_name": "伊博语",
+    "en_name": "Igbo"
+  },
+  {
+    "code": "pt-PT",
+    "name": "Português",
+    "zh_name": "葡萄牙语",
+    "en_name": "Portuguese"
+  },
+  {
+    "code": "uk",
+    "name": "українська",
+    "zh_name": "乌克兰语",
+    "en_name": "Ukrainian"
+  },
+  {
+    "code": "kk",
+    "name": "Қазақ тілі",
+    "zh_name": "哈萨克语",
+    "en_name": "Kazakh"
+  },
+  {
+    "code": "ky",
+    "name": "кыргыз тили",
+    "zh_name": "吉尔吉斯语",
+    "en_name": "Kyrgyz"
+  },
+  {
+    "code": "ps",
+    "name": "پښتو",
+    "zh_name": "普什图语",
+    "en_name": "Pashto"
+  },
+  {
+    "code": "tg",
+    "name": "тоҷикӣ",
+    "zh_name": "塔吉克语",
+    "en_name": "Tajik"
+  },
+  {
+    "code": "ceb",
+    "name": "нохчийн мотт",
+    "zh_name": "宿务语",
+    "en_name": "Cebuano"
+  },
+  {
+    "code": "ha",
+    "name": "Hausa, هَوُسَ",
+    "zh_name": "豪萨语",
+    "en_name": "Hausa"
+  },
+  {
+    "code": "ga",
+    "name": "Gaeilge",
+    "zh_name": "爱尔兰语",
+    "en_name": "Irish"
+  },
+  {
+    "code": "lb",
+    "name": "Lëtzebuergesch",
+    "zh_name": "卢森堡语",
+    "en_name": "Luxembourgish"
+  },
+  {
+    "code": "mk",
+    "name": "македонски јазик",
+    "zh_name": "马其顿语",
+    "en_name": "Macedonian"
+  },
+  {
+    "code": "da",
+    "name": "dansk",
+    "zh_name": "丹麦语",
+    "en_name": "Danish"
+  },
+  {
+    "code": "sw",
+    "name": "Kiswahili",
+    "zh_name": "斯瓦希里语",
+    "en_name": "Swahili"
+  },
+  {
+    "code": "nl",
+    "name": "Nederlands",
+    "zh_name": "荷兰语",
+    "en_name": "Dutch"
+  },
+  {
+    "code": "sr",
+    "name": "српски језик",
+    "zh_name": "塞尔维亚语",
+    "en_name": "Serbian"
+  },
+  {
+    "code": "sl",
+    "name": "slovenščina",
+    "zh_name": "斯洛文尼亚语",
+    "en_name": "Slovenian"
+  },
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "zh_name": "越南语",
+    "en_name": "Vietnamese"
+  },
+  {
+    "code": "be",
+    "name": "Беларуская",
+    "zh_name": "白俄罗斯语",
+    "en_name": "Belarusian"
+  },
+  {
+    "code": "bg",
+    "name": "български език",
+    "zh_name": "保加利亚语",
+    "en_name": "Bulgarian"
+  },
+  {
+    "code": "hr",
+    "name": "hrvatski",
+    "zh_name": "克罗地亚语",
+    "en_name": "Croatian"
+  },
+  {
+    "code": "sd",
+    "name": "سنڌي، سندھی‎",
+    "zh_name": "信德语",
+    "en_name": "Sindhi"
+  },
+  {
+    "code": "so",
+    "name": "af Soomaali",
+    "zh_name": "索马里语",
+    "en_name": "Somali"
+  },
+  {
+    "code": "th",
+    "name": "ไทย",
+    "zh_name": "泰语",
+    "en_name": "Thai"
+  },
+  {
+    "code": "cs",
+    "name": "česky",
+    "zh_name": "捷克语",
+    "en_name": "Czech"
+  },
+  {
+    "code": "hmn",
+    "name": "Hmong",
+    "zh_name": "苗语",
+    "en_name": "Hmong"
+  },
+  {
+    "code": "mn",
+    "name": "монгол",
+    "zh_name": "蒙古语",
+    "en_name": "Mongolian"
+  },
+  {
+    "code": "si",
+    "name": "සිංහල",
+    "zh_name": "僧伽罗语",
+    "en_name": "Sinhala (Sinhalese)"
+  },
+  {
+    "code": "ru",
+    "name": "русский язык",
+    "zh_name": "俄语",
+    "en_name": "Russian"
+  },
+  {
+    "code": "lt",
+    "name": "lietuvių kalba",
+    "zh_name": "立陶宛语",
+    "en_name": "Lithuanian"
+  },
+  {
+    "code": "mt",
+    "name": "Malti",
+    "zh_name": "马耳他语",
+    "en_name": "Maltese"
+  },
+  {
+    "code": "gd",
+    "name": "Gàidhlig",
+    "zh_name": "苏格兰盖尔语",
+    "en_name": "Scots Gaelic"
+  },
+  {
+    "code": "tr",
+    "name": "Türkçe",
+    "zh_name": "土耳其语",
+    "en_name": "Turkish"
+  },
+  {
+    "code": "te",
+    "name": "తెలుగు",
+    "zh_name": "泰卢固语",
+    "en_name": "Telugu"
+  },
+  {
+    "code": "bs",
+    "name": "bosanski jezik",
+    "zh_name": "波斯尼亚语",
+    "en_name": "Bosnian"
+  },
+  {
+    "code": "fy",
+    "name": "Frysk",
+    "zh_name": "弗里斯兰语",
+    "en_name": "Frisian"
+  },
+  {
+    "code": "he",
+    "name": "עברית",
+    "zh_name": "希伯来语",
+    "en_name": "Hebrew"
+  },
+  {
+    "code": "hu",
+    "name": "Magyar",
+    "zh_name": "匈牙利语",
+    "en_name": "Hungarian"
+  },
+  {
+    "code": "my",
+    "name": "ဗမာစာ",
+    "zh_name": "缅甸语",
+    "en_name": "Myanmar (Burmese)"
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "zh_name": "英语",
+    "en_name": "English"
+  },
+  {
+    "code": "fr",
+    "name": "français",
+    "zh_name": "法语",
+    "en_name": "French"
+  },
+  {
+    "code": "mr",
+    "name": "मराठी",
+    "zh_name": "马拉地语",
+    "en_name": "Marathi"
+  },
+  {
+    "code": "sv",
+    "name": "svenska",
+    "zh_name": "瑞典语",
+    "en_name": "Swedish"
+  },
+  {
+    "code": "ht",
+    "name": "Kreyòl ayisyen",
+    "zh_name": "海地克里奥尔语",
+    "en_name": "Haitian Creole"
+  },
+  {
+    "code": "cy",
+    "name": "Cymraeg",
+    "zh_name": "威尔士语",
+    "en_name": "Welsh"
+  },
+  {
+    "code": "ne",
+    "name": "नेपाली",
+    "zh_name": "尼泊尔语",
+    "en_name": "Nepali"
+  },
+  {
+    "code": "ro",
+    "name": "română",
+    "zh_name": " 罗马尼亚语",
+    "en_name": "Romanian"
+  },
+  {
+    "code": "sn",
+    "name": "chiShona",
+    "zh_name": "修纳语",
+    "en_name": "Shona"
+  },
+  {
+    "code": "eo",
+    "name": "Esperanto",
+    "zh_name": "世界语",
+    "en_name": "Esperanto"
+  },
+  {
+    "code": "rw",
+    "name": "Ikinyarwanda",
+    "zh_name": "卢旺达语",
+    "en_name": "Kinyarwanda"
+  },
+  {
+    "code": "no",
+    "name": "Norsk",
+    "zh_name": "挪威语",
+    "en_name": "Norwegian"
+  },
+  {
+    "code": "ny",
+    "name": "chiCheŵa",
+    "zh_name": "齐切瓦语",
+    "en_name": "Nyanja (Chichewa)"
+  },
+  {
+    "code": "hy",
+    "name": "Հայերեն",
+    "zh_name": "亚美尼亚语",
+    "en_name": "Armenian"
+  },
+  {
+    "code": "kn",
+    "name": "ಕನ್ನಡ",
+    "zh_name": "卡纳达语",
+    "en_name": "Kannada"
+  },
+  {
+    "code": "mi",
+    "name": "te reo Māori",
+    "zh_name": "毛利语",
+    "en_name": "Maori"
+  },
+  {
+    "code": "ja",
+    "name": "日本語",
+    "zh_name": "日语",
+    "en_name": "Japanese"
+  },
+  {
+    "code": "xh",
+    "name": "isiXhosa",
+    "zh_name": "班图语",
+    "en_name": "Xhosa"
+  },
+  {
+    "code": "bn",
+    "name": "বাংলা",
+    "zh_name": "孟加拉语",
+    "en_name": "Bengali"
+  },
+  {
+    "code": "st",
+    "name": "Sesotho",
+    "zh_name": "塞索托语",
+    "en_name": "Sesotho"
+  },
+  {
+    "code": "zu",
+    "name": "",
+    "zh_name": "祖鲁语",
+    "en_name": "Zulu"
+  },
+  {
+    "code": "pl",
+    "name": "polski",
+    "zh_name": "波兰语",
+    "en_name": "Polish"
+  },
+  {
+    "code": "sm",
+    "name": "gagana faa Samoa",
+    "zh_name": "萨摩亚语",
+    "en_name": "Samoan"
+  },
+  {
+    "code": "ug",
+    "name": "Uyƣurqə",
+    "zh_name": "维吾尔语",
+    "en_name": "Uyghur"
+  },
+  {
+    "code": "it",
+    "name": "Italiano",
+    "zh_name": "意大利语",
+    "en_name": "Italian"
+  },
+  {
+    "code": "sq",
+    "name": "Shqip",
+    "zh_name": "阿尔巴尼亚语",
+    "en_name": "Albanian"
+  },
+  {
+    "code": "km",
+    "name": "ភាសាខ្មែរ",
+    "zh_name": "高棉语",
+    "en_name": "Khmer"
+  },
+  {
+    "code": "ta",
+    "name": "தமிழ்",
+    "zh_name": "泰米尔语",
+    "en_name": "Tamil"
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "zh_name": "德语",
+    "en_name": "German"
+  },
+  {
+    "code": "af",
+    "name": "Afrikaans",
+    "zh_name": "南非荷兰语",
+    "en_name": "Afrikaans"
+  },
+  {
+    "code": "is",
+    "name": "Íslenska",
+    "zh_name": "冰岛语",
+    "en_name": "Icelandic"
+  },
+  {
+    "code": "lv",
+    "name": "latviešu valoda",
+    "zh_name": "拉脱维亚语",
+    "en_name": "Latvian"
+  },
+  {
+    "code": "az",
+    "name": "azərbaycan dili",
+    "zh_name": "阿塞拜疆语",
+    "en_name": "Azerbaijani"
+  },
+  {
+    "code": "jv",
+    "name": "basa Jawa",
+    "zh_name": "爪哇语",
+    "en_name": "Javanese"
+  },
+  {
+    "code": "ms",
+    "name": "bahasa Melayu",
+    "zh_name": "马来语",
+    "en_name": "Malay"
+  },
+  {
+    "code": "tt",
+    "name": "татарча",
+    "zh_name": "鞑靼语",
+    "en_name": "Tatar"
+  },
+  {
+    "code": "mg",
+    "name": "Malagasy fiteny",
+    "zh_name": "马尔加什语",
+    "en_name": "Malagasy"
+  },
+  {
+    "code": "tk",
+    "name": "Türkmen",
+    "zh_name": "土库曼语",
+    "en_name": "Turkmen"
+  },
+  {
+    "code": "yo",
+    "name": "Yorùbá",
+    "zh_name": "约鲁巴语",
+    "en_name": "Yoruba"
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "zh_name": "韩语",
+    "en_name": "Korean"
+  },
+  {
+    "code": "es",
+    "name": "español",
+    "zh_name": "西班牙语",
+    "en_name": "Spanish"
+  },
+  {
+    "code": "co",
+    "name": "lingua corsa",
+    "zh_name": "科西嘉语",
+    "en_name": "Corsican"
+  },
+  {
+    "code": "id",
+    "name": "Bahasa Indonesia",
+    "zh_name": "印度尼西亚语",
+    "en_name": "Indonesian"
+  },
+  {
+    "code": "et",
+    "name": "eesti",
+    "zh_name": "爱沙尼亚语",
+    "en_name": "Estonian"
+  },
+  {
+    "code": "el",
+    "name": "Ελληνικά",
+    "zh_name": "希腊语",
+    "en_name": "Greek"
+  },
+  {
+    "code": "zh-TW",
+    "name": "繁体中文",
+    "zh_name": "繁体中文",
+    "en_name": "Traditional Chinese"
+  },
+  {
+    "code": "or",
+    "name": "ଓଡ଼ିଆ",
+    "zh_name": "奥里亚语",
+    "en_name": "Odia (Oriya)"
+  },
+  {
+    "code": "fa",
+    "name": "فارسی",
+    "zh_name": "波斯语",
+    "en_name": "Persian"
+  },
+  {
+    "code": "yi",
+    "name": "ייִדיש",
+    "zh_name": "意第绪语",
+    "en_name": "Yiddish"
+  }
+]`

@@ -1,0 +1,648 @@
+﻿Cambridgeshire,"GB-CAM
+",,
+"Cumbria[2]
+","GB-CMA
+",,
+Derbyshire,"GB-DBY
+",,
+Devon,"GB-DEV
+",,
+East Sussex,"GB-ESX
+",,
+Essex,"GB-ESS
+",,
+Gloucestershire,"GB-GLS
+",,
+Hampshire,"GB-HAM
+",,
+Hertfordshire,"GB-HRT
+",,
+Kent,"GB-KEN
+",,
+Lancashire,"GB-LAN
+",,
+Leicestershire,"GB-LEC
+",,
+Lincolnshire,"GB-LIN
+",,
+Norfolk,"GB-NFK
+",,
+"North Yorkshire[2]
+","GB-NYK
+",,
+Nottinghamshire,"GB-NTT
+",,
+Oxfordshire,"GB-OXF
+",,
+"Somerset[2]
+","GB-SOM
+",,
+Staffordshire,"GB-STS
+",,
+Suffolk,"GB-SFK
+",,
+Surrey,"GB-SRY
+",,
+Warwickshire,"GB-WAR
+",,
+West Sussex,"GB-WSX
+",,
+Worcestershire,"GB-WOR
+",,
+"London, City of",Barking and Dagenham,"GB-BDG
+",Barnet,"GB-BNE
+",Bexley,"GB-BEX
+",Brent,"GB-BEN
+",Bromley,"GB-BRY
+",Camden,"GB-CMD
+",Croydon,"GB-CRY
+",Ealing,"GB-EAL
+",Enfield,"GB-ENF
+",Greenwich,"GB-GRE
+",Hackney,"GB-HCK
+",Hammersmith and Fulham,"GB-HMF
+",Haringey,"GB-HRY
+",Harrow,"GB-HRW
+",Havering,"GB-HAV
+",Hillingdon,"GB-HIL
+",Hounslow,"GB-HNS
+",Islington,"GB-ISL
+",Kensington and Chelsea,"GB-KEC
+",Kingston upon Thames,"GB-KTT
+",Lambeth,"GB-LBH
+",Lewisham,"GB-LEW
+",Merton,"GB-MRT
+",Newham,"GB-NWM
+",Redbridge,"GB-RDB
+",Richmond upon Thames,"GB-RIC
+",Southwark,"GB-SWK
+",Sutton,"GB-STN
+",Tower Hamlets,"GB-TWH
+",Waltham Forest,"GB-WFT
+",Wandsworth,"GB-WND
+",Westminster,"GB-WSM
+","London, City of","GB-LND
+",Wolverhampton,Barnsley,"GB-BNS
+",Birmingham,"GB-BIR
+",Bolton,"GB-BOL
+",Bradford,"GB-BRD
+",Bury,"GB-BUR
+",Calderdale,"GB-CLD
+",Coventry,"GB-COV
+",Doncaster,"GB-DNC
+",Dudley,"GB-DUD
+",Gateshead,"GB-GAT
+",Kirklees,"GB-KIR
+",Knowsley,"GB-KWL
+",Leeds,"GB-LDS
+",Liverpool,"GB-LIV
+",Manchester,"GB-MAN
+",Newcastle upon Tyne,"GB-NET
+",North Tyneside,"GB-NTY
+",Oldham,"GB-OLD
+",Rochdale,"GB-RCH
+",Rotherham,"GB-ROT
+",St Helens,"GB-SHN
+",Salford,"GB-SLF
+",Sandwell,"GB-SAW
+",Sefton,"GB-SFT
+",Sheffield,"GB-SHF
+",Solihull,"GB-SOL
+",South Tyneside,"GB-STY
+",Stockport,"GB-SKP
+",Sunderland,"GB-SND
+",Tameside,"GB-TAM
+",Trafford,"GB-TRF
+",Wakefield,"GB-WKF
+",Walsall,"GB-WLL
+",Wigan,"GB-WGN
+",Wirral,"GB-WRL
+",Wolverhampton,"GB-WLV
+",York,Bath and North East Somerset,"GB-BAS
+",Blackburn with Darwen,"GB-BBD
+",Bedford,"GB-BDF
+",Blackpool,"GB-BPL
+","Bournemouth, Christchurch and Poole","GB-BCP
+",Bracknell Forest,"GB-BRC
+",Brighton and Hove,"GB-BNH
+",Bristol,"GB-BST
+",Buckinghamshire,"GB-BKM
+",Central Bedfordshire,"GB-CBF
+",Cheshire East,"GB-CHE
+",Cheshire West and Chester,"GB-CHW
+",Cornwall,"GB-CON
+",Cumberland,"–[3]
+",Darlington,"GB-DAL
+",Derby,"GB-DER
+",Dorset,"GB-DOR
+",Durham,"GB-DUR
+",East Riding of Yorkshire,"GB-ERY
+",Halton,"GB-HAL
+",Hartlepool,"GB-HPL
+",Herefordshire,"GB-HEF
+",Isle of Wight,"GB-IOW
+",Isles of Scilly,"GB-IOS
+",Kingston upon Hull,"GB-KHL
+",Leicester,"GB-LCE
+",Luton,"GB-LUT
+",Medway,"GB-MDW
+",Middlesbrough,"GB-MDB
+",Milton Keynes,"GB-MIK
+",North East Lincolnshire,"GB-NEL
+",North Lincolnshire,"GB-NLN
+",North Northamptonshire,"GB-NNH
+","North Yorkshire
+","–[4]
+",North Somerset,"GB-NSM
+",Northumberland,"GB-NBL
+",Nottingham,"GB-NGM
+",Peterborough,"GB-PTE
+",Plymouth,"GB-PLY
+",Portsmouth,"GB-POR
+",Reading,"GB-RDG
+",Redcar and Cleveland,"GB-RCC
+",Rutland,"GB-RUT
+",Shropshire,"GB-SHR
+",Slough,"GB-SLG
+","Somerset
+","–[5]
+",South Gloucestershire,"GB-SGC
+",Southampton,"GB-STH
+",Southend-on-Sea,"GB-SOS
+",Stockton-on-Tees,"GB-STT
+",Stoke-on-Trent,"GB-STE
+",Swindon,"GB-SWD
+",Telford and Wrekin,"GB-TFW
+",Thurrock,"GB-THR
+",Torbay,"GB-TOB
+",Warrington,"GB-WRT
+",West Berkshire,"GB-WBK
+",West Northamptonshire,"GB-WNH
+",Westmorland and Furness,"–[3]
+",Wiltshire,"GB-WIL
+",Windsor and Maidenhead,"GB-WNM
+",Wokingham,"GB-WOK
+",York,"GB-YOR
+",,
+Barking and Dagenham,"GB-BDG
+",,
+Barnet,"GB-BNE
+",,
+Bexley,"GB-BEX
+",,
+Brent,"GB-BEN
+",,
+Bromley,"GB-BRY
+",,
+Camden,"GB-CMD
+",,
+Croydon,"GB-CRY
+",,
+Ealing,"GB-EAL
+",,
+Enfield,"GB-ENF
+",,
+Greenwich,"GB-GRE
+",,
+Hackney,"GB-HCK
+",,
+Hammersmith and Fulham,"GB-HMF
+",,
+Haringey,"GB-HRY
+",,
+Harrow,"GB-HRW
+",,
+Havering,"GB-HAV
+",,
+Hillingdon,"GB-HIL
+",,
+Hounslow,"GB-HNS
+",,
+Islington,"GB-ISL
+",,
+Kensington and Chelsea,"GB-KEC
+",,
+Kingston upon Thames,"GB-KTT
+",,
+Lambeth,"GB-LBH
+",,
+Lewisham,"GB-LEW
+",,
+Merton,"GB-MRT
+",,
+Newham,"GB-NWM
+",,
+Redbridge,"GB-RDB
+",,
+Richmond upon Thames,"GB-RIC
+",,
+Southwark,"GB-SWK
+",,
+Sutton,"GB-STN
+",,
+Tower Hamlets,"GB-TWH
+",,
+Waltham Forest,"GB-WFT
+",,
+Wandsworth,"GB-WND
+",,
+Westminster,"GB-WSM
+",,
+"London, City of","GB-LND
+",,
+Barnsley,"GB-BNS
+",,
+Birmingham,"GB-BIR
+",,
+Bolton,"GB-BOL
+",,
+Bradford,"GB-BRD
+",,
+Bury,"GB-BUR
+",,
+Calderdale,"GB-CLD
+",,
+Coventry,"GB-COV
+",,
+Doncaster,"GB-DNC
+",,
+Dudley,"GB-DUD
+",,
+Gateshead,"GB-GAT
+",,
+Kirklees,"GB-KIR
+",,
+Knowsley,"GB-KWL
+",,
+Leeds,"GB-LDS
+",,
+Liverpool,"GB-LIV
+",,
+Manchester,"GB-MAN
+",,
+Newcastle upon Tyne,"GB-NET
+",,
+North Tyneside,"GB-NTY
+",,
+Oldham,"GB-OLD
+",,
+Rochdale,"GB-RCH
+",,
+Rotherham,"GB-ROT
+",,
+St Helens,"GB-SHN
+",,
+Salford,"GB-SLF
+",,
+Sandwell,"GB-SAW
+",,
+Sefton,"GB-SFT
+",,
+Sheffield,"GB-SHF
+",,
+Solihull,"GB-SOL
+",,
+South Tyneside,"GB-STY
+",,
+Stockport,"GB-SKP
+",,
+Sunderland,"GB-SND
+",,
+Tameside,"GB-TAM
+",,
+Trafford,"GB-TRF
+",,
+Wakefield,"GB-WKF
+",,
+Walsall,"GB-WLL
+",,
+Wigan,"GB-WGN
+",,
+Wirral,"GB-WRL
+",,
+Wolverhampton,"GB-WLV
+",,
+Bath and North East Somerset,"GB-BAS
+",,
+Blackburn with Darwen,"GB-BBD
+",,
+Bedford,"GB-BDF
+",,
+Blackpool,"GB-BPL
+",,
+"Bournemouth, Christchurch and Poole","GB-BCP
+",,
+Bracknell Forest,"GB-BRC
+",,
+Brighton and Hove,"GB-BNH
+",,
+Bristol,"GB-BST
+",,
+Buckinghamshire,"GB-BKM
+",,
+Central Bedfordshire,"GB-CBF
+",,
+Cheshire East,"GB-CHE
+",,
+Cheshire West and Chester,"GB-CHW
+",,
+Cornwall,"GB-CON
+",,
+Cumberland,"–[3]
+",,
+Darlington,"GB-DAL
+",,
+Derby,"GB-DER
+",,
+Dorset,"GB-DOR
+",,
+Durham,"GB-DUR
+",,
+East Riding of Yorkshire,"GB-ERY
+",,
+Halton,"GB-HAL
+",,
+Hartlepool,"GB-HPL
+",,
+Herefordshire,"GB-HEF
+",,
+Isle of Wight,"GB-IOW
+",,
+Isles of Scilly,"GB-IOS
+",,
+Kingston upon Hull,"GB-KHL
+",,
+Leicester,"GB-LCE
+",,
+Luton,"GB-LUT
+",,
+Medway,"GB-MDW
+",,
+Middlesbrough,"GB-MDB
+",,
+Milton Keynes,"GB-MIK
+",,
+North East Lincolnshire,"GB-NEL
+",,
+North Lincolnshire,"GB-NLN
+",,
+North Northamptonshire,"GB-NNH
+",,
+"North Yorkshire
+","–[4]
+",,
+North Somerset,"GB-NSM
+",,
+Northumberland,"GB-NBL
+",,
+Nottingham,"GB-NGM
+",,
+Peterborough,"GB-PTE
+",,
+Plymouth,"GB-PLY
+",,
+Portsmouth,"GB-POR
+",,
+Reading,"GB-RDG
+",,
+Redcar and Cleveland,"GB-RCC
+",,
+Rutland,"GB-RUT
+",,
+Shropshire,"GB-SHR
+",,
+Slough,"GB-SLG
+",,
+"Somerset
+","–[5]
+",,
+South Gloucestershire,"GB-SGC
+",,
+Southampton,"GB-STH
+",,
+Southend-on-Sea,"GB-SOS
+",,
+Stockton-on-Tees,"GB-STT
+",,
+Stoke-on-Trent,"GB-STE
+",,
+Swindon,"GB-SWD
+",,
+Telford and Wrekin,"GB-TFW
+",,
+Thurrock,"GB-THR
+",,
+Torbay,"GB-TOB
+",,
+Warrington,"GB-WRT
+",,
+West Berkshire,"GB-WBK
+",,
+West Northamptonshire,"GB-WNH
+",,
+Westmorland and Furness,"–[3]
+",,
+Wiltshire,"GB-WIL
+",,
+Windsor and Maidenhead,"GB-WNM
+",,
+Wokingham,"GB-WOK
+",,
+York,"GB-YOR
+",,
+"Newry, Mourne and Down",Antrim and Newtownabbey,"GB-ANN
+",Ards and North Down,"GB-AND
+","Armagh City, Banbridge and Craigavon","GB-ABC
+",Belfast,"GB-BFS
+",Causeway Coast and Glens,"GB-CCG
+",Derry City and Strabane,"GB-DRS
+",Fermanagh and Omagh,"GB-FMO
+",Lisburn and Castlereagh,"GB-LBC
+",Mid and East Antrim,"GB-MEA
+",Mid Ulster,"GB-MUL
+","Newry, Mourne and Down","GB-NMD
+",West Lothian,Aberdeen,"GB-ABE
+",Aberdeenshire,"GB-ABD
+",Angus,"GB-ANS
+",Argyll and Bute,"GB-AGB
+",Clackmannanshire,"GB-CLK
+",Dumfries and Galloway,"GB-DGY
+",Dundee,"GB-DND
+",East Ayrshire,"GB-EAY
+",East Dunbartonshire,"GB-EDU
+",East Lothian,"GB-ELN
+",East Renfrewshire,"GB-ERW
+",Edinburgh,"GB-EDH
+",Eilean Siar,"GB-ELS
+",Falkirk,"GB-FAL
+",Fife,"GB-FIF
+",Glasgow,"GB-GLG
+",Highland,"GB-HLD
+",Inverclyde,"GB-IVC
+",Midlothian,"GB-MLN
+",Moray,"GB-MRY
+",North Ayrshire,"GB-NAY
+",North Lanarkshire,"GB-NLK
+",Orkney Islands,"GB-ORK
+",Perth and Kinross,"GB-PKN
+",Renfrewshire,"GB-RFW
+",Scottish Borders,"GB-SCB
+",Shetland Islands,"GB-ZET
+",South Ayrshire,"GB-SAY
+",South Lanarkshire,"GB-SLK
+",Stirling,"GB-STG
+",West Dunbartonshire,"GB-WDU
+",West Lothian,"GB-WLN
+",Wrexham County Borough,Blaenau Gwent County Borough,"GB-BGW
+",Bridgend County Borough,"GB-BGE
+",Caerphilly County Borough,"GB-CAY
+",City and County of Cardiff,"GB-CRF
+",Carmarthenshire,"GB-CMN
+",Ceredigion,"GB-CGN
+",Conwy County Borough,"GB-CWY
+",Denbighshire,"GB-DEN
+",Flintshire,"GB-FLN
+",Gwynedd,"GB-GWN
+",Isle of Anglesey,"GB-AGY
+",Merthyr Tydfil County Borough,"GB-MTY
+",Monmouthshire,"GB-MON
+",Neath Port Talbot County Borough,"GB-NTL
+",City of Newport,"GB-NWP
+",Pembrokeshire,"GB-PEM
+",Powys,"GB-POW
+",Rhondda Cynon Taf,"GB-RCT
+",City and County of Swansea,"GB-SWA
+",Torfaen,"GB-TOF
+",Vale of Glamorgan,"GB-VGL
+",Wrexham County Borough,"GB-WRX
+",,
+Antrim and Newtownabbey,"GB-ANN
+",,
+Ards and North Down,"GB-AND
+",,
+"Armagh City, Banbridge and Craigavon","GB-ABC
+",,
+Belfast,"GB-BFS
+",,
+Causeway Coast and Glens,"GB-CCG
+",,
+Derry City and Strabane,"GB-DRS
+",,
+Fermanagh and Omagh,"GB-FMO
+",,
+Lisburn and Castlereagh,"GB-LBC
+",,
+Mid and East Antrim,"GB-MEA
+",,
+Mid Ulster,"GB-MUL
+",,
+"Newry, Mourne and Down","GB-NMD
+",,
+Aberdeen,"GB-ABE
+",,
+Aberdeenshire,"GB-ABD
+",,
+Angus,"GB-ANS
+",,
+Argyll and Bute,"GB-AGB
+",,
+Clackmannanshire,"GB-CLK
+",,
+Dumfries and Galloway,"GB-DGY
+",,
+Dundee,"GB-DND
+",,
+East Ayrshire,"GB-EAY
+",,
+East Dunbartonshire,"GB-EDU
+",,
+East Lothian,"GB-ELN
+",,
+East Renfrewshire,"GB-ERW
+",,
+Edinburgh,"GB-EDH
+",,
+Eilean Siar,"GB-ELS
+",,
+Falkirk,"GB-FAL
+",,
+Fife,"GB-FIF
+",,
+Glasgow,"GB-GLG
+",,
+Highland,"GB-HLD
+",,
+Inverclyde,"GB-IVC
+",,
+Midlothian,"GB-MLN
+",,
+Moray,"GB-MRY
+",,
+North Ayrshire,"GB-NAY
+",,
+North Lanarkshire,"GB-NLK
+",,
+Orkney Islands,"GB-ORK
+",,
+Perth and Kinross,"GB-PKN
+",,
+Renfrewshire,"GB-RFW
+",,
+Scottish Borders,"GB-SCB
+",,
+Shetland Islands,"GB-ZET
+",,
+South Ayrshire,"GB-SAY
+",,
+South Lanarkshire,"GB-SLK
+",,
+Stirling,"GB-STG
+",,
+West Dunbartonshire,"GB-WDU
+",,
+West Lothian,"GB-WLN
+",,
+Blaenau Gwent County Borough,"GB-BGW
+",,
+Bridgend County Borough,"GB-BGE
+",,
+Caerphilly County Borough,"GB-CAY
+",,
+City and County of Cardiff,"GB-CRF
+",,
+Carmarthenshire,"GB-CMN
+",,
+Ceredigion,"GB-CGN
+",,
+Conwy County Borough,"GB-CWY
+",,
+Denbighshire,"GB-DEN
+",,
+Flintshire,"GB-FLN
+",,
+Gwynedd,"GB-GWN
+",,
+Isle of Anglesey,"GB-AGY
+",,
+Merthyr Tydfil County Borough,"GB-MTY
+",,
+Monmouthshire,"GB-MON
+",,
+Neath Port Talbot County Borough,"GB-NTL
+",,
+City of Newport,"GB-NWP
+",,
+Pembrokeshire,"GB-PEM
+",,
+Powys,"GB-POW
+",,
+Rhondda Cynon Taf,"GB-RCT
+",,
+City and County of Swansea,"GB-SWA
+",,
+Torfaen,"GB-TOF
+",,
+Vale of Glamorgan,"GB-VGL
+",,
+Wrexham County Borough,"GB-WRX
+",,

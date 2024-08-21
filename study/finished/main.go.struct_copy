@@ -1,0 +1,25 @@
+package main
+
+import (
+	"fmt"
+)
+
+type A struct {
+	a string
+}
+
+func (a *A) SetA(s string) {
+	a.a = s
+}
+
+type B struct {
+	A
+	b string
+}
+
+func main() {
+	b := &B{}
+	fmt.Println(b)
+	b.SetA("str")
+	fmt.Println(b)
+}

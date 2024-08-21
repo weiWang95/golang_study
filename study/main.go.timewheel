@@ -1,0 +1,177 @@
+package main
+
+import (
+	"container/list"
+	"context"
+	"fmt"
+	"time"
+
+	"github.com/google/uuid"
+	"github.com/sirupsen/logrus"
+)
+
+func main() {
+	// logrus.SetLevel(logrus.TraceLevel)
+	ctx := context.Background()
+	tw := NewTimeWheel(10, 1)
+	go tw.Run(ctx)
+
+	go func() {
+		for t := range tw.Tasks() {
+			t.Handle()
+		}
+	}()
+
+	for i := 0; i < 50; i++ {
+		func(i int) {
+			tw.Push(ctx, func() {
+				fmt.Printf("%d: %d\n", i, time.Now().Unix())
+			}, i%20)
+		}(i)
+	}
+
+	<-time.After(30 * time.Second)
+	tw.Stop()
+
+	<-time.After(5 * time.Second)
+}
+
+type TimeWheel struct {
+	interval  int
+	curNum    int
+	slotNum   int
+	slotLists []*list.List
+	pushCh    chan Task
+	execCh    chan Task
+
+	tickCh  chan struct{}
+	closeCh chan struct{}
+}
+
+func NewTimeWheel(num, interval int) *TimeWheel {
+	tw := new(TimeWheel)
+	tw.interval = interval
+	tw.slotNum = num
+	tw.slotLists = make([]*list.List, num)
+	for i, _ := range tw.slotLists {
+		tw.slotLists[i] = list.New()
+	}
+	tw.pushCh = make(chan Task)
+	tw.execCh = make(chan Task)
+	tw.tickCh = make(chan struct{})
+	tw.closeCh = make(chan struct{})
+	return tw
+}
+
+func (tw *TimeWheel) Run(ctx context.Context) error {
+	go tw.startTicker()
+
+	for {
+		select {
+		case <-ctx.Done():
+			tw.Stop()
+			return ctx.Err()
+		case t := <-tw.pushCh:
+			tw.pushTask(t)
+		case <-tw.tickCh:
+			logrus.Tracef("<- tick: cur:%d", tw.curNum)
+			tw.curNum = ((tw.curNum + 1) % tw.slotNum)
+			tw.checkCurSlot()
+		}
+	}
+}
+
+func (tw *TimeWheel) Stop() {
+	logrus.Trace("stop!!!")
+	if tw.closeCh != nil {
+		close(tw.closeCh)
+	}
+}
+
+func (tw *TimeWheel) startTicker() {
+	for {
+		select {
+		case <-tw.closeCh:
+			return
+		case <-time.After(time.Duration(tw.interval) * time.Second):
+			tw.tickCh <- struct{}{}
+		}
+	}
+}
+
+func (tw *TimeWheel) Push(ctx context.Context, handler TaskHandle, afterSec int) error {
+	step := afterSec / tw.interval
+
+	t := Task{
+		Uid:     uuid.NewString(),
+		slotIdx: step % tw.slotNum,
+		circle:  step / tw.slotNum,
+		Handle:  handler,
+	}
+
+	select {
+	case tw.pushCh <- t:
+		logrus.Tracef("push task:[%s] %d %d success", t.Uid, t.slotIdx, t.circle)
+		return nil
+	case <-ctx.Done():
+		return ctx.Err()
+	}
+}
+
+func (tw *TimeWheel) pushTask(t Task) {
+	l := tw.slotLists[t.slotIdx]
+	cur := l.Front()
+	for {
+		if cur == nil {
+			l.PushBack(&t)
+			break
+		}
+
+		if cur.Value.(*Task).circle > t.circle {
+			l.InsertBefore(&t, cur)
+			break
+		}
+
+		cur = cur.Next()
+	}
+}
+
+func (tw *TimeWheel) Tasks() <-chan Task {
+	return tw.execCh
+}
+
+func (tw *TimeWheel) checkCurSlot() {
+	l := tw.slotLists[tw.curNum]
+
+	cur := l.Front()
+	for {
+		if cur == nil {
+			break
+		}
+
+		t := cur.Value.(*Task)
+		if t.circle > 0 {
+			t.circle -= 1
+		} else {
+			n := cur.Next()
+			l.Remove(cur)
+			logrus.Tracef("try execute task:[%s] ", t.Uid)
+			tw.execCh <- *t
+			cur = n
+			continue
+		}
+
+		cur = cur.Next()
+	}
+
+}
+
+type TaskHandle func()
+
+type Task struct {
+	slotIdx int
+	circle  int
+
+	Uid    string
+	Handle TaskHandle
+}

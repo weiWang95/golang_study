@@ -1,0 +1,402 @@
+[
+  {
+    "parent": "",
+    "name": "Ilocos Sur",
+    "link": "/zh-hans/region2/ilocos-sur"
+  },
+  {
+    "parent": "",
+    "name": "Misamis Occidental",
+    "link": "/zh-hans/region2/misamis-occidental"
+  },
+  {
+    "parent": "",
+    "name": "Zamboanga Sibugay",
+    "link": "/zh-hans/region2/zamboanga-sibugay"
+  },
+  {
+    "parent": "",
+    "name": "Zambales",
+    "link": "/zh-hans/region2/zambales"
+  },
+  {
+    "parent": "",
+    "name": "Masbate",
+    "link": "/zh-hans/region2/masbate"
+  },
+  {
+    "parent": "",
+    "name": "Aurora",
+    "link": "/zh-hans/region2/aurora"
+  },
+  {
+    "parent": "",
+    "name": "Ilocos Norte",
+    "link": "/zh-hans/region2/ilocos-norte"
+  },
+  {
+    "parent": "",
+    "name": "Palawan",
+    "link": "/zh-hans/region2/palawan"
+  },
+  {
+    "parent": "",
+    "name": "Cotabato",
+    "link": "/zh-hans/region2/cotabato"
+  },
+  {
+    "parent": "",
+    "name": "South Cotabato",
+    "link": "/zh-hans/region2/south-cotabato"
+  },
+  {
+    "parent": "",
+    "name": "Negros Occidental",
+    "link": "/zh-hans/region2/negros-occidental"
+  },
+  {
+    "parent": "",
+    "name": "Camarines Sur",
+    "link": "/zh-hans/region2/camarines-sur"
+  },
+  {
+    "parent": "",
+    "name": "Catanduanes",
+    "link": "/zh-hans/region2/catanduanes"
+  },
+  {
+    "parent": "",
+    "name": "Isabela",
+    "link": "/zh-hans/region2/isabela"
+  },
+  {
+    "parent": "",
+    "name": "Agusan del Sur",
+    "link": "/zh-hans/region2/agusan-del-sur"
+  },
+  {
+    "parent": "",
+    "name": "Siquijor",
+    "link": "/zh-hans/region2/siquijor"
+  },
+  {
+    "parent": "",
+    "name": "Leyte",
+    "link": "/zh-hans/region2/leyte"
+  },
+  {
+    "parent": "",
+    "name": "Lanao del Sur",
+    "link": "/zh-hans/region2/lanao-del-sur"
+  },
+  {
+    "parent": "",
+    "name": "Northern Samar",
+    "link": "/zh-hans/region2/northern-samar"
+  },
+  {
+    "parent": "",
+    "name": "Southern Leyte",
+    "link": "/zh-hans/region2/southern-leyte"
+  },
+  {
+    "parent": "",
+    "name": "Sultan Kudarat",
+    "link": "/zh-hans/region2/sultan-kudarat"
+  },
+  {
+    "parent": "",
+    "name": "Zamboanga del Sur",
+    "link": "/zh-hans/region2/zamboanga-del-sur"
+  },
+  {
+    "parent": "",
+    "name": "Quirino",
+    "link": "/zh-hans/region2/quirino"
+  },
+  {
+    "parent": "",
+    "name": "Camarines Norte",
+    "link": "/zh-hans/region2/camarines-norte"
+  },
+  {
+    "parent": "",
+    "name": "Bulacan",
+    "link": "/zh-hans/region2/bulacan"
+  },
+  {
+    "parent": "",
+    "name": "Apayao",
+    "link": "/zh-hans/region2/apayao"
+  },
+  {
+    "parent": "",
+    "name": "Basilan",
+    "link": "/zh-hans/region2/basilan"
+  },
+  {
+    "parent": "",
+    "name": "Eastern Samar",
+    "link": "/zh-hans/region2/eastern-samar"
+  },
+  {
+    "parent": "",
+    "name": "Samar",
+    "link": "/zh-hans/region2/samar"
+  },
+  {
+    "parent": "",
+    "name": "Ifugao",
+    "link": "/zh-hans/region2/ifugao"
+  },
+  {
+    "parent": "",
+    "name": "Kalinga",
+    "link": "/zh-hans/region2/kalinga"
+  },
+  {
+    "parent": "",
+    "name": "Davao Oriental",
+    "link": "/zh-hans/region2/davao-oriental"
+  },
+  {
+    "parent": "",
+    "name": "Cebu",
+    "link": "/zh-hans/region2/cebu"
+  },
+  {
+    "parent": "",
+    "name": "Cagayan",
+    "link": "/zh-hans/region2/cagayan"
+  },
+  {
+    "parent": "",
+    "name": "Nueva Vizcaya",
+    "link": "/zh-hans/region2/nueva-vizcaya"
+  },
+  {
+    "parent": "",
+    "name": "Cavite",
+    "link": "/zh-hans/region2/cavite"
+  },
+  {
+    "parent": "",
+    "name": "Benguet",
+    "link": "/zh-hans/region2/benguet"
+  },
+  {
+    "parent": "",
+    "name": "Batanes",
+    "link": "/zh-hans/region2/batanes"
+  },
+  {
+    "parent": "",
+    "name": "Quezon",
+    "link": "/zh-hans/region2/quezon"
+  },
+  {
+    "parent": "",
+    "name": "La Union",
+    "link": "/zh-hans/region2/la-union"
+  },
+  {
+    "parent": "",
+    "name": "Romblon",
+    "link": "/zh-hans/region2/romblon"
+  },
+  {
+    "parent": "",
+    "name": "Tawi-Tawi",
+    "link": "/zh-hans/region2/tawi-tawi"
+  },
+  {
+    "parent": "",
+    "name": "Mountain Province",
+    "link": "/zh-hans/region2/mountain-province"
+  },
+  {
+    "parent": "",
+    "name": "Antique",
+    "link": "/zh-hans/region2/antique"
+  },
+  {
+    "parent": "",
+    "name": "Guimaras",
+    "link": "/zh-hans/region2/guimaras"
+  },
+  {
+    "parent": "",
+    "name": "Zamboanga del Norte",
+    "link": "/zh-hans/region2/zamboanga-del-norte"
+  },
+  {
+    "parent": "",
+    "name": "Sorsogon",
+    "link": "/zh-hans/region2/sorsogon"
+  },
+  {
+    "parent": "",
+    "name": "Davao del Norte",
+    "link": "/zh-hans/region2/davao-del-norte"
+  },
+  {
+    "parent": "",
+    "name": "Occidental Mindoro",
+    "link": "/zh-hans/region2/occidental-mindoro"
+  },
+  {
+    "parent": "",
+    "name": "Camiguin",
+    "link": "/zh-hans/region2/camiguin"
+  },
+  {
+    "parent": "",
+    "name": "Lanao del Norte",
+    "link": "/zh-hans/region2/lanao-del-norte"
+  },
+  {
+    "parent": "",
+    "name": "Dinagat Islands",
+    "link": "/zh-hans/region2/dinagat-islands"
+  },
+  {
+    "parent": "",
+    "name": "Bohol",
+    "link": "/zh-hans/region2/bohol"
+  },
+  {
+    "parent": "",
+    "name": "Marinduque",
+    "link": "/zh-hans/region2/marinduque"
+  },
+  {
+    "parent": "",
+    "name": "Bukidnon",
+    "link": "/zh-hans/region2/bukidnon"
+  },
+  {
+    "parent": "",
+    "name": "Aklan",
+    "link": "/zh-hans/region2/aklan"
+  },
+  {
+    "parent": "",
+    "name": "Capiz",
+    "link": "/zh-hans/region2/capiz"
+  },
+  {
+    "parent": "",
+    "name": "Agusan del Norte",
+    "link": "/zh-hans/region2/agusan-del-norte"
+  },
+  {
+    "parent": "",
+    "name": "Sulu",
+    "link": "/zh-hans/region2/sulu"
+  },
+  {
+    "parent": "",
+    "name": "Sarangani",
+    "link": "/zh-hans/region2/sarangani"
+  },
+  {
+    "parent": "",
+    "name": "Maguindanao",
+    "link": "/zh-hans/region2/maguindanao"
+  },
+  {
+    "parent": "",
+    "name": "Bataan",
+    "link": "/zh-hans/region2/bataan"
+  },
+  {
+    "parent": "",
+    "name": "Compostela Valley",
+    "link": "/zh-hans/region2/compostela-valley"
+  },
+  {
+    "parent": "",
+    "name": "Oriental Mindoro",
+    "link": "/zh-hans/region2/oriental-mindoro"
+  },
+  {
+    "parent": "",
+    "name": "Surigao del Norte",
+    "link": "/zh-hans/region2/surigao-del-norte"
+  },
+  {
+    "parent": "",
+    "name": "Laguna",
+    "link": "/zh-hans/region2/laguna"
+  },
+  {
+    "parent": "",
+    "name": "Negros Oriental",
+    "link": "/zh-hans/region2/negros-oriental"
+  },
+  {
+    "parent": "",
+    "name": "Davao del Sur",
+    "link": "/zh-hans/region2/davao-del-sur"
+  },
+  {
+    "parent": "",
+    "name": "Biliran",
+    "link": "/zh-hans/region2/biliran"
+  },
+  {
+    "parent": "",
+    "name": "Misamis Oriental",
+    "link": "/zh-hans/region2/misamis-oriental"
+  },
+  {
+    "parent": "",
+    "name": "Batangas",
+    "link": "/zh-hans/region2/batangas"
+  },
+  {
+    "parent": "",
+    "name": "Rizal",
+    "link": "/zh-hans/region2/rizal"
+  },
+  {
+    "parent": "",
+    "name": "Surigao del Sur",
+    "link": "/zh-hans/region2/surigao-del-sur"
+  },
+  {
+    "parent": "",
+    "name": "Nueva Ecija",
+    "link": "/zh-hans/region2/nueva-ecija"
+  },
+  {
+    "parent": "",
+    "name": "Pampanga",
+    "link": "/zh-hans/region2/pampanga"
+  },
+  {
+    "parent": "",
+    "name": "Tarlac",
+    "link": "/zh-hans/region2/tarlac"
+  },
+  {
+    "parent": "",
+    "name": "Abra",
+    "link": "/zh-hans/region2/abra"
+  },
+  {
+    "parent": "",
+    "name": "Pangasinan",
+    "link": "/zh-hans/region2/pangasinan"
+  },
+  {
+    "parent": "",
+    "name": "Albay",
+    "link": "/zh-hans/region2/albay"
+  },
+  {
+    "parent": "",
+    "name": "Iloilo",
+    "link": "/zh-hans/region2/iloilo"
+  }
+]

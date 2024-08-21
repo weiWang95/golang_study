@@ -1,0 +1,46 @@
+package main
+
+import "fmt"
+
+type Message struct {
+	Id    int
+	Name  string
+	Email string
+}
+
+type Option func(msg *Message)
+
+func WithName(name string) Option {
+	return func(msg *Message) {
+		msg.Name = name
+	}
+}
+
+func WithEmail(email string) Option {
+	return func(msg *Message) {
+		msg.Email = email
+	}
+}
+
+func newDefaultMessage() *Message {
+	return &Message{
+		Id:    1,
+		Name:  "defailt",
+		Email: "example@example.com",
+	}
+}
+
+func NewMessage(id int, opts ...Option) *Message {
+	msg := newDefaultMessage()
+	msg.Id = id
+
+	for _, opt := range opts {
+		opt(msg)
+	}
+
+	return msg
+}
+
+func main() {
+	fmt.Println(NewMessage(1, WithName("李四"), WithEmail("test@example.com")))
+}

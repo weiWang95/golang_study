@@ -1,0 +1,137 @@
+[
+  {
+    "code": "BR-PB",
+    "name": "Paraíba",
+    "link": "/zh-hans/uf/Para%C3%ADba"
+  },
+  {
+    "code": "BR-RR",
+    "name": "Roraima",
+    "link": "/zh-hans/uf/Roraima"
+  },
+  {
+    "code": "BR-RJ",
+    "name": "Rio de Janeiro",
+    "link": "/zh-hans/uf/Rio_de_Janeiro"
+  },
+  {
+    "code": "BR-RO",
+    "name": "Rondônia",
+    "link": "/zh-hans/uf/Rond%C3%B4nia"
+  },
+  {
+    "code": "BR-SE",
+    "name": "Sergipe",
+    "link": "/zh-hans/uf/Sergipe"
+  },
+  {
+    "code": "BR-AM",
+    "name": "Amazonas",
+    "link": "/zh-hans/uf/Amazonas"
+  },
+  {
+    "code": "BR-PI",
+    "name": "Piauí",
+    "link": "/zh-hans/uf/Piau%C3%AD"
+  },
+  {
+    "code": "BR-PR",
+    "name": "Paraná",
+    "link": "/zh-hans/uf/Paran%C3%A1"
+  },
+  {
+    "code": "BR-CE",
+    "name": "Ceará",
+    "link": "/zh-hans/uf/Cear%C3%A1"
+  },
+  {
+    "code": "BR-MA",
+    "name": "Maranhão",
+    "link": "/zh-hans/uf/Maranh%C3%A3o"
+  },
+  {
+    "code": "BR-TO",
+    "name": "Tocantins",
+    "link": "/zh-hans/uf/Tocantins"
+  },
+  {
+    "code": "BR-PE",
+    "name": "Pernambuco",
+    "link": "/zh-hans/uf/Pernambuco"
+  },
+  {
+    "code": "BR-RS",
+    "name": "Rio Grande do Sul",
+    "link": "/zh-hans/uf/Rio_Grande_do_Sul"
+  },
+  {
+    "code": "BR-SC",
+    "name": "Santa Catarina",
+    "link": "/zh-hans/uf/Santa_Catarina"
+  },
+  {
+    "code": "BR-AP",
+    "name": "Amapá",
+    "link": "/zh-hans/uf/Amap%C3%A1"
+  },
+  {
+    "code": "BR-ES",
+    "name": "Espírito Santo",
+    "link": "/zh-hans/uf/Esp%C3%ADrito_Santo"
+  },
+  {
+    "code": "BR-PA",
+    "name": "Pará",
+    "link": "/zh-hans/uf/Par%C3%A1"
+  },
+  {
+    "code": "BR-SP",
+    "name": "São Paulo",
+    "link": "/zh-hans/uf/S%C3%A3o_Paulo"
+  },
+  {
+    "code": "BR-RN",
+    "name": "Rio Grande do Norte",
+    "link": "/zh-hans/uf/Rio_Grande_do_Norte"
+  },
+  {
+    "code": "BR-AC",
+    "name": "Acre",
+    "link": "/zh-hans/uf/Acre"
+  },
+  {
+    "code": "BR-DF",
+    "name": "Distrito Federal",
+    "link": "/zh-hans/uf/Distrito_Federal"
+  },
+  {
+    "code": "BR-MG",
+    "name": "Minas Gerais",
+    "link": "/zh-hans/uf/Minas_Gerais"
+  },
+  {
+    "code": "BR-MS",
+    "name": "Mato Grosso do Sul",
+    "link": "/zh-hans/uf/Mato_Grosso_do_Sul"
+  },
+  {
+    "code": "BR-MT",
+    "name": "Mato Grosso",
+    "link": "/zh-hans/uf/Mato_Grosso"
+  },
+  {
+    "code": "BR-AL",
+    "name": "Alagoas",
+    "link": "/zh-hans/uf/Alagoas"
+  },
+  {
+    "code": "BR-BA",
+    "name": "Bahia",
+    "link": "/zh-hans/uf/Bahia"
+  },
+  {
+    "code": "BR-GO",
+    "name": "Goiás",
+    "link": "/zh-hans/uf/Goi%C3%A1s"
+  }
+]

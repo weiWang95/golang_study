@@ -1,0 +1,49 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	"strings"
+	"time"
+
+	"winse.com/study/httpx"
+)
+
+func main() {
+	ctx, cancel := context.WithCancel(context.Background())
+	// cli := httpx.NewHttpx(httpx.WithHost("https://shoplazza01.atlassian.site"), httpx.WithUrlPrefix("/rest/api/2"))
+	cli := httpx.NewHttpx(httpx.WithHost("https://www.baidu.com"))
+	cli.SetBeforeRequestHook(func(req *httpx.Request) {
+		req.Req.Header.Add("Content-Type", "application/json")
+	})
+
+	c := func(ctx context.Context) chan int {
+		p := make(chan int)
+
+		go func() {
+			defer close(p)
+			fmt.Println(time.Now().Unix())
+			_, err := cli.GET(ctx, "/search", map[string]interface{}{"c": "123"})
+			fmt.Println(time.Now().Unix())
+			fmt.Println(err)
+		}()
+
+		return p
+	}(ctx)
+
+	select {
+	// case <-time.After(20 * time.Millisecond):
+	case <-time.After(10 * time.Second):
+		cancel()
+	case <-c:
+	}
+}
+
+func Escape(s string) string {
+	s = strings.ReplaceAll(s, "\n", "\\n")
+	s = strings.ReplaceAll(s, "\r", "\\r")
+	s = strings.ReplaceAll(s, "\"", "\\\"")
+	s = strings.ReplaceAll(s, "\\{", "{")
+	s = strings.ReplaceAll(s, "\\[", "[")
+	return s
+}

@@ -1,0 +1,45 @@
+package main
+
+import (
+	"fmt"
+	"image"
+	"image/png"
+	"os"
+
+	"github.com/boombuler/barcode"
+	"github.com/boombuler/barcode/code128"
+	"github.com/boombuler/barcode/qr"
+)
+
+func main() {
+	// QrCode("https://www.baidu.com")
+
+	BarCode("Es.123456")
+}
+
+func BarCode(data string) {
+	d, err := code128.Encode(data)
+	fmt.Println(err)
+
+	bc, err := barcode.Scale(d, 350, 70)
+	fmt.Println(err)
+
+	SaveFile("barcode.png", bc)
+}
+
+func QrCode(url string) {
+	code, err := qr.Encode(url, qr.M, qr.Auto)
+	fmt.Println(err)
+
+	code, err = barcode.Scale(code, 256, 256)
+	fmt.Println(err)
+
+	SaveFile("qrcode.png", code)
+}
+
+func SaveFile(name string, img image.Image) {
+	f, _ := os.Create(name)
+	defer f.Close()
+
+	png.Encode(f, img)
+}

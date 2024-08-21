@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	tmp := []string{"1", "2", "3", "", ""}
+	a := make([]string, len(tmp))
+	copy(a, tmp)
+	fmt.Println(tmp)
+	fmt.Println(a)
+}

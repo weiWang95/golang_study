@@ -1,0 +1,35 @@
+package main
+
+import (
+	"fmt"
+	"regexp"
+)
+
+const (
+	GD_1 = 1 << iota
+	GD_2
+	GD_3
+	GD_4
+)
+
+var m = []int{GD_1, GD_2, GD_3, GD_4}
+
+func main() {
+	d := 0b0111
+	f := 0b0011
+
+	data := make(map[int]bool)
+
+	for _, item := range m {
+		fmt.Println(d, item, d&item, f&item)
+		if d&item > 0 {
+			data[item] = f&item > 0
+		}
+	}
+
+	fmt.Println(data)
+	fmt.Println(0b0011 | 0b0001)
+
+	re := regexp.MustCompile(`\[\^.+\..+\]`)
+	fmt.Println(re.MatchString("[^Jira (20).csv]"))
+}

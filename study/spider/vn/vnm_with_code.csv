@@ -1,0 +1,646 @@
+﻿province,province_code,city,city_code
+An Giang,VN-44,An Phú,VN-44-0
+An Giang,VN-44,Châu Phú,VN-44-1
+An Giang,VN-44,Châu Đốc,VN-44-2
+An Giang,VN-44,Chợ Mới,VN-44-3
+An Giang,VN-44,Long Xuyen Township,VN-44-4
+An Giang,VN-44,Thoại Sơn,VN-44-5
+An Giang,VN-44,Tri Tôn,VN-44-6
+An Giang,VN-44,Tịnh Biên,VN-44-7
+Bà Rịa - Vũng Tàu,VN-43,Ba Ria,VN-43-0
+Bà Rịa - Vũng Tàu,VN-43,Châu Đức,VN-43-1
+Bà Rịa - Vũng Tàu,VN-43,Côn Đảo,VN-43-2
+Bà Rịa - Vũng Tàu,VN-43,Long Điền,VN-43-3
+Bà Rịa - Vũng Tàu,VN-43,Tân Thành,VN-43-4
+Bà Rịa - Vũng Tàu,VN-43,Vũng Tàu,VN-43-5
+Bà Rịa - Vũng Tàu,VN-43,Xuyên Mộc,VN-43-6
+Bà Rịa - Vũng Tàu,VN-43,Đất Đỏ,VN-43-7
+Bắc Giang,VN-54,Bắc Giang,VN-54-0
+Bắc Giang,VN-54,Hiệp Hòa,VN-54-1
+Bắc Giang,VN-54,Lạng Giang,VN-54-2
+Bắc Giang,VN-54,Lục Nam,VN-54-3
+Bắc Giang,VN-54,Lục Ngạn,VN-54-4
+Bắc Giang,VN-54,Sơn Động,VN-54-5
+Bắc Giang,VN-54,Tân Yên,VN-54-6
+Bắc Giang,VN-54,Việt Yên,VN-54-7
+Bắc Giang,VN-54,Yên Dũng,VN-54-8
+Bắc Giang,VN-54,Yên Thế,VN-54-9
+Bắc Kạn,VN-53,Ba Bể,VN-53-0
+Bắc Kạn,VN-53,Bac Kan,VN-53-1
+Bắc Kạn,VN-53,Bạch Thông,VN-53-2
+Bắc Kạn,VN-53,Chợ Đồn,VN-53-3
+Bắc Kạn,VN-53,Na Ri,VN-53-4
+Bắc Kạn,VN-53,Ngân Sơn,VN-53-5
+Bắc Kạn,VN-53,Pác Nặm,VN-53-6
+Bắc Ninh,VN-56,Bắc Ninh,VN-56-0
+Bắc Ninh,VN-56,Gia Bình,VN-56-1
+Bắc Ninh,VN-56,Lương Tài,VN-56-2
+Bắc Ninh,VN-56,Quế Võ,VN-56-3
+Bắc Ninh,VN-56,Thuận Thành,VN-56-4
+Bắc Ninh,VN-56,Tiên Du,VN-56-5
+Bắc Ninh,VN-56,Từ Sơn,VN-56-6
+Bắc Ninh,VN-56,Yên Phong,VN-56-7
+Bạc Liêu,VN-55,Bạc Liêu,VN-55-0
+Bạc Liêu,VN-55,Giá Rai,VN-55-1
+Bạc Liêu,VN-55,Hòa Bình,VN-55-2
+Bạc Liêu,VN-55,Hồng Dân,VN-55-3
+Bạc Liêu,VN-55,Vĩnh Lợi,VN-55-4
+Bạc Liêu,VN-55,Đông Hải,VN-55-5
+Bến Tre,VN-50,Ba Tri,VN-50-0
+Bến Tre,VN-50,Bến Tre,VN-50-1
+Bến Tre,VN-50,Bình Đại,VN-50-2
+Bến Tre,VN-50,Chợ Lách,VN-50-3
+Bến Tre,VN-50,Giồng Trôm,VN-50-4
+Bến Tre,VN-50,Mỏ Cày,VN-50-5
+Bến Tre,VN-50,Thạnh Phú,VN-50-6
+Bình Dương,VN-57,Bến Cát,VN-57-0
+Bình Dương,VN-57,Dau Tieng,VN-57-1
+Bình Dương,VN-57,Di An,VN-57-2
+Bình Dương,VN-57,Phú Giáo,VN-57-3
+Bình Dương,VN-57,Thuận An,VN-57-4
+Bình Dương,VN-57,Thủ Dầu Một,VN-57-5
+Bình Dương,VN-57,Tân Uyên,VN-57-6
+Bình Phước,VN-58,Bu Dop,VN-58-0
+Bình Phước,VN-58,Bình Long,VN-58-1
+Bình Phước,VN-58,Bù Đăng,VN-58-2
+Bình Phước,VN-58,Chơn Thành,VN-58-3
+Bình Phước,VN-58,Dong Xoai,VN-58-4
+Bình Phước,VN-58,Lộc Ninh,VN-58-5
+Bình Phước,VN-58,Phước Long,VN-58-6
+Bình Phước,VN-58,Đồng Phù,VN-58-7
+Bình Thuận,VN-40,Bắc Bình,VN-40-0
+Bình Thuận,VN-40,Hàm Thuận Bắc,VN-40-1
+Bình Thuận,VN-40,Hàm Thuận Nam,VN-40-2
+Bình Thuận,VN-40,Hàm Tân,VN-40-3
+Bình Thuận,VN-40,La Gi,VN-40-4
+Bình Thuận,VN-40,Phan Thiết,VN-40-5
+Bình Thuận,VN-40,Phú Quý,VN-40-6
+Bình Thuận,VN-40,Tanh Linh,VN-40-7
+Bình Thuận,VN-40,Tuy Phong,VN-40-8
+Bình Thuận,VN-40,Đức Linh,VN-40-9
+Bình Định,VN-31,An Nhơn,VN-31-0
+Bình Định,VN-31,Hoài Nhơn,VN-31-1
+Bình Định,VN-31,Hoài Ân,VN-31-2
+Bình Định,VN-31,Phù Cát,VN-31-3
+Bình Định,VN-31,Phù Mỹ,VN-31-4
+Bình Định,VN-31,Qui Nhơn,VN-31-5
+Bình Định,VN-31,Tuy Phước,VN-31-6
+Bình Định,VN-31,Tây Sơn,VN-31-7
+Bình Định,VN-31,Van Canh,VN-31-8
+Cao Bằng,VN-04,Bảo Lâm,VN-04-0
+Cao Bằng,VN-04,Bảo Lạc,VN-04-1
+Cao Bằng,VN-04,Cao Bằng,VN-04-2
+Cao Bằng,VN-04,Hoà An,VN-04-3
+Cao Bằng,VN-04,Hà Quảng,VN-04-4
+Cao Bằng,VN-04,Hạ Lang,VN-04-5
+Cao Bằng,VN-04,Nguyên Bình,VN-04-6
+Cao Bằng,VN-04,Phục Hòa,VN-04-7
+Cao Bằng,VN-04,Quảng Yên,VN-04-8
+Cao Bằng,VN-04,Thạch An,VN-04-9
+Cao Bằng,VN-04,Thông Nông,VN-04-10
+Cao Bằng,VN-04,Trà Lĩnh,VN-04-11
+Cao Bằng,VN-04,Trùng Khánh,VN-04-12
+Cà Mau,VN-59,Cái Nước,VN-59-0
+Cà Mau,VN-59,Cà Mau,VN-59-1
+Cà Mau,VN-59,Ngọc Hiển,VN-59-2
+Cà Mau,VN-59,Năm Căn,VN-59-3
+Cà Mau,VN-59,Phú Tân,VN-59-4
+Cà Mau,VN-59,Thới Bình,VN-59-5
+Cà Mau,VN-59,Trần Văn Thời,VN-59-6
+Cà Mau,VN-59,U Minh,VN-59-7
+Cà Mau,VN-59,Đầm Dơi,VN-59-8
+Cần Thơ,VN-CT,Bình Thủy,VN-CT-0
+Cần Thơ,VN-CT,Cái Răng,VN-CT-1
+Cần Thơ,VN-CT,Cờ Đỏ,VN-CT-2
+Cần Thơ,VN-CT,Ninh Kiều,VN-CT-3
+Cần Thơ,VN-CT,Phong Điền,VN-CT-4
+Cần Thơ,VN-CT,Thốt Nốt,VN-CT-5
+Cần Thơ,VN-CT,Vĩnh Thạnh,VN-CT-6
+Cần Thơ,VN-CT,Ô Môn,VN-CT-7
+Gia Lai,VN-30,An Khê,VN-30-0
+Gia Lai,VN-30,Ayun Pa,VN-30-1
+Gia Lai,VN-30,Chư Prông,VN-30-2
+Gia Lai,VN-30,Chư Păh,VN-30-3
+Gia Lai,VN-30,Chư Sê,VN-30-4
+Gia Lai,VN-30,Ia Grai,VN-30-5
+Gia Lai,VN-30,Ia Pa,VN-30-6
+Gia Lai,VN-30,K'Bang,VN-30-7
+Gia Lai,VN-30,Krông Pa,VN-30-8
+Gia Lai,VN-30,Kông Chro,VN-30-9
+Gia Lai,VN-30,Mang Yang,VN-30-10
+Gia Lai,VN-30,Phú Thiện,VN-30-11
+Gia Lai,VN-30,Pleiku,VN-30-12
+Gia Lai,VN-30,Đắk Pơ,VN-30-13
+Gia Lai,VN-30,Đắk Đoa,VN-30-14
+Gia Lai,VN-30,Đức Cơ,VN-30-15
+Hà Giang,VN-03,Bắc Mê,VN-03-0
+Hà Giang,VN-03,Bắc Quang,VN-03-1
+Hà Giang,VN-03,Hoàng Su Phì,VN-03-2
+Hà Giang,VN-03,Hà Giang,VN-03-3
+Hà Giang,VN-03,Mèo Vạc,VN-03-4
+Hà Giang,VN-03,Quang Bình,VN-03-5
+Hà Giang,VN-03,Quản Bạ,VN-03-6
+Hà Giang,VN-03,Vị Xuyên,VN-03-7
+Hà Giang,VN-03,Xín Mần,VN-03-8
+Hà Giang,VN-03,Yên Minh,VN-03-9
+Hà Giang,VN-03,Đồng Văn,VN-03-10
+Hà Nam,VN-63,Bình Lục,VN-63-0
+Hà Nam,VN-63,Duy Tiên,VN-63-1
+Hà Nam,VN-63,Kim Bảng,VN-63-2
+Hà Nam,VN-63,Lý Nhân,VN-63-3
+Hà Nam,VN-63,Phủ Lý,VN-63-4
+Hà Nam,VN-63,Thanh Liêm,VN-63-5
+Hà Nội,VN-HN,Ba Vi,VN-HN-0
+Hà Nội,VN-HN,Ba Đình,VN-HN-1
+Hà Nội,VN-HN,Chương Mỹ,VN-HN-2
+Hà Nội,VN-HN,Cầu Giấy,VN-HN-3
+Hà Nội,VN-HN,Gia Lâm,VN-HN-4
+Hà Nội,VN-HN,Hai Bà Trưng,VN-HN-5
+Hà Nội,VN-HN,Hoài Đức,VN-HN-6
+Hà Nội,VN-HN,Hoàn Kiếm,VN-HN-7
+Hà Nội,VN-HN,Hoàng Mai,VN-HN-8
+Hà Nội,VN-HN,Hà Đông,VN-HN-9
+Hà Nội,VN-HN,Long Biên,VN-HN-10
+Hà Nội,VN-HN,Mỹ Đức,VN-HN-11
+Hà Nội,VN-HN,Phú Xuyên,VN-HN-12
+Hà Nội,VN-HN,Phúc Thọ,VN-HN-13
+Hà Nội,VN-HN,Quốc Oai,VN-HN-14
+Hà Nội,VN-HN,Sóc Sơn,VN-HN-15
+Hà Nội,VN-HN,Sơn Tây,VN-HN-16
+Hà Nội,VN-HN,Thanh Oai,VN-HN-17
+Hà Nội,VN-HN,Thanh Trì,VN-HN-18
+Hà Nội,VN-HN,Thanh Xuân,VN-HN-19
+Hà Nội,VN-HN,Thạch Thất,VN-HN-20
+Hà Nội,VN-HN,Thường Tín,VN-HN-21
+Hà Nội,VN-HN,Tây Hồ,VN-HN-22
+Hà Nội,VN-HN,Từ Liêm,VN-HN-23
+Hà Nội,VN-HN,Đan Phượng,VN-HN-24
+Hà Nội,VN-HN,Đông Anh,VN-HN-25
+Hà Nội,VN-HN,Đống Đa,VN-HN-26
+Hà Nội,VN-HN,Ứng Hoà,VN-HN-27
+Hà Tĩnh,VN-23,Can Lộc,VN-23-0
+Hà Tĩnh,VN-23,Cẩm Xuyên,VN-23-1
+Hà Tĩnh,VN-23,Hà Tĩnh,VN-23-2
+Hà Tĩnh,VN-23,Hồng Lĩnh,VN-23-3
+Hà Tĩnh,VN-23,Hương Khê,VN-23-4
+Hà Tĩnh,VN-23,Hương Sơn,VN-23-5
+Hà Tĩnh,VN-23,Kỳ Anh,VN-23-6
+Hà Tĩnh,VN-23,Nghi Xuân,VN-23-7
+Hà Tĩnh,VN-23,Thạch Hà,VN-23-8
+Hà Tĩnh,VN-23,Vũ Quang,VN-23-9
+Hà Tĩnh,VN-23,Đức Thọ,VN-23-10
+Hải Dương,VN-61,Bình Giang,VN-61-0
+Hải Dương,VN-61,Chí Linh,VN-61-1
+Hải Dương,VN-61,Cẩm Giàng,VN-61-2
+Hải Dương,VN-61,Gia Lộc,VN-61-3
+Hải Dương,VN-61,Hải Dương,VN-61-4
+Hải Dương,VN-61,Kim Thành,VN-61-5
+Hải Dương,VN-61,Kinh Môn,VN-61-6
+Hải Dương,VN-61,Nam Sách,VN-61-7
+Hải Dương,VN-61,Ninh Giang,VN-61-8
+Hải Dương,VN-61,Thanh Hà,VN-61-9
+Hải Dương,VN-61,Thanh Miện,VN-61-10
+Hải Dương,VN-61,Tứ Kỳ,VN-61-11
+Hải Phòng,VN-HP,An Dương,VN-HP-0
+Hải Phòng,VN-HP,An Lão,VN-HP-1
+Hải Phòng,VN-HP,Bach Long Vi,VN-HP-2
+Hải Phòng,VN-HP,Cát Hải,VN-HP-3
+Hải Phòng,VN-HP,Hải An,VN-HP-4
+Hải Phòng,VN-HP,Hồng Bàng,VN-HP-5
+Hải Phòng,VN-HP,Kiến An,VN-HP-6
+Hải Phòng,VN-HP,Kiến Thụy,VN-HP-7
+Hải Phòng,VN-HP,Lê Chân,VN-HP-8
+Hải Phòng,VN-HP,Ngô Quyền,VN-HP-9
+Hải Phòng,VN-HP,Thủy Nguyên,VN-HP-10
+Hải Phòng,VN-HP,Tiên Lãng,VN-HP-11
+Hải Phòng,VN-HP,Vĩnh Bảo,VN-HP-12
+Hải Phòng,VN-HP,Đồ Sơn,VN-HP-13
+Hậu Giang,VN-73,Châu Thành A,VN-73-0
+Hậu Giang,VN-73,Phụng Hiệp,VN-73-1
+Hậu Giang,VN-73,Vị Thanh,VN-73-2
+Hậu Giang,VN-73,Vị Thuỷ,VN-73-3
+Hòa Bình,VN-14,Cao Phong,VN-14-0
+Hòa Bình,VN-14,Kim Bôi,VN-14-1
+Hòa Bình,VN-14,Kỳ Sơn,VN-14-2
+Hòa Bình,VN-14,Lạc Sơn,VN-14-3
+Hòa Bình,VN-14,Lạc Thuỷ,VN-14-4
+Hòa Bình,VN-14,Lương Sơn,VN-14-5
+Hòa Bình,VN-14,Mai Châu,VN-14-6
+Hòa Bình,VN-14,Tân Lạc,VN-14-7
+Hòa Bình,VN-14,Yên Thuỷ,VN-14-8
+Hòa Bình,VN-14,Đà Bắc,VN-14-9
+Hồ Chí Minh,VN-SG,Binh Tan,VN-SG-0
+Hồ Chí Minh,VN-SG,Bình Chánh,VN-SG-1
+Hồ Chí Minh,VN-SG,Bình Thạnh,VN-SG-2
+Hồ Chí Minh,VN-SG,Cần Giờ,VN-SG-3
+Hồ Chí Minh,VN-SG,Củ Chi,VN-SG-4
+Hồ Chí Minh,VN-SG,Gò Vấp,VN-SG-5
+Hồ Chí Minh,VN-SG,Hóc Môn,VN-SG-6
+Hồ Chí Minh,VN-SG,Nhà Bè,VN-SG-7
+Hồ Chí Minh,VN-SG,Phú Nhuận,VN-SG-8
+Hồ Chí Minh,VN-SG,Quận 1,VN-SG-9
+Hồ Chí Minh,VN-SG,Quận 10,VN-SG-10
+Hồ Chí Minh,VN-SG,Quận 11,VN-SG-11
+Hồ Chí Minh,VN-SG,Quận 12,VN-SG-12
+Hồ Chí Minh,VN-SG,Quận 2,VN-SG-13
+Hồ Chí Minh,VN-SG,Quận 3,VN-SG-14
+Hồ Chí Minh,VN-SG,Quận 4,VN-SG-15
+Hồ Chí Minh,VN-SG,Quận 5,VN-SG-16
+Hồ Chí Minh,VN-SG,Quận 6,VN-SG-17
+Hồ Chí Minh,VN-SG,Quận 7,VN-SG-18
+Hồ Chí Minh,VN-SG,Quận 8,VN-SG-19
+Hồ Chí Minh,VN-SG,Quận 9,VN-SG-20
+Hồ Chí Minh,VN-SG,Thủ Đức,VN-SG-21
+Hồ Chí Minh,VN-SG,Tân Bình,VN-SG-22
+Hưng Yên,VN-66,Hưng Yên,VN-66-0
+Hưng Yên,VN-66,Khoái Châu,VN-66-1
+Hưng Yên,VN-66,Kim Động,VN-66-2
+Hưng Yên,VN-66,Mỹ Hào,VN-66-3
+Hưng Yên,VN-66,Phù Cừ,VN-66-4
+Hưng Yên,VN-66,Tiên Lữ,VN-66-5
+Hưng Yên,VN-66,Văn Giang,VN-66-6
+Hưng Yên,VN-66,Văn Lâm,VN-66-7
+Hưng Yên,VN-66,Yên Mỹ,VN-66-8
+Hưng Yên,VN-66,Ân Thi,VN-66-9
+Khánh Hòa,VN-34,Cam Lâm,VN-34-0
+Khánh Hòa,VN-34,Cam Ranh,VN-34-1
+Khánh Hòa,VN-34,Diên Khánh,VN-34-2
+Khánh Hòa,VN-34,Khánh Sơn,VN-34-3
+Khánh Hòa,VN-34,Khánh Vĩnh,VN-34-4
+Khánh Hòa,VN-34,Nha Trang,VN-34-5
+Khánh Hòa,VN-34,Ninh Hòa,VN-34-6
+Khánh Hòa,VN-34,Van Ninh,VN-34-7
+Kiên Giang,VN-47,An Biên,VN-47-0
+Kiên Giang,VN-47,An Minh,VN-47-1
+Kiên Giang,VN-47,Giồng Riềng,VN-47-2
+Kiên Giang,VN-47,Gò Quao,VN-47-3
+Kiên Giang,VN-47,Hà Tiên,VN-47-4
+Kiên Giang,VN-47,Hòn Đất,VN-47-5
+Kiên Giang,VN-47,Kiên Hải,VN-47-6
+Kiên Giang,VN-47,Kiên Lương,VN-47-7
+Kiên Giang,VN-47,Phú Quốc,VN-47-8
+Kiên Giang,VN-47,Rạch Giá,VN-47-9
+Kiên Giang,VN-47,Tân Hiệp,VN-47-10
+Kiên Giang,VN-47,U Minh Thượng,VN-47-11
+Kiên Giang,VN-47,Vĩnh Thuận,VN-47-12
+Kon Tum,VN-28,Kon Plông,VN-28-0
+Kon Tum,VN-28,Kon Rẫy,VN-28-1
+Kon Tum,VN-28,Kon Tum,VN-28-2
+Kon Tum,VN-28,Ngọc Hồi,VN-28-3
+Kon Tum,VN-28,Sa Thầy,VN-28-4
+Kon Tum,VN-28,Tu Mơ Rông,VN-28-5
+Kon Tum,VN-28,Đăk Glei,VN-28-6
+Kon Tum,VN-28,Đăk Hà,VN-28-7
+Kon Tum,VN-28,Đăk Tô,VN-28-8
+Lai Châu,VN-01,Lai Châu,VN-01-0
+Lai Châu,VN-01,Mường Tè,VN-01-1
+Lai Châu,VN-01,Phong Thổ,VN-01-2
+Lai Châu,VN-01,Sìn Hồ,VN-01-3
+Lai Châu,VN-01,Thanh Uyen,VN-01-4
+Long An,VN-41,Bến Lức,VN-41-0
+Long An,VN-41,Cần Giuộc,VN-41-1
+Long An,VN-41,Cần Đước,VN-41-2
+Long An,VN-41,Mộc Hóa,VN-41-3
+Long An,VN-41,Thanh Hóa,VN-41-4
+Long An,VN-41,Thủ Thừa,VN-41-5
+Long An,VN-41,Tân An,VN-41-6
+Long An,VN-41,Tân Hưng,VN-41-7
+Long An,VN-41,Tân Trụ,VN-41-8
+Long An,VN-41,Vĩnh Hưng,VN-41-9
+Long An,VN-41,Đức Huệ,VN-41-10
+Long An,VN-41,Đức Hòa,VN-41-11
+Lào Cai,VN-02,Bát Xát,VN-02-0
+Lào Cai,VN-02,Bắc Hà,VN-02-1
+Lào Cai,VN-02,Bảo Thắng,VN-02-2
+Lào Cai,VN-02,Bảo Yên,VN-02-3
+Lào Cai,VN-02,Lào Cai,VN-02-4
+Lào Cai,VN-02,Mường Khương,VN-02-5
+Lào Cai,VN-02,Sa Pa,VN-02-6
+Lào Cai,VN-02,Si Ma Cai,VN-02-7
+Lào Cai,VN-02,Văn Bàn,VN-02-8
+Lâm Đồng,VN-35,Bảo Lộc,VN-35-0
+Lâm Đồng,VN-35,Cát Tiên,VN-35-1
+Lâm Đồng,VN-35,Di Linh,VN-35-2
+Lâm Đồng,VN-35,Lâm Hà,VN-35-3
+Lâm Đồng,VN-35,Lạc Dương,VN-35-4
+Lâm Đồng,VN-35,Đam Rông,VN-35-5
+Lâm Đồng,VN-35,Đà Lạt,VN-35-6
+Lâm Đồng,VN-35,Đạ Huoai,VN-35-7
+Lâm Đồng,VN-35,Đạ Tẻh,VN-35-8
+Lâm Đồng,VN-35,Đơn Dương,VN-35-9
+Lâm Đồng,VN-35,Đức Trọng,VN-35-10
+Lạng Sơn,VN-09,Bắc Sơn,VN-09-0
+Lạng Sơn,VN-09,Bình Gia,VN-09-1
+Lạng Sơn,VN-09,Cao Lộc,VN-09-2
+Lạng Sơn,VN-09,Chi Lăng,VN-09-3
+Lạng Sơn,VN-09,Hữu Lũng,VN-09-4
+Lạng Sơn,VN-09,Lạng Sơn,VN-09-5
+Lạng Sơn,VN-09,Lộc Bình,VN-09-6
+Lạng Sơn,VN-09,Tràng Định,VN-09-7
+Lạng Sơn,VN-09,Văn Quan,VN-09-8
+Lạng Sơn,VN-09,Vãn Lãng,VN-09-9
+Lạng Sơn,VN-09,Đình Lập,VN-09-10
+Nam Định,VN-67,Giao Thủy,VN-67-0
+Nam Định,VN-67,Hải Hậu,VN-67-1
+Nam Định,VN-67,Mỹ Lộc,VN-67-2
+Nam Định,VN-67,Nam Trực,VN-67-3
+Nam Định,VN-67,Nam Định,VN-67-4
+Nam Định,VN-67,Nghĩa Hưng,VN-67-5
+Nam Định,VN-67,Trực Ninh,VN-67-6
+Nam Định,VN-67,Vụ Bản,VN-67-7
+Nam Định,VN-67,Xuân Trường,VN-67-8
+Nam Định,VN-67,Ý Yên,VN-67-9
+Nghệ An,VN-22,Anh Sơn,VN-22-0
+Nghệ An,VN-22,Con Cuông,VN-22-1
+Nghệ An,VN-22,Cửa Lò,VN-22-2
+Nghệ An,VN-22,Diễn Châu,VN-22-3
+Nghệ An,VN-22,Hưng Nguyên,VN-22-4
+Nghệ An,VN-22,Nam Đàn,VN-22-5
+Nghệ An,VN-22,Nghi Lộc,VN-22-6
+Nghệ An,VN-22,Nghĩa Đàn,VN-22-7
+Nghệ An,VN-22,Quế Phong,VN-22-8
+Nghệ An,VN-22,Quỳ Châu,VN-22-9
+Nghệ An,VN-22,Quỳ Hợp,VN-22-10
+Nghệ An,VN-22,Quỳnh Lưu,VN-22-11
+Nghệ An,VN-22,Thanh Chương,VN-22-12
+Nghệ An,VN-22,Thái Hòa,VN-22-13
+Nghệ An,VN-22,Tân Kỳ,VN-22-14
+Nghệ An,VN-22,Tương Dương,VN-22-15
+Nghệ An,VN-22,Vinh,VN-22-16
+Nghệ An,VN-22,Yên Thành,VN-22-17
+Nghệ An,VN-22,Đô Lương,VN-22-18
+Ninh Bình,VN-18,Gia Viễn,VN-18-0
+Ninh Bình,VN-18,Hoa Lư,VN-18-1
+Ninh Bình,VN-18,Kim Sơn,VN-18-2
+Ninh Bình,VN-18,Nho Quan,VN-18-3
+Ninh Bình,VN-18,Ninh Bình,VN-18-4
+Ninh Bình,VN-18,Tam Điệp,VN-18-5
+Ninh Bình,VN-18,Yên Khánh,VN-18-6
+Ninh Bình,VN-18,Yên Mô,VN-18-7
+Ninh Thuận,VN-36,Bác Ái,VN-36-0
+Ninh Thuận,VN-36,Ninh Hải,VN-36-1
+Ninh Thuận,VN-36,Ninh Phước,VN-36-2
+Ninh Thuận,VN-36,Ninh Sơn,VN-36-3
+Ninh Thuận,VN-36,Phan Rang-Tháp Chàm,VN-36-4
+Phú Thọ,VN-68,Cẩm Khê,VN-68-0
+Phú Thọ,VN-68,Hạ Hoà,VN-68-1
+Phú Thọ,VN-68,Lâm Thao,VN-68-2
+Phú Thọ,VN-68,Phú Ninh,VN-68-3
+Phú Thọ,VN-68,Phú Thọ,VN-68-4
+Phú Thọ,VN-68,Thanh Ba,VN-68-5
+Phú Thọ,VN-68,Thanh Sơn,VN-68-6
+Phú Thọ,VN-68,Thanh Thuỷ,VN-68-7
+Phú Thọ,VN-68,Việt Trì,VN-68-8
+Phú Thọ,VN-68,Yên Lập,VN-68-9
+Phú Thọ,VN-68,Đoan Hùng,VN-68-10
+Phú Yên,VN-32,Phú Hòa,VN-32-0
+Phú Yên,VN-32,Sông Cầu,VN-32-1
+Phú Yên,VN-32,Sông Hinh,VN-32-2
+Phú Yên,VN-32,Sơn Hòa,VN-32-3
+Phú Yên,VN-32,Tuy An,VN-32-4
+Phú Yên,VN-32,Tuy Hoa,VN-32-5
+Phú Yên,VN-32,Đông Hòa,VN-32-6
+Phú Yên,VN-32,Đồng Xuân,VN-32-7
+Quảng Bình,VN-24,Bố Trạch,VN-24-0
+Quảng Bình,VN-24,Lệ Thủy,VN-24-1
+Quảng Bình,VN-24,Minh Hóa,VN-24-2
+Quảng Bình,VN-24,Quảng Ninh,VN-24-3
+Quảng Bình,VN-24,Quảng Trạch,VN-24-4
+Quảng Bình,VN-24,Tuyen Hoa,VN-24-5
+Quảng Bình,VN-24,Đồng Hới,VN-24-6
+Quảng Nam,VN-27,Bắc Trà My,VN-27-0
+Quảng Nam,VN-27,Duy Xuyên,VN-27-1
+Quảng Nam,VN-27,Hiệp Đức,VN-27-2
+Quảng Nam,VN-27,Hội An,VN-27-3
+Quảng Nam,VN-27,Nam Giang,VN-27-4
+Quảng Nam,VN-27,Nam Trà My,VN-27-5
+Quảng Nam,VN-27,Núi Thành,VN-27-6
+Quảng Nam,VN-27,Phước Sơn,VN-27-7
+Quảng Nam,VN-27,Quế Sơn,VN-27-8
+Quảng Nam,VN-27,Tam Kỳ,VN-27-9
+Quảng Nam,VN-27,Tay Giang,VN-27-10
+Quảng Nam,VN-27,Thăng Bình,VN-27-11
+Quảng Nam,VN-27,Tiên Phước,VN-27-12
+Quảng Nam,VN-27,Điện Bàn,VN-27-13
+Quảng Nam,VN-27,Đại Lộc,VN-27-14
+Quảng Nam,VN-27,Đông Giang,VN-27-15
+Quảng Ngãi,VN-29,Ba Tơ,VN-29-0
+Quảng Ngãi,VN-29,Bình Sơn,VN-29-1
+Quảng Ngãi,VN-29,Lý Sơn,VN-29-2
+Quảng Ngãi,VN-29,Minh Long,VN-29-3
+Quảng Ngãi,VN-29,Mộ Đức,VN-29-4
+Quảng Ngãi,VN-29,Nghĩa Hành,VN-29-5
+Quảng Ngãi,VN-29,Quảng Ngãi,VN-29-6
+Quảng Ngãi,VN-29,Sơn Hà,VN-29-7
+Quảng Ngãi,VN-29,Sơn Tịnh,VN-29-8
+Quảng Ngãi,VN-29,Trà Bồng,VN-29-9
+Quảng Ngãi,VN-29,Tây Trà,VN-29-10
+Quảng Ngãi,VN-29,Tư Nghĩa,VN-29-11
+Quảng Ngãi,VN-29,Đức Phổ,VN-29-12
+Quảng Ninh,VN-13,Ba Chẽ,VN-13-0
+Quảng Ninh,VN-13,Bình Liêu,VN-13-1
+Quảng Ninh,VN-13,Cẩm Phả,VN-13-2
+Quảng Ninh,VN-13,Cô Tô,VN-13-3
+Quảng Ninh,VN-13,Hoành Bồ,VN-13-4
+Quảng Ninh,VN-13,Hải Hà,VN-13-5
+Quảng Ninh,VN-13,Hạ Long,VN-13-6
+Quảng Ninh,VN-13,Móng Cái,VN-13-7
+Quảng Ninh,VN-13,Tiên Yên,VN-13-8
+Quảng Ninh,VN-13,Uông Bí,VN-13-9
+Quảng Ninh,VN-13,Vân Đồn,VN-13-10
+Quảng Ninh,VN-13,Yên Hưng,VN-13-11
+Quảng Ninh,VN-13,Đầm Hà,VN-13-12
+Quảng Ninh,VN-13,Đông Triều,VN-13-13
+Quảng Trị,VN-25,Cam Lộ,VN-25-0
+Quảng Trị,VN-25,Cồn Cỏ,VN-25-1
+Quảng Trị,VN-25,Gio Linh,VN-25-2
+Quảng Trị,VN-25,Hải Lăng,VN-25-3
+Quảng Trị,VN-25,Hướng Hóa,VN-25-4
+Quảng Trị,VN-25,Quảng Trị,VN-25-5
+Quảng Trị,VN-25,Triệu Phong,VN-25-6
+Quảng Trị,VN-25,Vĩnh Linh,VN-25-7
+Quảng Trị,VN-25,Đa Krông,VN-25-8
+Quảng Trị,VN-25,Đông Hà,VN-25-9
+Sóc Trăng,VN-52,Cù Lao Dung,VN-52-0
+Sóc Trăng,VN-52,Kế Sách,VN-52-1
+Sóc Trăng,VN-52,Long My,VN-52-2
+Sóc Trăng,VN-52,Long Phú,VN-52-3
+Sóc Trăng,VN-52,Mỹ Tú,VN-52-4
+Sóc Trăng,VN-52,Mỹ Xuyên,VN-52-5
+Sóc Trăng,VN-52,Ngã Năm,VN-52-6
+Sóc Trăng,VN-52,Vĩnh Châu,VN-52-7
+Sơn La,VN-05,Bắc Yên,VN-05-0
+Sơn La,VN-05,Mai Sơn,VN-05-1
+Sơn La,VN-05,Mộc Châu,VN-05-2
+Sơn La,VN-05,Mường La,VN-05-3
+Sơn La,VN-05,Phù Yên,VN-05-4
+Sơn La,VN-05,Quỳnh Nhai,VN-05-5
+Sơn La,VN-05,Sông Mã,VN-05-6
+Sơn La,VN-05,Sốp Cộp,VN-05-7
+Sơn La,VN-05,Sơn La,VN-05-8
+Sơn La,VN-05,Thuận Châu,VN-05-9
+Sơn La,VN-05,Yên Châu,VN-05-10
+Thanh Hóa,VN-21,Bim Son,VN-21-0
+Thanh Hóa,VN-21,Bá Thước,VN-21-1
+Thanh Hóa,VN-21,Cẩm Thủy,VN-21-2
+Thanh Hóa,VN-21,Hoằng Hóa,VN-21-3
+Thanh Hóa,VN-21,Hà Trung,VN-21-4
+Thanh Hóa,VN-21,Hậu Lộc,VN-21-5
+Thanh Hóa,VN-21,Lang Chánh,VN-21-6
+Thanh Hóa,VN-21,Mường Lát,VN-21-7
+Thanh Hóa,VN-21,Nga Sơn,VN-21-8
+Thanh Hóa,VN-21,Ngọc Lạc,VN-21-9
+Thanh Hóa,VN-21,Như Thanh,VN-21-10
+Thanh Hóa,VN-21,Như Xuân,VN-21-11
+Thanh Hóa,VN-21,Nông Cống,VN-21-12
+Thanh Hóa,VN-21,Quan Hóa,VN-21-13
+Thanh Hóa,VN-21,Quan Sơn,VN-21-14
+Thanh Hóa,VN-21,Quảng Xương,VN-21-15
+Thanh Hóa,VN-21,Sầm Sơn,VN-21-16
+Thanh Hóa,VN-21,Thanh Hóa City,VN-21-17
+Thanh Hóa,VN-21,Thiệu Hóa,VN-21-18
+Thanh Hóa,VN-21,Thạch Thành,VN-21-19
+Thanh Hóa,VN-21,Thọ Xuân,VN-21-20
+Thanh Hóa,VN-21,Thường Xuân,VN-21-21
+Thanh Hóa,VN-21,Triệu Sơn,VN-21-22
+Thanh Hóa,VN-21,Tĩnh Gia,VN-21-23
+Thanh Hóa,VN-21,Vĩnh Lộc,VN-21-24
+Thanh Hóa,VN-21,Yên Định,VN-21-25
+Thanh Hóa,VN-21,Đông Sơn,VN-21-26
+Thái Bình,VN-20,Hưng Hà,VN-20-0
+Thái Bình,VN-20,Kiến Xương,VN-20-1
+Thái Bình,VN-20,Quỳnh Phụ,VN-20-2
+Thái Bình,VN-20,Thái Bình,VN-20-3
+Thái Bình,VN-20,Thái Thụy,VN-20-4
+Thái Bình,VN-20,Tiền Hải,VN-20-5
+Thái Bình,VN-20,Vũ Thư,VN-20-6
+Thái Bình,VN-20,Đông Hưng,VN-20-7
+Thái Nguyên,VN-69,Phổ Yên,VN-69-0
+Thái Nguyên,VN-69,Phú Bình,VN-69-1
+Thái Nguyên,VN-69,Phú Lương,VN-69-2
+Thái Nguyên,VN-69,Sông Công,VN-69-3
+Thái Nguyên,VN-69,Thái Nguyên,VN-69-4
+Thái Nguyên,VN-69,Võ Nhai,VN-69-5
+Thái Nguyên,VN-69,Đại Từ,VN-69-6
+Thái Nguyên,VN-69,Định Hoá,VN-69-7
+Thái Nguyên,VN-69,Đồng Hỷ,VN-69-8
+Thừa Thiên - Huế,VN-26,A Lưới,VN-26-0
+Thừa Thiên - Huế,VN-26,Huế,VN-26-1
+Thừa Thiên - Huế,VN-26,Hương Thủy,VN-26-2
+Thừa Thiên - Huế,VN-26,Hương Trà,VN-26-3
+Thừa Thiên - Huế,VN-26,Nam Đông,VN-26-4
+Thừa Thiên - Huế,VN-26,Phú Lộc,VN-26-5
+Thừa Thiên - Huế,VN-26,Phú Vang,VN-26-6
+Thừa Thiên - Huế,VN-26,Quảng Điền,VN-26-7
+Tiền Giang,VN-46,Cai Lậy,VN-46-0
+Tiền Giang,VN-46,Chợ Gạo,VN-46-1
+Tiền Giang,VN-46,Cái Bè,VN-46-2
+Tiền Giang,VN-46,Go Cong,VN-46-3
+Tiền Giang,VN-46,Gò Công Tây,VN-46-4
+Tiền Giang,VN-46,Gò Công Đông,VN-46-5
+Tiền Giang,VN-46,Mỹ Tho,VN-46-6
+Tiền Giang,VN-46,Tân Phú Đông,VN-46-7
+Tiền Giang,VN-46,Tân Phước,VN-46-8
+Trà Vinh,VN-51,Càng Long,VN-51-0
+Trà Vinh,VN-51,Cầu Kè,VN-51-1
+Trà Vinh,VN-51,Cầu Ngang,VN-51-2
+Trà Vinh,VN-51,Duyên Hải,VN-51-3
+Trà Vinh,VN-51,Tiểu Cần,VN-51-4
+Trà Vinh,VN-51,Trà Cú,VN-51-5
+Trà Vinh,VN-51,Trà Vinh,VN-51-6
+Tuyên Quang,VN-07,Chiêm Hoá,VN-07-0
+Tuyên Quang,VN-07,Hàm Yên,VN-07-1
+Tuyên Quang,VN-07,Nà Hang,VN-07-2
+Tuyên Quang,VN-07,Sơn Dương,VN-07-3
+Tuyên Quang,VN-07,Tuyên Quang,VN-07-4
+Tuyên Quang,VN-07,Yên Sơn,VN-07-5
+Tây Ninh,VN-37,Bến Cầu,VN-37-0
+Tây Ninh,VN-37,Châu Thành,VN-37-1
+Tây Ninh,VN-37,Dương Minh Châu,VN-37-2
+Tây Ninh,VN-37,Gò Dầu,VN-37-3
+Tây Ninh,VN-37,Hòa Thành,VN-37-4
+Tây Ninh,VN-37,Trảng Bàng,VN-37-5
+Tây Ninh,VN-37,Tân Biên,VN-37-6
+Tây Ninh,VN-37,Tân Châu,VN-37-7
+Tây Ninh,VN-37,Tây Ninh,VN-37-8
+Vĩnh Long,VN-49,Bình Minh,VN-49-0
+Vĩnh Long,VN-49,Long Hồ,VN-49-1
+Vĩnh Long,VN-49,Mang Thít,VN-49-2
+Vĩnh Long,VN-49,Tam Bình,VN-49-3
+Vĩnh Long,VN-49,Trà Ôn,VN-49-4
+Vĩnh Long,VN-49,Vĩnh Long,VN-49-5
+Vĩnh Long,VN-49,Vũng Liêm,VN-49-6
+Vĩnh Phúc,VN-70,Bình Xuyên,VN-70-0
+Vĩnh Phúc,VN-70,Lập Thạch,VN-70-1
+Vĩnh Phúc,VN-70,Mê Linh,VN-70-2
+Vĩnh Phúc,VN-70,Phúc Yên,VN-70-3
+Vĩnh Phúc,VN-70,Tam Dao,VN-70-4
+Vĩnh Phúc,VN-70,Tam Đảo,VN-70-5
+Vĩnh Phúc,VN-70,Tam Đường,VN-70-6
+Vĩnh Phúc,VN-70,Vĩnh Tường,VN-70-7
+Vĩnh Phúc,VN-70,Vĩnh Yên,VN-70-8
+Vĩnh Phúc,VN-70,Yên Lạc,VN-70-9
+Yên Bái,VN-06,Lục Yên,VN-06-0
+Yên Bái,VN-06,Mù Căng Trai,VN-06-1
+Yên Bái,VN-06,Nghĩa Lộ,VN-06-2
+Yên Bái,VN-06,Trấn Yên,VN-06-3
+Yên Bái,VN-06,Trạm Tấu,VN-06-4
+Yên Bái,VN-06,Văn Chấn,VN-06-5
+Yên Bái,VN-06,Văn Yên,VN-06-6
+Yên Bái,VN-06,Yên Bái,VN-06-7
+Yên Bái,VN-06,Yên Bình,VN-06-8
+Điện Biên,VN-71,Mường Chà,VN-71-0
+Điện Biên,VN-71,Mường Lay,VN-71-1
+Điện Biên,VN-71,Mường Nhé,VN-71-2
+Điện Biên,VN-71,Tuần Giáo,VN-71-3
+Điện Biên,VN-71,Tủa Chùa,VN-71-4
+Điện Biên,VN-71,Điên Biên Phủ,VN-71-5
+Điện Biên,VN-71,Điện Biên,VN-71-6
+Điện Biên,VN-71,Điện Biên Đông,VN-71-7
+Đà Nẵng,VN-DN,Cẩm Lệ,VN-DN-0
+Đà Nẵng,VN-DN,Hoà Vang,VN-DN-1
+Đà Nẵng,VN-DN,Hải Châu,VN-DN-2
+Đà Nẵng,VN-DN,Liên Chiểu,VN-DN-3
+Đà Nẵng,VN-DN,Ngũ Hành Sơn,VN-DN-4
+Đà Nẵng,VN-DN,Sơn Trà,VN-DN-5
+Đà Nẵng,VN-DN,Thanh Khê,VN-DN-6
+Đắk Lắk,VN-33,Buon Ma Thuot,VN-33-0
+Đắk Lắk,VN-33,Buôn Đôn,VN-33-1
+Đắk Lắk,VN-33,Cư M'gar,VN-33-2
+Đắk Lắk,VN-33,Ea H'leo,VN-33-3
+Đắk Lắk,VN-33,Ea Kar,VN-33-4
+Đắk Lắk,VN-33,Ea Súp,VN-33-5
+Đắk Lắk,VN-33,Krông Ana,VN-33-6
+Đắk Lắk,VN-33,Krông Buk,VN-33-7
+Đắk Lắk,VN-33,Krông Bông,VN-33-8
+Đắk Lắk,VN-33,Krông Năng,VN-33-9
+Đắk Lắk,VN-33,Krông Pắk,VN-33-10
+Đắk Lắk,VN-33,Lăk,VN-33-11
+Đắk Lắk,VN-33,M'Đrăk,VN-33-12
+Đắk Nông,VN-72,Cư Jút,VN-72-0
+Đắk Nông,VN-72,Dak Song,VN-72-1
+Đắk Nông,VN-72,Krông Nô,VN-72-2
+Đắk Nông,VN-72,Tuy Đức,VN-72-3
+Đắk Nông,VN-72,Đăk Glong,VN-72-4
+Đắk Nông,VN-72,Đăk Mil,VN-72-5
+Đắk Nông,VN-72,Đăk R'Lấp,VN-72-6
+Đồng Nai,VN-39,Bien Hoa,VN-39-0
+Đồng Nai,VN-39,Cẩm Mỹ,VN-39-1
+Đồng Nai,VN-39,Long Khánh,VN-39-2
+Đồng Nai,VN-39,Long Thành,VN-39-3
+Đồng Nai,VN-39,Nhơn Trạch,VN-39-4
+Đồng Nai,VN-39,Thống Nhất,VN-39-5
+Đồng Nai,VN-39,Trảng Bom,VN-39-6
+Đồng Nai,VN-39,Tân Phú,VN-39-7
+Đồng Nai,VN-39,Vĩnh Cửu,VN-39-8
+Đồng Nai,VN-39,Xuân Lộc,VN-39-9
+Đồng Nai,VN-39,Định Quán,VN-39-10
+Đồng Tháp,VN-45,Cao Lãnh,VN-45-0
+Đồng Tháp,VN-45,Hồng Ngự,VN-45-1
+Đồng Tháp,VN-45,Lai Vung,VN-45-2
+Đồng Tháp,VN-45,Lấp Vò,VN-45-3
+Đồng Tháp,VN-45,Sa Đéc,VN-45-4
+Đồng Tháp,VN-45,Tam Nông,VN-45-5
+Đồng Tháp,VN-45,Thanh Bình,VN-45-6
+Đồng Tháp,VN-45,Tháp Mười,VN-45-7
+Đồng Tháp,VN-45,Tân Hồng,VN-45-8

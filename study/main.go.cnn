@@ -1,0 +1,202 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"math"
+	"math/rand"
+	"os"
+	"strconv"
+
+	"github.com/wcharczuk/go-chart/v2"
+	"winse.com/study/cnn"
+)
+
+func randPoint(m float64) (float64, float64) {
+	return round2(rand.Float64() * m), round2(rand.Float64() * m)
+}
+
+func round2(v float64) float64 {
+	v, _ = strconv.ParseFloat(fmt.Sprintf("%.02f", v), 0)
+	return v
+}
+
+func main() {
+	// k := &cnn.Kernel{
+	// 	Step: 1,
+	// 	Size: 3,
+	// 	Value: []float64{
+	// 		-1, -1, -1,
+	// 		-1, 8, -1,
+	// 		-1, -1, -1,
+	// 	},
+	// }
+
+	// p := &cnn.MaxPooling{
+	// 	BasePooling: cnn.BasePooling{Size: 2},
+	// }
+
+	// data := [][]float64{
+	// 	{0, 1, 0, 0, 0, 0, 0, 0},
+	// 	{0, 1, 0, 0, 1, 1, 1, 0},
+	// 	{0, 1, 0, 0, 0, 0, 1, 0},
+	// 	{0, 1, 0, 0, 0, 0, 1, 0},
+	// 	{0, 1, 0, 0, 0, 0, 1, 0},
+	// 	{0, 1, 0, 0, 0, 0, 1, 0},
+	// }
+
+	// r := k.ExtractAll(data)
+
+	// for _, v := range r {
+	// 	fmt.Println(v)
+	// }
+
+	// r2 := p.PoolingAll(p, r)
+	// for _, v := range r2 {
+	// 	fmt.Println(v)
+	// }
+
+	// str := `[[{"0-0":1},{"0-0":1}],[{"1-0":0.15,"1-1":0.20},{"1-0":0.25,"1-1":0.30}],[{"2-0":0.40,"2-1":0.45},{"2-0":0.50,"2-1":0.55}]]`
+	str := `[[{"0-0":1},{"0-0":1}],[{"1-0":-0.5721054476390277,"1-1":-0.46755087091787945},{"1-0":-0.5329736437744079,"1-1":-0.4913756590410821}],[{"2-0":-0.06363199284260476,"2-1":0.1065146575005043},{"2-0":-0.029598110502963543,"2-1":-0.013960283371342593}]]`
+	var ss [][]map[string]float64
+	err := json.Unmarshal([]byte(str), &ss)
+	if err != nil {
+		panic(err)
+	}
+
+	sprint := 1000
+	study := 0.03
+
+	l1 := cnn.NewNeuronLayer(1, 2, nil)
+	n := cnn.NewNeuronLayer(2, 2, l1, cnn.WithNLRandomWeight(true), cnn.WithNLActive(&cnn.Sigmoid{}), cnn.WithNLWeigth(0))
+	// n = cnn.NewNeuronLayer(2, 4, n, cnn.WithNLRandomWeight(true), cnn.WithNLActive(&cnn.Sigmoid{}))
+	end := cnn.NewNeuronLayer(3, 2, n, cnn.WithNLRandomWeight(true), cnn.WithNLActive(&cnn.Sigmoid{}), cnn.WithNLWeigth(0))
+	fmt.Println(sprint, study, end)
+
+	cnn.ApplyWeight(l1, ss)
+
+	result := make([]float64, 0)
+
+	// NewPointChart(data)
+
+	for i := 0; i < sprint; i++ {
+
+		data := make([][]float64, 0)
+		// aData := make([][]float64, 0)
+		// bData := make([][]float64, 0)
+		for i := 0; i < 1000; i++ {
+			x, y := randPoint(1)
+			if (x-y < 0.10 && x-y > -0.10) || (x < 0.5 || y < 0.5) {
+				continue
+			}
+			if y > x {
+				data = append(data, []float64{x, y, 0.99, 0.01})
+			} else {
+				data = append(data, []float64{x, y, 0.01, 0.99})
+			}
+		}
+		// 	if y > x {
+		// 		aData = append(aData, []float64{x, y, 0.99, 0.01})
+		// 	} else {
+		// 		bData = append(bData, []float64{x, y, 0.01, 0.99})
+		// 	}
+		// }
+		// data = append(data, bData...)
+		// data = append(data, aData...)
+
+		for j, d := range data {
+			out := cnn.Compute(l1, d[0], d[1])
+			fmt.Printf("A: %.02f[%.02f] B: %.02f[%.02f]\n", out[0], d[2], out[1], d[3])
+
+			cnn.BP(end, study, d[2], d[3])
+
+			if j == len(data)-1 {
+				result = append(result, 0.5*math.Pow(d[2]-out[0], 2)+0.5*math.Pow(d[3]-out[1], 2))
+			}
+		}
+	}
+
+	// out := cnn.Compute(l1, 0.05, 0.10)
+	// fmt.Printf("A: %.02f[%.02f] B: %.02f[%.02f]\n", out[0], 0.01, out[1], 0.99)
+
+	// cnn.BP(end, study, 0.01, 0.99)
+
+	ws := cnn.ExportWeight(l1)
+	b, _ := json.Marshal(ws)
+	fmt.Println("ws -> ", string(b))
+
+	NewLineChart(result)
+}
+
+func NewLineChart(data []float64) {
+	series := make([]chart.Series, 0)
+	xValue := make([]float64, 0, len(data))
+	for i, _ := range data {
+		xValue = append(xValue, float64(i))
+	}
+
+	series = append(series, chart.ContinuousSeries{
+		Name:    "text",
+		XValues: xValue,
+		YValues: data,
+	})
+	graph := chart.Chart{Series: series}
+	f, err := os.Create("test_out.png")
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+	err = graph.Render(chart.PNG, f)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func NewPointChart(data [][]float64) {
+	series := make([]chart.Series, 0)
+	x1Value := make([]float64, 0)
+	x2Value := make([]float64, 0)
+	y1Value := make([]float64, 0)
+	y2Value := make([]float64, 0)
+
+	for i, _ := range data {
+		if data[i][2] == 0.99 {
+			x1Value = append(x1Value, data[i][0])
+			y1Value = append(y1Value, data[i][1])
+		} else {
+			x2Value = append(x2Value, data[i][0])
+			y2Value = append(y2Value, data[i][1])
+		}
+	}
+
+	series = append(series, chart.ContinuousSeries{
+		Name: "red",
+		Style: chart.Style{
+			StrokeWidth: chart.Disabled,
+			DotWidth:    5,
+			DotColor:    chart.ColorRed,
+		},
+		XValues: x1Value,
+		YValues: y1Value,
+	})
+	series = append(series, chart.ContinuousSeries{
+		Name: "blue",
+		Style: chart.Style{
+			StrokeWidth: chart.Disabled,
+			DotWidth:    5,
+			DotColor:    chart.ColorBlue,
+		},
+		XValues: x2Value,
+		YValues: y2Value,
+	})
+	graph := chart.Chart{Series: series}
+	f, err := os.Create("data.png")
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+	err = graph.Render(chart.PNG, f)
+	if err != nil {
+		panic(err)
+	}
+}

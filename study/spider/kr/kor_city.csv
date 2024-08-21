@@ -1,0 +1,250 @@
+﻿province,city,link
+Seoul/서울,Dobong-gu/도봉구,/zh-hans/region2/dobong-gu%EB%8F%84%EB%B4%89%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Dongdaemun-gu/동대문구,/zh-hans/region2/dongdaemun-gu%EB%8F%99%EB%8C%80%EB%AC%B8%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Dongjak-gu/동작구,/zh-hans/region2/dongjak-gu%EB%8F%99%EC%9E%91%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Eunpyeong-gu/은평구,/zh-hans/region2/eunpyeong-gu%EC%9D%80%ED%8F%89%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gangbuk-gu/강북구,/zh-hans/region2/gangbuk-gu%EA%B0%95%EB%B6%81%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gangdong-gu/강동구,/zh-hans/region2/gangdong-gu%EA%B0%95%EB%8F%99%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gangnam-gu/강남구,/zh-hans/region2/gangnam-gu%EA%B0%95%EB%82%A8%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gangseo-gu/강서구,/zh-hans/region2/gangseo-gu%EA%B0%95%EC%84%9C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Geumcheon-gu/금천구,/zh-hans/region2/geumcheon-gu%EA%B8%88%EC%B2%9C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Guro-gu/구로구,/zh-hans/region2/guro-gu%EA%B5%AC%EB%A1%9C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gwanak-gu/관악구,/zh-hans/region2/gwanak-gu%EA%B4%80%EC%95%85%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Gwangjin-gu/광진구,/zh-hans/region2/gwangjin-gu%EA%B4%91%EC%A7%84%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Jongro-gu/종로구,/zh-hans/region2/jongro-gu%EC%A2%85%EB%A1%9C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Jungrang-gu/중랑구,/zh-hans/region2/jungrang-gu%EC%A4%91%EB%9E%91%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Mapo-gu/마포구,/zh-hans/region2/mapo-gu%EB%A7%88%ED%8F%AC%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Nowon-gu/노원구,/zh-hans/region2/nowon-gu%EB%85%B8%EC%9B%90%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Seocho-gu/서초구,/zh-hans/region2/seocho-gu%EC%84%9C%EC%B4%88%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Seodaemun-gu/서대문구,/zh-hans/region2/seodaemun-gu%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Seongbuk-gu/성북구,/zh-hans/region2/seongbuk-gu%EC%84%B1%EB%B6%81%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Gyeongsangnam-do/경남,Changnyeong-gun/창녕군,/zh-hans/region2/changnyeong-gun%EC%B0%BD%EB%85%95%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Changwon-si/창원시,/zh-hans/region2/changwon-si%EC%B0%BD%EC%9B%90%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Geochang-gun/거창군,/zh-hans/region2/geochang-gun%EA%B1%B0%EC%B0%BD%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Geoje-si/거제시,/zh-hans/region2/geoje-si%EA%B1%B0%EC%A0%9C%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Gimhae-si/김해시,/zh-hans/region2/gimhae-si%EA%B9%80%ED%95%B4%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Goseong-gun/고성군,/zh-hans/region2/goseong-gun%EA%B3%A0%EC%84%B1%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Hadong-gun/하동군,/zh-hans/region2/hadong-gun%ED%95%98%EB%8F%99%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Haman-gun/함안군,/zh-hans/region2/haman-gun%ED%95%A8%EC%95%88%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Hamyang-gun/함양군,/zh-hans/region2/hamyang-gun%ED%95%A8%EC%96%91%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Hapcheon-gun/합천군,/zh-hans/region2/hapcheon-gun%ED%95%A9%EC%B2%9C%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Jinhae-si/진해시,/zh-hans/region2/jinhae-si%EC%A7%84%ED%95%B4%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Jinju-si/진주시,/zh-hans/region2/jinju-si%EC%A7%84%EC%A3%BC%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Masan-si/마산시,/zh-hans/region2/masan-si%EB%A7%88%EC%82%B0%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Miryang-si/밀양시,/zh-hans/region2/miryang-si%EB%B0%80%EC%96%91%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Namhae-gun/남해군,/zh-hans/region2/namhae-gun%EB%82%A8%ED%95%B4%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Sacheon-si/사천시,/zh-hans/region2/sacheon-si%EC%82%AC%EC%B2%9C%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Sancheong-gun/산청군,/zh-hans/region2/sancheong-gun%EC%82%B0%EC%B2%AD%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Tongyeong-si/통영시,/zh-hans/region2/tongyeong-si%ED%86%B5%EC%98%81%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Uiryeong-gun/의령군,/zh-hans/region2/uiryeong-gun%EC%9D%98%EB%A0%B9%EA%B5%B0gyeongsangnam-do%EA%B2%BD%EB%82%A8
+Gyeongsangnam-do/경남,Yangsan-si/양산시,/zh-hans/region2/yangsan-si%EC%96%91%EC%82%B0%EC%8B%9Cgyeongsangnam-do%EA%B2%BD%EB%82%A8
+Ulsan/울산,Buk-gu/북구,/zh-hans/region2/buk-gu%EB%B6%81%EA%B5%ACulsan%EC%9A%B8%EC%82%B0
+Ulsan/울산,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACulsan%EC%9A%B8%EC%82%B0
+Ulsan/울산,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACulsan%EC%9A%B8%EC%82%B0
+Ulsan/울산,Nam-gu/남구,/zh-hans/region2/nam-gu%EB%82%A8%EA%B5%ACulsan%EC%9A%B8%EC%82%B0
+Ulsan/울산,Ulju-gun/울주군,/zh-hans/region2/ulju-gun%EC%9A%B8%EC%A3%BC%EA%B5%B0ulsan%EC%9A%B8%EC%82%B0
+Daejeon/대전,Daedeok-gu/대덕구,/zh-hans/region2/daedeok-gu%EB%8C%80%EB%8D%95%EA%B5%ACdaejeon%EB%8C%80%EC%A0%84
+Daejeon/대전,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACdaejeon%EB%8C%80%EC%A0%84
+Daejeon/대전,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACdaejeon%EB%8C%80%EC%A0%84
+Daejeon/대전,Seo-gu/서구,/zh-hans/region2/seo-gu%EC%84%9C%EA%B5%ACdaejeon%EB%8C%80%EC%A0%84
+Daejeon/대전,Yuseong-gu/유성구,/zh-hans/region2/yuseong-gu%EC%9C%A0%EC%84%B1%EA%B5%ACdaejeon%EB%8C%80%EC%A0%84
+Daegu/대구,Buk-gu/북구,/zh-hans/region2/buk-gu%EB%B6%81%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Dalseo-gu/달서구,/zh-hans/region2/dalseo-gu%EB%8B%AC%EC%84%9C%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Dalseong-gun/달성군,/zh-hans/region2/dalseong-gun%EB%8B%AC%EC%84%B1%EA%B5%B0daegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Nam-gu/남구,/zh-hans/region2/nam-gu%EB%82%A8%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Seo-gu/서구,/zh-hans/region2/seo-gu%EC%84%9C%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Daegu/대구,Suseong-gu/수성구,/zh-hans/region2/suseong-gu%EC%88%98%EC%84%B1%EA%B5%ACdaegu%EB%8C%80%EA%B5%AC
+Busan/부산,Buk-gu/북구,/zh-hans/region2/buk-gu%EB%B6%81%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Busanjin-gu/부산진구,/zh-hans/region2/busanjin-gu%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Dongrae-gu/동래구,/zh-hans/region2/dongrae-gu%EB%8F%99%EB%9E%98%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Gangseo-gu/강서구,/zh-hans/region2/gangseo-gu%EA%B0%95%EC%84%9C%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Geumjeong-gu/금정구,/zh-hans/region2/geumjeong-gu%EA%B8%88%EC%A0%95%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Gijang-gun/기장군,/zh-hans/region2/gijang-gun%EA%B8%B0%EC%9E%A5%EA%B5%B0busan%EB%B6%80%EC%82%B0
+Busan/부산,Haeundae-gu/해운대구,/zh-hans/region2/haeundae-gu%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Nam-gu/남구,/zh-hans/region2/nam-gu%EB%82%A8%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Saha-gu/사하구,/zh-hans/region2/saha-gu%EC%82%AC%ED%95%98%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Sasang-gu/사상구,/zh-hans/region2/sasang-gu%EC%82%AC%EC%83%81%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Seo-gu/서구,/zh-hans/region2/seo-gu%EC%84%9C%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Suyeong-gu/수영구,/zh-hans/region2/suyeong-gu%EC%88%98%EC%98%81%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Yeongdo-gu/영도구,/zh-hans/region2/yeongdo-gu%EC%98%81%EB%8F%84%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Busan/부산,Yeonje-gu/연제구,/zh-hans/region2/yeonje-gu%EC%97%B0%EC%A0%9C%EA%B5%ACbusan%EB%B6%80%EC%82%B0
+Gyeonggi-do/경기,Anseong-si/안성시,/zh-hans/region2/anseong-si%EC%95%88%EC%84%B1%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Bundang-gu Seongnam-si/성남시 분당구,/zh-hans/region2/bundang-gu-seongnam-si%EC%84%B1%EB%82%A8%EC%8B%9C-%EB%B6%84%EB%8B%B9%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Cheoin-gu Yongin-si/용인시 처인구,/zh-hans/region2/cheoin-gu-yongin-si%EC%9A%A9%EC%9D%B8%EC%8B%9C-%EC%B2%98%EC%9D%B8%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Danwon-gu Ansan-si/안산시 단원구,/zh-hans/region2/danwon-gu-ansan-si%EC%95%88%EC%82%B0%EC%8B%9C-%EB%8B%A8%EC%9B%90%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Deogyang-gu Goyang-si/고양시 덕양구,/zh-hans/region2/deogyang-gu-goyang-si%EA%B3%A0%EC%96%91%EC%8B%9C-%EB%8D%95%EC%96%91%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Dongan-gu Anyang-si/안양시 동안구,/zh-hans/region2/dongan-gu-anyang-si%EC%95%88%EC%96%91%EC%8B%9C-%EB%8F%99%EC%95%88%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Dongducheon-si/동두천시,/zh-hans/region2/dongducheon-si%EB%8F%99%EB%91%90%EC%B2%9C%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gapyeong-gun/가평군,/zh-hans/region2/gapyeong-gun%EA%B0%80%ED%8F%89%EA%B5%B0gyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Giheung-gu Yongin-si/용인시 기흥구,/zh-hans/region2/giheung-gu-yongin-si%EC%9A%A9%EC%9D%B8%EC%8B%9C-%EA%B8%B0%ED%9D%A5%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gimpo-si/김포시,/zh-hans/region2/gimpo-si%EA%B9%80%ED%8F%AC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gunpo-si/군포시,/zh-hans/region2/gunpo-si%EA%B5%B0%ED%8F%AC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Guri-si/구리시,/zh-hans/region2/guri-si%EA%B5%AC%EB%A6%AC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gwacheon-si/과천시,/zh-hans/region2/gwacheon-si%EA%B3%BC%EC%B2%9C%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gwangju-si/광주시,/zh-hans/region2/gwangju-si%EA%B4%91%EC%A3%BC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gwangmyeong-si/광명시,/zh-hans/region2/gwangmyeong-si%EA%B4%91%EB%AA%85%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Gwonseon-gu Suwon-si/수원시 권선구,/zh-hans/region2/gwonseon-gu-suwon-si%EC%88%98%EC%9B%90%EC%8B%9C-%EA%B6%8C%EC%84%A0%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Hanam-si/하남시,/zh-hans/region2/hanam-si%ED%95%98%EB%82%A8%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Hwaseong-si/화성시,/zh-hans/region2/hwaseong-si%ED%99%94%EC%84%B1%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Icheon-si/이천시,/zh-hans/region2/icheon-si%EC%9D%B4%EC%B2%9C%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Ilsandong-gu Goyang-si/고양시 일산동구,/zh-hans/region2/ilsandong-gu-goyang-si%EA%B3%A0%EC%96%91%EC%8B%9C-%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Chungcheongnam-do/충남,Asan-si/아산시,/zh-hans/region2/asan-si%EC%95%84%EC%82%B0%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Boryeong-si/보령시,/zh-hans/region2/boryeong-si%EB%B3%B4%EB%A0%B9%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Buyeo-gun/부여군,/zh-hans/region2/buyeo-gun%EB%B6%80%EC%97%AC%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Cheongyang-gun/청양군,/zh-hans/region2/cheongyang-gun%EC%B2%AD%EC%96%91%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Dangjin-gun/당진군,/zh-hans/region2/dangjin-gun%EB%8B%B9%EC%A7%84%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Dongnam-gu Cheonan-si/천안시 동남구,/zh-hans/region2/dongnam-gu-cheonan-si%EC%B2%9C%EC%95%88%EC%8B%9C-%EB%8F%99%EB%82%A8%EA%B5%ACchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Geumsan-gun/금산군,/zh-hans/region2/geumsan-gun%EA%B8%88%EC%82%B0%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Gongju-si/공주시,/zh-hans/region2/gongju-si%EA%B3%B5%EC%A3%BC%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Gyeryong-si/계룡시,/zh-hans/region2/gyeryong-si%EA%B3%84%EB%A3%A1%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Hongseong-gun/홍성군,/zh-hans/region2/hongseong-gun%ED%99%8D%EC%84%B1%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Nonsan-si/논산시,/zh-hans/region2/nonsan-si%EB%85%BC%EC%82%B0%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Seobuk-gu Cheonan-si/천안시 서북구,/zh-hans/region2/seobuk-gu-cheonan-si%EC%B2%9C%EC%95%88%EC%8B%9C-%EC%84%9C%EB%B6%81%EA%B5%ACchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Seocheon-gun/서천군,/zh-hans/region2/seocheon-gun%EC%84%9C%EC%B2%9C%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Seosan-si/서산시,/zh-hans/region2/seosan-si%EC%84%9C%EC%82%B0%EC%8B%9Cchungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Taean-gun/태안군,/zh-hans/region2/taean-gun%ED%83%9C%EC%95%88%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Yeongi-gun/연기군,/zh-hans/region2/yeongi-gun%EC%97%B0%EA%B8%B0%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongnam-do/충남,Yesan-gun/예산군,/zh-hans/region2/yesan-gun%EC%98%88%EC%82%B0%EA%B5%B0chungcheongnam-do%EC%B6%A9%EB%82%A8
+Chungcheongbuk-do/충북,Boeun-gun/보은군,/zh-hans/region2/boeun-gun%EB%B3%B4%EC%9D%80%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Cheongwon-gun/청원군,/zh-hans/region2/cheongwon-gun%EC%B2%AD%EC%9B%90%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Chungju-si/충주시,/zh-hans/region2/chungju-si%EC%B6%A9%EC%A3%BC%EC%8B%9Cchungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Danyang-gun/단양군,/zh-hans/region2/danyang-gun%EB%8B%A8%EC%96%91%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Eumseong-gun/음성군,/zh-hans/region2/eumseong-gun%EC%9D%8C%EC%84%B1%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Goesan-gun/괴산군,/zh-hans/region2/goesan-gun%EA%B4%B4%EC%82%B0%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Heungdeok-gu Cheongju-si/청주시 흥덕구,/zh-hans/region2/heungdeok-gu-cheongju-si%EC%B2%AD%EC%A3%BC%EC%8B%9C-%ED%9D%A5%EB%8D%95%EA%B5%ACchungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Jecheon-si/제천시,/zh-hans/region2/jecheon-si%EC%A0%9C%EC%B2%9C%EC%8B%9Cchungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Jeungpyeong-gun/증평군,/zh-hans/region2/jeungpyeong-gun%EC%A6%9D%ED%8F%89%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Jincheon-gun/진천군,/zh-hans/region2/jincheon-gun%EC%A7%84%EC%B2%9C%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Okcheon-gun/옥천군,/zh-hans/region2/okcheon-gun%EC%98%A5%EC%B2%9C%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Sangdang-gu Cheongju-si/청주시 상당구,/zh-hans/region2/sangdang-gu-cheongju-si%EC%B2%AD%EC%A3%BC%EC%8B%9C-%EC%83%81%EB%8B%B9%EA%B5%ACchungcheongbuk-do%EC%B6%A9%EB%B6%81
+Chungcheongbuk-do/충북,Yeongdong-gun/영동군,/zh-hans/region2/yeongdong-gun%EC%98%81%EB%8F%99%EA%B5%B0chungcheongbuk-do%EC%B6%A9%EB%B6%81
+Incheon/인천,Bupyeong-gu/부평구,/zh-hans/region2/bupyeong-gu%EB%B6%80%ED%8F%89%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Ganghwa-gun/강화군,/zh-hans/region2/ganghwa-gun%EA%B0%95%ED%99%94%EA%B5%B0incheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Gyeyang-gu/계양구,/zh-hans/region2/gyeyang-gu%EA%B3%84%EC%96%91%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Jung-gu/중구,/zh-hans/region2/jung-gu%EC%A4%91%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Nam-gu/남구,/zh-hans/region2/nam-gu%EB%82%A8%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Namdong-gu/남동구,/zh-hans/region2/namdong-gu%EB%82%A8%EB%8F%99%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Ongjin-gun/옹진군,/zh-hans/region2/ongjin-gun%EC%98%B9%EC%A7%84%EA%B5%B0incheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Seo-gu/서구,/zh-hans/region2/seo-gu%EC%84%9C%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Incheon/인천,Yeonsu-gu/연수구,/zh-hans/region2/yeonsu-gu%EC%97%B0%EC%88%98%EA%B5%ACincheon%EC%9D%B8%EC%B2%9C
+Gangwon-do/강원,Cheorwon-gun/철원군,/zh-hans/region2/cheorwon-gun%EC%B2%A0%EC%9B%90%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Chuncheon-si/춘천시,/zh-hans/region2/chuncheon-si%EC%B6%98%EC%B2%9C%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Donghae-si/동해시,/zh-hans/region2/donghae-si%EB%8F%99%ED%95%B4%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Gangreung-si/강릉시,/zh-hans/region2/gangreung-si%EA%B0%95%EB%A6%89%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Goseong-gun/고성군,/zh-hans/region2/goseong-gun%EA%B3%A0%EC%84%B1%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Hoengseong-gun/횡성군,/zh-hans/region2/hoengseong-gun%ED%9A%A1%EC%84%B1%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Hongcheon-gun/홍천군,/zh-hans/region2/hongcheon-gun%ED%99%8D%EC%B2%9C%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Hwacheon-gun/화천군,/zh-hans/region2/hwacheon-gun%ED%99%94%EC%B2%9C%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Inje-gun/인제군,/zh-hans/region2/inje-gun%EC%9D%B8%EC%A0%9C%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Jeongseon-gun/정선군,/zh-hans/region2/jeongseon-gun%EC%A0%95%EC%84%A0%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Pyeongchang-gun/평창군,/zh-hans/region2/pyeongchang-gun%ED%8F%89%EC%B0%BD%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Samcheok-si/삼척시,/zh-hans/region2/samcheok-si%EC%82%BC%EC%B2%99%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Sokcho-si/속초시,/zh-hans/region2/sokcho-si%EC%86%8D%EC%B4%88%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Taebaek-si/태백시,/zh-hans/region2/taebaek-si%ED%83%9C%EB%B0%B1%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Wonju-si/원주시,/zh-hans/region2/wonju-si%EC%9B%90%EC%A3%BC%EC%8B%9Cgangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Yanggu-gun/양구군,/zh-hans/region2/yanggu-gun%EC%96%91%EA%B5%AC%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Yangyang-gun/양양군,/zh-hans/region2/yangyang-gun%EC%96%91%EC%96%91%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gangwon-do/강원,Yeongwol-gun/영월군,/zh-hans/region2/yeongwol-gun%EC%98%81%EC%9B%94%EA%B5%B0gangwon-do%EA%B0%95%EC%9B%90
+Gyeongsangbuk-do/경북,Andong-si/안동시,/zh-hans/region2/andong-si%EC%95%88%EB%8F%99%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Bonghwa-gun/봉화군,/zh-hans/region2/bonghwa-gun%EB%B4%89%ED%99%94%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Buk-gu Pohang-si/포항시 북구,/zh-hans/region2/buk-gu-pohang-si%ED%8F%AC%ED%95%AD%EC%8B%9C-%EB%B6%81%EA%B5%ACgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Cheongdo-gun/청도군,/zh-hans/region2/cheongdo-gun%EC%B2%AD%EB%8F%84%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Cheongsong-gun/청송군,/zh-hans/region2/cheongsong-gun%EC%B2%AD%EC%86%A1%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Chilgok-gun/칠곡군,/zh-hans/region2/chilgok-gun%EC%B9%A0%EA%B3%A1%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Gimcheon-si/김천시,/zh-hans/region2/gimcheon-si%EA%B9%80%EC%B2%9C%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Goryeong-gun/고령군,/zh-hans/region2/goryeong-gun%EA%B3%A0%EB%A0%B9%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Gumi-si/구미시,/zh-hans/region2/gumi-si%EA%B5%AC%EB%AF%B8%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Gunwi-gun/군위군,/zh-hans/region2/gunwi-gun%EA%B5%B0%EC%9C%84%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Gyeongju-si/경주시,/zh-hans/region2/gyeongju-si%EA%B2%BD%EC%A3%BC%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Gyeongsan-si/경산시,/zh-hans/region2/gyeongsan-si%EA%B2%BD%EC%82%B0%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Mungyeong-si/문경시,/zh-hans/region2/mungyeong-si%EB%AC%B8%EA%B2%BD%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Nam-gu Pohang-si/포항시 남구,/zh-hans/region2/nam-gu-pohang-si%ED%8F%AC%ED%95%AD%EC%8B%9C-%EB%82%A8%EA%B5%ACgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Sangju-si/상주시,/zh-hans/region2/sangju-si%EC%83%81%EC%A3%BC%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Seongju-gun/성주군,/zh-hans/region2/seongju-gun%EC%84%B1%EC%A3%BC%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Uiseong-gun/의성군,/zh-hans/region2/uiseong-gun%EC%9D%98%EC%84%B1%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Uljin-gun/울진군,/zh-hans/region2/uljin-gun%EC%9A%B8%EC%A7%84%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Ulleung-gun/울릉군,/zh-hans/region2/ulleung-gun%EC%9A%B8%EB%A6%89%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Yecheon-gun/예천군,/zh-hans/region2/yecheon-gun%EC%98%88%EC%B2%9C%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Jeju-do/제주,Jeju-si/제주시,/zh-hans/region2/jeju-si%EC%A0%9C%EC%A3%BC%EC%8B%9Cjeju-do%EC%A0%9C%EC%A3%BC
+Jeju-do/제주,Seogwipo-si/서귀포시,/zh-hans/region2/seogwipo-si%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9Cjeju-do%EC%A0%9C%EC%A3%BC
+Jeollanam-do/전남,Boseong-gun/보성군,/zh-hans/region2/boseong-gun%EB%B3%B4%EC%84%B1%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Damyang-gun/담양군,/zh-hans/region2/damyang-gun%EB%8B%B4%EC%96%91%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Gangjin-gun/강진군,/zh-hans/region2/gangjin-gun%EA%B0%95%EC%A7%84%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Goheung-gun/고흥군,/zh-hans/region2/goheung-gun%EA%B3%A0%ED%9D%A5%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Gokseong-gun/곡성군,/zh-hans/region2/gokseong-gun%EA%B3%A1%EC%84%B1%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Gurye-gun/구례군,/zh-hans/region2/gurye-gun%EA%B5%AC%EB%A1%80%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Gwangyang-si/광양시,/zh-hans/region2/gwangyang-si%EA%B4%91%EC%96%91%EC%8B%9Cjeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Haenam-gun/해남군,/zh-hans/region2/haenam-gun%ED%95%B4%EB%82%A8%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Hampyeong-gun/함평군,/zh-hans/region2/hampyeong-gun%ED%95%A8%ED%8F%89%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Hwasun-gun/화순군,/zh-hans/region2/hwasun-gun%ED%99%94%EC%88%9C%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Jangheung-gun/장흥군,/zh-hans/region2/jangheung-gun%EC%9E%A5%ED%9D%A5%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Jangseong-gun/장성군,/zh-hans/region2/jangseong-gun%EC%9E%A5%EC%84%B1%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Jindo-gun/진도군,/zh-hans/region2/jindo-gun%EC%A7%84%EB%8F%84%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Mokpo-si/목포시,/zh-hans/region2/mokpo-si%EB%AA%A9%ED%8F%AC%EC%8B%9Cjeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Muan-gun/무안군,/zh-hans/region2/muan-gun%EB%AC%B4%EC%95%88%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Naju-si/나주시,/zh-hans/region2/naju-si%EB%82%98%EC%A3%BC%EC%8B%9Cjeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Sinan-gun/신안군,/zh-hans/region2/sinan-gun%EC%8B%A0%EC%95%88%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Suncheon-si/순천시,/zh-hans/region2/suncheon-si%EC%88%9C%EC%B2%9C%EC%8B%9Cjeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Wando-gun/완도군,/zh-hans/region2/wando-gun%EC%99%84%EB%8F%84%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Yeongam-gun/영암군,/zh-hans/region2/yeongam-gun%EC%98%81%EC%95%94%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Gwangju/광주,Buk-gu/북구,/zh-hans/region2/buk-gu%EB%B6%81%EA%B5%ACgwangju%EA%B4%91%EC%A3%BC
+Gwangju/광주,Dong-gu/동구,/zh-hans/region2/dong-gu%EB%8F%99%EA%B5%ACgwangju%EA%B4%91%EC%A3%BC
+Gwangju/광주,Gwangsan-gu/광산구,/zh-hans/region2/gwangsan-gu%EA%B4%91%EC%82%B0%EA%B5%ACgwangju%EA%B4%91%EC%A3%BC
+Gwangju/광주,Nam-gu/남구,/zh-hans/region2/nam-gu%EB%82%A8%EA%B5%ACgwangju%EA%B4%91%EC%A3%BC
+Gwangju/광주,Seo-gu/서구,/zh-hans/region2/seo-gu%EC%84%9C%EA%B5%ACgwangju%EA%B4%91%EC%A3%BC
+Jeollabuk-do/전북,Buan-gun/부안군,/zh-hans/region2/buan-gun%EB%B6%80%EC%95%88%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Deokjin-gu Jeonju-si/전주시 덕진구,/zh-hans/region2/deokjin-gu-jeonju-si%EC%A0%84%EC%A3%BC%EC%8B%9C-%EB%8D%95%EC%A7%84%EA%B5%ACjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Gimje-si/김제시,/zh-hans/region2/gimje-si%EA%B9%80%EC%A0%9C%EC%8B%9Cjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Gochang-gun/고창군,/zh-hans/region2/gochang-gun%EA%B3%A0%EC%B0%BD%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Gunsan-si/군산시,/zh-hans/region2/gunsan-si%EA%B5%B0%EC%82%B0%EC%8B%9Cjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Iksan-si/익산시,/zh-hans/region2/iksan-si%EC%9D%B5%EC%82%B0%EC%8B%9Cjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Imsil-gun/임실군,/zh-hans/region2/imsil-gun%EC%9E%84%EC%8B%A4%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Jangsu-gun/장수군,/zh-hans/region2/jangsu-gun%EC%9E%A5%EC%88%98%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Jeongeup-si/정읍시,/zh-hans/region2/jeongeup-si%EC%A0%95%EC%9D%8D%EC%8B%9Cjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Jinan-gun/진안군,/zh-hans/region2/jinan-gun%EC%A7%84%EC%95%88%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Muju-gun/무주군,/zh-hans/region2/muju-gun%EB%AC%B4%EC%A3%BC%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Namwon-si/남원시,/zh-hans/region2/namwon-si%EB%82%A8%EC%9B%90%EC%8B%9Cjeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Sunchang-gun/순창군,/zh-hans/region2/sunchang-gun%EC%88%9C%EC%B0%BD%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Wanju-gun/완주군,/zh-hans/region2/wanju-gun%EC%99%84%EC%A3%BC%EA%B5%B0jeollabuk-do%EC%A0%84%EB%B6%81
+Jeollabuk-do/전북,Wansan-gu Jeonju-si/전주시 완산구,/zh-hans/region2/wansan-gu-jeonju-si%EC%A0%84%EC%A3%BC%EC%8B%9C-%EC%99%84%EC%82%B0%EA%B5%ACjeollabuk-do%EC%A0%84%EB%B6%81
+Gyeongsangbuk-do/경북,Yeongcheon-si/영천시,/zh-hans/region2/yeongcheon-si%EC%98%81%EC%B2%9C%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Yeongdeok-gun/영덕군,/zh-hans/region2/yeongdeok-gun%EC%98%81%EB%8D%95%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Yeongju-si/영주시,/zh-hans/region2/yeongju-si%EC%98%81%EC%A3%BC%EC%8B%9Cgyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Gyeongsangbuk-do/경북,Yeongyang-gun/영양군,/zh-hans/region2/yeongyang-gun%EC%98%81%EC%96%91%EA%B5%B0gyeongsangbuk-do%EA%B2%BD%EB%B6%81
+Seoul/서울,Seongdong-gu/성동구,/zh-hans/region2/seongdong-gu%EC%84%B1%EB%8F%99%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Songpa-gu/송파구,/zh-hans/region2/songpa-gu%EC%86%A1%ED%8C%8C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Yangcheon-gu/양천구,/zh-hans/region2/yangcheon-gu%EC%96%91%EC%B2%9C%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Yeongdeungpo-gu/영등포구,/zh-hans/region2/yeongdeungpo-gu%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Seoul/서울,Yongsan-gu/용산구,/zh-hans/region2/yongsan-gu%EC%9A%A9%EC%82%B0%EA%B5%ACseoul%EC%84%9C%EC%9A%B8
+Gyeonggi-do/경기,Ilsanseo-gu Goyang-si/고양시 일산서구,/zh-hans/region2/ilsanseo-gu-goyang-si%EA%B3%A0%EC%96%91%EC%8B%9C-%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Jangan-gu Suwon-si/수원시 장안구,/zh-hans/region2/jangan-gu-suwon-si%EC%88%98%EC%9B%90%EC%8B%9C-%EC%9E%A5%EC%95%88%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Jungwon-gu Seongnam-si/성남시 중원구,/zh-hans/region2/jungwon-gu-seongnam-si%EC%84%B1%EB%82%A8%EC%8B%9C-%EC%A4%91%EC%9B%90%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Manan-gu Anyang-si/안양시 만안구,/zh-hans/region2/manan-gu-anyang-si%EC%95%88%EC%96%91%EC%8B%9C-%EB%A7%8C%EC%95%88%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Namyangju-si/남양주시,/zh-hans/region2/namyangju-si%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Ojeong-gu Bucheon-si/부천시 오정구,/zh-hans/region2/ojeong-gu-bucheon-si%EB%B6%80%EC%B2%9C%EC%8B%9C-%EC%98%A4%EC%A0%95%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Osan-si/오산시,/zh-hans/region2/osan-si%EC%98%A4%EC%82%B0%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Paju-si/파주시,/zh-hans/region2/paju-si%ED%8C%8C%EC%A3%BC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Paldal-gu Suwon-si/수원시 팔달구,/zh-hans/region2/paldal-gu-suwon-si%EC%88%98%EC%9B%90%EC%8B%9C-%ED%8C%94%EB%8B%AC%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Pocheon-si/포천시,/zh-hans/region2/pocheon-si%ED%8F%AC%EC%B2%9C%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Pyeongtaek-si/평택시,/zh-hans/region2/pyeongtaek-si%ED%8F%89%ED%83%9D%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Sangrok-gu Ansan-si/안산시 상록구,/zh-hans/region2/sangrok-gu-ansan-si%EC%95%88%EC%82%B0%EC%8B%9C-%EC%83%81%EB%A1%9D%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Siheung-si/시흥시,/zh-hans/region2/siheung-si%EC%8B%9C%ED%9D%A5%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Sosa-gu Bucheon-si/부천시 소사구,/zh-hans/region2/sosa-gu-bucheon-si%EB%B6%80%EC%B2%9C%EC%8B%9C-%EC%86%8C%EC%82%AC%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Sujeong-gu Seongnam-si/성남시 수정구,/zh-hans/region2/sujeong-gu-seongnam-si%EC%84%B1%EB%82%A8%EC%8B%9C-%EC%88%98%EC%A0%95%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Suji-gu Yongin-si/용인시 수지구,/zh-hans/region2/suji-gu-yongin-si%EC%9A%A9%EC%9D%B8%EC%8B%9C-%EC%88%98%EC%A7%80%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Uijeongbu-si/의정부시,/zh-hans/region2/uijeongbu-si%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Uiwang-si/의왕시,/zh-hans/region2/uiwang-si%EC%9D%98%EC%99%95%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Wonmi-gu Bucheon-si/부천시 원미구,/zh-hans/region2/wonmi-gu-bucheon-si%EB%B6%80%EC%B2%9C%EC%8B%9C-%EC%9B%90%EB%AF%B8%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Yangju-si/양주시,/zh-hans/region2/yangju-si%EC%96%91%EC%A3%BC%EC%8B%9Cgyeonggi-do%EA%B2%BD%EA%B8%B0
+Jeollanam-do/전남,Yeonggwang-gun/영광군,/zh-hans/region2/yeonggwang-gun%EC%98%81%EA%B4%91%EA%B5%B0jeollanam-do%EC%A0%84%EB%82%A8
+Jeollanam-do/전남,Yeosu-si/여수시,/zh-hans/region2/yeosu-si%EC%97%AC%EC%88%98%EC%8B%9Cjeollanam-do%EC%A0%84%EB%82%A8
+Gyeonggi-do/경기,Yangpyeong-gun/양평군,/zh-hans/region2/yangpyeong-gun%EC%96%91%ED%8F%89%EA%B5%B0gyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Yeoju-gun/여주군,/zh-hans/region2/yeoju-gun%EC%97%AC%EC%A3%BC%EA%B5%B0gyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Yeoncheon-gun/연천군,/zh-hans/region2/yeoncheon-gun%EC%97%B0%EC%B2%9C%EA%B5%B0gyeonggi-do%EA%B2%BD%EA%B8%B0
+Gyeonggi-do/경기,Yeongtong-gu Suwon-si/수원시 영통구,/zh-hans/region2/yeongtong-gu-suwon-si%EC%88%98%EC%9B%90%EC%8B%9C-%EC%98%81%ED%86%B5%EA%B5%ACgyeonggi-do%EA%B2%BD%EA%B8%B0

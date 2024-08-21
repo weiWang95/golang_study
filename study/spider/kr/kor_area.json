@@ -1,0 +1,82 @@
+[
+  {
+    "parent": "",
+    "name": "Busan/부산",
+    "link": "/zh-hans/region1/busan%EB%B6%80%EC%82%B0"
+  },
+  {
+    "parent": "",
+    "name": "Daejeon/대전",
+    "link": "/zh-hans/region1/daejeon%EB%8C%80%EC%A0%84"
+  },
+  {
+    "parent": "",
+    "name": "Gyeongsangnam-do/경남",
+    "link": "/zh-hans/region1/gyeongsangnam-do%EA%B2%BD%EB%82%A8"
+  },
+  {
+    "parent": "",
+    "name": "Seoul/서울",
+    "link": "/zh-hans/region1/seoul%EC%84%9C%EC%9A%B8"
+  },
+  {
+    "parent": "",
+    "name": "Ulsan/울산",
+    "link": "/zh-hans/region1/ulsan%EC%9A%B8%EC%82%B0"
+  },
+  {
+    "parent": "",
+    "name": "Chungcheongnam-do/충남",
+    "link": "/zh-hans/region1/chungcheongnam-do%EC%B6%A9%EB%82%A8"
+  },
+  {
+    "parent": "",
+    "name": "Daegu/대구",
+    "link": "/zh-hans/region1/daegu%EB%8C%80%EA%B5%AC"
+  },
+  {
+    "parent": "",
+    "name": "Gyeonggi-do/경기",
+    "link": "/zh-hans/region1/gyeonggi-do%EA%B2%BD%EA%B8%B0"
+  },
+  {
+    "parent": "",
+    "name": "Incheon/인천",
+    "link": "/zh-hans/region1/incheon%EC%9D%B8%EC%B2%9C"
+  },
+  {
+    "parent": "",
+    "name": "Chungcheongbuk-do/충북",
+    "link": "/zh-hans/region1/chungcheongbuk-do%EC%B6%A9%EB%B6%81"
+  },
+  {
+    "parent": "",
+    "name": "Gangwon-do/강원",
+    "link": "/zh-hans/region1/gangwon-do%EA%B0%95%EC%9B%90"
+  },
+  {
+    "parent": "",
+    "name": "Gyeongsangbuk-do/경북",
+    "link": "/zh-hans/region1/gyeongsangbuk-do%EA%B2%BD%EB%B6%81"
+  },
+  {
+    "parent": "",
+    "name": "Jeju-do/제주",
+    "link": "/zh-hans/region1/jeju-do%EC%A0%9C%EC%A3%BC"
+  },
+  {
+    "parent": "",
+    "name": "Jeollabuk-do/전북",
+    "link": "/zh-hans/region1/jeollabuk-do%EC%A0%84%EB%B6%81"
+  },
+  {
+    "parent": "",
+    "name": "Jeollanam-do/전남",
+    "link": "/zh-hans/region1/jeollanam-do%EC%A0%84%EB%82%A8"
+  },
+  {
+    "parent": "",
+    "name": "Gwangju/광주",
+    "link": "/zh-hans/region1/gwangju%EA%B4%91%EC%A3%BC"
+  }
+]

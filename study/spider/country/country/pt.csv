@@ -1,0 +1,498 @@
+AF,Afeganistão," Afeganistão
+"
+ZA,África do Sul," África do Sul
+"
+AX,"Aland, Ilhas"," Ilhas Åland
+"
+AL,Albânia," Albânia
+"
+DE,Alemanha," Alemanha
+"
+AD,Andorra," Andorra
+"
+AO,Angola," Angola
+"
+AI,Anguila," Anguila
+"
+AQ,Antártida," Antártida
+"
+AG,Antígua e Barbuda," Antígua e Barbuda
+"
+SA,Arábia Saudita," Arábia Saudita
+"
+DZ,Argélia," Argélia
+"
+AR,Argentina," Argentina
+"
+AM,Armênia," Armênia
+"
+AW,Aruba," Aruba
+"
+AU,Austrália," Austrália
+"
+AT,Áustria," Áustria
+"
+AZ,Azerbaijão," Azerbaijão
+"
+BS,Bahamas," Bahamas
+"
+BD,Bangladexe," Bangladexe
+"
+BB,Barbados," Barbados
+"
+BH,Barém," Barém
+"
+BE,Bélgica," Bélgica
+"
+BZ,Belize," Belize
+"
+BJ,Benim," Benim
+"
+BM,Bermudas," Bermudas
+"
+BY,Bielorrússia," Bielorrússia
+"
+BO,Bolívia," Bolívia
+"
+BQ,"Bonaire, Santo Eustáquio e Saba"," Países Baixos Caribenhos
+"
+BA,Bósnia e Herzegovina," Bósnia e Herzegovina
+"
+BW,Botsuana," Botsuana
+"
+BV,"Bouvet, Ilha"," Ilha Bouvet
+"
+BR,Brasil," Brasil
+"
+BN,Brunei," Brunei
+"
+BG,Bulgária," Bulgária
+"
+BF,Burquina Fasso," Burquina Fasso
+"
+BI,Burundi," Burundi
+"
+BT,Butão," Butão
+"
+CV,Cabo Verde," Cabo Verde
+"
+KY,"Caimã, Ilhas"," Ilhas Caimã
+"
+KH,Camboja," Camboja
+"
+CM,Camarões," Camarões
+"
+CA,Canadá," Canadá
+"
+QA,Catar," Catar
+"
+KZ,Cazaquistão," Cazaquistão
+"
+CF,"Centro-Africana, República"," República Centro-Africana
+"
+TD,Chade," Chade
+"
+CZ,Chéquia," Chéquia
+"
+CL,Chile," Chile
+"
+CN,China," China
+"
+CY,Chipre," Chipre
+"
+CC,"Cocos, Ilhas"," Ilhas Cocos (Keeling)
+"
+CO,Colômbia," Colômbia
+"
+KM,Comores," Comores
+"
+CG,"Congo, República do"," República do Congo
+"
+CD,"Congo, República Democrática do (antigo Zaire)"," República Democrática do Congo
+"
+CK,"Cook, Ilhas"," Ilhas Cook
+"
+KR,Coreia do Sul," Coreia do Sul
+"
+KP,"Coreia, República Democrática da (Coreia do Norte)"," Coreia do Norte
+"
+CI,Costa do Marfim," Costa do Marfim
+"
+CR,Costa Rica," Costa Rica
+"
+HR,Croácia," Croácia
+"
+CU,Cuba," Cuba
+"
+CW,Curaçau," Curaçau
+"
+DK,Dinamarca," Dinamarca
+"
+DJ,Djibuti," Djibuti
+"
+DM,Dominica," Dominica
+"
+DO,"Dominicana, República"," República Dominicana
+"
+EG,Egito," Egito
+"
+SV,El Salvador," El Salvador
+"
+AE,Emirados Árabes Unidos," Emirados Árabes Unidos
+"
+EC,Equador," Equador
+"
+ER,Eritreia," Eritreia
+"
+SK,Eslováquia," Eslováquia
+"
+SI,Eslovênia," Eslovênia
+"
+ES,Espanha," Espanha
+"
+US,Estados Unidos," Estados Unidos
+"
+EE,Estónia," Estónia
+"
+SZ,Essuatíni," Essuatíni
+"
+SJ,Esvalbarde e Jan Mayen," Esvalbarde e Jan Mayen
+"
+ET,Etiópia," Etiópia
+"
+FO,"Feroé, Ilhas"," Ilhas Feroé
+"
+FJ,Fiji," Fiji
+"
+PH,Filipinas," Filipinas
+"
+FI,Finlândia," Finlândia
+"
+FR,França," França
+"
+GA,Gabão," Gabão
+"
+GM,Gâmbia," Gâmbia
+"
+GH,Gana," Gana
+"
+GE,Geórgia," Geórgia
+"
+GS,"Geórgia do Sul e Sanduíche do Sul, Ilhas"," Ilhas Geórgia do Sul e Sandwich do Sul
+"
+GI,Gibraltar," Gibraltar
+"
+GD,Granada," Granada
+"
+GR,Grécia," Grécia
+"
+GL,Groenlândia," Gronelândia
+"
+GP,Guadalupe," Guadalupe
+"
+GU,Guam," Guam
+"
+GT,Guatemala," Guatemala
+"
+GG,Guernsey," Guernsey
+"
+GY,Guiana," Guiana
+"
+GF,Guiana Francesa," Guiana Francesa
+"
+GW,Guiné-Bissau," Guiné-Bissau
+"
+GN,Guiné-Conacri," Guiné
+"
+GQ,Guiné Equatorial," Guiné Equatorial
+"
+HT,Haiti," Haiti
+"
+HM,"Heard e Ilhas McDonald, Ilha"," Ilha Heard e Ilhas McDonald
+"
+HN,Honduras," Honduras
+"
+HK,Hong Kong," Hong Kong
+"
+HU,Hungria," Hungria
+"
+YE,Iémen," Iêmen
+"
+IN,Índia," Índia
+"
+ID,Indonésia," Indonésia
+"
+IQ,Iraque," Iraque
+"
+IR,Irã," Irão
+"
+IE,Irlanda," Irlanda
+"
+IS,Islândia," Islândia
+"
+IL,Israel," Israel
+"
+IT,Itália," Itália
+"
+JM,Jamaica," Jamaica
+"
+JP,Japão," Japão
+"
+JE,Jersey," Jersey
+"
+JO,Jordânia," Jordânia
+"
+KW,Kuwait," Kuwait
+"
+LA,Laos," Laos
+"
+LS,Lesoto," Lesoto
+"
+LV,Letônia," Letônia
+"
+LB,Líbano," Líbano
+"
+LR,Libéria," Libéria
+"
+LY,Líbia," Líbia
+"
+LI,Listenstaine," Listenstaine
+"
+LT,Lituânia," Lituânia
+"
+LU,Luxemburgo," Luxemburgo
+"
+MO,Macau," Macau
+"
+MK,Macedônia do Norte," Macedônia do Norte
+"
+MG,Madagáscar," Madagáscar
+"
+YT,Maiote," Maiote
+"
+MY,Malásia," Malásia
+"
+MW,Maláui," Maláui
+"
+MV,Maldivas," Maldivas
+"
+ML,Mali," Mali
+"
+MT,Malta," Malta
+"
+FK,"Malvinas, Ilhas (Falkland)"," Ilhas Malvinas
+"
+IM,"Man, Ilha de"," Ilha de Man
+"
+MP,Marianas Setentrionais," Marianas Setentrionais
+"
+MA,Marrocos," Marrocos
+"
+MH,"Marshall, Ilhas"," Ilhas Marshall
+"
+MQ,Martinica," Martinica
+"
+MU,Maurícia," Ilhas Maurícias
+"
+MR,Mauritânia," Mauritânia
+"
+UM,"Menores Distantes dos Estados Unidos, Ilhas"," Ilhas Menores Distantes dos Estados Unidos
+"
+MX,México," México
+"
+MM,Mianmar (antiga Birmânia)," Myanmar
+"
+FM,"Micronésia, Estados Federados da"," Estados Federados da Micronésia
+"
+MZ,Moçambique," Moçambique
+"
+MD,Moldávia," Moldávia
+"
+MC,Mônaco," Mónaco
+"
+MN,Mongólia," Mongólia
+"
+MS,Monserrate," Monserrate
+"
+ME,Montenegro," Montenegro
+"
+NA,Namíbia," Namíbia
+"
+CX,"Natal, Ilha do (Ilha Christmas)"," Ilha do Natal
+"
+NR,Nauru," Nauru
+"
+NP,Nepal," Nepal
+"
+NI,Nicarágua," Nicarágua
+"
+NE,Níger," Níger
+"
+NG,Nigéria," Nigéria
+"
+NU,Niue," Niue
+"
+NF,"Norfolque, Ilha"," Ilha Norfolk
+"
+NO,Noruega," Noruega
+"
+NC,Nova Caledônia," Nova Caledónia
+"
+NZ,Nova Zelândia (Aotearoa)," Nova Zelândia
+"
+OM,Omã," Omã
+"
+NL,Países Baixos (Holanda)," Países Baixos
+"
+PW,Palau," Palau
+"
+PS,Palestina," Palestina
+"
+PA,Panamá," Panamá
+"
+PG,Papua-Nova Guiné," Papua-Nova Guiné
+"
+PK,Paquistão," Paquistão
+"
+PY,Paraguai," Paraguai
+"
+PE,Peru," Peru
+"
+PN,Pitcairn," Pitcairn
+"
+PF,Polinésia Francesa," Polinésia Francesa
+"
+PL,Polônia," Polónia
+"
+PR,Porto Rico," Porto Rico
+"
+PT,Portugal," Portugal
+"
+KE,Quênia," Quênia
+"
+KG,Quirguistão," Quirguistão
+"
+KI,Quiribáti," Quiribáti
+"
+GB,Reino Unido da Grã-Bretanha e Irlanda do Norte," Reino Unido
+"
+RE,Reunião," Reunião
+"
+RO,Romênia," Romnia
+"
+RW,Ruanda," Ruanda
+"
+RU,Rússia," Rússia
+"
+EH,Saara Ocidental," Saara Ocidental
+"
+AS,Samoa Americana," Samoa Americana
+"
+WS,Samoa (Samoa Ocidental)," Samoa
+"
+SB,"Salomão, Ilhas"," Ilhas Salomão
+"
+SM,San Marino," San Marino
+"
+SH,Santa Helena," Santa Helena, Ascensão e Tristão da Cunha
+"
+LC,Santa Lúcia," Santa Lúcia
+"
+BL,São Bartolomeu," São Bartolomeu
+"
+KN,São Cristóvão e Neves," São Cristóvão e Neves
+"
+MF,São Martinho (França)," São Martinho
+"
+SX,São Martinho (Países Baixos)," São Martinho
+"
+PM,São Pedro e Miquelão," São Pedro e Miquelão
+"
+ST,São Tomé e Príncipe," São Tomé e Príncipe
+"
+VC,São Vicente e Granadinas," São Vicente e Granadinas
+"
+SC,Seicheles," Seicheles
+"
+SN,Senegal," Senegal
+"
+LK,Seri Lanca," Seri Lanca
+"
+SL,Serra Leoa," Serra Leoa
+"
+RS,Sérvia," Sérvia
+"
+SG,Singapura," Singapura
+"
+SY,Síria," Síria
+"
+SO,Somália," Somália
+"
+SD,Sudão," Sudão
+"
+SS,Sudão do Sul," Sudão do Sul
+"
+SE,Suécia," Suécia
+"
+CH,Suíça," Suíça
+"
+SR,Suriname," Suriname
+"
+TH,Tailândia," Tailândia
+"
+TW,Taiwan," Taiwan
+"
+TJ,Tajiquistão," Tajiquistão
+"
+TZ,Tanzânia," Tanzânia
+"
+TF,Terras Austrais e Antárticas Francesas (TAAF)," Terras Austrais e Antárticas Francesas
+"
+IO,Território Britânico do Oceano Índico," Território Britânico do Oceano Índico
+"
+TL,Timor-Leste," Timor-Leste
+"
+TG,Togo," Togo
+"
+TO,Tonga," Tonga
+"
+TK,Toquelau," Toquelau
+"
+TT,Trindade e Tobago," Trinidad e Tobago
+"
+TN,Tunísia," Tunísia
+"
+TC,Turcas e Caicos," Turcas e Caicos
+"
+TM,Turcomenistão," Turcomenistão
+"
+TR,Turquia," Turquia
+"
+TV,Tuvalu," Tuvalu
+"
+UA,Ucrânia," Ucrânia
+"
+UG,Uganda," Uganda
+"
+UY,Uruguai," Uruguai
+"
+UZ,Usbequistão," Uzbequistão
+"
+VU,Vanuatu," Vanuatu
+"
+VA,Vaticano," Vaticano
+"
+VE,Venezuela," Venezuela
+"
+VN,Vietnã," Vietname
+"
+VI,"Virgens Americanas, Ilhas"," Ilhas Virgens Americanas
+"
+VG,"Virgens Britânicas, Ilhas"," Ilhas Virgens Britânicas
+"
+WF,Wallis e Futuna," Wallis e Futuna
+"
+ZM,Zâmbia," Zâmbia
+"
+ZW,Zimbábue," Zimbábue
+"

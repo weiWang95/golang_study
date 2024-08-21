@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func main() {
+	a := make([]int, 0)
+
+	var o interface{}
+	o = a
+
+	v := reflect.ValueOf(o)
+
+	fmt.Println(reflect.TypeOf(o), reflect.ValueOf(o))
+	fmt.Println(v.Elem(), v.Type())
+}

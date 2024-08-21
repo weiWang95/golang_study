@@ -1,0 +1,69 @@
+package main
+
+import (
+	"crypto/rand"
+	"crypto/rsa"
+	"crypto/x509"
+	"encoding/base64"
+	"encoding/pem"
+	"fmt"
+	"time"
+
+	"github.com/pkg/errors"
+)
+
+var data = `{"name":"Shoplazza","expires_at":%d}`
+
+var (
+	PubKey = "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqK46x9Z1R0NknXFKKOOEMsbRn\nIxXg/w7ipPU+y8mf2Adys7vUoMb/UMFM4Twsts+TbJd1fV+hXXAbZshstYkihY+6\nBbwoXYFSmEm3isQ89QbbSE+evcUDvE4qxOrE6JxKYLtQimsOiQjQTpJVuct1IGRl\nMUQwAhcbnZVNe1zFFwIDAQAB\n-----END PUBLIC KEY-----"
+	// PubKey = "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIUmXgZhPGwkIi5LrKS0zWk0gD\nH1YseRNzCTorwka4acq6bKJSSYmAht/n+bDag575Bqm0lzG41+yyiA5xyaTwc4NC\newPnK5lb0YY8hqFXDJ0eWzov0x9NfSTmr9KOe6o6DQejgCJ9fB95JlmVNSRjOM/6\nKd2k4MacDiXNfpsPdwIDAQAB\n-----END PUBLIC KEY-----"
+	PriKey = "-----BEGIN RSA PRIVATE KEY-----\nMIICWwIBAAKBgQCIUmXgZhPGwkIi5LrKS0zWk0gDH1YseRNzCTorwka4acq6bKJS\nSYmAht/n+bDag575Bqm0lzG41+yyiA5xyaTwc4NCewPnK5lb0YY8hqFXDJ0eWzov\n0x9NfSTmr9KOe6o6DQejgCJ9fB95JlmVNSRjOM/6Kd2k4MacDiXNfpsPdwIDAQAB\nAoGAF1x/hvAXTYV2zgICnK5A0bjVq2tQWji5g4o+RMd7VRkUG9SIEK/3d2YlstxQ\nWXIa6TQiGweaBsJCFupIB2n18Nqmr7y6hBZ9M2tWB6YTF6Abz5cJ5kWpomdQCLcU\nbMQiW349Ke+0MCrcZS6Dvpszn99VEUX0LBiVLe8DQbBujtkCQQDLoBztLRrzS3ej\nx/bFTOwJ8eoxnkqJdthD3cS1X1pVj/P1ARFmSwJTKXISlDKJpPOlB5yPn9sNDVAb\nI9j+58jLAkEAq2Kf/obuerJenbhegdTYtq+toq4IWt6jSq67JtmBxcuBjMjc+4AA\nHdj22ZRaSG35Up2omC4Dhj2U4sYgop16hQJATGum74yCFNU57Ynan2mjHIhiMIUL\nzFOCDtZoQPmsWXhRQp5H/XAhSzy+xyI/ZVE277TPmUeRWnCoo8bsZZ5vyQJAZAZO\njHVhr9h0YiadebaouI51j3F0zNwNf2PVNIpTNAZe2LTOTDZbWxAqmbf8rTMKBU6g\nfBi2090TDPtHRsEUJQJADv3W1VcxDbOlOjxJfgXMbZ6elff0yZqLu7ZeOJNMnDmj\ngiRQuURWa8S0rPa/TysmVl/g5o90X8zrnNpDomvRvA==\n-----END RSA PRIVATE KEY-----"
+)
+
+func main() {
+	str, err := rsaEncode([]byte(fmt.Sprintf(data, time.Now().Add(5*time.Minute).Unix())))
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("encode -> ", str)
+
+	r, err := rsaDecode(str)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("decode -> ", string(r))
+}
+
+func rsaEncode(data []byte) (string, error) {
+	block, _ := pem.Decode([]byte(PubKey))
+	pub, err := x509.ParsePKIXPublicKey(block.Bytes)
+	if err != nil {
+		return "", errors.WithStack(err)
+	}
+	pubKey := pub.(*rsa.PublicKey)
+	bs, err := rsa.EncryptPKCS1v15(rand.Reader, pubKey, data)
+	if err != nil {
+		return "", errors.WithStack(err)
+	}
+	return base64.StdEncoding.EncodeToString(bs), nil
+}
+
+func rsaDecode(data string) ([]byte, error) {
+	bs, err := base64.StdEncoding.DecodeString(data)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	block, _ := pem.Decode([]byte(PriKey))
+	priKey, err := x509.ParsePKCS1PrivateKey(block.Bytes)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+	// priKey := pri.(*rsa.PrivateKey)
+	b, err := rsa.DecryptPKCS1v15(rand.Reader, priKey, bs)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	return b, nil
+}

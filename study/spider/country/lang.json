@@ -1,0 +1,656 @@
+[
+  {
+    "code": "zh-CN",
+    "name": "简体中文",
+    "zh_name": "简体中文",
+    "en_name": "Simplified Chinese"
+  },
+  {
+    "code": "zh-TW",
+    "name": "繁体中文",
+    "zh_name": "繁体中文",
+    "en_name": "Traditional Chinese"
+  },
+  {
+    "code": "en-US",
+    "name": "English",
+    "zh_name": "英语",
+    "en_name": "English"
+  },
+  {
+    "code": "th-TH",
+    "name": "ไทย",
+    "zh_name": "泰语",
+    "en_name": "Thai"
+  },
+  {
+    "code": "fr-FR",
+    "name": "français",
+    "zh_name": "法语",
+    "en_name": "French"
+  },
+  {
+    "code": "ko-KR",
+    "name": "한국어",
+    "zh_name": "韩语",
+    "en_name": "Korean"
+  },
+  {
+    "code": "ja-JP",
+    "name": "日本語",
+    "zh_name": "日语",
+    "en_name": "Japanese"
+  },
+  {
+    "code": "es-ES",
+    "name": "español",
+    "zh_name": "西班牙语",
+    "en_name": "Spanish"
+  },
+  {
+    "code": "pt-PT",
+    "name": "Português",
+    "zh_name": "葡萄牙语",
+    "en_name": "Portuguese"
+  },
+  {
+    "code": "ru-RU",
+    "name": "русский язык",
+    "zh_name": "俄语",
+    "en_name": "Russian"
+  },
+  {
+    "code": "it-IT",
+    "name": "Italiano",
+    "zh_name": "意大利语",
+    "en_name": "Italian"
+  },
+  {
+    "code": "ar-SA",
+    "name": "العربية",
+    "zh_name": "阿拉伯语",
+    "en_name": "Arabic(Saudi Arabia)"
+  },
+  {
+    "code": "id-ID",
+    "name": "Bahasa Indonesia",
+    "zh_name": "印度尼西亚语",
+    "en_name": "Indonesian"
+  },
+  {
+    "code": "de-DE",
+    "name": "Deutsch",
+    "zh_name": "德语",
+    "en_name": "German"
+  },
+  {
+    "code": "nl-NL",
+    "name": "Nederlands",
+    "zh_name": "荷兰语",
+    "en_name": "Dutch"
+  },
+  {
+    "code": "pl-PL",
+    "name": "polski",
+    "zh_name": "波兰语",
+    "en_name": "Polish"
+  },
+  {
+    "code": "af",
+    "name": "Afrikaans",
+    "zh_name": "南非荷兰语",
+    "en_name": "Afrikaans"
+  },
+  {
+    "code": "sq",
+    "name": "Shqip",
+    "zh_name": "阿尔巴尼亚语",
+    "en_name": "Albanian"
+  },
+  {
+    "code": "am",
+    "name": "አማርኛ",
+    "zh_name": "阿姆哈拉语",
+    "en_name": "Amharic"
+  },
+  {
+    "code": "hy",
+    "name": "Հայերեն",
+    "zh_name": "亚美尼亚语",
+    "en_name": "Armenian"
+  },
+  {
+    "code": "az",
+    "name": "azərbaycan dili",
+    "zh_name": "阿塞拜疆语",
+    "en_name": "Azerbaijani"
+  },
+  {
+    "code": "eu",
+    "name": "euskara",
+    "zh_name": "巴斯克语",
+    "en_name": "Basque"
+  },
+  {
+    "code": "be",
+    "name": "Беларуская",
+    "zh_name": "白俄罗斯语",
+    "en_name": "Belarusian"
+  },
+  {
+    "code": "bn",
+    "name": "বাংলা",
+    "zh_name": "孟加拉语",
+    "en_name": "Bengali"
+  },
+  {
+    "code": "bs",
+    "name": "bosanski jezik",
+    "zh_name": "波斯尼亚语",
+    "en_name": "Bosnian"
+  },
+  {
+    "code": "bg",
+    "name": "български език",
+    "zh_name": "保加利亚语",
+    "en_name": "Bulgarian"
+  },
+  {
+    "code": "ca",
+    "name": "Català",
+    "zh_name": "加泰罗尼亚语",
+    "en_name": "Catalan"
+  },
+  {
+    "code": "ceb",
+    "name": "нохчийн мотт",
+    "zh_name": "宿务语",
+    "en_name": "Cebuano"
+  },
+  {
+    "code": "co",
+    "name": "lingua corsa",
+    "zh_name": "科西嘉语",
+    "en_name": "Corsican"
+  },
+  {
+    "code": "hr",
+    "name": "hrvatski",
+    "zh_name": "克罗地亚语",
+    "en_name": "Croatian"
+  },
+  {
+    "code": "cs",
+    "name": "česky",
+    "zh_name": "捷克语",
+    "en_name": "Czech"
+  },
+  {
+    "code": "da",
+    "name": "dansk",
+    "zh_name": "丹麦语",
+    "en_name": "Danish"
+  },
+  {
+    "code": "eo",
+    "name": "Esperanto",
+    "zh_name": "世界语",
+    "en_name": "Esperanto"
+  },
+  {
+    "code": "et",
+    "name": "eesti",
+    "zh_name": "爱沙尼亚语",
+    "en_name": "Estonian"
+  },
+  {
+    "code": "fi",
+    "name": "suomi",
+    "zh_name": "芬兰语",
+    "en_name": "Finnish"
+  },
+  {
+    "code": "fy",
+    "name": "Frysk",
+    "zh_name": "弗里斯兰语",
+    "en_name": "Frisian"
+  },
+  {
+    "code": "gl",
+    "name": "Galego",
+    "zh_name": "加利西亚语",
+    "en_name": "Galician"
+  },
+  {
+    "code": "ka",
+    "name": "ქართული",
+    "zh_name": "格鲁吉亚语",
+    "en_name": "Georgian"
+  },
+  {
+    "code": "el",
+    "name": "Ελληνικά",
+    "zh_name": "希腊语",
+    "en_name": "Greek"
+  },
+  {
+    "code": "gu",
+    "name": "ગુજરાતી",
+    "zh_name": "古吉拉特语",
+    "en_name": "Gujarati"
+  },
+  {
+    "code": "ht",
+    "name": "Kreyòl ayisyen",
+    "zh_name": "海地克里奥尔语",
+    "en_name": "Haitian Creole"
+  },
+  {
+    "code": "ha",
+    "name": "Hausa, هَوُسَ",
+    "zh_name": "豪萨语",
+    "en_name": "Hausa"
+  },
+  {
+    "code": "haw",
+    "name": "Hausa",
+    "zh_name": "夏威夷语",
+    "en_name": "Hawaiian"
+  },
+  {
+    "code": "he",
+    "name": "עברית",
+    "zh_name": "希伯来语",
+    "en_name": "Hebrew"
+  },
+  {
+    "code": "hi",
+    "name": "हिन्दी",
+    "zh_name": "印地语",
+    "en_name": "Hindi"
+  },
+  {
+    "code": "hmn",
+    "name": "Hmong",
+    "zh_name": "苗语",
+    "en_name": "Hmong"
+  },
+  {
+    "code": "hu",
+    "name": "Magyar",
+    "zh_name": "匈牙利语",
+    "en_name": "Hungarian"
+  },
+  {
+    "code": "is",
+    "name": "Íslenska",
+    "zh_name": "冰岛语",
+    "en_name": "Icelandic"
+  },
+  {
+    "code": "ig",
+    "name": "Asụsụ Igbo",
+    "zh_name": "伊博语",
+    "en_name": "Igbo"
+  },
+  {
+    "code": "ga",
+    "name": "Gaeilge",
+    "zh_name": "爱尔兰语",
+    "en_name": "Irish"
+  },
+  {
+    "code": "jv",
+    "name": "basa Jawa",
+    "zh_name": "爪哇语",
+    "en_name": "Javanese"
+  },
+  {
+    "code": "kn",
+    "name": "ಕನ್ನಡ",
+    "zh_name": "卡纳达语",
+    "en_name": "Kannada"
+  },
+  {
+    "code": "kk",
+    "name": "Қазақ тілі",
+    "zh_name": "哈萨克语",
+    "en_name": "Kazakh"
+  },
+  {
+    "code": "km",
+    "name": "ភាសាខ្មែរ",
+    "zh_name": "高棉语",
+    "en_name": "Khmer"
+  },
+  {
+    "code": "rw",
+    "name": "Ikinyarwanda",
+    "zh_name": "卢旺达语",
+    "en_name": "Kinyarwanda"
+  },
+  {
+    "code": "ku",
+    "name": "Kurdî",
+    "zh_name": "库尔德语",
+    "en_name": "Kurdish"
+  },
+  {
+    "code": "ky",
+    "name": "кыргыз тили",
+    "zh_name": "吉尔吉斯语",
+    "en_name": "Kyrgyz"
+  },
+  {
+    "code": "lo",
+    "name": "ພາສາລາວ",
+    "zh_name": "老挝语",
+    "en_name": "Lao"
+  },
+  {
+    "code": "la",
+    "name": "lingua latina",
+    "zh_name": "拉丁语",
+    "en_name": "Latin"
+  },
+  {
+    "code": "lv",
+    "name": "latviešu valoda",
+    "zh_name": "拉脱维亚语",
+    "en_name": "Latvian"
+  },
+  {
+    "code": "lt",
+    "name": "lietuvių kalba",
+    "zh_name": "立陶宛语",
+    "en_name": "Lithuanian"
+  },
+  {
+    "code": "lb",
+    "name": "Lëtzebuergesch",
+    "zh_name": "卢森堡语",
+    "en_name": "Luxembourgish"
+  },
+  {
+    "code": "mk",
+    "name": "македонски јазик",
+    "zh_name": "马其顿语",
+    "en_name": "Macedonian"
+  },
+  {
+    "code": "mg",
+    "name": "Malagasy fiteny",
+    "zh_name": "马尔加什语",
+    "en_name": "Malagasy"
+  },
+  {
+    "code": "ms",
+    "name": "bahasa Melayu",
+    "zh_name": "马来语",
+    "en_name": "Malay"
+  },
+  {
+    "code": "ml",
+    "name": "മലയാളം",
+    "zh_name": "马拉雅拉姆文",
+    "en_name": "Malayalam"
+  },
+  {
+    "code": "mt",
+    "name": "Malti",
+    "zh_name": "马耳他语",
+    "en_name": "Maltese"
+  },
+  {
+    "code": "mi",
+    "name": "te reo Māori",
+    "zh_name": "毛利语",
+    "en_name": "Maori"
+  },
+  {
+    "code": "mr",
+    "name": "मराठी",
+    "zh_name": "马拉地语",
+    "en_name": "Marathi"
+  },
+  {
+    "code": "mn",
+    "name": "монгол",
+    "zh_name": "蒙古语",
+    "en_name": "Mongolian"
+  },
+  {
+    "code": "my",
+    "name": "ဗမာစာ",
+    "zh_name": "缅甸语",
+    "en_name": "Myanmar (Burmese)"
+  },
+  {
+    "code": "ne",
+    "name": "नेपाली",
+    "zh_name": "尼泊尔语",
+    "en_name": "Nepali"
+  },
+  {
+    "code": "no",
+    "name": "Norsk",
+    "zh_name": "挪威语",
+    "en_name": "Norwegian"
+  },
+  {
+    "code": "ny",
+    "name": "chiCheŵa",
+    "zh_name": "齐切瓦语",
+    "en_name": "Nyanja (Chichewa)"
+  },
+  {
+    "code": "or",
+    "name": "ଓଡ଼ିଆ",
+    "zh_name": "奥里亚语",
+    "en_name": "Odia (Oriya)"
+  },
+  {
+    "code": "ps",
+    "name": "پښتو",
+    "zh_name": "普什图语",
+    "en_name": "Pashto"
+  },
+  {
+    "code": "fa",
+    "name": "فارسی",
+    "zh_name": "波斯语",
+    "en_name": "Persian"
+  },
+  {
+    "code": "pa",
+    "name": "ਪੰਜਾਬੀ",
+    "zh_name": "旁遮普语",
+    "en_name": "Punjabi"
+  },
+  {
+    "code": "ro",
+    "name": "română",
+    "zh_name": " 罗马尼亚语",
+    "en_name": "Romanian"
+  },
+  {
+    "code": "sm",
+    "name": "gagana faa Samoa",
+    "zh_name": "萨摩亚语",
+    "en_name": "Samoan"
+  },
+  {
+    "code": "gd",
+    "name": "Gàidhlig",
+    "zh_name": "苏格兰盖尔语",
+    "en_name": "Scots Gaelic"
+  },
+  {
+    "code": "sr",
+    "name": "српски језик",
+    "zh_name": "塞尔维亚语",
+    "en_name": "Serbian"
+  },
+  {
+    "code": "st",
+    "name": "Sesotho",
+    "zh_name": "塞索托语",
+    "en_name": "Sesotho"
+  },
+  {
+    "code": "sn",
+    "name": "chiShona",
+    "zh_name": "修纳语",
+    "en_name": "Shona"
+  },
+  {
+    "code": "sd",
+    "name": "سنڌي، سندھی‎",
+    "zh_name": "信德语",
+    "en_name": "Sindhi"
+  },
+  {
+    "code": "si",
+    "name": "සිංහල",
+    "zh_name": "僧伽罗语",
+    "en_name": "Sinhala (Sinhalese)"
+  },
+  {
+    "code": "sk",
+    "name": "slovenčina",
+    "zh_name": "斯洛伐克语",
+    "en_name": "Slovak"
+  },
+  {
+    "code": "sl",
+    "name": "slovenščina",
+    "zh_name": "斯洛文尼亚语",
+    "en_name": "Slovenian"
+  },
+  {
+    "code": "so",
+    "name": "af Soomaali",
+    "zh_name": "索马里语",
+    "en_name": "Somali"
+  },
+  {
+    "code": "su",
+    "name": "Basa Sunda",
+    "zh_name": "巽他语",
+    "en_name": "Sundanese"
+  },
+  {
+    "code": "sw",
+    "name": "Kiswahili",
+    "zh_name": "斯瓦希里语",
+    "en_name": "Swahili"
+  },
+  {
+    "code": "sv",
+    "name": "svenska",
+    "zh_name": "瑞典语",
+    "en_name": "Swedish"
+  },
+  {
+    "code": "tl",
+    "name": "Wikang Tagalog",
+    "zh_name": "菲律宾语",
+    "en_name": "Tagalog (Filipino)"
+  },
+  {
+    "code": "tg",
+    "name": "тоҷикӣ",
+    "zh_name": "塔吉克语",
+    "en_name": "Tajik"
+  },
+  {
+    "code": "ta",
+    "name": "தமிழ்",
+    "zh_name": "泰米尔语",
+    "en_name": "Tamil"
+  },
+  {
+    "code": "tt",
+    "name": "татарча",
+    "zh_name": "鞑靼语",
+    "en_name": "Tatar"
+  },
+  {
+    "code": "te",
+    "name": "తెలుగు",
+    "zh_name": "泰卢固语",
+    "en_name": "Telugu"
+  },
+  {
+    "code": "tr",
+    "name": "Türkçe",
+    "zh_name": "土耳其语",
+    "en_name": "Turkish"
+  },
+  {
+    "code": "tk",
+    "name": "Türkmen",
+    "zh_name": "土库曼语",
+    "en_name": "Turkmen"
+  },
+  {
+    "code": "uk",
+    "name": "українська",
+    "zh_name": "乌克兰语",
+    "en_name": "Ukrainian"
+  },
+  {
+    "code": "ur",
+    "name": "اردو",
+    "zh_name": "乌尔都语",
+    "en_name": "Urdu"
+  },
+  {
+    "code": "ug",
+    "name": "Uyƣurqə",
+    "zh_name": "维吾尔语",
+    "en_name": "Uyghur"
+  },
+  {
+    "code": "uz",
+    "name": "zbek",
+    "zh_name": "乌兹别克语",
+    "en_name": "Uzbek"
+  },
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "zh_name": "越南语",
+    "en_name": "Vietnamese"
+  },
+  {
+    "code": "cy",
+    "name": "Cymraeg",
+    "zh_name": "威尔士语",
+    "en_name": "Welsh"
+  },
+  {
+    "code": "xh",
+    "name": "isiXhosa",
+    "zh_name": "班图语",
+    "en_name": "Xhosa"
+  },
+  {
+    "code": "yi",
+    "name": "ייִדיש",
+    "zh_name": "意第绪语",
+    "en_name": "Yiddish"
+  },
+  {
+    "code": "yo",
+    "name": "Yorùbá",
+    "zh_name": "约鲁巴语",
+    "en_name": "Yoruba"
+  },
+  {
+    "code": "zu",
+    "name": "isiZulu",
+    "zh_name": "祖鲁语",
+    "en_name": "Zulu"
+  }
+]

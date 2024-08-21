@@ -1,0 +1,497 @@
+AF," Afghanistan
+"
+ZA," Afrique du Sud
+"
+AX," Îles Åland
+"
+AL," Albanie
+"
+DZ," Algérie
+"
+DE," Allemagne
+"
+AD," Andorre
+"
+AO," Angola
+"
+AI," Anguilla
+"
+AQ," Antarctique
+"
+AG," Antigua-et-Barbuda
+"
+SA," Arabie saoudite
+"
+AR," Argentine
+"
+AM," Arménie
+"
+AW," Aruba
+"
+AU," Australie
+"
+AT," Autriche
+"
+AZ," Azerbaïdjan
+"
+BS," Bahamas
+"
+BH," Bahreïn
+"
+BD," Bangladesh
+"
+BB," Barbade
+"
+BY," Biélorussie
+"
+BE," Belgique
+"
+BZ," Belize
+"
+BJ," Bénin
+"
+BM," Bermudes
+"
+BT," Bhoutan
+"
+BO," Bolivie
+"
+BQ," Pays-Bas caribéens
+"
+BA," Bosnie-Herzégovine
+"
+BW," Botswana
+"
+BV," Île Bouvet
+"
+BR," Brésil
+"
+BN," Brunei
+"
+BG," Bulgarie
+"
+BF," Burkina Faso
+"
+BI," Burundi
+"
+KY," Îles Caïmans
+"
+KH," Cambodge
+"
+CM," Cameroun
+"
+CA," Canada
+"
+CV," Cap-Vert
+"
+CF," République centrafricaine
+"
+CL," Chili
+"
+CN," Chine
+"
+CX," Île Christmas
+"
+CY, Chypre
+CC," Îles Cocos
+"
+CO," Colombie
+"
+KM," Comores
+"
+CG," République du Congo
+"
+CD," République démocratique du Congo
+"
+CK," Îles Cook
+"
+KR," Corée du Sud
+"
+KP," Corée du Nord
+"
+CR," Costa Rica
+"
+CI," Côte d'Ivoire
+"
+HR," Croatie
+"
+CU," Cuba
+"
+CW," Curaçao
+"
+DK," Danemark
+"
+DJ," Djibouti
+"
+DO," République dominicaine
+"
+DM," Dominique
+"
+EG," Égypte
+"
+AE," Émirats arabes unis
+"
+EC," Équateur
+"
+ER," Érythrée
+"
+ES," Espagne
+"
+EE," Estonie
+"
+US," États-Unis
+"
+ET," Éthiopie
+"
+FK," Malouines
+"
+FO," Îles Féroé
+"
+FJ," Fidji
+"
+FI," Finlande
+"
+FR," France
+"
+GA," Gabon
+"
+GM," Gambie
+"
+GE," Géorgie
+"
+GS," Géorgie du Sud-et-les îles Sandwich du Sud
+"
+GH," Ghana
+"
+GI," Gibraltar
+"
+GR," Grèce
+"
+GD," Grenade
+"
+GL," Groenland
+"
+GP," Guadeloupe
+"
+GU," Guam
+"
+GT," Guatemala
+"
+GG," Guernesey
+"
+GN," Guinée
+"
+GW," Guinée-Bissau
+"
+GQ," Guinée équatoriale
+"
+GY," Guyana
+"
+GF," Guyane
+"
+HT," Haïti
+"
+HM," Îles Heard-et-MacDonald
+"
+HN," Honduras
+"
+HK," Hong Kong
+"
+HU," Hongrie
+"
+UM," Îles mineures éloignées des États-Unis
+"
+IN," Inde
+"
+ID," Indonésie
+"
+IR," Iran
+"
+IQ," Irak
+"
+IE," Irlande
+"
+IS," Islande
+"
+IL," Israël
+"
+IT," Italie
+"
+JM," Jamaïque
+"
+JP," Japon
+"
+JE," Jersey
+"
+JO," Jordanie
+"
+KZ," Kazakhstan
+"
+KE," Kenya
+"
+KG," Kirghizistan
+"
+KI," Kiribati
+"
+KW," Koweït
+"
+LA," Laos
+"
+LS," Lesotho
+"
+LV," Lettonie
+"
+LB," Liban
+"
+LR," Liberia
+"
+LY," Libye
+"
+LI," Liechtenstein
+"
+LT," Lituanie
+"
+LU," Luxembourg
+"
+MO," Macao
+"
+MK," Macédoine du Nord
+"
+MG," Madagascar
+"
+MY," Malaisie
+"
+MW," Malawi
+"
+MV," Maldives
+"
+ML," Mali
+"
+MT," Malte
+"
+IM," Île de Man
+"
+MP," Îles Mariannes du Nord
+"
+MA," Maroc
+"
+MH," Îles Marshall
+"
+MQ," Martinique
+"
+MU," Maurice
+"
+MR," Mauritanie
+"
+YT," Mayotte
+"
+MX," Mexique
+"
+FM," États fédérés de Micronésie
+"
+MD," Moldavie
+"
+MC," Monaco
+"
+MN," Mongolie
+"
+ME," Monténégro
+"
+MS," Montserrat
+"
+MZ," Mozambique
+"
+MM," Birmanie
+"
+NA," Namibie
+"
+NR," Nauru
+"
+NP," Népal
+"
+NI," Nicaragua
+"
+NE," Niger
+"
+NG," Nigeria
+"
+NU," Niue
+"
+NF," Île Norfolk
+"
+NO," Norvège
+"
+NC," Nouvelle-Calédonie
+"
+NZ," Nouvelle-Zélande
+"
+IO," Territoire britannique de l'océan Indien
+"
+OM," Oman
+"
+UG," Ouganda
+"
+UZ," Ouzbékistan
+"
+PK," Pakistan
+"
+PW," Palaos
+"
+PS," Palestine
+"
+PA," Panama
+"
+PG," Papouasie-Nouvelle-Guinée
+"
+PY," Paraguay
+"
+NL," Pays-Bas
+"
+PE," Pérou
+"
+PH," Philippines
+"
+PN," Îles Pitcairn
+"
+PL," Pologne
+"
+PF," Polynésie française
+"
+PR," Porto Rico
+"
+PT," Portugal
+"
+QA," Qatar
+"
+RE," La Réunion
+"
+RO," Roumanie
+"
+GB," Royaume-Uni
+"
+RU," Russie
+"
+RW," Rwanda
+"
+EH," République arabe sahraouie démocratique
+"
+BL," Saint-Barthélemy
+"
+KN," Saint-Christophe-et-Niévès
+"
+SM," Saint-Marin
+"
+MF," Saint-Martin
+"
+SX," Saint-Martin
+"
+PM," Saint-Pierre-et-Miquelon
+"
+VA," Saint-Siège (État de la Cité du Vatican)
+"
+VC," Saint-Vincent-et-les-Grenadines
+"
+SH," Sainte-Hélène, Ascension et Tristan da Cunha
+"
+LC," Sainte-Lucie
+"
+SB," Îles Salomon
+"
+SV," Salvador
+"
+WS," Samoa
+"
+AS," Samoa américaines
+"
+ST," Sao Tomé-et-Principe
+"
+SN," Sénégal
+"
+RS," Serbie
+"
+SC," Seychelles
+"
+SL," Sierra Leone
+"
+SG," Singapour
+"
+SK," Slovaquie
+"
+SI," Slovénie
+"
+SO," Somalie
+"
+SD," Soudan
+"
+SS," Soudan du Sud
+"
+LK," Sri Lanka
+"
+SE," Suède
+"
+CH," Suisse
+"
+SR," Suriname
+"
+SJ," Svalbard et île Jan Mayen
+"
+SZ," Eswatini
+"
+SY," Syrie
+"
+TJ," Tadjikistan
+"
+TW," Taïwan / (République de Chine (Taïwan))
+"
+TZ," Tanzanie
+"
+TD," Tchad
+"
+CZ," Tchéquie
+"
+TF," Terres australes et antarctiques françaises
+"
+TH," Thaïlande
+"
+TL," Timor oriental
+"
+TG," Togo
+"
+TK," Tokelau
+"
+TO," Tonga
+"
+TT," Trinité-et-Tobago
+"
+TN," Tunisie
+"
+TM," Turkménistan
+"
+TC," Îles Turques-et-Caïques
+"
+TR," Turquie
+"
+TV," Tuvalu
+"
+UA," Ukraine
+"
+UY," Uruguay
+"
+VU," Vanuatu
+"
+VE," Venezuela
+"
+VG," Îles Vierges britanniques
+"
+VI," Îles Vierges des États-Unis
+"
+VN," Viêt Nam
+"
+WF," Wallis-et-Futuna
+"
+YE," Yémen
+"
+ZM," Zambie
+"
+ZW," Zimbabwe
+"

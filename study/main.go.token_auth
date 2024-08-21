@@ -1,0 +1,176 @@
+package main
+
+import (
+	"bytes"
+	"crypto/aes"
+	"crypto/cipher"
+	"encoding/base64"
+	"encoding/json"
+	"fmt"
+	"sync"
+	"time"
+
+	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
+)
+
+func main() {
+	token := "qklkcbzSNuOMOCZwmneK3XAXF7sTA9Tp8Lm35J+wedjleo7EoVkZlk1zFHq08p2d"
+
+	r := GetTokenAuth().Verify(token)
+	fmt.Println(r)
+}
+
+var once sync.Once
+var _auth *tokenAuth
+
+type tokenAuth struct {
+	cipher    *tokenAuthCipher
+	expireIn  time.Duration
+	whiteList map[string]interface{}
+}
+
+func GetTokenAuth() *tokenAuth {
+	once.Do(func() {
+		_auth = newTokenAuth("tQhhjvztrcjBXta4Q947OAs3jzMxKYW0", 10, []string{})
+	})
+
+	return _auth
+}
+
+func newTokenAuth(key string, expireIn int64, whiteList []string) *tokenAuth {
+	s := new(tokenAuth)
+	s.cipher = NewTokenAuthCipher(key)
+	s.expireIn = time.Duration(expireIn * int64(time.Minute))
+
+	wls := make(map[string]interface{})
+	for _, item := range whiteList {
+		if item != "" {
+			wls[item] = nil
+		}
+	}
+	s.whiteList = wls
+
+	return s
+}
+
+func (s *tokenAuth) GenerateTokenAuth() (string, error) {
+	data := AuthTokenData{
+		Name:      "shoplazza",
+		ExpiresAt: time.Now().Add(s.expireIn).Unix(),
+	}
+	b, err := json.Marshal(data)
+	if err != nil {
+		return "", errors.WithStack(err)
+	}
+
+	token, err := s.cipher.encrypt(b)
+	if err != nil {
+		return "", errors.WithStack(err)
+	}
+
+	return token, nil
+}
+
+func (s *tokenAuth) Verify(token string) bool {
+	if len(token) == 0 {
+		logrus.Info("verify auth login token fail: empty token")
+		return false
+	}
+
+	// 白名单
+	if _, ok := s.whiteList[token]; ok {
+		logrus.Info("verify auth login token success: white list token")
+		return true
+	}
+
+	// 解密
+	b, err := s.cipher.decrypt(token)
+	if err != nil {
+		logrus.WithError(err).Info("verify auth login token fail: decrypt fail")
+		return false
+	}
+
+	fmt.Println(string(b))
+
+	var t AuthTokenData
+	if err := json.Unmarshal(b, &t); err != nil {
+		logrus.WithError(err).Infof("verify auth login token fail: unmarshal fail: %s", string(b))
+		return false
+	}
+
+	// 校验有效
+	return t.IsValid()
+}
+
+type tokenAuthCipher struct {
+	key []byte
+}
+
+func NewTokenAuthCipher(key string) *tokenAuthCipher {
+	c := new(tokenAuthCipher)
+	c.key = []byte(key)
+	return c
+}
+
+func (c *tokenAuthCipher) encrypt(originData []byte) (string, error) {
+	b, err := aes.NewCipher(c.key)
+	if err != nil {
+		return "", errors.WithStack(err)
+	}
+
+	bSize := b.BlockSize()
+	originData = c.PKCS7Padding(originData, bSize)
+
+	bm := cipher.NewCBCEncrypter(b, c.key[:bSize])
+	cryted := make([]byte, len(originData))
+	bm.CryptBlocks(cryted, originData)
+
+	return base64.StdEncoding.EncodeToString(cryted), nil
+}
+
+func (c *tokenAuthCipher) decrypt(cryted string) ([]byte, error) {
+	// crytedByte, err := hex.DecodeString(cryted)
+	crytedByte, err := base64.StdEncoding.DecodeString(cryted)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	b, err := aes.NewCipher(c.key)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	bSize := b.BlockSize()
+	bm := cipher.NewCBCDecrypter(b, c.key[:bSize])
+	decrypted := make([]byte, len(crytedByte))
+	bm.CryptBlocks(decrypted, crytedByte)
+
+	return c.PKCS7UnPadding(decrypted), nil
+}
+
+//补码
+//AES加密数据块分组长度必须为128bit(byte[16])，密钥长度可以是128bit(byte[16])、192bit(byte[24])、256bit(byte[32])中的任意一个。
+func (c *tokenAuthCipher) PKCS7Padding(ciphertext []byte, blocksize int) []byte {
+	padding := blocksize - len(ciphertext)%blocksize
+	padtext := bytes.Repeat([]byte{byte(padding)}, padding)
+	return append(ciphertext, padtext...)
+}
+
+//去码
+func (c *tokenAuthCipher) PKCS7UnPadding(origData []byte) []byte {
+	length := len(origData)
+	unpadding := int(origData[length-1])
+	return origData[:(length - unpadding)]
+}
+
+type AuthTokenData struct {
+	Name      string `json:"name"`
+	ExpiresAt int64  `json:"expires_at"`
+}
+
+func (t *AuthTokenData) IsValid() bool {
+	expire := time.Unix(t.ExpiresAt, 0)
+
+	return t.Name == "shoplazza" && expire.After(time.Now())
+}

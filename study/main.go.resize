@@ -1,0 +1,77 @@
+package main
+
+import (
+	"flag"
+	"fmt"
+	"image"
+	"image/color"
+	"image/jpeg"
+	"image/png"
+	"log"
+	"os"
+)
+
+var (
+	path = flag.String("path", "", "image file path")
+)
+
+func main() {
+	flag.Parse()
+
+	file, err := os.Open(*path)
+	if err != nil {
+		log.Fatal("open image failed, ", err)
+	}
+	defer file.Close()
+
+	img, _, err := image.Decode(file)
+	if err != nil {
+		log.Fatal("decode image failed, ", err)
+	}
+
+	bs := img.Bounds()
+	fmt.Printf("%s -> %v %v\n", file.Name(), bs.Dx(), bs.Dy())
+	newImg := image.NewRGBA(bs)
+
+	d := make([][]color.RGBA, bs.Dy())
+	for y := 0; y < bs.Dy()/2; y++ {
+		d[2*y] = make([]color.RGBA, bs.Dx())
+		d[2*y+1] = make([]color.RGBA, bs.Dx())
+
+		for x := 0; x < bs.Dx()/2; x++ {
+			r1, g1, b1, a1 := img.At(2*x, 2*y).RGBA()
+			// r2, g2, b2, a2 := img.At(2*x+1, 2*y).RGBA()
+			// r3, g3, b3, a3 := img.At(2*x, 2*y+1).RGBA()
+			// r4, g4, b4, a4 := img.At(2*x+1, 2*y+1).RGBA()
+			// r := uint8((r1 + r2 + r3 + r4) / 4)
+			// g := uint8((g1 + g2 + g3 + g4) / 4)
+			// b := uint8((b1 + b2 + b3 + b4) / 4)
+			// a := uint8((a1 + a2 + a3 + a4) / 4)
+			c := color.RGBA{R: uint8(r1), G: uint8(g1), B: uint8(b1), A: uint8(a1)}
+			newImg.SetRGBA(2*x, 2*y, c)
+			newImg.SetRGBA(2*x+1, 2*y, c)
+			newImg.SetRGBA(2*x, 2*y+1, c)
+			newImg.SetRGBA(2*x+1, 2*y+1, c)
+		}
+	}
+
+	t := getImageType(file.Name())
+	outf, _ := os.Create(fmt.Sprintf("out.%s", t))
+	defer outf.Close()
+
+	switch t {
+	case "png":
+		png.Encode(outf, newImg)
+	case "jpg", "jpeg":
+		jpeg.Encode(outf, newImg, nil)
+	}
+}
+
+func getImageType(name string) string {
+	for i := len(name) - 1; i >= 0; i-- {
+		if name[i] == '.' {
+			return name[i+1:]
+		}
+	}
+	return ""
+}

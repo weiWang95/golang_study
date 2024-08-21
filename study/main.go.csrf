@@ -1,0 +1,130 @@
+package main
+
+import (
+	"context"
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gorilla/csrf"
+)
+
+func main() {
+	StartWeb()
+}
+
+func StartWeb() error {
+	r := gin.Default()
+	r.Use(csrfProtectMw(), setCsrfToken())
+	r.GET("/index", indexAction)
+	r.GET("/get", getAction)
+	r.POST("/create", createAction)
+	r.Run(":80")
+	return nil
+}
+
+func indexAction(c *gin.Context) {
+	c.Writer.WriteHeader(200)
+	c.Writer.Write([]byte(`<html><body><h1>Hello World</h1></body></html>`))
+}
+
+func getAction(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"id":         "test_user_id",
+		"session_id": "test_session_id",
+	})
+}
+
+func createAction(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"id":         "test_user_id",
+		"session_id": "test_session_id",
+	})
+}
+
+func csrfProtectMw() gin.HandlerFunc {
+	wm := csrf.Protect(
+		[]byte("32-byte-long-auth-key"),
+		csrf.Secure(false),
+		csrf.HttpOnly(true),
+		csrf.ErrorHandler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			w.WriteHeader(http.StatusBadRequest)
+			w.Header().Set("content-type", "application/json")
+			w.Write([]byte(`{"errors":["CSRF token invalid"]}`))
+		},
+		)))
+
+	return Wrap(wm)
+}
+
+func setCsrfToken() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		// c.Writer.Header().Add("Access-Control-Expose-Headers", "X-CSRF-Token")
+		c.Writer.Header().Set("X-CSRF-Token", csrf.Token(c.Request))
+		c.Next()
+	}
+}
+
+func New() (http.Handler, func(h http.Handler) gin.HandlerFunc) {
+	nextHandler := new(connectHandler)
+	makeGinHandler := func(h http.Handler) gin.HandlerFunc {
+		return func(c *gin.Context) {
+			state := &middlewareCtx{ctx: c}
+			ctx := context.WithValue(c.Request.Context(), nextHandler, state)
+			h.ServeHTTP(c.Writer, c.Request.WithContext(ctx))
+			if !state.childCalled {
+				c.Abort()
+			}
+		}
+	}
+	return nextHandler, makeGinHandler
+}
+
+// Wrap takes the common HTTP middleware function signature, calls it to generate
+// a handler, and wraps it into a Gin middleware handler.
+//
+// This is just a convenience wrapper around New.
+func Wrap(f func(h http.Handler) http.Handler) gin.HandlerFunc {
+	next, adapter := New()
+	return adapter(f(next))
+}
+
+type connectHandler struct{}
+
+// pull Gin's context from the request context and call the next item
+// in the chain.
+func (h *connectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	state := r.Context().Value(h).(*middlewareCtx)
+	defer func(r *http.Request) { state.ctx.Request = r }(state.ctx.Request)
+	defer func(w gin.ResponseWriter) { state.ctx.Writer = w }(state.ctx.Writer)
+	state.ctx.Request = r
+	state.ctx.Writer = swap(state.ctx.Writer, w)
+	state.childCalled = true
+	state.ctx.Next()
+}
+
+type middlewareCtx struct {
+	ctx         *gin.Context
+	childCalled bool
+}
+
+// Swap delegates the http.ResponseWriter interface to hw and falls back for the other interfaces on gw.
+func swap(gw gin.ResponseWriter, hw http.ResponseWriter) swappedResponseWriter {
+	return swappedResponseWriter{ResponseWriter: gw, w: hw}
+}
+
+type swappedResponseWriter struct {
+	gin.ResponseWriter
+	w http.ResponseWriter
+}
+
+func (w swappedResponseWriter) Header() http.Header {
+	return w.w.Header()
+}
+
+func (w swappedResponseWriter) Write(b []byte) (int, error) {
+	return w.w.Write(b)
+}
+
+func (w swappedResponseWriter) WriteHeader(statusCode int) {
+	w.w.WriteHeader(statusCode)
+}

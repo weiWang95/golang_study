@@ -1,0 +1,331 @@
+[
+  {
+  "cn_name": "北海道",
+  "code": "JP-01",
+  "name": "Hokkaido",
+  "old_code": "HKK",
+  "province_id": 1429
+  },
+  {
+  "cn_name": "青森县",
+  "code": "JP-02",
+  "name": "Aomori",
+  "old_code": "AMO",
+  "province_id": 1430
+  },
+  {
+  "cn_name": "岩手县",
+  "code": "JP-03",
+  "name": "Iwate",
+  "old_code": "IWA",
+  "province_id": 1431
+  },
+  {
+  "cn_name": "宫城县",
+  "code": "JP-04",
+  "name": "Miyagi",
+  "old_code": "MYG",
+  "province_id": 1432
+  },
+  {
+  "cn_name": "秋田县",
+  "code": "JP-05",
+  "name": "Akita",
+  "old_code": "AKT",
+  "province_id": 1433
+  },
+  {
+  "cn_name": "山形县",
+  "code": "JP-06",
+  "name": "Yamagata",
+  "old_code": "YGT",
+  "province_id": 1434
+  },
+  {
+  "cn_name": "福岛县",
+  "code": "JP-07",
+  "name": "Fukushima",
+  "old_code": "FKS",
+  "province_id": 1435
+  },
+  {
+  "cn_name": "茨城县",
+  "code": "JP-08",
+  "name": "Ibaraki",
+  "old_code": "IBR",
+  "province_id": 1436
+  },
+  {
+  "cn_name": "栃木县",
+  "code": "JP-09",
+  "name": "Tochigi",
+  "old_code": "TCG",
+  "province_id": 1437
+  },
+  {
+  "cn_name": "群马县",
+  "code": "JP-10",
+  "name": "Gunma",
+  "old_code": "GMA",
+  "province_id": 1438
+  },
+  {
+  "cn_name": "埼玉县",
+  "code": "JP-11",
+  "name": "Saitama",
+  "old_code": "SAI",
+  "province_id": 1439
+  },
+  {
+  "cn_name": "千叶县",
+  "code": "JP-12",
+  "name": "Chiba",
+  "old_code": "CBA",
+  "province_id": 1440
+  },
+  {
+  "cn_name": "东京都",
+  "code": "JP-13",
+  "name": "Tokyo",
+  "old_code": "TYO",
+  "province_id": 1441
+  },
+  {
+  "cn_name": "神奈川县",
+  "code": "JP-14",
+  "name": "Kanagawa",
+  "old_code": "KGW",
+  "province_id": 1442
+  },
+  {
+  "cn_name": "新潟县",
+  "code": "JP-15",
+  "name": "Niigata",
+  "old_code": "NGT",
+  "province_id": 1443
+  },
+  {
+  "cn_name": "富山县",
+  "code": "JP-16",
+  "name": "Toyama",
+  "old_code": "TYM",
+  "province_id": 1444
+  },
+  {
+  "cn_name": "石川县",
+  "code": "JP-17",
+  "name": "Ishikawa",
+  "old_code": "ISK",
+  "province_id": 1445
+  },
+  {
+  "cn_name": "福井县",
+  "code": "JP-18",
+  "name": "Fukui",
+  "old_code": "FKU",
+  "province_id": 1446
+  },
+  {
+  "cn_name": "山梨县",
+  "code": "JP-19",
+  "name": "Yamanashi",
+  "old_code": "YMS",
+  "province_id": 1447
+  },
+  {
+  "cn_name": "长野县",
+  "code": "JP-20",
+  "name": "Nagano",
+  "old_code": "NGN",
+  "province_id": 1448
+  },
+  {
+  "cn_name": "岐阜县",
+  "code": "JP-21",
+  "name": "Gifu",
+  "old_code": "GFU",
+  "province_id": 1449
+  },
+  {
+  "cn_name": "静冈县",
+  "code": "JP-22",
+  "name": "Shizuoka",
+  "old_code": "SHZ",
+  "province_id": 1450
+  },
+  {
+  "cn_name": "爱知县",
+  "code": "JP-23",
+  "name": "Aichi",
+  "old_code": "ACH",
+  "province_id": 1451
+  },
+  {
+  "cn_name": "三重县",
+  "code": "JP-24",
+  "name": "Mie",
+  "old_code": "MIE",
+  "province_id": 1452
+  },
+  {
+  "cn_name": "滋贺县",
+  "code": "JP-25",
+  "name": "Shiga",
+  "old_code": "SHI",
+  "province_id": 1453
+  },
+  {
+  "cn_name": "京都府",
+  "code": "JP-26",
+  "name": "Kyoto",
+  "old_code": "KTO",
+  "province_id": 1454
+  },
+  {
+  "cn_name": "大阪府",
+  "code": "JP-27",
+  "name": "Osaka",
+  "old_code": "OSK",
+  "province_id": 1455
+  },
+  {
+  "cn_name": "兵库县",
+  "code": "JP-28",
+  "name": "Hyogo",
+  "old_code": "HYO",
+  "province_id": 1456
+  },
+  {
+  "cn_name": "奈良县",
+  "code": "JP-29",
+  "name": "Nara",
+  "old_code": "NAR",
+  "province_id": 1457
+  },
+  {
+  "cn_name": "和歌山县",
+  "code": "JP-30",
+  "name": "Wakayama",
+  "old_code": "WKY",
+  "province_id": 1458
+  },
+  {
+  "cn_name": "鸟取县",
+  "code": "JP-31",
+  "name": "Tottori",
+  "old_code": "TRI",
+  "province_id": 1459
+  },
+  {
+  "cn_name": "岛根县",
+  "code": "JP-32",
+  "name": "Shimane",
+  "old_code": "SHM",
+  "province_id": 1460
+  },
+  {
+  "cn_name": "冈山县",
+  "code": "JP-33",
+  "name": "Okayama",
+  "old_code": "OKY",
+  "province_id": 1461
+  },
+  {
+  "cn_name": "广岛县",
+  "code": "JP-34",
+  "name": "Hiroshima",
+  "old_code": "HSH",
+  "province_id": 1462
+  },
+  {
+  "cn_name": "山口县",
+  "code": "JP-35",
+  "name": "Yamaguchi",
+  "old_code": "YGC",
+  "province_id": 1463
+  },
+  {
+  "cn_name": "德岛县",
+  "code": "JP-36",
+  "name": "Tokushima",
+  "old_code": "TKS",
+  "province_id": 1464
+  },
+  {
+  "cn_name": "香川县",
+  "code": "JP-37",
+  "name": "Kagawa",
+  "old_code": "KGA",
+  "province_id": 1465
+  },
+  {
+  "cn_name": "爱媛县",
+  "code": "JP-38",
+  "name": "Ehime",
+  "old_code": "EME",
+  "province_id": 1466
+  },
+  {
+  "cn_name": "高知县",
+  "code": "JP-39",
+  "name": "Kochi",
+  "old_code": "KCH",
+  "province_id": 1467
+  },
+  {
+  "cn_name": "福冈县",
+  "code": "JP-40",
+  "name": "Fukuoka",
+  "old_code": "FKK",
+  "province_id": 1468
+  },
+  {
+  "cn_name": "佐贺县",
+  "code": "JP-41",
+  "name": "Saga",
+  "old_code": "SAG",
+  "province_id": 1469
+  },
+  {
+  "cn_name": "长崎县",
+  "code": "JP-42",
+  "name": "Nagasaki",
+  "old_code": "NGS",
+  "province_id": 1470
+  },
+  {
+  "cn_name": "熊本县",
+  "code": "JP-43",
+  "name": "Kumamoto",
+  "old_code": "KMM",
+  "province_id": 1471
+  },
+  {
+  "cn_name": "大分县",
+  "code": "JP-44",
+  "name": "Oita",
+  "old_code": "OIT",
+  "province_id": 1472
+  },
+  {
+  "cn_name": "宫崎县",
+  "code": "JP-45",
+  "name": "Miyazaki",
+  "old_code": "MYZ",
+  "province_id": 1473
+  },
+  {
+  "cn_name": "鹿儿岛县",
+  "code": "JP-46",
+  "name": "Kagoshima",
+  "old_code": "KGS",
+  "province_id": 1474
+  },
+  {
+  "cn_name": "冲绳县",
+  "code": "JP-47",
+  "name": "Okinawa",
+  "old_code": "OKN",
+  "province_id": 1475
+  }
+  ]

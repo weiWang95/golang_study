@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func main() {
+	var a []int
+	ReflectTest(&a)
+}
+
+func ReflectTest(o interface{}) error {
+	rV := reflect.ValueOf(o)
+	fmt.Printf("%v\n%v\n", rV, rV.Kind())
+	iV := rV.Elem()
+	fmt.Printf("%v\n%v\n%v\n%v\n", iV, iV.Kind(), iV.Type(), iV.Type().Elem())
+	return nil
+}

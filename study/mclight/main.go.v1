@@ -1,0 +1,236 @@
+package main
+
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
+
+func main() {
+	seed := time.Now().UnixNano()
+	fmt.Println("seed: ", seed)
+	m := NewMap(seed)
+
+	m.calculateLight()
+}
+
+const WIDTH = 4
+const HEIGHT = 8
+
+const MAX_LIGHT uint8 = 15
+
+type lightSize uint8
+
+func NewLightSize(sun uint8, point uint8) lightSize {
+	return lightSize(sun<<4 + point)
+}
+
+func (l lightSize) SunLight() uint8 {
+	return uint8(l) >> 4
+}
+
+type Pos struct {
+	X int
+	Y int
+	Z int
+}
+
+func (p Pos) Id() string {
+	return fmt.Sprintf("%d-%d-%d", p.Y, p.X, p.Z)
+}
+
+type Map struct {
+	blockData [HEIGHT][WIDTH][WIDTH]uint32
+	lightData [HEIGHT][WIDTH][WIDTH]lightSize
+}
+
+func NewMap(seed int64) *Map {
+	m := new(Map)
+
+	rand.Seed(seed)
+	for y := 0; y < HEIGHT; y++ {
+		for x := 0; x < WIDTH; x++ {
+			for z := 0; z < WIDTH; z++ {
+				m.blockData[y][x][z] = uint32(rand.Intn(10))
+			}
+		}
+	}
+
+	return m
+}
+
+func (m *Map) HasBlock(y, x, z int) bool {
+	return m.blockData[y][x][z] > 6
+}
+
+func (m *Map) log() {
+	fmt.Printf("map -> \n")
+	for z := 0; z < WIDTH; z++ {
+		for y := HEIGHT - 1; y >= 0; y-- {
+			for x := 0; x < WIDTH; x++ {
+				prefix := "□"
+				if m.HasBlock(y, x, z) {
+					prefix = "■"
+				}
+
+				fmt.Printf("%s % 2d\t", prefix, m.lightData[y][x][z].SunLight())
+			}
+			fmt.Println()
+		}
+		fmt.Println()
+	}
+}
+
+func (m *Map) calculateLight() {
+	for z := 0; z < WIDTH; z++ {
+		for x := 0; x < WIDTH; x++ {
+			for y := HEIGHT - 1; y >= 0; y-- {
+				if m.HasBlock(y, x, z) {
+					break
+				}
+				m.lightData[y][x][z] = NewLightSize(MAX_LIGHT, 0)
+			}
+		}
+	}
+
+	needUpdates := make(map[string]Pos)
+
+	for z := 0; z < WIDTH; z++ {
+		for x := 0; x < WIDTH; x++ {
+			for y := HEIGHT - 1; y >= 0; y-- {
+				poss := m.calculatePosLight(Pos{Y: y, X: x, Z: z})
+				for _, pos := range poss {
+					needUpdates[pos.Id()] = pos
+				}
+			}
+		}
+	}
+
+	for i := 0; i < int(MAX_LIGHT); i++ {
+		fmt.Println("i -> ", i)
+		newUpdates := make(map[string]Pos)
+
+		for _, pos := range needUpdates {
+			poss := m.calculatePosLight(Pos{Y: pos.Y, X: pos.X, Z: pos.Z})
+			for _, pos := range poss {
+				newUpdates[pos.Id()] = pos
+			}
+		}
+
+		if len(newUpdates) == 0 {
+			break
+		}
+
+		needUpdates = newUpdates
+	}
+
+	m.log()
+}
+
+func (m *Map) calculatePosLight(pos Pos) []Pos {
+	if m.HasBlock(pos.Y, pos.X, pos.Z) {
+		return nil
+	}
+
+	curLight := m.lightData[pos.Y][pos.X][pos.Z].SunLight()
+
+	var maxNlight uint8
+	if pos.X-1 >= 0 && !m.HasBlock(pos.Y, pos.X-1, pos.Z) {
+		l := m.lightData[pos.Y][pos.X-1][pos.Z].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if pos.X+1 < WIDTH && !m.HasBlock(pos.Y, pos.X+1, pos.Z) {
+		l := m.lightData[pos.Y][pos.X+1][pos.Z].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if pos.Y+1 < HEIGHT && !m.HasBlock(pos.Y+1, pos.X, pos.Z) {
+		l := m.lightData[pos.Y+1][pos.X][pos.Z].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if pos.Y-1 >= 0 && !m.HasBlock(pos.Y-1, pos.X, pos.Z) {
+		l := m.lightData[pos.Y-1][pos.X][pos.Z].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if pos.Z+1 < WIDTH && !m.HasBlock(pos.Y, pos.X, pos.Z+1) {
+		l := m.lightData[pos.Y][pos.X][pos.Z+1].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if pos.Z-1 >= 0 && !m.HasBlock(pos.Y, pos.X, pos.Z-1) {
+		l := m.lightData[pos.Y][pos.X][pos.Z-1].SunLight()
+		if l > maxNlight {
+			maxNlight = l
+		}
+	}
+
+	if maxNlight > 0 && maxNlight-1 > curLight {
+		curLight = maxNlight - 1
+		m.lightData[pos.Y][pos.X][pos.Z] = NewLightSize(maxNlight-1, 0)
+	}
+
+	needUpdate := make([]Pos, 0)
+
+	if pos.X-1 >= 0 && !m.HasBlock(pos.Y, pos.X-1, pos.Z) {
+		l := m.lightData[pos.Y][pos.X-1][pos.Z].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y][pos.X-1][pos.Z] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y, X: pos.X - 1, Z: pos.Z})
+		}
+	}
+
+	if pos.X+1 < WIDTH && !m.HasBlock(pos.Y, pos.X+1, pos.Z) {
+		l := m.lightData[pos.Y][pos.X+1][pos.Z].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y][pos.X+1][pos.Z] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y, X: pos.X + 1, Z: pos.Z})
+		}
+	}
+
+	if pos.Y+1 < HEIGHT && !m.HasBlock(pos.Y+1, pos.X, pos.Z) {
+		l := m.lightData[pos.Y+1][pos.X][pos.Z].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y+1][pos.X][pos.Z] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y + 1, X: pos.X, Z: pos.Z})
+		}
+	}
+
+	if pos.Y-1 >= 0 && !m.HasBlock(pos.Y-1, pos.X, pos.Z) {
+		l := m.lightData[pos.Y-1][pos.X][pos.Z].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y-1][pos.X][pos.Z] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y - 1, X: pos.X, Z: pos.Z})
+		}
+	}
+
+	if pos.Z+1 < WIDTH && !m.HasBlock(pos.Y, pos.X, pos.Z+1) {
+		l := m.lightData[pos.Y][pos.X][pos.Z+1].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y][pos.X][pos.Z+1] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y, X: pos.X, Z: pos.Z + 1})
+		}
+	}
+
+	if pos.Z-1 >= 0 && !m.HasBlock(pos.Y, pos.X, pos.Z-1) {
+		l := m.lightData[pos.Y][pos.X][pos.Z-1].SunLight()
+		if curLight > 0 && l < curLight-1 {
+			m.lightData[pos.Y][pos.X][pos.Z-1] = NewLightSize(curLight-1, 0)
+			needUpdate = append(needUpdate, Pos{Y: pos.Y, X: pos.X, Z: pos.Z - 1})
+		}
+	}
+
+	return needUpdate
+}

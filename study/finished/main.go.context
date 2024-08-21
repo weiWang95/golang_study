@@ -1,0 +1,41 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
+)
+
+func main() {
+	ctx, cancel := context.WithCancel(context.Background())
+
+	go executeTask(ctx, 1)
+	go executeTask(ctx, 2)
+
+	sigterm := make(chan os.Signal, 1)
+	signal.Notify(sigterm, syscall.SIGQUIT, syscall.SIGTERM, syscall.SIGINT)
+
+	select {
+	case <-sigterm:
+	}
+	fmt.Println(111111)
+	cancel()
+
+	time.Sleep(1 * time.Second)
+}
+
+func executeTask(ctx context.Context, i int) {
+	for {
+		select {
+		case <-ctx.Done():
+			fmt.Println(22222222)
+			return
+		default:
+			fmt.Println(i)
+			time.Sleep(2 * time.Second)
+		}
+	}
+}

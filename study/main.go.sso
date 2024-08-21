@@ -1,0 +1,87 @@
+package main
+
+import (
+	"fmt"
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"gitlab.shoplazza.site/common/ssoauth"
+)
+
+// SSO登录认证成功
+func SSOLogin(c *gin.Context) {
+	user := c.MustGet(ssoauth.UserKey).(*ssoauth.User)
+	fmt.Println("user ------_> ", user)
+
+	// 处理用户登录
+	// c.SetCookie(Cfg.CookieName, user.EncodeSession, ......)
+
+	// 处理重定向
+	path := "/"
+	if c.Query("continue") != "" {
+		path = c.Query("continue")
+	}
+
+	c.Redirect(http.StatusFound, path)
+}
+
+// SSO登录认证失败
+func SSOLoginFailure(c *gin.Context) {
+	v, ok := c.Get(ssoauth.ErrorKey)
+	if !ok {
+		c.JSON(500, gin.H{"errors": []string{"get oauth error failed"}})
+		return
+	}
+
+	err, ok := v.(error)
+	if !ok {
+		c.JSON(500, gin.H{"errors": []string{"format oauth error failed"}})
+		return
+	}
+
+	c.JSON(500, gin.H{"errors": []string{err.Error()}})
+}
+
+func userAction(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"id":         "test_user_id",
+		"session_id": "test_session_id",
+	})
+}
+
+func TestAction(c *gin.Context) {
+
+}
+
+func AuthAction() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Request.Header.Set(ssoauth.HeaderAuthHost, "http://localhost:3001")
+
+		c.Next()
+	}
+}
+
+func main() {
+	r := gin.Default()
+
+	cfg := &ssoauth.AuthConfig{
+		CookieName:      "awesomev2",
+		SkipStateCheck:  true,
+		Host:            "http://localhost:3001",
+		CallbackPath:    "/sso/callback",
+		SSOClientId:     "b8c73560-a586-41de-8490-5a61e93ea90c",
+		SSOClientSecret: "3c548d71fa0c4e458ec8e724c6fd99d16d11fbc7722047509d0825a4721fa38f",
+		SSOHost:         "http://localhost:3000",
+		// DynamicHostMode: true,
+	}
+	Auth := ssoauth.NewGinAuth(cfg, SSOLogin, SSOLoginFailure)
+	r.Use(AuthAction())
+	r.GET("/sso/auth", Auth.LoginHandler())
+	r.GET("/sso/callback", Auth.CallbackHandler())
+
+	// r.GET("/api/simple_user", userAction)
+	// r.POST("/api/user/actions/logout", TestAction)
+	// r.OPTIONS("/api/test")
+
+	r.Run(":3001")
+}

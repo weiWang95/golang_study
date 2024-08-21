@@ -1,0 +1,127 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	"hash/crc32"
+	"hash/fnv"
+
+	"github.com/go-redis/redis/v8"
+)
+
+func main() {
+	rds := redis.NewClient(&redis.Options{
+		Network:      "tcp",
+		Addr:         "localhost:6379",
+		PoolSize:     30,
+		MinIdleConns: 2,
+	})
+
+	b := NewRedisBloomFilter(rds, "bloom_test:", 80000000)
+
+	err := b.Put([]byte("auto-1669948315"))
+	fmt.Println(err)
+	err = b.Put([]byte("auto-2022117173425u9px"))
+	fmt.Println(err)
+
+	b.MightContain([]byte("auto-1669948315"))
+	b.MightContain([]byte("auto-2022117173425u9px"))
+}
+
+type redisBloomFilter struct {
+	client       redis.UniversalClient
+	key          string
+	bucketCount  uint64
+	bucketMaxLen uint64
+	hashFuncs    []func([]byte) uint64
+}
+
+func NewRedisBloomFilter(redisCli redis.UniversalClient, redisKey string, size uint64) BloomFilter {
+	if redisKey == "" {
+		redisKey = fmt.Sprintf("_bloomfilter_%d", size)
+	}
+	var bucketMaxLen uint64 = 1000000
+	bucketCount := size / bucketMaxLen
+	if size%bucketMaxLen > 0 {
+		bucketCount += 1
+	}
+	fmt.Println("--->", bucketCount, bucketMaxLen)
+	return &redisBloomFilter{
+		client:       redisCli,
+		key:          redisKey,
+		bucketCount:  bucketCount,
+		bucketMaxLen: bucketMaxLen,
+		hashFuncs:    []func([]byte) uint64{hashFunc, hashFunc1, hashFunc2},
+	}
+}
+
+func (filter *redisBloomFilter) Put(b []byte) error {
+	pipe := filter.client.Pipeline()
+	ctx := context.TODO()
+
+	for _, f := range filter.hashFuncs {
+		val := f(b)
+		bucketIdx := val % filter.bucketCount //array index
+		idx2 := val % filter.bucketMaxLen     //bit index
+		fmt.Println(val, bucketIdx, idx2)
+		pipe.SetBit(ctx, fmt.Sprintf("%s_%d", filter.key, bucketIdx), int64(idx2), 1)
+	}
+
+	_, err := pipe.Exec(ctx)
+	return err
+}
+
+func (filter *redisBloomFilter) MightContain(b []byte) (bool, error) {
+	pipe := filter.client.Pipeline()
+	ctx := context.TODO()
+	var results []*redis.IntCmd
+
+	for _, f := range filter.hashFuncs {
+		val := f(b)
+		bucketIdx := val % filter.bucketCount //array index
+		idx2 := val % filter.bucketMaxLen     //bit index
+		fmt.Println(val, bucketIdx, idx2)
+		cmd := pipe.GetBit(ctx, fmt.Sprintf("%s_%d", filter.key, bucketIdx), int64(idx2))
+		results = append(results, cmd)
+	}
+
+	if _, err := pipe.Exec(ctx); err != nil {
+		return false, err
+	}
+
+	for _, res := range results {
+		bit, err := res.Result()
+		if err != nil {
+			return false, err
+		}
+		if bit == 0 {
+			return false, nil
+		}
+	}
+	return true, nil
+}
+
+// BloomFilter interface define
+type BloomFilter interface {
+	Put([]byte) error
+	MightContain([]byte) (bool, error)
+}
+
+//hash
+func hashFunc(b []byte) uint64 {
+	h := fnv.New64a()
+	_, _ = h.Write(b)
+	return h.Sum64()
+}
+
+func hashFunc1(b []byte) uint64 {
+	h := fnv.New32()
+	_, _ = h.Write(b)
+	return uint64(h.Sum32())
+}
+
+func hashFunc2(b []byte) uint64 {
+	h := crc32.NewIEEE()
+	_, _ = h.Write(b)
+	return uint64(h.Sum32())
+}

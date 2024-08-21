@@ -1,0 +1,53 @@
+package main
+
+import (
+	"image"
+	"image/color"
+	_ "image/jpeg"
+	"image/png"
+	"log"
+	"math/cmplx"
+	"os"
+
+	"github.com/mjibson/go-dsp/fft"
+)
+
+func main() {
+	r, err := os.Open("test.jpeg")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer r.Close()
+
+	img, _, err := image.Decode(r)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	bs := img.Bounds()
+
+	data := make([][]float64, bs.Dy())
+	for y := 0; y < bs.Dy(); y++ {
+		data[y] = make([]float64, bs.Dx())
+		for x := 0; x < bs.Dx(); x++ {
+			r, _, _, _ := img.At(x, y).RGBA()
+			data[y][x] = float64(r)
+		}
+	}
+
+	res := fft.FFT2Real(data)
+
+	o := fft.IFFT2(res)
+
+	out := image.NewGray(bs)
+	for y := 0; y < bs.Dy(); y++ {
+		for x := 0; x < bs.Dx(); x++ {
+			px := uint8(cmplx.Abs(o[y][x]))
+			out.SetGray(x, y, color.Gray{px})
+		}
+	}
+
+	outf, _ := os.Create("out.png")
+	defer outf.Close()
+	png.Encode(outf, out)
+}

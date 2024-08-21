@@ -1,0 +1,482 @@
+[
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "KONGIGANAK",
+    "zip": "99545"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians East Borough",
+    "city": "AKUTAN",
+    "zip": "99553"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "CHUGIAK",
+    "zip": "99567"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "CROOKED CREEK",
+    "zip": "99575"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians East Borough",
+    "city": "FALSE PASS",
+    "zip": "99583"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "JBER",
+    "zip": "99505"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "JBER",
+    "zip": "99506"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99519"
+  },
+  {
+    "state": "AK",
+    "country": "Copper River Census Area",
+    "city": "GAKONA",
+    "zip": "99586"
+  },
+  {
+    "state": "AK",
+    "country": "Yukon-Koyukuk Census Area",
+    "city": "GRAYLING",
+    "zip": "99590"
+  },
+  {
+    "state": "AK",
+    "country": "Yukon-Koyukuk Census Area",
+    "city": "HOLY CROSS",
+    "zip": "99602"
+  },
+  {
+    "state": "AK",
+    "country": "Valdez-Cordova Census Area",
+    "city": "CHITINA",
+    "zip": "99566"
+  },
+  {
+    "state": "AK",
+    "country": "Copper River Census Area",
+    "city": "COPPER CENTER",
+    "zip": "99573"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99501"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99517"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "BIRD CREEK",
+    "zip": "99540"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "GOODNEWS BAY",
+    "zip": "99589"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "ILIAMNA",
+    "zip": "99606"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "KENAI",
+    "zip": "99611"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "CHEFORNAK",
+    "zip": "99561"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians East Borough",
+    "city": "COLD BAY",
+    "zip": "99571"
+  },
+  {
+    "state": "AK",
+    "country": "Kusilvak Census Area",
+    "city": "EMMONAK",
+    "zip": "99581"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99504"
+  },
+  {
+    "state": "AK",
+    "country": "Dillingham Census Area",
+    "city": "EKWOK",
+    "zip": "99580"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "KASIGLUK",
+    "zip": "99609"
+  },
+  {
+    "state": "AK",
+    "country": "Dillingham Census Area",
+    "city": "CLARKS POINT",
+    "zip": "99569"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "KASILOF",
+    "zip": "99610"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "PORT HEIDEN",
+    "zip": "99549"
+  },
+  {
+    "state": "AK",
+    "country": "Yukon-Koyukuk Census Area",
+    "city": "ANVIK",
+    "zip": "99558"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "CLAM GULCH",
+    "zip": "99568"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "GIRDWOOD",
+    "zip": "99587"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99511"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "AKIACHAK",
+    "zip": "99551"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "CHIGNIK",
+    "zip": "99564"
+  },
+  {
+    "state": "AK",
+    "country": "Dillingham Census Area",
+    "city": "ALEKNAGIK",
+    "zip": "99555"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "ATMAUTLUAK",
+    "zip": "99559"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians West Census Area",
+    "city": "SAINT GEORGE ISLAND",
+    "zip": "99591"
+  },
+  {
+    "state": "AK",
+    "country": "Kusilvak Census Area",
+    "city": "HOOPER BAY",
+    "zip": "99604"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99507"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99522"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "CHIGNIK LAKE",
+    "zip": "99548"
+  },
+  {
+    "state": "AK",
+    "country": "Kodiak Island Borough",
+    "city": "KARLUK",
+    "zip": "99608"
+  },
+  {
+    "state": "AK",
+    "country": "Kusilvak Census Area",
+    "city": "CHEVAK",
+    "zip": "99563"
+  },
+  {
+    "state": "AK",
+    "country": "Kusilvak Census Area",
+    "city": "MARSHALL",
+    "zip": "99585"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "FRITZ CREEK",
+    "zip": "99603"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "EGEGIK",
+    "zip": "99579"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians East Borough",
+    "city": "KING COVE",
+    "zip": "99612"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99508"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians West Census Area",
+    "city": "ATKA",
+    "zip": "99547"
+  },
+  {
+    "state": "AK",
+    "country": "Kusilvak Census Area",
+    "city": "ALAKANUK",
+    "zip": "99554"
+  },
+  {
+    "state": "AK",
+    "country": "Aleutians West Census Area",
+    "city": "ADAK",
+    "zip": "99546"
+  },
+  {
+    "state": "AK",
+    "country": "Chugach Census Area",
+    "city": "CHENEGA BAY",
+    "zip": "99574"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "HOPE",
+    "zip": "99605"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99518"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99521"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99529"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "EAGLE RIVER",
+    "zip": "99577"
+  },
+  {
+    "state": "AK",
+    "country": "Copper River Census Area",
+    "city": "GLENNALLEN",
+    "zip": "99588"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99503"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99515"
+  },
+  {
+    "state": "AK",
+    "country": "Kodiak Island Borough",
+    "city": "PORT LIONS",
+    "zip": "99550"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99516"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99523"
+  },
+  {
+    "state": "AK",
+    "country": "Dillingham Census Area",
+    "city": "DILLINGHAM",
+    "zip": "99576"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "EEK",
+    "zip": "99578"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99599"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99509"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99510"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99524"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99520"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "ANIAK",
+    "zip": "99557"
+  },
+  {
+    "state": "AK",
+    "country": "Lake and Peninsula Borough",
+    "city": "CHIGNIK LAGOON",
+    "zip": "99565"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "COOPER LANDING",
+    "zip": "99572"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99502"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99513"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99514"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "KALSKAG",
+    "zip": "99607"
+  },
+  {
+    "state": "AK",
+    "country": "Anchorage Municipality",
+    "city": "ANCHORAGE",
+    "zip": "99530"
+  },
+  {
+    "state": "AK",
+    "country": "Bethel Census Area",
+    "city": "AKIAK",
+    "zip": "99552"
+  },
+  {
+    "state": "AK",
+    "country": "Kenai Peninsula Borough",
+    "city": "ANCHOR POINT",
+    "zip": "99556"
+  }
+]

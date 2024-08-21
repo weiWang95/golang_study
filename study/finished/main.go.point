@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	a := 1
+	a2 := 3
+
+	ptr := &a
+	b := ptr
+	fmt.Println(&a, ptr, *ptr, &ptr, b, *b, &b)
+	a = 2
+	fmt.Println(&a, ptr, *ptr, &ptr, b, *b, &b)
+	ptr = &a2
+	fmt.Println(&a, ptr, *ptr, &ptr, b, *b, &b)
+}

@@ -1,0 +1,669 @@
+﻿,
+"GB-ENG
+",잉글랜드,"country
+",잉글랜드,잉글랜드
+"GB-NIR
+",북아일랜드,"province
+",북아일랜드,
+"GB-SCT
+",스코틀랜드,"country
+",스코틀랜드,스코틀랜드
+"GB-WLSGB-CYM
+",웨일스,"country
+",웨일스,웨일스
+,
+"GB-EAW
+",잉글랜드 웨일스,,
+"GB-GBN
+",그레이트브리튼섬,,
+"GB-UKM
+",영국,,
+,
+"GB-BKM
+",버킹엄셔주,"two-tier county
+",ENG,,
+"GB-CAM
+",케임브리지셔주,"two-tier county
+",ENG,,
+"GB-CMA
+",컴브리아주,"two-tier county
+",ENG,,
+"GB-DBY
+",더비셔주,"two-tier county
+",ENG,,
+"GB-DEV
+",데번주,"two-tier county
+",ENG,,
+"GB-DOR
+",도싯주,"two-tier county
+",ENG,,
+"GB-ESX
+",이스트서식스주,"two-tier county
+",ENG,,
+"GB-ESS
+",에식스주,"two-tier county
+",ENG,,
+"GB-GLS
+",글로스터셔주,"two-tier county
+",ENG,,
+"GB-HAM
+",햄프셔주,"two-tier county
+",ENG,,
+"GB-HRT
+",하트퍼드셔주,"two-tier county
+",ENG,,
+"GB-KEN
+",켄트주,"two-tier county
+",ENG,,
+"GB-LAN
+",랭커셔주,"two-tier county
+",ENG,,
+"GB-LEC
+",레스터셔주,"two-tier county
+",ENG,,
+"GB-LIN
+",링컨셔주,"two-tier county
+",ENG,,
+"GB-NFK
+",노퍽주,"two-tier county
+",ENG,,
+"GB-NYK
+",노스요크셔주,"two-tier county
+",ENG,,
+"GB-NTH
+",노샘프턴셔주,"two-tier county
+",ENG,,
+"GB-NTT
+",노팅엄셔주,"two-tier county
+",ENG,,
+"GB-OXF
+",옥스퍼드셔주,"two-tier county
+",ENG,,
+"GB-SOM
+",서머싯주,"two-tier county
+",ENG,,
+"GB-STS
+",스태퍼드셔주,"two-tier county
+",ENG,,
+"GB-SFK
+",서퍽주,"two-tier county
+",ENG,,
+"GB-SRY
+",서리주,"two-tier county
+",ENG,,
+"GB-WAR
+",워릭셔주,"two-tier county
+",ENG,,
+"GB-WSX
+",웨스트서식스주,"two-tier county
+",ENG,,
+"GB-WOR
+",우스터셔주,"two-tier county
+",ENG,,
+"GB-LND
+","London, City of","city corporation
+",ENG,,
+"GB-BDG
+",Barking and Dagenham,"London borough
+",ENG,,
+"GB-BNE
+",Barnet,"London borough
+",ENG,,
+"GB-BEX
+",Bexley,"London borough
+",ENG,,
+"GB-BEN
+",Brent,"London borough
+",ENG,,
+"GB-BRY
+",Bromley,"London borough
+",ENG,,
+"GB-CMD
+",Camden,"London borough
+",ENG,,
+"GB-CRY
+",Croydon,"London borough
+",ENG,,
+"GB-EAL
+",Ealing,"London borough
+",ENG,,
+"GB-ENF
+",Enfield,"London borough
+",ENG,,
+"GB-GRE
+",Greenwich,"London borough
+",ENG,,
+"GB-HCK
+",Hackney,"London borough
+",ENG,,
+"GB-HMF
+",Hammersmith and Fulham,"London borough
+",ENG,,
+"GB-HRY
+",Haringey,"London borough
+",ENG,,
+"GB-HRW
+",Harrow,"London borough
+",ENG,,
+"GB-HAV
+",Havering,"London borough
+",ENG,,
+"GB-HIL
+",Hillingdon,"London borough
+",ENG,,
+"GB-HNS
+",Hounslow,"London borough
+",ENG,,
+"GB-ISL
+",Islington,"London borough
+",ENG,,
+"GB-KEC
+",Kensington and Chelsea,"London borough
+",ENG,,
+"GB-KTT
+",Kingston upon Thames,"London borough
+",ENG,,
+"GB-LBH
+",Lambeth,"London borough
+",ENG,,
+"GB-LEW
+",Lewisham,"London borough
+",ENG,,
+"GB-MRT
+",Merton,"London borough
+",ENG,,
+"GB-NWM
+",Newham,"London borough
+",ENG,,
+"GB-RDB
+",Redbridge,"London borough
+",ENG,,
+"GB-RIC
+",Richmond upon Thames,"London borough
+",ENG,,
+"GB-SWK
+",Southwark,"London borough
+",ENG,,
+"GB-STN
+",Sutton,"London borough
+",ENG,,
+"GB-TWH
+",Tower Hamlets,"London borough
+",ENG,,
+"GB-WFT
+",Waltham Forest,"London borough
+",ENG,,
+"GB-WND
+",Wandsworth,"London borough
+",ENG,,
+"GB-WSM
+",Westminster,"London borough
+",ENG,,
+"GB-BNS
+",Barnsley,"metropolitan district
+",ENG,,
+"GB-BIR
+",Birmingham,"metropolitan district
+",ENG,,
+"GB-BOL
+",Bolton,"metropolitan district
+",ENG,,
+"GB-BRD
+",Bradford,"metropolitan district
+",ENG,,
+"GB-BUR
+",Bury,"metropolitan district
+",ENG,,
+"GB-CLD
+",Calderdale,"metropolitan district
+",ENG,,
+"GB-COV
+",Coventry,"metropolitan district
+",ENG,,
+"GB-DNC
+",Doncaster,"metropolitan district
+",ENG,,
+"GB-DUD
+",Dudley,"metropolitan district
+",ENG,,
+"GB-GAT
+",Gateshead,"metropolitan district
+",ENG,,
+"GB-KIR
+",Kirklees,"metropolitan district
+",ENG,,
+"GB-KWL
+",Knowsley,"metropolitan district
+",ENG,,
+"GB-LDS
+",Leeds,"metropolitan district
+",ENG,,
+"GB-LIV
+",Liverpool,"metropolitan district
+",ENG,,
+"GB-MAN
+",Manchester,"metropolitan district
+",ENG,,
+"GB-NET
+",Newcastle upon Tyne,"metropolitan district
+",ENG,,
+"GB-NTY
+",North Tyneside,"metropolitan district
+",ENG,,
+"GB-OLD
+",Oldham,"metropolitan district
+",ENG,,
+"GB-RCH
+",Rochdale,"metropolitan district
+",ENG,,
+"GB-ROT
+",Rotherham,"metropolitan district
+",ENG,,
+"GB-SHN
+",St. Helens,"metropolitan district
+",ENG,,
+"GB-SLF
+",Salford,"metropolitan district
+",ENG,,
+"GB-SAW
+",Sandwell,"metropolitan district
+",ENG,,
+"GB-SFT
+",Sefton,"metropolitan district
+",ENG,,
+"GB-SHF
+",Sheffield,"metropolitan district
+",ENG,,
+"GB-SOL
+",Solihull,"metropolitan district
+",ENG,,
+"GB-STY
+",South Tyneside,"metropolitan district
+",ENG,,
+"GB-SKP
+",Stockport,"metropolitan district
+",ENG,,
+"GB-SND
+",Sunderland,"metropolitan district
+",ENG,,
+"GB-TAM
+",Tameside,"metropolitan district
+",ENG,,
+"GB-TRF
+",Trafford,"metropolitan district
+",ENG,,
+"GB-WKF
+",Wakefield,"metropolitan district
+",ENG,,
+"GB-WLL
+",Walsall,"metropolitan district
+",ENG,,
+"GB-WGN
+",Wigan,"metropolitan district
+",ENG,,
+"GB-WRL
+",Wirral,"metropolitan district
+",ENG,,
+"GB-WLV
+",Wolverhampton,"metropolitan district
+",ENG,,
+"GB-BAS
+",바스 노스이스트서머싯,"unitary authority
+",ENG,,
+"GB-BDF
+",Bedford,"unitary authority
+",ENG,,
+"GB-BBD
+",블랙번위드다언,"unitary authority
+",ENG,,
+"GB-BPL
+",블랙풀,"unitary authority
+",ENG,,
+"GB-BCP
+","en:Bournemouth, Christchurch and Poole","unitary authority
+",ENG,,
+"GB-BRC
+",브랙널포리스트,"unitary authority
+",ENG,,
+"GB-BNH
+",브라이턴앤드호브,"unitary authority
+",ENG,,
+"GB-BST
+","Bristol, City of","unitary authority
+",ENG,,
+"GB-CBF
+",센트럴베드퍼드셔,"unitary authority
+",ENG,,
+"GB-CHE
+",체셔이스트,"unitary authority
+",ENG,,
+"GB-CHW
+",체셔웨스트 체스터,"unitary authority
+",ENG,,
+"GB-CON
+",콘월주,"unitary authority
+",ENG,,
+"GB-DAL
+",Darlington,"unitary authority
+",ENG,,
+"GB-DER
+",더비,"unitary authority
+",ENG,,
+"GB-DUR
+","Durham, County","unitary authority
+",ENG,,
+"GB-ERY
+",이스트라이딩오브요크셔주,"unitary authority
+",ENG,,
+"GB-HAL
+",Halton,"unitary authority
+",ENG,,
+"GB-HPL
+",Hartlepool,"unitary authority
+",ENG,,
+"GB-HEF
+",헤리퍼드셔주,"unitary authority
+",ENG,,
+"GB-IOW
+",아일오브와이트주,"unitary authority
+",ENG,,
+"GB-IOS
+",실리 제도,"unitary authority
+",ENG,,
+"GB-KHL
+",킹스턴어폰헐,"unitary authority
+",ENG,,
+"GB-LCE
+",레스터,"unitary authority
+",ENG,,
+"GB-LUT
+",루턴,"unitary authority
+",ENG,,
+"GB-MDW
+",메드웨이,"unitary authority
+",ENG,,
+"GB-MDB
+",Middlesbrough,"unitary authority
+",ENG,,
+"GB-MIK
+",Milton Keynes,"unitary authority
+",ENG,,
+"GB-NEL
+",노스이스트링컨셔,"unitary authority
+",ENG,,
+"GB-NLN
+",노스링컨셔,"unitary authority
+",ENG,,
+"GB-NSM
+",노스서머싯,"unitary authority
+",ENG,,
+"GB-NBL
+",노섬벌랜드주,"unitary authority
+",ENG,,
+"GB-NGM
+",노팅엄,"unitary authority
+",ENG,,
+"GB-PTE
+",Peterborough,"unitary authority
+",ENG,,
+"GB-PLY
+",플리머스,"unitary authority
+",ENG,,
+"GB-POR
+",포츠머스,"unitary authority
+",ENG,,
+"GB-RDG
+",Reading,"unitary authority
+",ENG,,
+"GB-RCC
+",레드카 클리블랜드,"unitary authority
+",ENG,,
+"GB-RUT
+",러틀랜드주,"unitary authority
+",ENG,,
+"GB-SHR
+",슈롭셔주,"unitary authority
+",ENG,,
+"GB-SLG
+",슬라우,"unitary authority
+",ENG,,
+"GB-SGC
+",사우스글로스터셔,"unitary authority
+",ENG,,
+"GB-STH
+",사우샘프턴,"unitary authority
+",ENG,,
+"GB-SOS
+",사우스엔드온시,"unitary authority
+",ENG,,
+"GB-STT
+",Stockton-on-Tees,"unitary authority
+",ENG,,
+"GB-STE
+",스토크온트렌트,"unitary authority
+",ENG,,
+"GB-SWD
+",Swindon,"unitary authority
+",ENG,,
+"GB-TFW
+",텔퍼드 레킨,"unitary authority
+",ENG,,
+"GB-THR
+",서럭,"unitary authority
+",ENG,,
+"GB-TOB
+",토베이,"unitary authority
+",ENG,,
+"GB-WRT
+",Warrington,"unitary authority
+",ENG,,
+"GB-WBK
+",웨스트버크셔,"unitary authority
+",ENG,,
+"GB-WIL
+",윌트셔주,"unitary authority
+",ENG,,
+"GB-WNM
+",윈저 메이든헤드 왕립구,"unitary authority
+",ENG,,
+"GB-WOK
+",Wokingham,"unitary authority
+",ENG,,
+"GB-YOR
+",York,"unitary authority
+",ENG,,
+"GB-ANN
+",en:Antrim and Newtownabbey,"district
+",NIR,,
+"GB-AND
+",en:Ards and North Down,"district
+",NIR,,
+"GB-ABC
+","en:Armagh City, Banbridge and Craigavon","district
+",NIR,,
+"GB-BFS
+",Belfast City,"district
+",NIR,,
+"GB-CCG
+",en:Causeway Coast and Glens,"district
+",NIR,,
+"GB-DRS
+",Derry and Strabane,"district
+",NIR,,
+"GB-FMO
+",en:Fermanagh and Omagh,"district
+",NIR,,
+"GB-LBC
+",en:Lisburn and Castlereagh,"district
+",NIR,,
+"GB-MEA
+",en:Mid and East Antrim,"district
+",NIR,,
+"GB-MUL
+",Mid-Ulster,"district
+",NIR,,
+"GB-NMD
+","en:Newry, Mourne and Down","district
+",NIR,,
+"GB-ABE
+",애버딘,"council area
+",SCT,,
+"GB-ABD
+",애버딘셔,"council area
+",SCT,,
+"GB-ANS
+",Angus,"council area
+",SCT,,
+"GB-AGB
+",아가일 뷰트,"council area
+",SCT,,
+"GB-CLK
+",클라크매넌셔,"council area
+",SCT,,
+"GB-DGY
+",덤프리스 갤러웨이,"council area
+",SCT,,
+"GB-DND
+",던디,"council area
+",SCT,,
+"GB-EAY
+",이스트에어셔,"council area
+",SCT,,
+"GB-EDU
+",이스트던바턴셔,"council area
+",SCT,,
+"GB-ELN
+",이스트로디언,"council area
+",SCT,,
+"GB-ERW
+",이스트렌프루셔,"council area
+",SCT,,
+"GB-EDH
+","Edinburgh, City of","council area
+",SCT,,
+"GB-ELS
+",아우터헤브리디스,"council area
+",SCT,,
+"GB-FAL
+",Falkirk,"council area
+",SCT,,
+"GB-FIF
+",파이프 (의회 구역),"council area
+",SCT,,
+"GB-GLG
+",Glasgow City,"council area
+",SCT,,
+"GB-HLD
+",Highland,"council area
+",SCT,,
+"GB-IVC
+",인버클라이드,"council area
+",SCT,,
+"GB-MLN
+",미들로디언,"council area
+",SCT,,
+"GB-MRY
+",머리 (의회 구역),"council area
+",SCT,,
+"GB-NAY
+",노스에어셔,"council area
+",SCT,,
+"GB-NLK
+",노스래너크셔,"council area
+",SCT,,
+"GB-ORK
+",오크니 제도,"council area
+",SCT,,
+"GB-PKN
+",퍼스 킨로스,"council area
+",SCT,,
+"GB-RFW
+",렌프루셔,"council area
+",SCT,,
+"GB-SCB
+",스코티시보더스,"council area
+",SCT,,
+"GB-ZET
+",셰틀랜드 제도,"council area
+",SCT,,
+"GB-SAY
+",사우스에어셔,"council area
+",SCT,,
+"GB-SLK
+",사우스래너크셔,"council area
+",SCT,,
+"GB-STG
+",Stirling,"council area
+",SCT,,
+"GB-WDU
+",웨스트던바턴셔,"council area
+",SCT,,
+"GB-WLN
+",웨스트로디언,"council area
+",SCT,,
+"GB-BGW
+",블라이나이궨트,"unitary authority
+",WLS,,
+"GB-BGE
+",Bridgend,"unitary authority
+",WLS,,
+"GB-CAY
+",Caerphilly,"unitary authority
+",WLS,,
+"GB-CRF
+",카디프,"unitary authority
+",WLS,,
+"GB-CMN
+",카마던셔,"unitary authority
+",WLS,,
+"GB-CGN
+",케레디기온,"unitary authority
+",WLS,,
+"GB-CWY
+",Conwy,"unitary authority
+",WLS,,
+"GB-DEN
+",덴비셔,"unitary authority
+",WLS,,
+"GB-FLN
+",플린트셔,"unitary authority
+",WLS,,
+"GB-GWN
+",귀네드,"unitary authority
+",WLS,,
+"GB-AGY
+",앵글시섬,"unitary authority
+",WLS,,
+"GB-MTY
+",Merthyr Tydfil,"unitary authority
+",WLS,,
+"GB-MON
+",몬머스셔,"unitary authority
+",WLS,,
+"GB-NTL
+",니스포트탤벗,"unitary authority
+",WLS,,
+"GB-NWP
+",Newport,"unitary authority
+",WLS,,
+"GB-PEM
+",펨브로크셔,"unitary authority
+",WLS,,
+"GB-POW
+",포이스,"unitary authority
+",WLS,,
+"GB-RCT
+",Rhondda Cynon Taff,"unitary authority
+",WLS,,
+"GB-SWA
+",스완지,"unitary authority
+",WLS,,
+"GB-TOF
+",토르바인,"unitary authority
+",WLS,,
+"GB-VGL
+","Vale of Glamorgan, The","unitary authority
+",WLS,,
+"GB-WRX
+",Wrexham,"unitary authority
+",WLS,,

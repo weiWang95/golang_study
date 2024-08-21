@@ -1,0 +1,7539 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "preset": "1"
+  },
+  {
+    "code": "AX",
+    "name": "Aland lslands",
+    "preset": "1"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "preset": "1"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "preset": "2"
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "preset": "1"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "preset": "2"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "preset": "3"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "preset": "3"
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "preset": "1"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "preset": "1"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "preset": "4",
+    "provinces": [
+      {
+        "name": "Ciudad Autónoma de Buenos Aires",
+        "code": "AR-C"
+      },
+      {
+        "name": "Buenos Aires",
+        "code": "AR-B"
+      },
+      {
+        "name": "Catamarca",
+        "code": "AR-K"
+      },
+      {
+        "name": "Córdoba",
+        "code": "AR-X"
+      },
+      {
+        "name": "Corrientes",
+        "code": "AR-W"
+      },
+      {
+        "name": "Chaco",
+        "code": "AR-H"
+      },
+      {
+        "name": "Chubut",
+        "code": "AR-U"
+      },
+      {
+        "name": "Entre Ríos",
+        "code": "AR-E"
+      },
+      {
+        "name": "Formosa",
+        "code": "AR-P"
+      },
+      {
+        "name": "Jujuy",
+        "code": "AR-Y"
+      },
+      {
+        "name": "La Pampa",
+        "code": "AR-L"
+      },
+      {
+        "name": "Mendoza",
+        "code": "AR-M"
+      },
+      {
+        "name": "Misiones",
+        "code": "AR-N"
+      },
+      {
+        "name": "Neuquén",
+        "code": "AR-Q"
+      },
+      {
+        "name": "Río Negro",
+        "code": "AR-R"
+      },
+      {
+        "name": "Salta",
+        "code": "AR-A"
+      },
+      {
+        "name": "San Juan",
+        "code": "AR-J"
+      },
+      {
+        "name": "San Luis",
+        "code": "AR-D"
+      },
+      {
+        "name": "Santa Cruz",
+        "code": "AR-Z"
+      },
+      {
+        "name": "Santa Fe",
+        "code": "AR-S"
+      },
+      {
+        "name": "Santiago del Estero",
+        "code": "AR-G"
+      },
+      {
+        "name": "Tierra del Fuego",
+        "code": "AR-V"
+      },
+      {
+        "name": "Tucumán",
+        "code": "AR-T"
+      },
+      {
+        "name": "La Rioja",
+        "code": "AR-F"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.AR}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "preset": "2"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "preset": "3"
+  },
+  {
+    "code": "AC",
+    "name": "Ascension Island",
+    "preset": "1"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Australian Capital Territory",
+        "code": "AU-ACT"
+      },
+      {
+        "name": "New South Wales",
+        "code": "AU-NSW"
+      },
+      {
+        "name": "Northern Territory",
+        "code": "AU-NT"
+      },
+      {
+        "name": "Queensland",
+        "code": "AU-QLD"
+      },
+      {
+        "name": "South Australia",
+        "code": "AU-SA"
+      },
+      {
+        "name": "Tasmania",
+        "code": "AU-TAS"
+      },
+      {
+        "name": "Victoria",
+        "code": "AU-VIC"
+      },
+      {
+        "name": "Western Australia",
+        "code": "AU-WA"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.AU}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.AU}",
+          "description": "{fields.zip.description.AU}"
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.AU}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.AU}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.AU}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.AU}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.AT}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.AT}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "preset": "2"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "preset": "3"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Capital Governorate",
+        "code": "BH-CP",
+        "fordealCode": "7181"
+      },
+      {
+        "name": "Southern Governorate",
+        "code": "BH-SN",
+        "fordealCode": "7180"
+      },
+      {
+        "name": "Muharraq Governorate",
+        "code": "BH-MU",
+        "fordealCode": "7182"
+      },
+      {
+        "name": "Northern Governorate",
+        "code": "BH-NT",
+        "fordealCode": "7184"
+      },
+      {
+        "name": "Central Governorate",
+        "code": "BH-CN",
+        "fordealCode": "7183"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "preset": "1"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "preset": "1"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "preset": "1"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "preset": "2"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "preset": "3"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "preset": "3"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "preset": "1"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "preset": "1"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "preset": "3"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "preset": "1"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "preset": "1"
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "preset": "1"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Distrito Federal",
+        "code": "BR-DF"
+      },
+      {
+        "name": "Acre",
+        "code": "BR-AC"
+      },
+      {
+        "name": "Alagoas",
+        "code": "BR-AL"
+      },
+      {
+        "name": "Amapá",
+        "code": "BR-AP"
+      },
+      {
+        "name": "Amazonas",
+        "code": "BR-AM"
+      },
+      {
+        "name": "Bahia",
+        "code": "BR-BA"
+      },
+      {
+        "name": "Ceará",
+        "code": "BR-CE"
+      },
+      {
+        "name": "Espírito Santo",
+        "code": "BR-ES"
+      },
+      {
+        "name": "Goiás",
+        "code": "BR-GO"
+      },
+      {
+        "name": "Maranhão",
+        "code": "BR-MA"
+      },
+      {
+        "name": "Mato Grosso",
+        "code": "BR-MT"
+      },
+      {
+        "name": "Mato Grosso do Sul",
+        "code": "BR-MS"
+      },
+      {
+        "name": "Minas Gerais",
+        "code": "BR-MG"
+      },
+      {
+        "name": "Pará",
+        "code": "BR-PA"
+      },
+      {
+        "name": "Paraíba",
+        "code": "BR-PB"
+      },
+      {
+        "name": "Paraná",
+        "code": "BR-PR"
+      },
+      {
+        "name": "Pernambuco",
+        "code": "BR-PE"
+      },
+      {
+        "name": "Piauí",
+        "code": "BR-PI"
+      },
+      {
+        "name": "Rio de Janeiro",
+        "code": "BR-RJ"
+      },
+      {
+        "name": "Rio Grande do Norte",
+        "code": "BR-RN"
+      },
+      {
+        "name": "Rio Grande do Sul",
+        "code": "BR-RS"
+      },
+      {
+        "name": "Rondônia",
+        "code": "BR-RO"
+      },
+      {
+        "name": "Roraima",
+        "code": "BR-RR"
+      },
+      {
+        "name": "Santa Catarina",
+        "code": "BR-SC"
+      },
+      {
+        "name": "São Paulo",
+        "code": "BR-SP"
+      },
+      {
+        "name": "Sergipe",
+        "code": "BR-SE"
+      },
+      {
+        "name": "Tocantins",
+        "code": "BR-TO"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.BR}",
+          "show": 1
+        },
+        {
+          "id": "address",
+          "label": "{fields.address.label.BR}"
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label}",
+          "description": "{fields.zip.description}",
+          "format": [
+            [
+              "^\\d{5}-?\\d{3}$",
+              [
+                "/\\D/g",
+                "",
+                "^(\\d{5})(\\d{3})$",
+                "$1-$2"
+              ]
+            ]
+          ],
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^\\d{5}-?\\d{3}$"
+            }
+          ]
+        },
+        {
+          "id": "cpf",
+          "tips": "",
+          "length": 30,
+          "label": "CPF/CNPJ",
+          "placeholder": "CPF/CNPJ",
+          "validate": [
+            {
+              "id": "tips",
+              "message": "{fields.cpf.tips.BR}",
+              "regexp": "(^\\d{3}(\\.?\\d{3}){2}|^\\d{2}(\\.?\\d{3}){2}\\/?\\d{4})-?\\d{2}$"
+            }
+          ],
+          "format": [
+            [
+              "^\\d{3}(\\.?\\d{3}){2}-?\\d{2}$",
+              [
+                "/\\D/g",
+                "",
+                "^(\\d{3})(\\d{3})(\\d{3})(\\d{2})$",
+                "$1.$2.$3-$4"
+              ]
+            ],
+            [
+              "^\\d{2}(\\.?\\d{3}){2}\\/?\\d{4}-?\\d{2}$",
+              [
+                "/\\D/g",
+                "",
+                "^(\\d{2})(\\d{3})(\\d{3})(\\d{4})(\\d{2})$",
+                "$1.$2.$3/$4-$5"
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "preset": "1"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "preset": "1"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "preset": "2"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "preset": "3"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "preset": "1"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "preset": "1"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "preset": "1"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Alberta",
+        "code": "CA-AB"
+      },
+      {
+        "name": "British Columbia",
+        "code": "CA-BC"
+      },
+      {
+        "name": "Manitoba",
+        "code": "CA-MB"
+      },
+      {
+        "name": "New Brunswick",
+        "code": "CA-NB"
+      },
+      {
+        "name": "Newfoundland and Labrador",
+        "code": "CA-NL"
+      },
+      {
+        "name": "Nova Scotia",
+        "code": "CA-NS"
+      },
+      {
+        "name": "Ontario",
+        "code": "CA-ON"
+      },
+      {
+        "name": "Prince Edward Island",
+        "code": "CA-PE"
+      },
+      {
+        "name": "Quebec",
+        "code": "CA-QC"
+      },
+      {
+        "name": "Saskatchewan",
+        "code": "CA-SK"
+      },
+      {
+        "name": "Northwest Territories",
+        "code": "CA-NT"
+      },
+      {
+        "name": "Nunavut",
+        "code": "CA-NU"
+      },
+      {
+        "name": "Yukon",
+        "code": "CA-YT"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.CA}",
+          "show": 1
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.CA}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.CA}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.CA}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "preset": "2"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "preset": "1"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "preset": "1"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "preset": "3"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "preset": "6",
+    "provinces": [
+      {
+        "name": "Aisén del General Carlos Ibañez del Campo",
+        "code": "CL-AI"
+      },
+      {
+        "name": "Antofagasta",
+        "code": "CL-AN"
+      },
+      {
+        "name": "Arica y Parinacota",
+        "code": "CL-AP"
+      },
+      {
+        "name": "La Araucanía",
+        "code": "CL-AR"
+      },
+      {
+        "name": "Atacama",
+        "code": "CL-AT"
+      },
+      {
+        "name": "Biobío",
+        "code": "CL-BI"
+      },
+      {
+        "name": "Coquimbo",
+        "code": "CL-CO"
+      },
+      {
+        "name": "Libertador General Bernardo O'Higgins",
+        "code": "CL-LI"
+      },
+      {
+        "name": "Los Lagos",
+        "code": "CL-LL"
+      },
+      {
+        "name": "Los Ríos",
+        "code": "CL-LR"
+      },
+      {
+        "name": "Magallanes",
+        "code": "CL-MA"
+      },
+      {
+        "name": "Maule",
+        "code": "CL-ML"
+      },
+      {
+        "name": "Región Metropolitana de Santiago",
+        "code": "CL-RM"
+      },
+      {
+        "name": "Tarapacá",
+        "code": "CL-TA"
+      },
+      {
+        "name": "Valparaíso",
+        "code": "CL-VS"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label}",
+          "description": "{fields.zip.description}",
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^\\d{7}$"
+            }
+          ]
+        },
+        {
+          "id": "cpf",
+          "tips": "",
+          "label": "RUT",
+          "placeholder": "RUT",
+          "length": 30,
+          "validate": [
+            {
+              "id": "tips",
+              "message": "{fields.cpf.tips.CL}",
+              "regexp": "^\\d{1,2}(\\.?\\d{3}){2}-?[\\dKk]$"
+            }
+          ],
+          "format": [
+            "/[^\\dkK$]/g",
+            "",
+            "^(\\d{7,8})([\\dKk])$",
+            "$1-$2",
+            "k$",
+            "K"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "安徽省",
+        "code": "CN-AH"
+      },
+      {
+        "name": "北京市",
+        "code": "CN-BJ"
+      },
+      {
+        "name": "重庆市",
+        "code": "CN-CQ"
+      },
+      {
+        "name": "福建省",
+        "code": "CN-FJ"
+      },
+      {
+        "name": "广东省",
+        "code": "CN-GD"
+      },
+      {
+        "name": "甘肃省",
+        "code": "CN-GS"
+      },
+      {
+        "name": "广西壮族自治区",
+        "code": "CN-GX"
+      },
+      {
+        "name": "贵州省",
+        "code": "CN-GZ"
+      },
+      {
+        "name": "河南省",
+        "code": "CN-HA"
+      },
+      {
+        "name": "湖北省",
+        "code": "CN-HB"
+      },
+      {
+        "name": "河北省",
+        "code": "CN-HE"
+      },
+      {
+        "name": "海南省",
+        "code": "CN-HI"
+      },
+      {
+        "name": "香港",
+        "code": "CN-HK"
+      },
+      {
+        "name": "黑龙江省",
+        "code": "CN-HL"
+      },
+      {
+        "name": "湖南省",
+        "code": "CN-HN"
+      },
+      {
+        "name": "吉林省",
+        "code": "CN-JL"
+      },
+      {
+        "name": "江苏省",
+        "code": "CN-JS"
+      },
+      {
+        "name": "江西省",
+        "code": "CN-JX"
+      },
+      {
+        "name": "辽宁省",
+        "code": "CN-LN"
+      },
+      {
+        "name": "澳门",
+        "code": "CN-MO"
+      },
+      {
+        "name": "内蒙古自治区",
+        "code": "CN-NM"
+      },
+      {
+        "name": "宁夏回族自治区",
+        "code": "CN-NX"
+      },
+      {
+        "name": "青海省",
+        "code": "CN-QH"
+      },
+      {
+        "name": "四川省",
+        "code": "CN-SC"
+      },
+      {
+        "name": "山东省",
+        "code": "CN-SD"
+      },
+      {
+        "name": "上海市",
+        "code": "CN-SH"
+      },
+      {
+        "name": "陕西省",
+        "code": "CN-SN"
+      },
+      {
+        "name": "山西省",
+        "code": "CN-SX"
+      },
+      {
+        "name": "天津市",
+        "code": "CN-TJ"
+      },
+      {
+        "name": "台湾省",
+        "code": "CN-TW"
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "code": "CN-XJ"
+      },
+      {
+        "name": "西藏自治区",
+        "code": "CN-XZ"
+      },
+      {
+        "name": "云南省",
+        "code": "CN-YN"
+      },
+      {
+        "name": "浙江省",
+        "code": "CN-ZJ"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.CN}",
+          "show": 1
+        },
+        {
+          "id": "address",
+          "label": "{fields.address.label.CN}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "preset": "1"
+  },
+  {
+    "code": "CC",
+    "name": "Cocos(Keeling)Islands",
+    "preset": "1"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Distrito Capital de Bogotá",
+        "code": "CO-DC"
+      },
+      {
+        "name": "Amazonas",
+        "code": "CO-AMA"
+      },
+      {
+        "name": "Antioquia",
+        "code": "CO-ANT"
+      },
+      {
+        "name": "Arauca",
+        "code": "CO-ARA"
+      },
+      {
+        "name": "Atlántico",
+        "code": "CO-ATL"
+      },
+      {
+        "name": "Bolívar",
+        "code": "CO-BOL"
+      },
+      {
+        "name": "Boyacá",
+        "code": "CO-BOY"
+      },
+      {
+        "name": "Caldas",
+        "code": "CO-CAL"
+      },
+      {
+        "name": "Caquetá",
+        "code": "CO-CAQ"
+      },
+      {
+        "name": "Casanare",
+        "code": "CO-CAS"
+      },
+      {
+        "name": "Cauca",
+        "code": "CO-CAU"
+      },
+      {
+        "name": "Cesar",
+        "code": "CO-CES"
+      },
+      {
+        "name": "Córdoba",
+        "code": "CO-COR"
+      },
+      {
+        "name": "Cundinamarca",
+        "code": "CO-CUN"
+      },
+      {
+        "name": "Chocó",
+        "code": "CO-CHO"
+      },
+      {
+        "name": "Guainía",
+        "code": "CO-GUA"
+      },
+      {
+        "name": "Guaviare",
+        "code": "CO-GUV"
+      },
+      {
+        "name": "Huila",
+        "code": "CO-HUI"
+      },
+      {
+        "name": "La Guajira",
+        "code": "CO-LAG"
+      },
+      {
+        "name": "Magdalena",
+        "code": "CO-MAG"
+      },
+      {
+        "name": "Meta",
+        "code": "CO-MET"
+      },
+      {
+        "name": "Nariño",
+        "code": "CO-NAR"
+      },
+      {
+        "name": "Norte de Santander",
+        "code": "CO-NSA"
+      },
+      {
+        "name": "Putumayo",
+        "code": "CO-PUT"
+      },
+      {
+        "name": "Quindío",
+        "code": "CO-QUI"
+      },
+      {
+        "name": "Risaralda",
+        "code": "CO-RIS"
+      },
+      {
+        "name": "San Andrés, Providencia y Santa Catalina",
+        "code": "CO-SAP"
+      },
+      {
+        "name": "Santander",
+        "code": "CO-SAN"
+      },
+      {
+        "name": "Sucre",
+        "code": "CO-SUC"
+      },
+      {
+        "name": "Tolima",
+        "code": "CO-TOL"
+      },
+      {
+        "name": "Valle del Cauca",
+        "code": "CO-VAC"
+      },
+      {
+        "name": "Vaupés",
+        "code": "CO-VAU"
+      },
+      {
+        "name": "Vichada",
+        "code": "CO-VID"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.CO}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label}",
+          "description": "{fields.zip.description}",
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^\\d{6}$"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "preset": "1"
+  },
+  {
+    "code": "CG",
+    "name": "Congo",
+    "preset": "1"
+  },
+  {
+    "code": "CD",
+    "name": "Congo(DRC)",
+    "preset": "1"
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "preset": "1"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "preset": "1"
+  },
+  {
+    "code": "CI",
+    "name": "Cote d'Ivoire",
+    "preset": "1"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "preset": "2"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "preset": "2"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "preset": "2"
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "preset": "2"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.DK}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "preset": "1"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "preset": "1"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "preset": "2"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "preset": "2"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Dakahlia",
+        "code": "EG-DK"
+      },
+      {
+        "name": "Red Sea",
+        "code": "EG-BA"
+      },
+      {
+        "name": "Beheira",
+        "code": "EG-BH"
+      },
+      {
+        "name": "Faiyum",
+        "code": "EG-FYM"
+      },
+      {
+        "name": "Gharbia",
+        "code": "EG-GH"
+      },
+      {
+        "name": "Alexandria",
+        "code": "EG-ALX"
+      },
+      {
+        "name": "Ismailia",
+        "code": "EG-IS"
+      },
+      {
+        "name": "Giza",
+        "code": "EG-GZ"
+      },
+      {
+        "name": "Monufia",
+        "code": "EG-MNF"
+      },
+      {
+        "name": "Minya",
+        "code": "EG-MN"
+      },
+      {
+        "name": "Cairo",
+        "code": "EG-C"
+      },
+      {
+        "name": "Qalyubia",
+        "code": "EG-KB"
+      },
+      {
+        "name": "Luxor",
+        "code": "EG-LX"
+      },
+      {
+        "name": "New Valley",
+        "code": "EG-WAD"
+      },
+      {
+        "name": "Al Sharqia",
+        "code": "EG-SHR"
+      },
+      {
+        "name": "Suez",
+        "code": "EG-SUZ"
+      },
+      {
+        "name": "Aswan",
+        "code": "EG-ASN"
+      },
+      {
+        "name": "Asyut",
+        "code": "EG-AST"
+      },
+      {
+        "name": "Beni Suef",
+        "code": "EG-BNS"
+      },
+      {
+        "name": "Port Said",
+        "code": "EG-PTS"
+      },
+      {
+        "name": "Damietta",
+        "code": "EG-DT"
+      },
+      {
+        "name": "South Sinai",
+        "code": "EG-JS"
+      },
+      {
+        "name": "Kafr el-Sheikh",
+        "code": "EG-KFS"
+      },
+      {
+        "name": "Matrouh",
+        "code": "EG-MT"
+      },
+      {
+        "name": "Qena",
+        "code": "EG-KN"
+      },
+      {
+        "name": "North Sinai",
+        "code": "EG-SIN"
+      },
+      {
+        "name": "Sohag",
+        "code": "EG-SHG"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.EG}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "preset": "1"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "preset": "1"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "preset": "1"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "preset": "2"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "preset": "1"
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "preset": "1"
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "preset": "2"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji Islands",
+    "preset": "1"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "preset": "2"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "preset": "7",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.FR}",
+          "description": "{fields.zip.description.FR}"
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.FR}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.FR}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.FR}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.FR}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "preset": "2"
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "preset": "1"
+  },
+  {
+    "code": "TF",
+    "name": "French Southern and Antarctic Lands",
+    "preset": "1"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "preset": "1"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "preset": "1"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "preset": "2"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.DE}",
+          "description": "{fields.zip.description.DE}",
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^[0-9]{5}$"
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.DE}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.DE}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.DE}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.DE}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "preset": "8",
+    "provinces": [
+      {
+        "name": "Ashanti",
+        "code": "GH-AH"
+      },
+      {
+        "name": "Brong-Ahafo",
+        "code": "GH-BA"
+      },
+      {
+        "name": "Central",
+        "code": "GH-CP"
+      },
+      {
+        "name": "Eastern",
+        "code": "GH-EP"
+      },
+      {
+        "name": "Greater Accra",
+        "code": "GH-AA"
+      },
+      {
+        "name": "Northern",
+        "code": "GH-NP"
+      },
+      {
+        "name": "Upper East",
+        "code": "GH-UE"
+      },
+      {
+        "name": "Upper West",
+        "code": "GH-UW"
+      },
+      {
+        "name": "Volta",
+        "code": "GH-TV"
+      },
+      {
+        "name": "Western",
+        "code": "GH-WP"
+      },
+      {
+        "name": "Bono",
+        "code": "GH-BO"
+      },
+      {
+        "name": "Bono East",
+        "code": "GH-BE"
+      },
+      {
+        "name": "Ahafo",
+        "code": "GH-AF"
+      }
+    ]
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "preset": "1"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.GR}",
+          "description": "{fields.zip.description.GR}"
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.GR}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.GR}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.GR}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.GR}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "preset": "2"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "preset": "1"
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "preset": "1"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "preset": "1"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Alta Verapaz",
+        "code": "GT-AV"
+      },
+      {
+        "name": "Baja Verapaz",
+        "code": "GT-BV"
+      },
+      {
+        "name": "Chimaltenango",
+        "code": "GT-CM"
+      },
+      {
+        "name": "Chiquimula",
+        "code": "GT-CQ"
+      },
+      {
+        "name": "El Progreso",
+        "code": "GT-PR"
+      },
+      {
+        "name": "Escuintla",
+        "code": "GT-ES"
+      },
+      {
+        "name": "Guatemala",
+        "code": "GT-GU"
+      },
+      {
+        "name": "Huehuetenango",
+        "code": "GT-HU"
+      },
+      {
+        "name": "Izabal",
+        "code": "GT-IZ"
+      },
+      {
+        "name": "Jalapa",
+        "code": "GT-JA"
+      },
+      {
+        "name": "Jutiapa",
+        "code": "GT-JU"
+      },
+      {
+        "name": "Petén",
+        "code": "GT-PE"
+      },
+      {
+        "name": "Quetzaltenango",
+        "code": "GT-QZ"
+      },
+      {
+        "name": "Quiché",
+        "code": "GT-QC"
+      },
+      {
+        "name": "Retalhuleu",
+        "code": "GT-RE"
+      },
+      {
+        "name": "Sacatepéquez",
+        "code": "GT-SA"
+      },
+      {
+        "name": "San Marcos",
+        "code": "GT-SM"
+      },
+      {
+        "name": "Santa Rosa",
+        "code": "GT-SR"
+      },
+      {
+        "name": "Sololá",
+        "code": "GT-SO"
+      },
+      {
+        "name": "Suchitepéquez",
+        "code": "GT-SU"
+      },
+      {
+        "name": "Totonicapán",
+        "code": "GT-TO"
+      },
+      {
+        "name": "Zacapa",
+        "code": "GT-ZA"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "preset": "1"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "preset": "1"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "preset": "1"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "preset": "1"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "preset": "2"
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "preset": "1"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "preset": "2"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong,China",
+    "preset": "8",
+    "provinces": [
+      {
+        "name": "Hong Kong Island",
+        "code": "HK"
+      },
+      {
+        "name": "Kowloon",
+        "code": "KL"
+      },
+      {
+        "name": "New Territories",
+        "code": "NT"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.HK}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "preset": "1"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "preset": "2"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Andhra Pradesh",
+        "code": "IN-AP"
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "code": "IN-AR"
+      },
+      {
+        "name": "Assam",
+        "code": "IN-AS"
+      },
+      {
+        "name": "Bihar",
+        "code": "IN-BR"
+      },
+      {
+        "name": "Chhattisgarh",
+        "code": "IN-CT"
+      },
+      {
+        "name": "Goa",
+        "code": "IN-GA"
+      },
+      {
+        "name": "Gujarat",
+        "code": "IN-GJ"
+      },
+      {
+        "name": "Haryana",
+        "code": "IN-HR"
+      },
+      {
+        "name": "Himachal Pradesh",
+        "code": "IN-HP"
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "code": "IN-JK"
+      },
+      {
+        "name": "Jharkhand",
+        "code": "IN-JH"
+      },
+      {
+        "name": "Karnataka",
+        "code": "IN-KA"
+      },
+      {
+        "name": "Kerala",
+        "code": "IN-KL"
+      },
+      {
+        "name": "Madhya Pradesh",
+        "code": "IN-MP"
+      },
+      {
+        "name": "Maharashtra",
+        "code": "IN-MH"
+      },
+      {
+        "name": "Manipur",
+        "code": "IN-MN"
+      },
+      {
+        "name": "Meghalaya",
+        "code": "IN-ML"
+      },
+      {
+        "name": "Mizoram",
+        "code": "IN-MZ"
+      },
+      {
+        "name": "Nagaland",
+        "code": "IN-NL"
+      },
+      {
+        "name": "Odisha",
+        "code": "IN-OR"
+      },
+      {
+        "name": "Punjab",
+        "code": "IN-PB"
+      },
+      {
+        "name": "Rajasthan",
+        "code": "IN-RJ"
+      },
+      {
+        "name": "Sikkim",
+        "code": "IN-SK"
+      },
+      {
+        "name": "Tamil Nadu",
+        "code": "IN-TN"
+      },
+      {
+        "name": "Telangana",
+        "code": "IN-TG"
+      },
+      {
+        "name": "Tripura",
+        "code": "IN-TR"
+      },
+      {
+        "name": "Uttarakhand",
+        "code": "IN-UT"
+      },
+      {
+        "name": "Uttar Pradesh",
+        "code": "IN-UP"
+      },
+      {
+        "name": "West Bengal",
+        "code": "IN-WB"
+      },
+      {
+        "name": "Andaman and Nicobar Islands",
+        "code": "IN-AN"
+      },
+      {
+        "name": "Chandigarh",
+        "code": "IN-CH"
+      },
+      {
+        "name": "Dadra and Nagar Haveli",
+        "code": "IN-DN"
+      },
+      {
+        "name": "Daman and Diu",
+        "code": "IN-DD"
+      },
+      {
+        "name": "Delhi",
+        "code": "IN-DL"
+      },
+      {
+        "name": "Lakshadweep",
+        "code": "IN-LD"
+      },
+      {
+        "name": "Puducherry",
+        "code": "IN-PY"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.IN}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.IN}",
+          "description": "{fields.zip.description.IN}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "preset": "9",
+    "provinces": [
+      {
+        "name": "Nanggroe Aceh Darussalam",
+        "code": "ID-AC"
+      },
+      {
+        "name": "Bali",
+        "code": "ID-BA"
+      },
+      {
+        "name": "Bangka Belitung",
+        "code": "ID-BB"
+      },
+      {
+        "name": "Banten",
+        "code": "ID-BT"
+      },
+      {
+        "name": "Bengkulu",
+        "code": "ID-BE"
+      },
+      {
+        "name": "Gorontalo",
+        "code": "ID-GO"
+      },
+      {
+        "name": "Jambi",
+        "code": "ID-JA"
+      },
+      {
+        "name": "Jawa Barat",
+        "code": "ID-JB"
+      },
+      {
+        "name": "Jawa Tengah",
+        "code": "ID-JT"
+      },
+      {
+        "name": "Jawa Timur",
+        "code": "ID-JI"
+      },
+      {
+        "name": "Kalimantan Barat",
+        "code": "ID-KB"
+      },
+      {
+        "name": "Kalimantan Selatan",
+        "code": "ID-KS"
+      },
+      {
+        "name": "Kalimantan Tengah",
+        "code": "ID-KT"
+      },
+      {
+        "name": "Kalimantan Timur",
+        "code": "ID-KI"
+      },
+      {
+        "name": "Kalimantan Utara",
+        "code": "ID-KU"
+      },
+      {
+        "name": "Kepulauan Riau",
+        "code": "ID-KR"
+      },
+      {
+        "name": "Lampung",
+        "code": "ID-LA"
+      },
+      {
+        "name": "Maluku",
+        "code": "ID-MA"
+      },
+      {
+        "name": "Maluku Utara",
+        "code": "ID-MU"
+      },
+      {
+        "name": "Nusa Tenggara Barat",
+        "code": "ID-NB"
+      },
+      {
+        "name": "Nusa Tenggara Timur",
+        "code": "ID-NT"
+      },
+      {
+        "name": "Papua",
+        "code": "ID-PA"
+      },
+      {
+        "name": "Papua Barat",
+        "code": "ID-PB"
+      },
+      {
+        "name": "Riau",
+        "code": "ID-RI"
+      },
+      {
+        "name": "Sulawesi Barat",
+        "code": "ID-SR"
+      },
+      {
+        "name": "Sulawesi Selatan",
+        "code": "ID-SN"
+      },
+      {
+        "name": "Sulawesi Tengah",
+        "code": "ID-ST"
+      },
+      {
+        "name": "Sulawesi Tenggara",
+        "code": "ID-SG"
+      },
+      {
+        "name": "Sulawesi Utara",
+        "code": "ID-SA"
+      },
+      {
+        "name": "Sumatera Barat",
+        "code": "ID-SB"
+      },
+      {
+        "name": "Sumatera Selatan",
+        "code": "ID-SS"
+      },
+      {
+        "name": "Sumatera Utara",
+        "code": "ID-SU"
+      },
+      {
+        "name": "DKI Jakarta",
+        "code": "ID-JK"
+      },
+      {
+        "name": "D.I. Yogyakarta",
+        "code": "ID-YO"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.ID}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "preset": "1"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "preset": "1"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Carlow",
+        "code": "CW"
+      },
+      {
+        "name": "Cavan",
+        "code": "CN"
+      },
+      {
+        "name": "Clare",
+        "code": "CE"
+      },
+      {
+        "name": "Cork",
+        "code": "CO"
+      },
+      {
+        "name": "Donegal",
+        "code": "DL"
+      },
+      {
+        "name": "Dublin",
+        "code": "D"
+      },
+      {
+        "name": "Galway",
+        "code": "G"
+      },
+      {
+        "name": "Kerry",
+        "code": "KY"
+      },
+      {
+        "name": "Kildare",
+        "code": "KE"
+      },
+      {
+        "name": "Kilkenny",
+        "code": "KK"
+      },
+      {
+        "name": "Laois",
+        "code": "LS"
+      },
+      {
+        "name": "Leitrim",
+        "code": "LM"
+      },
+      {
+        "name": "Limerick",
+        "code": "LK"
+      },
+      {
+        "name": "Longford",
+        "code": "LD"
+      },
+      {
+        "name": "Louth",
+        "code": "LH"
+      },
+      {
+        "name": "Mayo",
+        "code": "MO"
+      },
+      {
+        "name": "Meath",
+        "code": "MH"
+      },
+      {
+        "name": "Monaghan",
+        "code": "MN"
+      },
+      {
+        "name": "Offaly",
+        "code": "OY"
+      },
+      {
+        "name": "Roscommon",
+        "code": "RN"
+      },
+      {
+        "name": "Sligo",
+        "code": "SO"
+      },
+      {
+        "name": "Tipperary",
+        "code": "TA"
+      },
+      {
+        "name": "Waterford",
+        "code": "WD"
+      },
+      {
+        "name": "Westmeath",
+        "code": "WH"
+      },
+      {
+        "name": "Wexford",
+        "code": "WX"
+      },
+      {
+        "name": "Wicklow",
+        "code": "WW"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.IE}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "preset": "1"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "preset": "2"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "preset": "10",
+    "provinces": [
+      {
+        "name": "Agrigento",
+        "code": "AG"
+      },
+      {
+        "name": "Alessandria",
+        "code": "AL"
+      },
+      {
+        "name": "Ancona",
+        "code": "AN"
+      },
+      {
+        "name": "Aosta",
+        "code": "AO"
+      },
+      {
+        "name": "Arezzo",
+        "code": "AR"
+      },
+      {
+        "name": "Ascoli Piceno",
+        "code": "AP"
+      },
+      {
+        "name": "Asti",
+        "code": "AT"
+      },
+      {
+        "name": "Avellino",
+        "code": "AV"
+      },
+      {
+        "name": "Bari",
+        "code": "BA"
+      },
+      {
+        "name": "Barletta-Andria-Trani",
+        "code": "BT"
+      },
+      {
+        "name": "Belluno",
+        "code": "BL"
+      },
+      {
+        "name": "Benevento",
+        "code": "BN"
+      },
+      {
+        "name": "Bergamo",
+        "code": "BG"
+      },
+      {
+        "name": "Biella",
+        "code": "BI"
+      },
+      {
+        "name": "Bologna",
+        "code": "BO"
+      },
+      {
+        "name": "Bolzano",
+        "code": "BZ"
+      },
+      {
+        "name": "Brescia",
+        "code": "BS"
+      },
+      {
+        "name": "Brindisi",
+        "code": "BR"
+      },
+      {
+        "name": "Cagliari",
+        "code": "CA"
+      },
+      {
+        "name": "Caltanissetta",
+        "code": "CL"
+      },
+      {
+        "name": "Campobasso",
+        "code": "CB"
+      },
+      {
+        "name": "Carbonia-Iglesias",
+        "code": "CI"
+      },
+      {
+        "name": "Caserta",
+        "code": "CE"
+      },
+      {
+        "name": "Catania",
+        "code": "CT"
+      },
+      {
+        "name": "Catanzaro",
+        "code": "CZ"
+      },
+      {
+        "name": "Chieti",
+        "code": "CH"
+      },
+      {
+        "name": "Como",
+        "code": "CO"
+      },
+      {
+        "name": "Cosenza",
+        "code": "CS"
+      },
+      {
+        "name": "Cremona",
+        "code": "CR"
+      },
+      {
+        "name": "Crotone",
+        "code": "KR"
+      },
+      {
+        "name": "Cuneo",
+        "code": "CN"
+      },
+      {
+        "name": "Enna",
+        "code": "EN"
+      },
+      {
+        "name": "Fermo",
+        "code": "FM"
+      },
+      {
+        "name": "Ferrara",
+        "code": "FE"
+      },
+      {
+        "name": "Firenze",
+        "code": "FI"
+      },
+      {
+        "name": "Foggia",
+        "code": "FG"
+      },
+      {
+        "name": "Forlì-Cesena",
+        "code": "FC"
+      },
+      {
+        "name": "Frosinone",
+        "code": "FR"
+      },
+      {
+        "name": "Genova",
+        "code": "GE"
+      },
+      {
+        "name": "Gorizia",
+        "code": "GO"
+      },
+      {
+        "name": "Grosseto",
+        "code": "GR"
+      },
+      {
+        "name": "Imperia",
+        "code": "IM"
+      },
+      {
+        "name": "Isernia",
+        "code": "IS"
+      },
+      {
+        "name": "L'Aquila",
+        "code": "AQ"
+      },
+      {
+        "name": "La Spezia",
+        "code": "SP"
+      },
+      {
+        "name": "Latina",
+        "code": "LT"
+      },
+      {
+        "name": "Lecce",
+        "code": "LE"
+      },
+      {
+        "name": "Lecco",
+        "code": "LC"
+      },
+      {
+        "name": "Livorno",
+        "code": "LI"
+      },
+      {
+        "name": "Lodi",
+        "code": "LO"
+      },
+      {
+        "name": "Lucca",
+        "code": "LU"
+      },
+      {
+        "name": "Macerata",
+        "code": "MC"
+      },
+      {
+        "name": "Mantova",
+        "code": "MN"
+      },
+      {
+        "name": "Massa-Carrara",
+        "code": "MS"
+      },
+      {
+        "name": "Matera",
+        "code": "MT"
+      },
+      {
+        "name": "Medio Campidano",
+        "code": "VS"
+      },
+      {
+        "name": "Messina",
+        "code": "ME"
+      },
+      {
+        "name": "Milano",
+        "code": "MI"
+      },
+      {
+        "name": "Modena",
+        "code": "MO"
+      },
+      {
+        "name": "Monza e Brianza",
+        "code": "MB"
+      },
+      {
+        "name": "Napoli",
+        "code": "NA"
+      },
+      {
+        "name": "Novara",
+        "code": "NO"
+      },
+      {
+        "name": "Nuoro",
+        "code": "NU"
+      },
+      {
+        "name": "Ogliastra",
+        "code": "OG"
+      },
+      {
+        "name": "Olbia-Tempio",
+        "code": "OT"
+      },
+      {
+        "name": "Oristano",
+        "code": "OR"
+      },
+      {
+        "name": "Padova",
+        "code": "PD"
+      },
+      {
+        "name": "Palermo",
+        "code": "PA"
+      },
+      {
+        "name": "Parma",
+        "code": "PR"
+      },
+      {
+        "name": "Pavia",
+        "code": "PV"
+      },
+      {
+        "name": "Perugia",
+        "code": "PG"
+      },
+      {
+        "name": "Pesaro e Urbino",
+        "code": "PU"
+      },
+      {
+        "name": "Pescara",
+        "code": "PE"
+      },
+      {
+        "name": "Piacenza",
+        "code": "PC"
+      },
+      {
+        "name": "Pisa",
+        "code": "PI"
+      },
+      {
+        "name": "Pistoia",
+        "code": "PT"
+      },
+      {
+        "name": "Pordenone",
+        "code": "PN"
+      },
+      {
+        "name": "Potenza",
+        "code": "PZ"
+      },
+      {
+        "name": "Prato",
+        "code": "PO"
+      },
+      {
+        "name": "Ragusa",
+        "code": "RG"
+      },
+      {
+        "name": "Ravenna",
+        "code": "RA"
+      },
+      {
+        "name": "Reggio Calabria",
+        "code": "RC"
+      },
+      {
+        "name": "Reggio Emilia",
+        "code": "RE"
+      },
+      {
+        "name": "Rieti",
+        "code": "RI"
+      },
+      {
+        "name": "Rimini",
+        "code": "RN"
+      },
+      {
+        "name": "Roma",
+        "code": "RM"
+      },
+      {
+        "name": "Rovigo",
+        "code": "RO"
+      },
+      {
+        "name": "Salerno",
+        "code": "SA"
+      },
+      {
+        "name": "Sassari",
+        "code": "SS"
+      },
+      {
+        "name": "Savona",
+        "code": "SV"
+      },
+      {
+        "name": "Siena",
+        "code": "SI"
+      },
+      {
+        "name": "Siracusa",
+        "code": "SR"
+      },
+      {
+        "name": "Sondrio",
+        "code": "SO"
+      },
+      {
+        "name": "Taranto",
+        "code": "TA"
+      },
+      {
+        "name": "Teramo",
+        "code": "TE"
+      },
+      {
+        "name": "Terni",
+        "code": "TR"
+      },
+      {
+        "name": "Torino",
+        "code": "TO"
+      },
+      {
+        "name": "Trapani",
+        "code": "TP"
+      },
+      {
+        "name": "Trento",
+        "code": "TN"
+      },
+      {
+        "name": "Treviso",
+        "code": "TV"
+      },
+      {
+        "name": "Trieste",
+        "code": "TS"
+      },
+      {
+        "name": "Udine",
+        "code": "UD"
+      },
+      {
+        "name": "Varese",
+        "code": "VA"
+      },
+      {
+        "name": "Venezia",
+        "code": "VE"
+      },
+      {
+        "name": "Verbano-Cusio-Ossola",
+        "code": "VB"
+      },
+      {
+        "name": "Vercelli",
+        "code": "VC"
+      },
+      {
+        "name": "Verona",
+        "code": "VR"
+      },
+      {
+        "name": "Vibo Valentia",
+        "code": "VV"
+      },
+      {
+        "name": "Vicenza",
+        "code": "VI"
+      },
+      {
+        "name": "Viterbo",
+        "code": "VT"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.IT}",
+          "show": 1
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.IT}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.IT}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.IT}"
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.IT}",
+          "description": "{fields.zip.description.IT}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.IT}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "preset": "3"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "preset": "11",
+    "provinces": [
+      {
+        "name": "北海道",
+        "code": "JP-01"
+      },
+      {
+        "name": "青森県",
+        "code": "JP-02"
+      },
+      {
+        "name": "岩手県",
+        "code": "JP-03"
+      },
+      {
+        "name": "宮城県",
+        "code": "JP-04"
+      },
+      {
+        "name": "秋田県",
+        "code": "JP-05"
+      },
+      {
+        "name": "山形県",
+        "code": "JP-06"
+      },
+      {
+        "name": "福島県",
+        "code": "JP-07"
+      },
+      {
+        "name": "茨城県",
+        "code": "JP-08"
+      },
+      {
+        "name": "栃木県",
+        "code": "JP-09"
+      },
+      {
+        "name": "群馬県",
+        "code": "JP-10"
+      },
+      {
+        "name": "埼玉県",
+        "code": "JP-11"
+      },
+      {
+        "name": "千葉県",
+        "code": "JP-12"
+      },
+      {
+        "name": "東京都",
+        "code": "JP-13"
+      },
+      {
+        "name": "神奈川県",
+        "code": "JP-14"
+      },
+      {
+        "name": "新潟県",
+        "code": "JP-15"
+      },
+      {
+        "name": "富山県",
+        "code": "JP-16"
+      },
+      {
+        "name": "石川県",
+        "code": "JP-17"
+      },
+      {
+        "name": "福井県",
+        "code": "JP-18"
+      },
+      {
+        "name": "山梨県",
+        "code": "JP-19"
+      },
+      {
+        "name": "長野県",
+        "code": "JP-20"
+      },
+      {
+        "name": "岐阜县",
+        "code": "JP-21"
+      },
+      {
+        "name": "静岡県",
+        "code": "JP-22"
+      },
+      {
+        "name": "愛知県",
+        "code": "JP-23"
+      },
+      {
+        "name": "三重県",
+        "code": "JP-24"
+      },
+      {
+        "name": "滋賀県",
+        "code": "JP-25"
+      },
+      {
+        "name": "京都府",
+        "code": "JP-26"
+      },
+      {
+        "name": "大阪府",
+        "code": "JP-27"
+      },
+      {
+        "name": "兵庫県",
+        "code": "JP-28"
+      },
+      {
+        "name": "奈良県",
+        "code": "JP-29"
+      },
+      {
+        "name": "和歌山県",
+        "code": "JP-30"
+      },
+      {
+        "name": "鳥取県",
+        "code": "JP-31"
+      },
+      {
+        "name": "島根県",
+        "code": "JP-32"
+      },
+      {
+        "name": "岡山県",
+        "code": "JP-33"
+      },
+      {
+        "name": "広島県",
+        "code": "JP-34"
+      },
+      {
+        "name": "山口県",
+        "code": "JP-35"
+      },
+      {
+        "name": "徳島県",
+        "code": "JP-36"
+      },
+      {
+        "name": "香川県",
+        "code": "JP-37"
+      },
+      {
+        "name": "愛媛県",
+        "code": "JP-38"
+      },
+      {
+        "name": "高知県",
+        "code": "JP-39"
+      },
+      {
+        "name": "福岡県",
+        "code": "JP-40"
+      },
+      {
+        "name": "佐賀県",
+        "code": "JP-41"
+      },
+      {
+        "name": "長崎県",
+        "code": "JP-42"
+      },
+      {
+        "name": "熊本県",
+        "code": "JP-43"
+      },
+      {
+        "name": "大分県",
+        "code": "JP-44"
+      },
+      {
+        "name": "宮崎県",
+        "code": "JP-45"
+      },
+      {
+        "name": "鹿児島県",
+        "code": "JP-46"
+      },
+      {
+        "name": "沖縄県",
+        "code": "JP-47"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.JP}",
+          "show": 1
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.JP}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "preset": "1"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Madaba Governorate",
+        "code": "JO-MD",
+        "fordealCode": "6880"
+      },
+      {
+        "name": "Maan Governorate",
+        "code": "JO-MN",
+        "fordealCode": "6883"
+      },
+      {
+        "name": "Jerash Governorate",
+        "code": "JO-JA",
+        "fordealCode": "6879"
+      },
+      {
+        "name": "Irbid Governorate",
+        "code": "JO-IR",
+        "fordealCode": "6874"
+      },
+      {
+        "name": "Zarqa Governorate",
+        "code": "JO-ZA",
+        "fordealCode": "6875"
+      },
+      {
+        "name": "Tafilah Governorate",
+        "code": "JO-TA",
+        "fordealCode": "6884"
+      },
+      {
+        "name": "Amman Governorate",
+        "code": "JO-AM",
+        "fordealCode": "6873"
+      },
+      {
+        "name": "Mafraq Governorate",
+        "code": "JO-MA",
+        "fordealCode": "6877"
+      },
+      {
+        "name": "Karak Governorate",
+        "code": "JO-KA",
+        "fordealCode": "6878"
+      },
+      {
+        "name": "Balqa Governorate",
+        "code": "JO-BA",
+        "fordealCode": "6876"
+      },
+      {
+        "name": "Aqaba Governorate",
+        "code": "JO-AQ",
+        "fordealCode": "6882"
+      },
+      {
+        "name": "Ajloun Governorate",
+        "code": "JO-AJ",
+        "fordealCode": "6881"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.AE}",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "preset": "1"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "preset": "1"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "preset": "1"
+  },
+  {
+    "code": "KR",
+    "name": "Korea",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "row": 6
+        },
+        {
+          "id": "city",
+          "row": 7
+        },
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "row": 8
+        }
+      ]
+    }
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Ahmadi",
+        "code": "KW-AH",
+        "fordealCode": "2651"
+      },
+      {
+        "name": "Farwaniyah",
+        "code": "KW-FA",
+        "fordealCode": "2652"
+      },
+      {
+        "name": "Hawally",
+        "code": "KW-HA",
+        "fordealCode": "2656"
+      },
+      {
+        "name": "Jahra",
+        "code": "KW-JA",
+        "fordealCode": "2653"
+      },
+      {
+        "name": "Kuwait City",
+        "code": "KW-KU",
+        "fordealCode": "2654"
+      },
+      {
+        "name": "Mubarak Al Kabeer",
+        "code": "KW-MU",
+        "fordealCode": "2657"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "preset": "12"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "preset": "1"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "preset": "1"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "preset": "1"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "preset": "1"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "preset": "2"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "preset": "1"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "preset": "1"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "preset": "1"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "preset": "2"
+  },
+  {
+    "code": "MO",
+    "name": "Macao,China",
+    "preset": "1"
+  },
+  {
+    "code": "MK",
+    "name": "Macedonia,Former Yugoslav Republic of",
+    "preset": "1"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "preset": "2"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "preset": "3"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "preset": "4",
+    "provinces": [
+      {
+        "name": "Wilayah Persekutuan Kuala Lumpur",
+        "code": "MY-14"
+      },
+      {
+        "name": "Wilayah Persekutuan Labuan",
+        "code": "MY-15"
+      },
+      {
+        "name": "Wilayah Persekutuan Putrajaya",
+        "code": "MY-16"
+      },
+      {
+        "name": "Johor",
+        "code": "MY-01"
+      },
+      {
+        "name": "Kedah",
+        "code": "MY-02"
+      },
+      {
+        "name": "Kelantan",
+        "code": "MY-03"
+      },
+      {
+        "name": "Melaka",
+        "code": "MY-04"
+      },
+      {
+        "name": "Negeri Sembilan",
+        "code": "MY-05"
+      },
+      {
+        "name": "Pahang",
+        "code": "MY-06"
+      },
+      {
+        "name": "Perak",
+        "code": "MY-08"
+      },
+      {
+        "name": "Perlis",
+        "code": "MY-09"
+      },
+      {
+        "name": "Pulau Pinang",
+        "code": "MY-07"
+      },
+      {
+        "name": "Sabah",
+        "code": "MY-12"
+      },
+      {
+        "name": "Sarawak",
+        "code": "MY-13"
+      },
+      {
+        "name": "Selangor",
+        "code": "MY-10"
+      },
+      {
+        "name": "Terengganu",
+        "code": "MY-11"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.MY}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.MY}",
+          "description": "{fields.zip.description.MY}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "preset": "1"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "preset": "3"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "preset": "1"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "preset": "1"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "preset": "2"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "preset": "1"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "preset": "1"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "preset": "2"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "preset": "4",
+    "provinces": [
+      {
+        "name": "Aguascalientes",
+        "code": "MX-AGU"
+      },
+      {
+        "name": "Baja California",
+        "code": "MX-BCN"
+      },
+      {
+        "name": "Baja California Sur",
+        "code": "MX-BCS"
+      },
+      {
+        "name": "Campeche",
+        "code": "MX-CAM"
+      },
+      {
+        "name": "Chihuahua",
+        "code": "MX-CHH"
+      },
+      {
+        "name": "Chiapas",
+        "code": "MX-CHP"
+      },
+      {
+        "name": "Ciudad de México",
+        "code": "MX-CMX"
+      },
+      {
+        "name": "Coahuila de Zaragoza",
+        "code": "MX-COA"
+      },
+      {
+        "name": "Colima",
+        "code": "MX-COL"
+      },
+      {
+        "name": "Durango",
+        "code": "MX-DUR"
+      },
+      {
+        "name": "Guerrero",
+        "code": "MX-GRO"
+      },
+      {
+        "name": "Guanajuato",
+        "code": "MX-GUA"
+      },
+      {
+        "name": "Hidalgo",
+        "code": "MX-HID"
+      },
+      {
+        "name": "Jalisco",
+        "code": "MX-JAL"
+      },
+      {
+        "name": "México",
+        "code": "MX-MEX"
+      },
+      {
+        "name": "Michoacán de Ocampo",
+        "code": "MX-MIC"
+      },
+      {
+        "name": "Morelos",
+        "code": "MX-MOR"
+      },
+      {
+        "name": "Nayarit",
+        "code": "MX-NAY"
+      },
+      {
+        "name": "Nuevo León",
+        "code": "MX-NLE"
+      },
+      {
+        "name": "Oaxaca",
+        "code": "MX-OAX"
+      },
+      {
+        "name": "Puebla",
+        "code": "MX-PUE"
+      },
+      {
+        "name": "Querétaro",
+        "code": "MX-QUE"
+      },
+      {
+        "name": "Quintana Roo",
+        "code": "MX-ROO"
+      },
+      {
+        "name": "Sinaloa",
+        "code": "MX-SIN"
+      },
+      {
+        "name": "San Luis Potosí",
+        "code": "MX-SLP"
+      },
+      {
+        "name": "Sonora",
+        "code": "MX-SON"
+      },
+      {
+        "name": "Tabasco",
+        "code": "MX-TAB"
+      },
+      {
+        "name": "Tamaulipas",
+        "code": "MX-TAM"
+      },
+      {
+        "name": "Tlaxcala",
+        "code": "MX-TLA"
+      },
+      {
+        "name": "Veracruz de Ignacio de la Llave",
+        "code": "MX-VER"
+      },
+      {
+        "name": "Yucatán",
+        "code": "MX-YUC"
+      },
+      {
+        "name": "Zacatecas",
+        "code": "MX-ZAC"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.MX}",
+          "show": 1
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.MX}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.MX}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.MX}"
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label}",
+          "description": "{fields.zip.description}",
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^\\d{5}$"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "preset": "1"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "preset": "1"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "preset": "2"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "preset": "1"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "preset": "2"
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "preset": "1"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "preset": "6",
+    "provinces": [
+      {
+        "name": "Béni-Mellal-Khénifra",
+        "code": "MA-05"
+      },
+      {
+        "name": "Casablanca-Settat",
+        "code": "MA-06"
+      },
+      {
+        "name": "Dakhla-Oued Ed-Dahab (EH)",
+        "code": "MA-12"
+      },
+      {
+        "name": "Drâa-Tafilalet",
+        "code": "MA-08"
+      },
+      {
+        "name": "Fès- Meknès",
+        "code": "MA-03"
+      },
+      {
+        "name": "Guelmim-Oued Noun (EH-partial)",
+        "code": "MA-10"
+      },
+      {
+        "name": "Laâyoune-Sakia El Hamra (EH-partial)",
+        "code": "MA-11"
+      },
+      {
+        "name": "Marrakech-Safi",
+        "code": "MA-07"
+      },
+      {
+        "name": "L'Oriental",
+        "code": "MA-02"
+      },
+      {
+        "name": "Rabat-Salé-Kénitra",
+        "code": "MA-04"
+      },
+      {
+        "name": "Souss-Massa",
+        "code": "MA-09"
+      },
+      {
+        "name": "Tanger-Tétouan-Al Hoceïma",
+        "code": "MA-01"
+      }
+    ]
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "preset": "2"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "preset": "1"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "preset": "1"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "preset": "1"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "preset": "1"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.NL}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "AN",
+    "name": "Netherlands Antilles",
+    "preset": "1"
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "preset": "2"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Auckland",
+        "code": "NZ-AUK"
+      },
+      {
+        "name": "Bay of Plenty",
+        "code": "NZ-BOP"
+      },
+      {
+        "name": "Canterbury",
+        "code": "NZ-CAN"
+      },
+      {
+        "name": "Gisborne",
+        "code": "NZ-GIS"
+      },
+      {
+        "name": "Hawke's Bay",
+        "code": "NZ-HKB"
+      },
+      {
+        "name": "Marlborough",
+        "code": "NZ-MBH"
+      },
+      {
+        "name": "Manawatu-Wanganui",
+        "code": "NZ-MWT"
+      },
+      {
+        "name": "Nelson",
+        "code": "NZ-NSN"
+      },
+      {
+        "name": "Northland",
+        "code": "NZ-NTL"
+      },
+      {
+        "name": "Otago",
+        "code": "NZ-OTA"
+      },
+      {
+        "name": "Southland",
+        "code": "NZ-STL"
+      },
+      {
+        "name": "Tasman",
+        "code": "NZ-TAS"
+      },
+      {
+        "name": "Taranaki",
+        "code": "NZ-TKI"
+      },
+      {
+        "name": "Waikato",
+        "code": "NZ-WKO"
+      },
+      {
+        "name": "Wellington",
+        "code": "NZ-WGN"
+      },
+      {
+        "name": "West Coast",
+        "code": "NZ-WTC"
+      },
+      {
+        "name": "Chatham Islands Territory",
+        "code": "NZ-CIT"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "preset": "13"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "preset": "2"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Abuja Federal Capital Territory",
+        "code": "NG-FC"
+      },
+      {
+        "name": "Abia",
+        "code": "NG-AB"
+      },
+      {
+        "name": "Adamawa",
+        "code": "NG-AD"
+      },
+      {
+        "name": "Akwa Ibom",
+        "code": "NG-AK"
+      },
+      {
+        "name": "Anambra",
+        "code": "NG-AN"
+      },
+      {
+        "name": "Bauchi",
+        "code": "NG-BA"
+      },
+      {
+        "name": "Bayelsa",
+        "code": "NG-BY"
+      },
+      {
+        "name": "Benue",
+        "code": "NG-BE"
+      },
+      {
+        "name": "Borno",
+        "code": "NG-BO"
+      },
+      {
+        "name": "Cross River",
+        "code": "NG-CR"
+      },
+      {
+        "name": "Delta",
+        "code": "NG-DE"
+      },
+      {
+        "name": "Ebonyi",
+        "code": "NG-EB"
+      },
+      {
+        "name": "Edo",
+        "code": "NG-ED"
+      },
+      {
+        "name": "Ekiti",
+        "code": "NG-EK"
+      },
+      {
+        "name": "Enugu",
+        "code": "NG-EN"
+      },
+      {
+        "name": "Gombe",
+        "code": "NG-GO"
+      },
+      {
+        "name": "Imo",
+        "code": "NG-IM"
+      },
+      {
+        "name": "Jigawa",
+        "code": "NG-JI"
+      },
+      {
+        "name": "Kaduna",
+        "code": "NG-KD"
+      },
+      {
+        "name": "Kano",
+        "code": "NG-KN"
+      },
+      {
+        "name": "Katsina",
+        "code": "NG-KT"
+      },
+      {
+        "name": "Kebbi",
+        "code": "NG-KE"
+      },
+      {
+        "name": "Kogi",
+        "code": "NG-KO"
+      },
+      {
+        "name": "Kwara",
+        "code": "NG-KW"
+      },
+      {
+        "name": "Lagos",
+        "code": "NG-LA"
+      },
+      {
+        "name": "Nasarawa",
+        "code": "NG-NA"
+      },
+      {
+        "name": "Niger",
+        "code": "NG-NI"
+      },
+      {
+        "name": "Ogun",
+        "code": "NG-OG"
+      },
+      {
+        "name": "Ondo",
+        "code": "NG-ON"
+      },
+      {
+        "name": "Osun",
+        "code": "NG-OS"
+      },
+      {
+        "name": "Oyo",
+        "code": "NG-OY"
+      },
+      {
+        "name": "Plateau",
+        "code": "NG-PL"
+      },
+      {
+        "name": "Rivers",
+        "code": "NG-RI"
+      },
+      {
+        "name": "Sokoto",
+        "code": "NG-SO"
+      },
+      {
+        "name": "Taraba",
+        "code": "NG-TA"
+      },
+      {
+        "name": "Yobe",
+        "code": "NG-YO"
+      },
+      {
+        "name": "Zamfara",
+        "code": "NG-ZA"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.NG}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "preset": "1"
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "preset": "1"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "preset": "1"
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "preset": "1"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.NO}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Ad-Dakhiliyah {Ad-Dakhiliyah}",
+        "code": "OM-DA",
+        "fordealCode": "7185"
+      },
+      {
+        "name": "Al-Batinah {Al-Batinah}",
+        "code": "OM-BA",
+        "fordealCode": "7186"
+      },
+      {
+        "name": "Al-Wusta {Al-Wusta}",
+        "code": "OM-WU",
+        "fordealCode": "7187"
+      },
+      {
+        "name": "Ash-Sharqiyah {Ash-Sharqiyah}",
+        "code": "OM-SH",
+        "fordealCode": "7188"
+      },
+      {
+        "name": "Az-zahirah(incl. Al-Buraymī) {Az-Zahirah}",
+        "code": "OM-ZA",
+        "fordealCode": "7189"
+      },
+      {
+        "name": "Masqat[Muscat] {Masqat}",
+        "code": "OM-MA",
+        "fordealCode": "7190"
+      },
+      {
+        "name": "zufār [Dhofar] {Zufar}",
+        "code": "OM-ZU",
+        "fordealCode": "7192"
+      },
+      {
+        "name": "Musandam (Ru'us al-Gibā)",
+        "code": "OM-MU",
+        "fordealCode": "7191"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "preset": "1"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "preset": "1"
+  },
+  {
+    "code": "PS",
+    "name": "Palestinian Authority",
+    "preset": "1"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "preset": "8",
+    "provinces": [
+      {
+        "name": "Bocas del Toro",
+        "code": "PA-1"
+      },
+      {
+        "name": "Chiriquí",
+        "code": "PA-4"
+      },
+      {
+        "name": "Coclé",
+        "code": "PA-2"
+      },
+      {
+        "name": "Colón",
+        "code": "PA-3"
+      },
+      {
+        "name": "Darién",
+        "code": "PA-5"
+      },
+      {
+        "name": "Herrera",
+        "code": "PA-6"
+      },
+      {
+        "name": "Los Santos",
+        "code": "PA-7"
+      },
+      {
+        "name": "Panamá",
+        "code": "PA-8"
+      },
+      {
+        "name": "Veraguas",
+        "code": "PA-9"
+      },
+      {
+        "name": "Panamá Oeste",
+        "code": "PA-10"
+      },
+      {
+        "name": "Emberá",
+        "code": "PA-EM"
+      },
+      {
+        "name": "Guna Yala",
+        "code": "PA-KY"
+      },
+      {
+        "name": "Ngöbe-Buglé",
+        "code": "PA-NB"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "preset": "1"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "preset": "2"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Municipalidad Metropolitana de Lima",
+        "code": "PE-LMA"
+      },
+      {
+        "name": "Amazonas",
+        "code": "PE-AMA"
+      },
+      {
+        "name": "Ancash",
+        "code": "PE-ANC"
+      },
+      {
+        "name": "Apurímac",
+        "code": "PE-APU"
+      },
+      {
+        "name": "Arequipa",
+        "code": "PE-ARE"
+      },
+      {
+        "name": "Ayacucho",
+        "code": "PE-AYA"
+      },
+      {
+        "name": "Cajamarca",
+        "code": "PE-CAJ"
+      },
+      {
+        "name": "Cusco",
+        "code": "PE-CUS"
+      },
+      {
+        "name": "El Callao",
+        "code": "PE-CAL"
+      },
+      {
+        "name": "Huancavelica",
+        "code": "PE-HUV"
+      },
+      {
+        "name": "Huánuco",
+        "code": "PE-HUC"
+      },
+      {
+        "name": "Ica",
+        "code": "PE-ICA"
+      },
+      {
+        "name": "Junín",
+        "code": "PE-JUN"
+      },
+      {
+        "name": "La Libertad",
+        "code": "PE-LAL"
+      },
+      {
+        "name": "Lambayeque",
+        "code": "PE-LAM"
+      },
+      {
+        "name": "Lima",
+        "code": "PE-LIM"
+      },
+      {
+        "name": "Loreto",
+        "code": "PE-LOR"
+      },
+      {
+        "name": "Madre de Dios",
+        "code": "PE-MDD"
+      },
+      {
+        "name": "Moquegua",
+        "code": "PE-MOQ"
+      },
+      {
+        "name": "Pasco",
+        "code": "PE-PAS"
+      },
+      {
+        "name": "Piura",
+        "code": "PE-PIU"
+      },
+      {
+        "name": "Puno",
+        "code": "PE-PUN"
+      },
+      {
+        "name": "San Martín",
+        "code": "PE-SAM"
+      },
+      {
+        "name": "Tacna",
+        "code": "PE-TAC"
+      },
+      {
+        "name": "Tumbes",
+        "code": "PE-TUM"
+      },
+      {
+        "name": "Ucayali",
+        "code": "PE-UCA"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "preset": "17",
+    "provinces": [
+      {
+        "name": "Abra",
+        "code": "PH-ABR"
+      },
+      {
+        "name": "Agusan del Norte",
+        "code": "PH-AGN"
+      },
+      {
+        "name": "Agusan del Sur",
+        "code": "PH-AGS"
+      },
+      {
+        "name": "Aklan",
+        "code": "PH-AKL"
+      },
+      {
+        "name": "Albay",
+        "code": "PH-ALB"
+      },
+      {
+        "name": "Antique",
+        "code": "PH-ANT"
+      },
+      {
+        "name": "Apayao",
+        "code": "PH-APA"
+      },
+      {
+        "name": "Aurora",
+        "code": "PH-AUR"
+      },
+      {
+        "name": "Basilan",
+        "code": "PH-BAS"
+      },
+      {
+        "name": "Bataan",
+        "code": "PH-BAN"
+      },
+      {
+        "name": "Batanes",
+        "code": "PH-BTN"
+      },
+      {
+        "name": "Batangas",
+        "code": "PH-BTG"
+      },
+      {
+        "name": "Benguet",
+        "code": "PH-BEN"
+      },
+      {
+        "name": "Biliran",
+        "code": "PH-BIL"
+      },
+      {
+        "name": "Bohol",
+        "code": "PH-BOH"
+      },
+      {
+        "name": "Bukidnon",
+        "code": "PH-BUK"
+      },
+      {
+        "name": "Bulacan",
+        "code": "PH-BUL"
+      },
+      {
+        "name": "Cagayan",
+        "code": "PH-CAG"
+      },
+      {
+        "name": "Camarines Norte",
+        "code": "PH-CAN"
+      },
+      {
+        "name": "Camarines Sur",
+        "code": "PH-CAS"
+      },
+      {
+        "name": "Camiguin",
+        "code": "PH-CAM"
+      },
+      {
+        "name": "Capiz",
+        "code": "PH-CAP"
+      },
+      {
+        "name": "Catanduanes",
+        "code": "PH-CAT"
+      },
+      {
+        "name": "Cavite",
+        "code": "PH-CAV"
+      },
+      {
+        "name": "Cebu",
+        "code": "PH-CEB"
+      },
+      {
+        "name": "Cotabato",
+        "code": "PH-NCO"
+      },
+      {
+        "name": "Davao Occidental",
+        "code": "PH-DVO"
+      },
+      {
+        "name": "Davao Oriental",
+        "code": "PH-DAO"
+      },
+      {
+        "name": "Davao de Oro",
+        "code": "PH-COM"
+      },
+      {
+        "name": "Davao del Norte",
+        "code": "PH-DAV"
+      },
+      {
+        "name": "Davao del Sur",
+        "code": "PH-DAS"
+      },
+      {
+        "name": "Dinagat Islands",
+        "code": "PH-DIN"
+      },
+      {
+        "name": "Eastern Samar",
+        "code": "PH-EAS"
+      },
+      {
+        "name": "Guimaras",
+        "code": "PH-GUI"
+      },
+      {
+        "name": "Ifugao",
+        "code": "PH-IFU"
+      },
+      {
+        "name": "Ilocos Norte",
+        "code": "PH-ILN"
+      },
+      {
+        "name": "Ilocos Sur",
+        "code": "PH-ILS"
+      },
+      {
+        "name": "Iloilo",
+        "code": "PH-ILI"
+      },
+      {
+        "name": "Isabela",
+        "code": "PH-ISA"
+      },
+      {
+        "name": "Kalinga",
+        "code": "PH-KAL"
+      },
+      {
+        "name": "La Union",
+        "code": "PH-LUN"
+      },
+      {
+        "name": "Laguna",
+        "code": "PH-LAG"
+      },
+      {
+        "name": "Lanao del Norte",
+        "code": "PH-LAN"
+      },
+      {
+        "name": "Lanao del Sur",
+        "code": "PH-LAS"
+      },
+      {
+        "name": "Leyte",
+        "code": "PH-LEY"
+      },
+      {
+        "name": "Maguindanao",
+        "code": "PH-MAG"
+      },
+      {
+        "name": "Marinduque",
+        "code": "PH-MAD"
+      },
+      {
+        "name": "Masbate",
+        "code": "PH-MAS"
+      },
+      {
+        "name": "Metro Manila",
+        "code": "PH-00"
+      },
+      {
+        "name": "Misamis Occidental",
+        "code": "PH-MSC"
+      },
+      {
+        "name": "Misamis Oriental",
+        "code": "PH-MSR"
+      },
+      {
+        "name": "Mountain Province",
+        "code": "PH-MOU"
+      },
+      {
+        "name": "Negros Occidental",
+        "code": "PH-NEC"
+      },
+      {
+        "name": "Negros Oriental",
+        "code": "PH-NER"
+      },
+      {
+        "name": "Northern Samar",
+        "code": "PH-NSA"
+      },
+      {
+        "name": "Nueva Ecija",
+        "code": "PH-NUE"
+      },
+      {
+        "name": "Nueva Vizcaya",
+        "code": "PH-NUV"
+      },
+      {
+        "name": "Occidental Mindoro",
+        "code": "PH-MDC"
+      },
+      {
+        "name": "Oriental Mindoro",
+        "code": "PH-MDR"
+      },
+      {
+        "name": "Palawan",
+        "code": "PH-PLW"
+      },
+      {
+        "name": "Pampanga",
+        "code": "PH-PAM"
+      },
+      {
+        "name": "Pangasinan",
+        "code": "PH-PAN"
+      },
+      {
+        "name": "Quezon",
+        "code": "PH-QUE"
+      },
+      {
+        "name": "Quirino",
+        "code": "PH-QUI"
+      },
+      {
+        "name": "Rizal",
+        "code": "PH-RIZ"
+      },
+      {
+        "name": "Romblon",
+        "code": "PH-ROM"
+      },
+      {
+        "name": "Samar",
+        "code": "PH-WSA"
+      },
+      {
+        "name": "Sarangani",
+        "code": "PH-SAR"
+      },
+      {
+        "name": "Siquijor",
+        "code": "PH-SIG"
+      },
+      {
+        "name": "Sorsogon",
+        "code": "PH-SOR"
+      },
+      {
+        "name": "South Cotabato",
+        "code": "PH-SCO"
+      },
+      {
+        "name": "Southern Leyte",
+        "code": "PH-SLE"
+      },
+      {
+        "name": "Sultan Kudarat",
+        "code": "PH-SUK"
+      },
+      {
+        "name": "Sulu",
+        "code": "PH-SLU"
+      },
+      {
+        "name": "Surigao del Norte",
+        "code": "PH-SUN"
+      },
+      {
+        "name": "Surigao del Sur",
+        "code": "PH-SUR"
+      },
+      {
+        "name": "Tarlac",
+        "code": "PH-TAR"
+      },
+      {
+        "name": "Tawi-Tawi",
+        "code": "PH-TAW"
+      },
+      {
+        "name": "Zambales",
+        "code": "PH-ZMB"
+      },
+      {
+        "name": "Zamboanga Sibugay",
+        "code": "PH-ZSI"
+      },
+      {
+        "name": "Zamboanga del Norte",
+        "code": "PH-ZAN"
+      },
+      {
+        "name": "Zamboanga del Sur",
+        "code": "PH-ZAS"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "label": "{fields.provinceCode.label.PH}"
+        },
+        {
+          "id": "address",
+          "label": "{fields.address.label.PH}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "preset": "1"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "preset": "2"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Aveiro",
+        "code": "PT-01"
+      },
+      {
+        "name": "Beja",
+        "code": "PT-02"
+      },
+      {
+        "name": "Braga",
+        "code": "PT-03"
+      },
+      {
+        "name": "Bragança",
+        "code": "PT-04"
+      },
+      {
+        "name": "Castelo Branco",
+        "code": "PT-05"
+      },
+      {
+        "name": "Coimbra",
+        "code": "PT-06"
+      },
+      {
+        "name": "Évora",
+        "code": "PT-07"
+      },
+      {
+        "name": "Faro",
+        "code": "PT-08"
+      },
+      {
+        "name": "Guarda",
+        "code": "PT-09"
+      },
+      {
+        "name": "Leiria",
+        "code": "PT-10"
+      },
+      {
+        "name": "Lisboa",
+        "code": "PT-11"
+      },
+      {
+        "name": "Portalegre",
+        "code": "PT-12"
+      },
+      {
+        "name": "Porto",
+        "code": "PT-13"
+      },
+      {
+        "name": "Santarém",
+        "code": "PT-14"
+      },
+      {
+        "name": "Setúbal",
+        "code": "PT-15"
+      },
+      {
+        "name": "Viana do Castelo",
+        "code": "PT-16"
+      },
+      {
+        "name": "Vila Real",
+        "code": "PT-17"
+      },
+      {
+        "name": "Viseu",
+        "code": "PT-18"
+      },
+      {
+        "name": "Região Autónoma dos Açores",
+        "code": "PT-20"
+      },
+      {
+        "name": "Região Autónoma da Madeira",
+        "code": "PT-30"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "preset": "1"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Doha",
+        "code": "QA-DH",
+        "fordealCode": "1301010"
+      },
+      {
+        "name": "Al Khor and Al Thakhira",
+        "code": "QA-KT",
+        "fordealCode": "1301015"
+      },
+      {
+        "name": "Al Wakra",
+        "code": "QA-WA",
+        "fordealCode": "1301017"
+      },
+      {
+        "name": "Al Rayyan",
+        "code": "QA-RA",
+        "fordealCode": "1301011"
+      },
+      {
+        "name": "Al Shamal",
+        "code": "QA-SM",
+        "fordealCode": "1301016"
+      },
+      {
+        "name": "Al Daayen",
+        "code": "QA-DA",
+        "fordealCode": "1301012"
+      },
+      {
+        "name": "Umm Salal",
+        "code": "QA-US",
+        "fordealCode": "1301013"
+      },
+      {
+        "name": "Al Sheehaniya",
+        "code": "QA-SH",
+        "fordealCode": "1301014"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "RE",
+    "name": "Reunion",
+    "preset": "2"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "preset": "4",
+    "provinces": [
+      {
+        "name": "Alba",
+        "code": "RO-AB"
+      },
+      {
+        "name": "Arad",
+        "code": "RO-AR"
+      },
+      {
+        "name": "Argeș",
+        "code": "RO-AG"
+      },
+      {
+        "name": "Bacău",
+        "code": "RO-BC"
+      },
+      {
+        "name": "Bihor",
+        "code": "RO-BH"
+      },
+      {
+        "name": "Bistrița-Năsăud",
+        "code": "RO-BN"
+      },
+      {
+        "name": "Botoșani",
+        "code": "RO-BT"
+      },
+      {
+        "name": "Brașov",
+        "code": "RO-BV"
+      },
+      {
+        "name": "Brăila",
+        "code": "RO-BR"
+      },
+      {
+        "name": "Buzău",
+        "code": "RO-BZ"
+      },
+      {
+        "name": "Caraș-Severin",
+        "code": "RO-CS"
+      },
+      {
+        "name": "Călărași",
+        "code": "RO-CL"
+      },
+      {
+        "name": "Cluj",
+        "code": "RO-CJ"
+      },
+      {
+        "name": "Constanța",
+        "code": "RO-CT"
+      },
+      {
+        "name": "Covasna",
+        "code": "RO-CV"
+      },
+      {
+        "name": "Dâmbovița",
+        "code": "RO-DB"
+      },
+      {
+        "name": "Dolj",
+        "code": "RO-DJ"
+      },
+      {
+        "name": "Galați",
+        "code": "RO-GL"
+      },
+      {
+        "name": "Giurgiu",
+        "code": "RO-GR"
+      },
+      {
+        "name": "Gorj",
+        "code": "RO-GJ"
+      },
+      {
+        "name": "Harghita",
+        "code": "RO-HR"
+      },
+      {
+        "name": "Hunedoara",
+        "code": "RO-HD"
+      },
+      {
+        "name": "Ialomița",
+        "code": "RO-IL"
+      },
+      {
+        "name": "Iași",
+        "code": "RO-IS"
+      },
+      {
+        "name": "Ilfov",
+        "code": "RO-IF"
+      },
+      {
+        "name": "Maramureș",
+        "code": "RO-MM"
+      },
+      {
+        "name": "Mehedinți",
+        "code": "RO-MH"
+      },
+      {
+        "name": "Mureș",
+        "code": "RO-MS"
+      },
+      {
+        "name": "Neamț",
+        "code": "RO-NT"
+      },
+      {
+        "name": "Olt",
+        "code": "RO-OT"
+      },
+      {
+        "name": "Prahova",
+        "code": "RO-PH"
+      },
+      {
+        "name": "Satu Mare",
+        "code": "RO-SM"
+      },
+      {
+        "name": "Sălaj",
+        "code": "RO-SJ"
+      },
+      {
+        "name": "Sibiu",
+        "code": "RO-SB"
+      },
+      {
+        "name": "Suceava",
+        "code": "RO-SV"
+      },
+      {
+        "name": "Teleorman",
+        "code": "RO-TR"
+      },
+      {
+        "name": "Timiș",
+        "code": "RO-TM"
+      },
+      {
+        "name": "Tulcea",
+        "code": "RO-TL"
+      },
+      {
+        "name": "Vaslui",
+        "code": "RO-VS"
+      },
+      {
+        "name": "Vâlcea",
+        "code": "RO-VL"
+      },
+      {
+        "name": "Vrancea",
+        "code": "RO-VN"
+      },
+      {
+        "name": "București",
+        "code": "RO-B"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.RO}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Adygeya, Respublika",
+        "code": "RU-AD"
+      },
+      {
+        "name": "Altay, Respublika",
+        "code": "RU-AL"
+      },
+      {
+        "name": "Altayskiy kray",
+        "code": "RU-ALT"
+      },
+      {
+        "name": "Amurskaya oblast'",
+        "code": "RU-AMU"
+      },
+      {
+        "name": "Arkhangel'skaya oblast'",
+        "code": "RU-ARK"
+      },
+      {
+        "name": "Astrakhanskaya oblast'",
+        "code": "RU-AST"
+      },
+      {
+        "name": "Bashkortostan, Respublika",
+        "code": "RU-BA"
+      },
+      {
+        "name": "Belgorodskaya oblast'",
+        "code": "RU-BEL"
+      },
+      {
+        "name": "Bryanskaya oblast'",
+        "code": "RU-BRY"
+      },
+      {
+        "name": "Buryatiya, Respublika",
+        "code": "RU-BU"
+      },
+      {
+        "name": "Chechenskaya Respublika",
+        "code": "RU-CE"
+      },
+      {
+        "name": "Chelyabinskaya oblast'",
+        "code": "RU-CHE"
+      },
+      {
+        "name": "Chukotskiy avtonomnyy okrug",
+        "code": "RU-CHU"
+      },
+      {
+        "name": "Chuvashskaya Respublika",
+        "code": "RU-CU"
+      },
+      {
+        "name": "Dagestan, Respublika",
+        "code": "RU-DA"
+      },
+      {
+        "name": "Ingushetiya, Respublika",
+        "code": "RU-IN"
+      },
+      {
+        "name": "Irkutskaya oblast'",
+        "code": "RU-IRK"
+      },
+      {
+        "name": "Ivanovskaya oblast'",
+        "code": "RU-IVA"
+      },
+      {
+        "name": "Kamchatskiy kray",
+        "code": "RU-KAM"
+      },
+      {
+        "name": "Kabardino-Balkarskaya Respublika",
+        "code": "RU-KB"
+      },
+      {
+        "name": "Karachayevo-Cherkesskaya Respublika",
+        "code": "RU-KC"
+      },
+      {
+        "name": "Krasnodarskiy kray",
+        "code": "RU-KDA"
+      },
+      {
+        "name": "Kemerovskaya oblast'",
+        "code": "RU-KEM"
+      },
+      {
+        "name": "Kaliningradskaya oblast'",
+        "code": "RU-KGD"
+      },
+      {
+        "name": "Kurganskaya oblast'",
+        "code": "RU-KGN"
+      },
+      {
+        "name": "Khabarovskiy kray",
+        "code": "RU-KHA"
+      },
+      {
+        "name": "Khanty-Mansiyskiy avtonomnyy okrug-Yugra",
+        "code": "RU-KHM"
+      },
+      {
+        "name": "Kirovskaya oblast'",
+        "code": "RU-KIR"
+      },
+      {
+        "name": "Khakasiya, Respublika",
+        "code": "RU-KK"
+      },
+      {
+        "name": "Kalmykiya, Respublika",
+        "code": "RU-KL"
+      },
+      {
+        "name": "Kaluzhskaya oblast'",
+        "code": "RU-KLU"
+      },
+      {
+        "name": "Komi, Respublika",
+        "code": "RU-KO"
+      },
+      {
+        "name": "Kostromskaya oblast'",
+        "code": "RU-KOS"
+      },
+      {
+        "name": "Kareliya, Respublika",
+        "code": "RU-KR"
+      },
+      {
+        "name": "Kurskaya oblast'",
+        "code": "RU-KRS"
+      },
+      {
+        "name": "Krasnoyarskiy kray",
+        "code": "RU-KYA"
+      },
+      {
+        "name": "Leningradskaya oblast'",
+        "code": "RU-LEN"
+      },
+      {
+        "name": "Lipetskaya oblast'",
+        "code": "RU-LIP"
+      },
+      {
+        "name": "Magadanskaya oblast'",
+        "code": "RU-MAG"
+      },
+      {
+        "name": "Mariy El, Respublika",
+        "code": "RU-ME"
+      },
+      {
+        "name": "Mordoviya, Respublika",
+        "code": "RU-MO"
+      },
+      {
+        "name": "Moskovskaya oblast'",
+        "code": "RU-MOS"
+      },
+      {
+        "name": "Moskva",
+        "code": "RU-MOW"
+      },
+      {
+        "name": "Murmanskaya oblast'",
+        "code": "RU-MUR"
+      },
+      {
+        "name": "Nenetskiy avtonomnyy okrug",
+        "code": "RU-NEN"
+      },
+      {
+        "name": "Novgorodskaya oblast'",
+        "code": "RU-NGR"
+      },
+      {
+        "name": "Nizhegorodskaya oblast'",
+        "code": "RU-NIZ"
+      },
+      {
+        "name": "Novosibirskaya oblast'",
+        "code": "RU-NVS"
+      },
+      {
+        "name": "Omskaya oblast",
+        "code": "RU-OMS"
+      },
+      {
+        "name": "Orenburgskaya oblast'",
+        "code": "RU-ORE"
+      },
+      {
+        "name": "Orlovskaya oblast'",
+        "code": "RU-ORL"
+      },
+      {
+        "name": "Permskiy kray",
+        "code": "RU-PER"
+      },
+      {
+        "name": "Penzenskaya oblast'",
+        "code": "RU-PNZ"
+      },
+      {
+        "name": "Primorskiy kray",
+        "code": "RU-PRI"
+      },
+      {
+        "name": "Pskovskaya oblast'",
+        "code": "RU-PSK"
+      },
+      {
+        "name": "Rostovskaya oblast'",
+        "code": "RU-ROS"
+      },
+      {
+        "name": "Ryazanskaya oblast'",
+        "code": "RU-RYA"
+      },
+      {
+        "name": "Sakha, Respublika [Yakutiya]",
+        "code": "RU-SA"
+      },
+      {
+        "name": "Sakhalinskaya oblast'",
+        "code": "RU-SAK"
+      },
+      {
+        "name": "Samarskaya oblast'",
+        "code": "RU-SAM"
+      },
+      {
+        "name": "Saratovskaya oblast'",
+        "code": "RU-SAR"
+      },
+      {
+        "name": "Severnaya Osetiya-Alaniya, Respublika",
+        "code": "RU-SE"
+      },
+      {
+        "name": "Smolenskaya oblast'",
+        "code": "RU-SMO"
+      },
+      {
+        "name": "Sankt-Peterburg",
+        "code": "RU-SPE"
+      },
+      {
+        "name": "Stavropol'skiy kray",
+        "code": "RU-STA"
+      },
+      {
+        "name": "Sverdlovskaya oblast'",
+        "code": "RU-SVE"
+      },
+      {
+        "name": "Tatarstan, Respublika",
+        "code": "RU-TA"
+      },
+      {
+        "name": "Tambovskaya oblast'",
+        "code": "RU-TAM"
+      },
+      {
+        "name": "Tomskaya oblast'",
+        "code": "RU-TOM"
+      },
+      {
+        "name": "Tul'skaya oblast'",
+        "code": "RU-TUL"
+      },
+      {
+        "name": "Tverskaya oblast'",
+        "code": "RU-TVE"
+      },
+      {
+        "name": "Tyva, Respublika [Tuva]",
+        "code": "RU-TY"
+      },
+      {
+        "name": "Tyumenskaya oblast'",
+        "code": "RU-TYU"
+      },
+      {
+        "name": "Udmurtskaya Respublika",
+        "code": "RU-UD"
+      },
+      {
+        "name": "Ul'yanovskaya oblast'",
+        "code": "RU-ULY"
+      },
+      {
+        "name": "Volgogradskaya oblast'",
+        "code": "RU-VGG"
+      },
+      {
+        "name": "Vladimirskaya oblast'",
+        "code": "RU-VLA"
+      },
+      {
+        "name": "Vologodskaya oblast'",
+        "code": "RU-VLG"
+      },
+      {
+        "name": "Voronezhskaya oblast",
+        "code": "RU-VOR"
+      },
+      {
+        "name": "Yamalo-Nenetskiy avtonomnyy okrug",
+        "code": "RU-YAN"
+      },
+      {
+        "name": "Yaroslavskaya oblast'",
+        "code": "RU-YAR"
+      },
+      {
+        "name": "Yevreyskaya avtonomnaya oblast'",
+        "code": "RU-YEV"
+      },
+      {
+        "name": "Zabaykal'skiy kray",
+        "code": "RU-ZAB"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "preset": "1"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "preset": "1"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "preset": "2"
+  },
+  {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "preset": "1"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Al-Baha{Al-Bahah}",
+        "code": "SA-BH",
+        "fordealCode": "2519"
+      },
+      {
+        "name": "Northern Borders {Al-Hududash-Shamaliyah}",
+        "code": "SA-NB",
+        "fordealCode": "2530"
+      },
+      {
+        "name": "Al-Jouf {Al Jawf}",
+        "code": "SA-AJ",
+        "fordealCode": "2520"
+      },
+      {
+        "name": "Al-Madinah Al-Monawarah",
+        "code": "SA-MD",
+        "fordealCode": "2521"
+      },
+      {
+        "name": "Al-Qassim",
+        "code": "SA-AQ",
+        "fordealCode": "2522"
+      },
+      {
+        "name": "Al-Riyadh",
+        "code": "SA-AR",
+        "fordealCode": "2523"
+      },
+      {
+        "name": "Eastern Region {Ash-Sharqiyah}",
+        "code": "SA-EA",
+        "fordealCode": "2525"
+      },
+      {
+        "name": "Asir{ Aseer}",
+        "code": "SA-AS",
+        "fordealCode": "2524"
+      },
+      {
+        "name": "Hail",
+        "code": "SA-HL",
+        "fordealCode": "2526"
+      },
+      {
+        "name": "Jizan{Gizan}",
+        "code": "SA-GZ",
+        "fordealCode": "2527"
+      },
+      {
+        "name": "Makkah{Mecca}",
+        "code": "SA-MK",
+        "fordealCode": "2528"
+      },
+      {
+        "name": "Najran",
+        "code": "SA-NJ",
+        "fordealCode": "2529"
+      },
+      {
+        "name": "Tabuk",
+        "code": "SA-TB",
+        "fordealCode": "2531"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "preset": "2"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "preset": "2"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "preset": "1"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "preset": "1"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "city",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "preset": "2"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "preset": "2"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "preset": "1"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "preset": "1"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Eastern Cape",
+        "code": "ZA-EC"
+      },
+      {
+        "name": "Free State",
+        "code": "ZA-FS"
+      },
+      {
+        "name": "Gauteng",
+        "code": "ZA-GT"
+      },
+      {
+        "name": "KwaZulu-Natal",
+        "code": "ZA-NL"
+      },
+      {
+        "name": "Limpopo",
+        "code": "ZA-LP"
+      },
+      {
+        "name": "Mpumalanga",
+        "code": "ZA-MP"
+      },
+      {
+        "name": "Northern Cape",
+        "code": "ZA-NC"
+      },
+      {
+        "name": "North West",
+        "code": "ZA-NW"
+      },
+      {
+        "name": "Western Cape",
+        "code": "ZA-WC"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.ZA}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia and South Sandwich Islands",
+    "preset": "1"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "preset": "10",
+    "provinces": [
+      {
+        "name": "A Coruña (gl) [La Coruña]",
+        "code": "ES-C"
+      },
+      {
+        "name": "Álava",
+        "code": "ES-VI"
+      },
+      {
+        "name": "Albacete",
+        "code": "ES-AB"
+      },
+      {
+        "name": "Alicante",
+        "code": "ES-A"
+      },
+      {
+        "name": "Almería",
+        "code": "ES-AL"
+      },
+      {
+        "name": "Asturias",
+        "code": "ES-O"
+      },
+      {
+        "name": "Ávila",
+        "code": "ES-AV"
+      },
+      {
+        "name": "Badajoz",
+        "code": "ES-BA"
+      },
+      {
+        "name": "Balears (ca) [Baleares]",
+        "code": "ES-PM"
+      },
+      {
+        "name": "Barcelona [Barcelona]",
+        "code": "ES-B"
+      },
+      {
+        "name": "Bizkaia (eu)",
+        "code": "ES-BI"
+      },
+      {
+        "name": "Burgos",
+        "code": "ES-BU"
+      },
+      {
+        "name": "Cáceres",
+        "code": "ES-CC"
+      },
+      {
+        "name": "Cádiz",
+        "code": "ES-CA"
+      },
+      {
+        "name": "Cantabria",
+        "code": "ES-S"
+      },
+      {
+        "name": "Castellón",
+        "code": "ES-CS"
+      },
+      {
+        "name": "Ciudad Real",
+        "code": "ES-CR"
+      },
+      {
+        "name": "Córdoba",
+        "code": "ES-CO"
+      },
+      {
+        "name": "Cuenca",
+        "code": "ES-CU"
+      },
+      {
+        "name": "Gipuzkoa (eu)",
+        "code": "ES-SS"
+      },
+      {
+        "name": "Girona (ca) [Gerona]",
+        "code": "ES-GI"
+      },
+      {
+        "name": "Granada",
+        "code": "ES-GR"
+      },
+      {
+        "name": "Guadalajara",
+        "code": "ES-GU"
+      },
+      {
+        "name": "Huelva",
+        "code": "ES-H"
+      },
+      {
+        "name": "Huesca",
+        "code": "ES-HU"
+      },
+      {
+        "name": "Jaén",
+        "code": "ES-J"
+      },
+      {
+        "name": "La Rioja",
+        "code": "ES-LO"
+      },
+      {
+        "name": "Las Palmas",
+        "code": "ES-GC"
+      },
+      {
+        "name": "León",
+        "code": "ES-LE"
+      },
+      {
+        "name": "Lleida (ca) [Lérida]",
+        "code": "ES-L"
+      },
+      {
+        "name": "Lugo (gl) [Lugo]",
+        "code": "ES-LU"
+      },
+      {
+        "name": "Madrid",
+        "code": "ES-M"
+      },
+      {
+        "name": "Málaga",
+        "code": "ES-MA"
+      },
+      {
+        "name": "Murcia",
+        "code": "ES-MU"
+      },
+      {
+        "name": "Navarra",
+        "code": "ES-NA"
+      },
+      {
+        "name": "Ourense (gl) [Orense]",
+        "code": "ES-OR"
+      },
+      {
+        "name": "Palencia",
+        "code": "ES-P"
+      },
+      {
+        "name": "Pontevedra (gl) [Pontevedra]",
+        "code": "ES-PO"
+      },
+      {
+        "name": "Salamanca",
+        "code": "ES-SA"
+      },
+      {
+        "name": "Santa Cruz de Tenerife",
+        "code": "ES-TF"
+      },
+      {
+        "name": "Segovia",
+        "code": "ES-SG"
+      },
+      {
+        "name": "Sevilla",
+        "code": "ES-SE"
+      },
+      {
+        "name": "Soria",
+        "code": "ES-SO"
+      },
+      {
+        "name": "Tarragona (ca) [Tarragona]",
+        "code": "ES-T"
+      },
+      {
+        "name": "Teruel",
+        "code": "ES-TE"
+      },
+      {
+        "name": "Toledo",
+        "code": "ES-TO"
+      },
+      {
+        "name": "Valencia",
+        "code": "ES-V"
+      },
+      {
+        "name": "Valladolid",
+        "code": "ES-VA"
+      },
+      {
+        "name": "Zamora",
+        "code": "ES-ZA"
+      },
+      {
+        "name": "Zaragoza",
+        "code": "ES-Z"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.ES}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.ES}",
+          "description": "{fields.zip.description.ES}"
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.ES}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.ES}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.ES}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.ES}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "preset": "1"
+  },
+  {
+    "code": "MF",
+    "name": "St. Martin (French part)",
+    "preset": "1"
+  },
+  {
+    "code": "SH",
+    "name": "St.Helena",
+    "preset": "1"
+  },
+  {
+    "code": "KN",
+    "name": "St.Kitts and Nevis",
+    "preset": "1"
+  },
+  {
+    "code": "LC",
+    "name": "St.Lucia",
+    "preset": "1"
+  },
+  {
+    "code": "PM",
+    "name": "St.Pierre and Miquelon",
+    "preset": "1"
+  },
+  {
+    "code": "VC",
+    "name": "St.Vincent and the Grenadines",
+    "preset": "1"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "preset": "2"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "preset": "1"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "preset": "1"
+  },
+  {
+    "code": "SZ",
+    "name": "Swaziland",
+    "preset": "1"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "preset": "10",
+    "provinces": [
+      {
+        "name": "Blekinge",
+        "code": "SE-K"
+      },
+      {
+        "name": "Dalarnas",
+        "code": "SE-W"
+      },
+      {
+        "name": "Gotlands",
+        "code": "SE-I"
+      },
+      {
+        "name": "Gävleborgs",
+        "code": "SE-X"
+      },
+      {
+        "name": "Hallands",
+        "code": "SE-N"
+      },
+      {
+        "name": "Jämtlands",
+        "code": "SE-Z"
+      },
+      {
+        "name": "Jönköpings",
+        "code": "SE-F"
+      },
+      {
+        "name": "Kalmar",
+        "code": "SE-H"
+      },
+      {
+        "name": "Kronobergs",
+        "code": "SE-G"
+      },
+      {
+        "name": "Norrbottens",
+        "code": "SE-BD"
+      },
+      {
+        "name": "Skåne",
+        "code": "SE-M"
+      },
+      {
+        "name": "Stockholms",
+        "code": "SE-AB"
+      },
+      {
+        "name": "Södermanlands",
+        "code": "SE-D"
+      },
+      {
+        "name": "Uppsala",
+        "code": "SE-C"
+      },
+      {
+        "name": "Värmlands",
+        "code": "SE-S"
+      },
+      {
+        "name": "Västerbottens",
+        "code": "SE-AC"
+      },
+      {
+        "name": "Västernorrlands",
+        "code": "SE-Y"
+      },
+      {
+        "name": "Västmanlands",
+        "code": "SE-U"
+      },
+      {
+        "name": "Västra Götalands",
+        "code": "SE-O"
+      },
+      {
+        "name": "Örebro",
+        "code": "SE-T"
+      },
+      {
+        "name": "Östergötlands",
+        "code": "SE-E"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.SE}"
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.SE}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "preset": "2",
+    "format": {
+      "fields": [
+        {
+          "id": "address",
+          "label": "{fields.address.label.CH}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.CH}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "preset": "1"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan,China",
+    "preset": "1"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "preset": "2"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "preset": "1"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "กรุงเทพมหานคร",
+        "code": "TH-10"
+      },
+      {
+        "name": "จังหวัดสมุทรปราการ",
+        "code": "TH-11"
+      },
+      {
+        "name": "จังหวัดนนทบุรี",
+        "code": "TH-12"
+      },
+      {
+        "name": "จังหวัดปทุมธานี",
+        "code": "TH-13"
+      },
+      {
+        "name": "จังหวัดพระนครศรีอยุธยา",
+        "code": "TH-14"
+      },
+      {
+        "name": "จังหวัดอ่างทอง",
+        "code": "TH-15"
+      },
+      {
+        "name": "จังหวัดลพบุรี",
+        "code": "TH-16"
+      },
+      {
+        "name": "จังหวัดสิงห์บุรี",
+        "code": "TH-17"
+      },
+      {
+        "name": "จังหวัดชัยนาท",
+        "code": "TH-18"
+      },
+      {
+        "name": "จังหวัดสระบุรี",
+        "code": "TH-19"
+      },
+      {
+        "name": "จังหวัดชลบุรี",
+        "code": "TH-20"
+      },
+      {
+        "name": "จังหวัดระยอง",
+        "code": "TH-21"
+      },
+      {
+        "name": "จังหวัดจันทบุรี",
+        "code": "TH-22"
+      },
+      {
+        "name": "จังหวัดตราด",
+        "code": "TH-23"
+      },
+      {
+        "name": "จังหวัดฉะเชิงเทรา",
+        "code": "TH-24"
+      },
+      {
+        "name": "จังหวัดปราจีนบุรี",
+        "code": "TH-25"
+      },
+      {
+        "name": "จังหวัดนครนายก",
+        "code": "TH-26"
+      },
+      {
+        "name": "จังหวัดสระแก้ว",
+        "code": "TH-27"
+      },
+      {
+        "name": "จังหวัดนครราชสีมา",
+        "code": "TH-30"
+      },
+      {
+        "name": "จังหวัดบุรีรัมย์",
+        "code": "TH-31"
+      },
+      {
+        "name": "จังหวัดสุรินทร์",
+        "code": "TH-32"
+      },
+      {
+        "name": "จังหวัดศรีสะเกษ",
+        "code": "TH-33"
+      },
+      {
+        "name": "จังหวัดอุบลราชธานี",
+        "code": "TH-34"
+      },
+      {
+        "name": "จังหวัดยโสธร",
+        "code": "TH-35"
+      },
+      {
+        "name": "จังหวัดชัยภูมิ",
+        "code": "TH-36"
+      },
+      {
+        "name": "จังหวัดอำนาจเจริญ",
+        "code": "TH-37"
+      },
+      {
+        "name": "จังหวัดบึงกาฬ",
+        "code": "TH-38"
+      },
+      {
+        "name": "จังหวัดหนองบัวลำภู",
+        "code": "TH-39"
+      },
+      {
+        "name": "จังหวัดขอนแก่น",
+        "code": "TH-40"
+      },
+      {
+        "name": "จังหวัดอุดรธานี",
+        "code": "TH-41"
+      },
+      {
+        "name": "จังหวัดเลย",
+        "code": "TH-42"
+      },
+      {
+        "name": "จังหวัดหนองคาย",
+        "code": "TH-43"
+      },
+      {
+        "name": "จังหวัดมหาสารคาม",
+        "code": "TH-44"
+      },
+      {
+        "name": "จังหวัดร้อยเอ็ด",
+        "code": "TH-45"
+      },
+      {
+        "name": "จังหวัดกาฬสินธุ์",
+        "code": "TH-46"
+      },
+      {
+        "name": "จังหวัดสกลนคร",
+        "code": "TH-47"
+      },
+      {
+        "name": "จังหวัดนครพนม",
+        "code": "TH-48"
+      },
+      {
+        "name": "จังหวัดมุกดาหาร",
+        "code": "TH-49"
+      },
+      {
+        "name": "เชียงใหม่",
+        "code": "TH-50"
+      },
+      {
+        "name": "จังหวัดลำพูน",
+        "code": "TH-51"
+      },
+      {
+        "name": "จังหวัดลำปาง",
+        "code": "TH-52"
+      },
+      {
+        "name": "จังหวัดอุตรดิตถ์",
+        "code": "TH-53"
+      },
+      {
+        "name": "จังหวัดแพร่",
+        "code": "TH-54"
+      },
+      {
+        "name": "จังหวัดน่าน",
+        "code": "TH-55"
+      },
+      {
+        "name": "จังหวัดพะเยา",
+        "code": "TH-56"
+      },
+      {
+        "name": "จังหวัดเชียงราย",
+        "code": "TH-57"
+      },
+      {
+        "name": "จังหวัดแม่ฮ่องสอน",
+        "code": "TH-58"
+      },
+      {
+        "name": "จังหวัดนครสวรรค์",
+        "code": "TH-60"
+      },
+      {
+        "name": "จังหวัดอุทัยธานี",
+        "code": "TH-61"
+      },
+      {
+        "name": "จังหวัดกำแพงเพชร",
+        "code": "TH-62"
+      },
+      {
+        "name": "จังหวัดตาก",
+        "code": "TH-63"
+      },
+      {
+        "name": "จังหวัดสุโขทัย",
+        "code": "TH-64"
+      },
+      {
+        "name": "จังหวัดพิษณุโลก",
+        "code": "TH-65"
+      },
+      {
+        "name": "จังหวัดพิจิตร",
+        "code": "TH-66"
+      },
+      {
+        "name": "จังหวัดเพชรบูรณ์",
+        "code": "TH-67"
+      },
+      {
+        "name": "จังหวัดราชบุรี",
+        "code": "TH-70"
+      },
+      {
+        "name": "จังหวัดกาญจนบุรี",
+        "code": "TH-71"
+      },
+      {
+        "name": "จังหวัดสุพรรณบุรี",
+        "code": "TH-72"
+      },
+      {
+        "name": "จังหวัดนครปฐม",
+        "code": "TH-73"
+      },
+      {
+        "name": "จังหวัดสมุทรสาคร",
+        "code": "TH-74"
+      },
+      {
+        "name": "จังหวัดสมุทรสงคราม",
+        "code": "TH-75"
+      },
+      {
+        "name": "จังหวัดเพชรบุรี",
+        "code": "TH-76"
+      },
+      {
+        "name": "จังหวัดประจวบคีรีขันธ์",
+        "code": "TH-77"
+      },
+      {
+        "name": "จังหวัดนครศรีธรรมราช",
+        "code": "TH-80"
+      },
+      {
+        "name": "จังหวัดกระบี่",
+        "code": "TH-81"
+      },
+      {
+        "name": "จังหวัดพังงา",
+        "code": "TH-82"
+      },
+      {
+        "name": "จังหวัดภูเก็ต",
+        "code": "TH-83"
+      },
+      {
+        "name": "จังหวัดสุราษฎร์ธานี",
+        "code": "TH-84"
+      },
+      {
+        "name": "จังหวัดระนอง",
+        "code": "TH-85"
+      },
+      {
+        "name": "จังหวัดชุมพร",
+        "code": "TH-86"
+      },
+      {
+        "name": "จังหวัดสงขลา",
+        "code": "TH-90"
+      },
+      {
+        "name": "จังหวัดสตูล",
+        "code": "TH-91"
+      },
+      {
+        "name": "จังหวัดตรัง",
+        "code": "TH-92"
+      },
+      {
+        "name": "จังหวัดพัทลุง",
+        "code": "TH-93"
+      },
+      {
+        "name": "จังหวัดปัตตานี",
+        "code": "TH-94"
+      },
+      {
+        "name": "จังหวัดยะลา",
+        "code": "TH-95"
+      },
+      {
+        "name": "จังหวัดนราธิวาส",
+        "code": "TH-96"
+      },
+      {
+        "name": "พัทยา",
+        "code": "TH-S"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.TH}",
+          "show": 1
+        }
+      ]
+    }
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "preset": "1"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "preset": "3"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "preset": "1"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "preset": "1"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "preset": "3"
+  },
+  {
+    "code": "TA",
+    "name": "Tristan da Cunha",
+    "preset": "1"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "preset": "2"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "preset": "2"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "preset": "15"
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "preset": "1"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "preset": "3"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "preset": "3"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "preset": "1"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "preset": "19",
+    "provinces": [
+      {
+        "name": "Ajman",
+        "code": "AE-AJ",
+        "fordealCode": "2532"
+      },
+      {
+        "name": "Abu Dhabi",
+        "code": "AE-AZ",
+        "fordealCode": "2533"
+      },
+      {
+        "name": "Dubai",
+        "code": "AE-DU",
+        "fordealCode": "2536"
+      },
+      {
+        "name": "Fujairah",
+        "code": "AE-FU",
+        "fordealCode": "2534"
+      },
+      {
+        "name": "Ras Al Khaimah",
+        "code": "AE-RK",
+        "fordealCode": "2537"
+      },
+      {
+        "name": "Sharjah",
+        "code": "AE-SH",
+        "fordealCode": "2535"
+      },
+      {
+        "name": "Um Al Quiwan",
+        "code": "AE-UQ",
+        "fordealCode": "2538"
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.AE}",
+          "show": 1,
+          "col": 6
+        },
+        {
+          "id": "city",
+          "col": 6
+        },
+        {
+          "id": "zip",
+          "show": 0
+        }
+      ]
+    }
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.GB}",
+          "description": "{fields.zip.description.GB}",
+          "validate": [
+            {
+              "id": "invalid",
+              "message": "{fields.zip.validate.invalid}",
+              "regexp": "^[a-zA-Z]{1,2}[0-9][a-zA-Z0-9]? {0,2}[0-9][a-zA-Z]{2} {0,}$"
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.GB}"
+        },
+        {
+          "id": "lastName",
+          "label": "{fields.lastName.label.GB}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.GB}"
+        },
+        {
+          "id": "phone",
+          "label": "{fields.phone.label.GB}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "preset": "5",
+    "provinces": [
+      {
+        "name": "Alaska",
+        "code": "US-AK",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(99[5-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Alabama",
+        "code": "US-AL",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(35[0-2]|35[4-9]|36[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Arkansas",
+        "code": "US-AR",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(71[6-9]|72[0-9]|749)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "American Samoa",
+        "code": "US-AS"
+      },
+      {
+        "name": "Arizona",
+        "code": "US-AZ",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(85[0-3]|85[5-7]|859|860|86[3-5]|967)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "California",
+        "code": "US-CA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(90[0-8]|91[0-9]|92[0-8]|9[3-5][0-9]|96[0-1])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Colorado",
+        "code": "US-CO",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(80[0-9]|81[0-6])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Connecticut",
+        "code": "US-CT",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(06[0-9]|)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "District of Columbia",
+        "code": "US-DC",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(200|20[2-5]|569)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Delaware",
+        "code": "US-DE",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(19[7-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Florida",
+        "code": "US-FL",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(3[2-3][0-9]|34[1-2]|344|34[6-7]|349)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Georgia",
+        "code": "US-GA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(298|3[0-1][0-9]|39[8-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Guam",
+        "code": "US-GU",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(969)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Hawaii",
+        "code": "US-HI",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(96[7-8])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Iowa",
+        "code": "US-IA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(50[0-9]|51[0-6]|52[0-8]|538)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Idaho",
+        "code": "US-ID",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(83[2-8]|979)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Illinois",
+        "code": "US-IL",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(6[0-1][0-9]|620|62[2-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Indiana",
+        "code": "US-IN",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(4[6-7][0-9]|491)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Kansas",
+        "code": "US-KS",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(66[0-2]|66[4-9]|67[0-9]|739)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Kentucky",
+        "code": "US-KY",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(40[0-9]|41[0-8]|42[0-7]|471)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Louisiana",
+        "code": "US-LA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(70[0-1]|70[3-8]|71[0-4])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Massachusetts",
+        "code": "US-MA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(01[0-9]|02[0-7]|055)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Maryland",
+        "code": "US-MD",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(20[6-9]|21[0-2]|21[4-9]|267)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Maine",
+        "code": "US-ME",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(039|04[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Michigan",
+        "code": "US-MI",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(4[8-9][0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Minnesota",
+        "code": "US-MN",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(540|55[0-1]|55[3-9]|56[0-7])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Missouri",
+        "code": "US-MO",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(620|63[0-1]|63[3-9]|64[0-1]|64[4-9]|65[0-8])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "code": "US-MP"
+      },
+      {
+        "name": "Mississippi",
+        "code": "US-MS",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(369|38[6-9]|39[0-7]|969)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Montana",
+        "code": "US-MT",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(59[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "North Carolina",
+        "code": "US-NC",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(2[7-8][0-9]|297)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "North Dakota",
+        "code": "US-ND",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(58[0-8])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Nebraska",
+        "code": "US-NE",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(68[0-1]|68[3-9]|69[0-3])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "New Hampshire",
+        "code": "US-NH",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(03[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "New Jersey",
+        "code": "US-NJ",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(0[7-8][0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "New Mexico",
+        "code": "US-NM",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(865|87[0-1]|87[3-5]|87[7-9]|88[0-4])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Nevada",
+        "code": "US-NV",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(889|89[0-1]|89[3-5]|89[7-8]|961)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "New York",
+        "code": "US-NY",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(005|1[0-4][0-9]|889|89[0-1]|89[3-5]|89[7-8])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ohio",
+        "code": "US-OH",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(410|4[3-5][0-9]|470)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Oklahoma",
+        "code": "US-OK",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(73[0-1]|73[4-9]|74[0-1]|74[3-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Oregon",
+        "code": "US-OR",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(97[0-9]|986)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Pennsylvania",
+        "code": "US-PA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(1[5-8][0-9]|19[0-6])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Puerto Rico",
+        "code": "US-PR",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(00[6-7]|009)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rhode Island",
+        "code": "US-RI",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(02[7-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "South Carolina",
+        "code": "US-SC",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(29[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "South Dakota",
+        "code": "US-SD",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(57[0-7])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Tennessee",
+        "code": "US-TN",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(307|37[0-9]|38[0-6])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Texas",
+        "code": "US-TX",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(733|7[5-9][0-9]|885)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "United States Minor Outlying Islands",
+        "code": "US-UM"
+      },
+      {
+        "name": "Utah",
+        "code": "US-UT",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(84[0-7])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Virginia",
+        "code": "US-VA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(201|2[2-3][0-9]|24[0-6])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Virgin Islands, U.S.",
+        "code": "US-VI",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(008)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Vermont",
+        "code": "US-VT",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(03[6-7]|05[0-4]|05[6-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Washington",
+        "code": "US-WA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(838|98[0-6]|98[8-9]|99[0-4])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Wisconsin",
+        "code": "US-WI",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(53[0-2]|53[4-5]|53[7-9]|54[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "West Virginia",
+        "code": "US-WV",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(24[6-9]|25[0-9]|26[0-8])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Wyoming",
+        "code": "US-WY",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(82[0-9]|83[0-1])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Armed Forces Americas",
+        "code": "US-AA",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(340)\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Armed Forces Europe",
+        "code": "US-AE",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(09[0-9])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Armed Forces Pacific",
+        "code": "US-AP",
+        "format": {
+          "fields": [
+            {
+              "id": "zip",
+              "validate": [
+                {
+                  "id": "invalid",
+                  "message": "{fields.zip.validate.invalid.US}",
+                  "regexp": "^(96[2-6])\\d{2}(\\-\\d{4})?$"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.US}",
+          "show": 1
+        },
+        {
+          "id": "zip",
+          "label": "{fields.zip.label.US}",
+          "description": "{fields.zip.description.US}",
+          "validate": [
+            {
+              "id": "invalidUS",
+              "message": "{fields.zip.validate.invalid.US}",
+              "regexp": "^\\d{5}(\\-\\d{4})?$"
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "label": "{fields.city.label.US}"
+        },
+        {
+          "id": "address1",
+          "label": "{fields.address1.label.US}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "provinceCode",
+          "label": "{fields.provinceCode.label.UM}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "preset": "2"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "preset": "1"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "preset": "3"
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "preset": "1"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "preset": "1"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "preset": "1",
+    "format": {
+      "fields": [
+        {
+          "id": "zip",
+          "row": 6
+        },
+        {
+          "id": "city",
+          "row": 7
+        },
+        {
+          "id": "provinceCode",
+          "show": 1,
+          "row": 8,
+          "label": "{fields.provinceCode.label.VN}"
+        }
+      ]
+    }
+  },
+  {
+    "code": "VI",
+    "name": "Virgin Islands",
+    "preset": "1"
+  },
+  {
+    "code": "VG",
+    "name": "Virgin Islands,British",
+    "preset": "1"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "preset": "1"
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "preset": "1"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "preset": "3"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "preset": "2"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "preset": "3"
+  }
+]

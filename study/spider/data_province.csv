@@ -1,0 +1,26 @@
+﻿code,name,cn_name
+BH-CP,"Capital Governorate",首都省
+BH-SN,"Southern Governorate",南方省
+BH-MU,"Muharraq Governorate",穆哈拉格省
+BH-NT,"Northern Governorate",北方省
+BH-CN,"Central Governorate",中央省
+JO-AJ,"Ajloun Governorate",阿杰隆省
+JO-AQ,"Aqaba Governorate",亚喀巴省
+JO-BA,"Balqa Governorate",拜勒加省
+JO-KA,"Karak Governorate",卡拉克省
+JO-MA,"Mafraq Governorate",马弗拉克省
+JO-AM,"Amman Governorate",安曼省
+JO-TA,"Tafilah Governorate",塔菲拉省
+JO-ZA,"Zarqa Governorate",扎尔卡省
+JO-IR,"Irbid Governorate",伊尔比德省
+JO-JA,"Jerash Governorate",杰拉什省
+JO-MN,"Maan Governorate",马安省
+JO-MD,"Madaba Governorate",马代巴省
+OM-DA,"Ad-Dakhiliyah {Ad-Dakhiliyah}",内地省（奈兹瓦）
+OM-BA,"Al-Batinah {Al-Batinah}",巴提奈省
+OM-WU,"Al-Wusta {Al-Wusta}",中部省（海马）
+OM-SH,"Ash-Sharqiyah {Ash-Sharqiyah}",东部省
+OM-ZA,"Az-zahirah(incl. Al-Buraymī) {Az-Zahirah}",扎希拉省（伊卜里）
+OM-MA,"Masqat[Muscat] {Masqat}",马斯喀特省（马斯喀特）
+OM-MU,"Musandam (Ru'us al-Gibā)",穆桑代姆省（海塞卜）
+OM-ZU,"zufār [Dhofar] {Zufar}",佐法尔省（塞拉莱）

@@ -1,0 +1,517 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"math/rand"
+	"net/http"
+	"os"
+	"strings"
+	"time"
+
+	"github.com/PuerkitoBio/goquery"
+	retrygo "github.com/avast/retry-go/v4"
+	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
+)
+
+func main() {
+	fmt.Println(AllBusinessContent())
+}
+
+func AllBusinessContent() error {
+	catgories := []string{
+		"jewelry-store",
+		"boutique",
+		"clothing-store",
+		"fashion-store",
+		"t-shirt",
+		"beauty",
+		"cosmetic",
+		"craft-store",
+		"candle",
+		"furniture-store",
+		"plant",
+		"baby-store",
+		"cbd",
+		"health",
+		"wellness",
+		"fitness",
+		"electronics",
+	}
+	data := make(map[string]string)
+
+	for _, category := range catgories {
+		html, err := fetchBusinessContent(fmt.Sprintf("/tools/business-name-generator/%s", category))
+		if err != nil {
+			return errors.WithStack(err)
+		}
+
+		data[category] = html
+	}
+
+	if err := saveData("business_name_content_data.json", data); err != nil {
+		return errors.WithStack(err)
+	}
+
+	return nil
+}
+
+func fetchBusinessContent(url string) (string, error) {
+	var doc *goquery.Document
+	var err error
+	err = retrygo.Do(func() error {
+		doc, err = fetchUrlDoc(shopifyUrl(url))
+		if err != nil {
+			logrus.WithError(err).Errorf("fetch fail, waiting retry")
+			return errors.WithStack(err)
+		}
+
+		return nil
+	}, retrygo.Attempts(10), retrygo.DelayType(retrygo.FixedDelay), retrygo.Delay(30*time.Second))
+	if err != nil {
+		logrus.WithError(err).Errorf("max retry: fetch fail")
+		return "", errors.WithStack(err)
+	}
+
+	return doc.Find(".business-names__content-wrapper").Html()
+}
+
+func AllBusinessNameIdeas() error {
+	ideasData := make(map[string][]string)
+
+	filename := "business_name_ideas_data.json"
+	b, err := ioutil.ReadFile(filename)
+	if err != nil {
+		return errors.WithStack(err)
+	}
+	if len(b) > 0 {
+		if err := json.Unmarshal(b, &ideasData); err != nil {
+			return errors.WithStack(err)
+		}
+	}
+
+	data, err := loadBusinessData()
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	bss := make([]BusinessName, 0)
+	for _, v1 := range data {
+		for _, v2 := range v1 {
+			bss = append(bss, v2...)
+		}
+	}
+
+	logrus.Infof("total: %d", len(bss))
+
+	for i, bs := range bss {
+		logrus.Infof("start -> %d/%d", i, len(bss))
+
+		if _, ok := ideasData[bs.Value]; ok {
+			continue
+		}
+
+		ideas, err := fetchBusinessNameIdeas(bs.Url)
+		if err != nil {
+			return errors.WithStack(err)
+		}
+
+		if len(ideas) == 0 {
+			continue
+		}
+
+		ideasData[bs.Value] = ideas
+
+		if err := saveData(filename, ideasData); err != nil {
+			return errors.WithStack(err)
+		}
+	}
+
+	return nil
+}
+
+func fetchBusinessNameIdeas(url string) ([]string, error) {
+	var doc *goquery.Document
+	var err error
+	err = retrygo.Do(func() error {
+		doc, err = fetchUrlDoc(shopifyUrl(url))
+		if err != nil {
+			logrus.WithError(err).Errorf("fetch fail, waiting retry")
+			return errors.WithStack(err)
+		}
+
+		return nil
+	}, retrygo.Attempts(10), retrygo.DelayType(retrygo.FixedDelay), retrygo.Delay(30*time.Second))
+	if err != nil {
+		logrus.WithError(err).Errorf("max retry: fetch fail")
+		return nil, errors.WithStack(err)
+	}
+
+	ideas := make([]string, 0)
+
+	doc.Find(".business-name__item > p").Each(func(i int, s1 *goquery.Selection) {
+		ideas = append(ideas, s1.Text())
+	})
+
+	return ideas, err
+}
+
+type FQA struct {
+	Question   string `json:"question"`
+	Answer     string `json:"answer"`
+	AnswerHtml string `json:"answer_html"`
+}
+
+func AllBusinessNameFQA() error {
+	fqaData := make(map[string][]FQA)
+
+	filename := "business_name_fqa_data.json"
+	b, err := ioutil.ReadFile(filename)
+	if err != nil {
+		return errors.WithStack(err)
+	}
+	if len(b) > 0 {
+		if err := json.Unmarshal(b, &fqaData); err != nil {
+			return errors.WithStack(err)
+		}
+	}
+
+	data, err := loadBusinessData()
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	bss := make([]BusinessName, 0)
+	for _, v1 := range data {
+		for _, v2 := range v1 {
+			for _, bs := range v2 {
+				bss = append(bss, bs)
+			}
+		}
+	}
+
+	logrus.Infof("total: %d", len(bss))
+
+	for i, bs := range bss {
+		logrus.Infof("start -> %d/%d", i, len(bss))
+
+		if _, ok := fqaData[bs.Value]; ok {
+			continue
+		}
+
+		fqas, err := fetchBusinessNameFQA(bs.Url)
+		if err != nil {
+			return errors.WithStack(err)
+		}
+
+		fqaData[bs.Value] = fqas
+
+		if err := saveData(filename, fqaData); err != nil {
+			return errors.WithStack(err)
+		}
+	}
+
+	return nil
+}
+
+func fetchBusinessNameFQA(url string) ([]FQA, error) {
+	var doc *goquery.Document
+	var err error
+	err = retrygo.Do(func() error {
+		doc, err = fetchUrlDoc(shopifyUrl(url))
+		if err != nil {
+			logrus.WithError(err).Errorf("fetch fail, waiting retry")
+			return errors.WithStack(err)
+		}
+
+		return nil
+	}, retrygo.Attempts(10), retrygo.DelayType(retrygo.FixedDelay), retrygo.Delay(30*time.Second))
+	if err != nil {
+		logrus.WithError(err).Errorf("max retry: fetch fail")
+		return nil, errors.WithStack(err)
+	}
+
+	fqas := make([]FQA, 0)
+
+	doc.Find(".faq__module .faq__answers .faq-item").Each(func(i int, s1 *goquery.Selection) {
+		fqa := FQA{}
+		fqa.Question = s1.Find(".faq-toggle-text .marketing-markdown").Text()
+		fqa.Answer = s1.Find(".faq-answer .marketing-markdown").Text()
+		fqa.AnswerHtml, _ = s1.Find(".faq-answer .marketing-markdown").Html()
+		// logrus.Infof("q: %s\n\na:%s", fqa.Question, fqa.Answer)
+		fqas = append(fqas, fqa)
+	})
+
+	return fqas, err
+}
+
+type BusinessName struct {
+	Name  string `json:"name"`
+	Value string `json:"value"`
+	Url   string `json:"url"`
+}
+
+func BusinessData() error {
+	doc, err := fetchUrlDoc(shopifyUrl("/tools/business-name-generator"))
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	data := make(map[string]map[string][]BusinessName)
+	categoryPrefix := "Get business name ideas for "
+	urlPrefix := "/tools/business-name-generator/"
+
+	doc.Find("#Main .category").Each(func(i int, s1 *goquery.Selection) {
+		categoryText := s1.Text()
+		if !strings.HasPrefix(categoryText, categoryPrefix) {
+			return
+		}
+
+		categoryText = categoryText[len(categoryPrefix):]
+		data[categoryText] = make(map[string][]BusinessName)
+
+		s1.Next().Children().Each(func(j int, s2 *goquery.Selection) {
+			secondCategory := s2.Find("h4.subcategory-label").Text()
+			bs := make([]BusinessName, 0)
+
+			s2.Find("a").Each(func(k int, s3 *goquery.Selection) {
+				href, _ := s3.Attr("href")
+				bs = append(bs, BusinessName{
+					Name:  s3.Text(),
+					Value: href[len(urlPrefix):],
+					Url:   href,
+				})
+			})
+			data[categoryText][secondCategory] = bs
+		})
+	})
+
+	if err := saveData("business_name_data.json", data); err != nil {
+		return errors.WithStack(err)
+	}
+
+	return nil
+}
+
+type FailKey struct {
+	C1 string
+	C2 string
+}
+
+func fetchAllBusinessCategoryData() error {
+	data, err := loadBusinessData()
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	formulaMap := make(map[string]map[string]map[string][]string)
+	failCount := 0
+	failMap := make(map[FailKey]BusinessName)
+
+	for k1, v1 := range data {
+		formulaMap[k1] = make(map[string]map[string][]string)
+
+		for k2, v2 := range v1 {
+			formulaMap[k1][k2] = make(map[string][]string, 0)
+
+			for _, bs := range v2 {
+				logrus.Infof("Start fetch %s -> %s -> %s data", k1, k2, bs.Name)
+
+				formulas, err := fetchBusinessCategoryData(bs)
+				if err != nil {
+					failCount++
+					failMap[FailKey{C1: k1, C2: k2}] = bs
+					logrus.WithError(err).Errorf("max retry: fetch business data fail -> %s", bs.Name)
+				} else {
+					formulaMap[k1][k2][bs.Name] = formulas
+				}
+
+				time.Sleep(time.Second)
+			}
+		}
+	}
+
+	logrus.Infof("fail total:%d", len(failMap))
+
+	for k, bs := range failMap {
+		logrus.Infof("Start fetch %s -> %s -> %s data", k.C1, k.C2, bs.Name)
+
+		formulas, err := fetchBusinessCategoryData(bs)
+		if err != nil {
+			logrus.WithError(err).Errorf("max retry: fetch business data fail -> %s", bs.Name)
+		} else {
+			formulaMap[k.C1][k.C2][bs.Name] = formulas
+		}
+
+		time.Sleep(time.Second)
+	}
+
+	if err := saveData("business_name_formula.json", formulaMap); err != nil {
+		return errors.WithStack(err)
+	}
+
+	return nil
+}
+
+func fetchBusinessCategoryData(business BusinessName) ([]string, error) {
+	formulaMap := make(map[string]interface{})
+
+	for i := 1; i <= 10; i++ {
+		keyword := generateKeyword(6)
+		url := businessGeneratorUrl(business.Url, keyword, 1)
+
+		var doc *goquery.Document
+		var err error
+		err = retrygo.Do(func() error {
+			doc, err = fetchUrlDoc(shopifyUrl(url))
+			if err != nil {
+				logrus.WithError(err).Errorf("fetch fail, waiting retry")
+				return errors.WithStack(err)
+			}
+
+			return nil
+		}, retrygo.Attempts(10), retrygo.DelayType(retrygo.FixedDelay), retrygo.Delay(30*time.Second))
+		if err != nil {
+			logrus.WithError(err).Errorf("max retry: fetch fail")
+			return nil, errors.WithStack(err)
+		}
+
+		count := 0
+		data := doc.Find("#BusinessNamesExamples button.business-name-button")
+		data.Each(func(i int, s *goquery.Selection) {
+			str, _ := s.Attr("data-shop-name")
+			str = strings.ReplaceAll(str, keyword, "{{keyword}}")
+
+			if _, ok := formulaMap[str]; ok {
+				count++
+			}
+
+			formulaMap[str] = nil
+		})
+
+		if count == data.Length() {
+			break
+		}
+
+		time.Sleep(time.Second)
+	}
+
+	formulas := make([]string, 0)
+	for k, _ := range formulaMap {
+		formulas = append(formulas, k)
+	}
+
+	return formulas, nil
+}
+
+func loadBusinessData() (map[string]map[string][]BusinessName, error) {
+	bs, err := ioutil.ReadFile("business_name_data.json")
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	var data map[string]map[string][]BusinessName
+	if err := json.Unmarshal(bs, &data); err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	return data, nil
+}
+
+func fetchUrlDoc(url string) (*goquery.Document, error) {
+	logrus.Infof("fetch url doc: %s", url)
+	cli := http.DefaultClient
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Add("user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36")
+
+	resp, err := cli.Do(req)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+	if resp.StatusCode != 200 {
+		return nil, fmt.Errorf("request fail, code: %d", resp.StatusCode)
+	}
+	defer resp.Body.Close()
+
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	if err != nil {
+		return nil, errors.WithStack(err)
+	}
+
+	return doc, nil
+}
+
+func saveData(name string, data interface{}) error {
+	b, err := json.Marshal(data)
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	f, err := os.OpenFile(name, os.O_CREATE|os.O_WRONLY, os.ModeAppend)
+	if err != nil {
+		return errors.WithStack(err)
+	}
+	defer f.Close()
+
+	_, err = f.Write(b)
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	return nil
+}
+
+var bytes1 []byte = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+var bytes []byte = []byte("abcdefghijklmnopqrstuvwxyz")
+
+func generateKeyword(n int) string {
+	result := make([]byte, n)
+	result[0] = bytes1[rand.Int31()%26]
+	for i := 1; i < n; i++ {
+		result[i] = bytes[rand.Int31()%26]
+	}
+	return string(result)
+}
+
+func businessGeneratorUrl(url string, keyword string, page int) string {
+	return fmt.Sprintf("%s?query=%s&button=&tool=business_name_generator&page=%d", url, keyword, page)
+}
+
+func shopifyUrl(path string) string {
+	return fmt.Sprintf("https://www.shopify.com%s", path)
+}
+
+func analysisBusinessData() error {
+	bs, err := ioutil.ReadFile("business_name_formula.json")
+	if err != nil {
+		return errors.WithStack(err)
+	}
+
+	var formulaMap map[string]map[string]map[string][]string
+	if err := json.Unmarshal(bs, &formulaMap); err != nil {
+		return errors.WithStack(err)
+	}
+
+	m := make(map[string]int64)
+
+	for _, v1 := range formulaMap {
+		for _, v2 := range v1 {
+			for _, v3 := range v2 {
+				for _, item := range v3 {
+					m[item] = m[item] + 1
+				}
+			}
+		}
+	}
+
+	if err := saveData("business_name_analysis.json", m); err != nil {
+		return errors.WithStack(err)
+	}
+
+	return nil
+}
